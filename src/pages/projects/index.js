@@ -30,7 +30,7 @@ export default function Projects({ data }) {
 
 //export page query
 export const query = graphql`
-  query ProjectsPage {
+  query {
     projects: allMarkdownRemark(
       sort: { fields: frontmatter___date, order: DESC }
     ) {
@@ -39,6 +39,15 @@ export const query = graphql`
           title
           stack
           slug
+          thumb {
+            childImageSharp {
+              gatsbyImageData(
+                width: 200
+                placeholder: BLURRED
+                formats: [AUTO, WEBP, AVIF]
+              )
+            }
+          }
         }
         id
       }
