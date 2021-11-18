@@ -1,25 +1,14 @@
 import React from "react"
-import { Link, graphql, useStaticQuery } from "gatsby"
 import "../styles/global.css"
 
 export default function Navbar() {
-  const data = useStaticQuery(graphql`
-    query SiteInfo {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
     <nav>
       <header class="text-gray-700 body-font border-b border-gray-200">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a
             class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
-            href="#"
+            href="/"
             target="_blank"
           >
             <svg
@@ -34,36 +23,19 @@ export default function Navbar() {
             >
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
             </svg>
-            <span class="ml-3 text-xl">TAILBLOCKS</span>
+            <span class="ml-3 text-xl">Benjamin Cranwell</span>
           </a>
-          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a href="#" class="mr-5 hover:text-gray-900">
-              First Link
+          <nav class="md:ml-auto flex items-center text-base justify-center">
+            <a href="/work" class="mr-5 hover:text-gray-900 hover:underline">
+              Case Studies
             </a>
-            <a href="#" class="mr-5 hover:text-gray-900">
-              First Link
+            <a href="/about" class="mr-5 hover:text-gray-900 hover:underline">
+              About
             </a>
-            <a href="#" class="mr-5 hover:text-gray-900">
-              First Link
-            </a>
-            <a href="#" class="mr-5 hover:text-gray-900">
-              First Link
+            <a href="#" class="mr-5 hover:text-gray-900 hover:underline">
+              Contact
             </a>
           </nav>
-          <button class="flex items-center bg-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-gray-300 rounded text-base mt-4 md:mt-0">
-            Button{" "}
-            <svg
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              class="w-4 h-4 ml-1"
-              viewBox="0 0 24 24"
-            >
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </button>
         </div>
       </header>
     </nav>
