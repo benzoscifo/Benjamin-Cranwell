@@ -1,0 +1,10 @@
+.bg-header {
+  background: url("../images/ocean.jpeg") center center no-repeat;
+  background-attachment: fixed;
+}
+
+.bg-quote {
+  background: url(https://picsum.photos/1600/1600/?random) center center
+    no-repeat;
+  background-attachment: fixed;
+}
