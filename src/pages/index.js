@@ -10,23 +10,22 @@ export default function Home() {
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-              I Design for our Future
+              I Design for the User and Sustainability
             </h1>
             <p className="mb-8 leading-relaxed">
-              Together we can build modern webpages to be beautiful, sustainable
-              and impactful without hurting the planet.
+              I want webpages to be sleek, sharp and sustainable.
             </p>
             <div className="flex justify-center">
-              <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                Button
+              <button className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">
+                More about me
               </button>
             </div>
           </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 rounded-lg">
             <StaticImage
               className="object-cover object-center rounded"
               alt="hero"
-              src="https://dummyimage.com/720x600/edf2f7/a5afbd"
+              src="../images/benjamin.jpg"
               placeholder="tracedSVG"
               rotate="90"
             />
@@ -41,10 +40,7 @@ export default function Home() {
             </h1>
           </div>
           <div className="flex flex-wrap -m-4">
-            <Link
-              className="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3"
-              to="/caseStudies"
-            >
+            <div className="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex-col">
                 <StaticImage
                   src="../images/greenfinch.jpeg"
@@ -58,19 +54,15 @@ export default function Home() {
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     </p>
                   </div>
-                  <a
-                    href="#"
-                    class="border-t border-grey-light pt-2 text-xs text-grey hover:text-red uppercase no-underline tracking-wide"
-                  >
-                    Twitter
-                  </a>
+                  <div class="border-t border-grey-light pt-2 text-xs text-grey no-underline tracking-wide">
+                    <button className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">
+                      Button
+                    </button>
+                  </div>
                 </div>
               </div>
-            </Link>
-            <Link
-              className="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3"
-              to="/caseStudies"
-            >
+            </div>
+            <div className="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex-col">
                 <StaticImage
                   src="../images/greenfinch.jpeg"
@@ -84,19 +76,15 @@ export default function Home() {
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     </p>
                   </div>
-                  <a
-                    href="#"
-                    class="border-t border-grey-light pt-2 text-xs text-grey hover:text-red uppercase no-underline tracking-wide"
-                  >
-                    Twitter
-                  </a>
+                  <div class="border-t border-grey-light pt-2 text-xs text-grey no-underline tracking-wide">
+                    <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                      Button
+                    </button>
+                  </div>
                 </div>
               </div>
-            </Link>
-            <Link
-              className="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3"
-              to="/caseStudies"
-            >
+            </div>
+            <div className="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex-col">
                 <StaticImage
                   src="../images/greenfinch.jpeg"
@@ -110,15 +98,14 @@ export default function Home() {
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     </p>
                   </div>
-                  <a
-                    href="#"
-                    class="border-t border-grey-light pt-2 text-xs text-grey hover:text-red uppercase no-underline tracking-wide"
-                  >
-                    Twitter
-                  </a>
+                  <div class="border-t border-grey-light pt-2 text-xs text-grey no-underline tracking-wide">
+                    <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                      Button
+                    </button>
+                  </div>
                 </div>
               </div>
-            </Link>
+            </div>
           </div>
         </div>
       </section>
@@ -130,10 +117,7 @@ export default function Home() {
             </h1>
           </div>
           <div className="flex flex-wrap -m-4">
-            <Link
-              className="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3"
-              to="/sustainability/unum"
-            >
+            <div className="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex-col">
                 <StaticImage
                   src="../images/greenfinch.jpeg"
@@ -147,19 +131,15 @@ export default function Home() {
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     </p>
                   </div>
-                  <a
-                    href="#"
-                    class="border-t border-grey-light pt-2 text-xs text-grey hover:text-red uppercase no-underline tracking-wide"
-                  >
-                    Twitter
-                  </a>
+                  <div class="border-t border-grey-light pt-2 text-xs text-grey no-underline tracking-wide">
+                    <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-400 rounded text-lg">
+                      Button
+                    </button>
+                  </div>
                 </div>
               </div>
-            </Link>
-            <Link
-              className="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3"
-              to="/caseStudies"
-            >
+            </div>
+            <div className="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex-col">
                 <StaticImage
                   src="../images/greenfinch.jpeg"
@@ -173,19 +153,15 @@ export default function Home() {
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     </p>
                   </div>
-                  <a
-                    href="#"
-                    class="border-t border-grey-light pt-2 text-xs text-grey hover:text-red uppercase no-underline tracking-wide"
-                  >
-                    Twitter
-                  </a>
+                  <div class="border-t border-grey-light pt-2 text-xs text-grey no-underline tracking-wide">
+                    <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                      Button
+                    </button>
+                  </div>
                 </div>
               </div>
-            </Link>
-            <Link
-              className="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3"
-              to="/caseStudies"
-            >
+            </div>
+            <div className="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex-col">
                 <StaticImage
                   src="../images/greenfinch.jpeg"
@@ -199,15 +175,14 @@ export default function Home() {
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     </p>
                   </div>
-                  <a
-                    href="#"
-                    class="border-t border-grey-light pt-2 text-xs text-grey hover:text-red uppercase no-underline tracking-wide"
-                  >
-                    Twitter
-                  </a>
+                  <div class="border-t border-grey-light pt-2 text-xs text-grey no-underline tracking-wide">
+                    <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                      Button
+                    </button>
+                  </div>
                 </div>
               </div>
-            </Link>
+            </div>
           </div>
         </div>
       </section>

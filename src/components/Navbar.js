@@ -1,6 +1,7 @@
 import React from "react"
 import "../styles/global.css"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 export default function Navbar() {
   return (
@@ -11,18 +12,11 @@ export default function Navbar() {
             className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
             href="/"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
-              viewBox="0 0 24 24"
-            >
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-            </svg>
+            <StaticImage
+              src="../images/kangaroo.svg"
+              width={45}
+              aspectRatio={1}
+            />
             <span className="ml-3 text-xl">Benjamin Cranwell</span>
           </Link>
           <nav className="md:ml-auto flex flex-col md:flex-row items-center text-base justify-center">
