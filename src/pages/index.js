@@ -16,9 +16,12 @@ export default function Home() {
               I want webpages to be sleek, sharp and sustainable.
             </p>
             <div className="flex justify-center">
-              <button className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">
+              <Link
+                className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg"
+                to="/about"
+              >
                 More about me
-              </button>
+              </Link>
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 rounded-lg">
@@ -55,9 +58,12 @@ export default function Home() {
                     </p>
                   </div>
                   <div class="border-t border-grey-light pt-2 text-xs text-grey no-underline tracking-wide">
-                    <button className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">
+                    <Link
+                      className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg"
+                      to="/caseStudies/vodafone"
+                    >
                       Button
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </div>

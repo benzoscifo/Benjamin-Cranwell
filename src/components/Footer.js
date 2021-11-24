@@ -19,12 +19,12 @@ export default function Footer() {
                   className="text-gray-400 py-1 block hover:underline"
                   to="/about"
                 >
-                  Company
+                  Resume
                 </Link>
               </div>
               <div className="sm:flex-1 mt-4 sm:mt-0">
                 <h5 className="text-base font-medium text-white uppercase mb-2">
-                  What we offer
+                  Blog
                 </h5>
                 <Link
                   className="text-gray-400 py-1 block hover:underline"
