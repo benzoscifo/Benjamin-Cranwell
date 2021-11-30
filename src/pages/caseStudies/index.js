@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../../components/Layout"
 import { graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import { Link } from "gatsby"
 
 export default function Projects({ data }) {
   return (
@@ -10,9 +11,12 @@ export default function Projects({ data }) {
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className=" md:w-1/2 flex flex-col md:text-left mb-16 md:mb-0 items-center text-center">
             left
-            <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+            <Link
+              className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              to="/caseStudies/vodafone"
+            >
               Button
-            </button>
+            </Link>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <StaticImage
