@@ -18,9 +18,9 @@ export default function Home() {
             <div className="flex justify-center">
               <Link
                 className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg"
-                to="/about"
+                to="/projects"
               >
-                More about me
+                My work
               </Link>
             </div>
           </div>
@@ -39,7 +39,7 @@ export default function Home() {
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
             <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
-              Case Studies
+              Projects
             </h1>
           </div>
           <div className="flex flex-wrap -m-4">
@@ -60,7 +60,7 @@ export default function Home() {
                   <div class="border-t border-grey-light pt-2 text-xs text-grey no-underline tracking-wide">
                     <Link
                       className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg"
-                      to="/caseStudies/vodafone"
+                      to="/projects/vodafone"
                     >
                       Button
                     </Link>
