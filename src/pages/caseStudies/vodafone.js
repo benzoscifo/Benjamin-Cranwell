@@ -1,128 +1,84 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../../components/Layout"
+import GbiBridged from "../bg-image"
 
 export default function vodafone() {
   return (
     <Layout>
-      <section className="text-gray-700 body-font">
-        <div className="bg-red-100 px-5 py-24 text-center">
-          <StaticImage
-            className="object-center"
-            alt="fireworks"
-            src="../../images/fireworks.jpg"
-            layout="constrained"
-            width={500}
-            aspectRatio={4 / 3}
-          />
+      <div className="grid grid-cols-1 sm:grid-cols-2">
+        <div>
+          <StaticImage alt="business man" src="../../images/argos-blue.png" />
         </div>
-      </section>
+        <div className="p-8">
+          <h2 className="text-2xl font-semibold">The Problem</h2>
+          <p className="pb-4">
+            Argos has designed its site Desktop first and forced its design into
+            a mobile viewport.
+          </p>
+          <h2 className="text-2xl font-semibold">Project Summary</h2>
+          <p>
+            I conducted UX reseach using the User Centerd approach in order to
+            find out user pain points and help produce a better mobile user
+            experience.
+          </p>
+        </div>
+      </div>
       <section>
-        <div className="container mx-auto px-5 py-24">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <div className="bg-red-500 rounded shadow border p-6 w-64">
-              <h5 className="text-3xl font-bold">Research Plan</h5>
+        <div className="container mx-auto px-5 m-10">
+          <h2 className="text-2xl font-semibold">User Centered Process</h2>
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+            <div className="bg-argos rounded border p-3">
+              <h5 className="text-lg font-bold text-white">Empathize</h5>
             </div>
-            <div className="bg-red-500 rounded shadow border p-6 w-64">
-              <h5 className="text-3xl font-bold">Research</h5>
+            <div className="bg-argos rounded border p-3">
+              <h5 className="text-lg font-bold text-white">Define</h5>
             </div>
-            <div className="bg-red-500 rounded shadow border p-6 w-64">
-              <h5 className="text-3xl font-bold">Define</h5>
+            <div className="bg-argos rounded border p-3">
+              <h5 className="text-lg font-bold text-white">Ideate</h5>
             </div>
-            <div className="bg-red-500 rounded shadow border p-6 w-64">
-              <h5 className="text-3xl font-bold">Ideation</h5>
+            <div className="bg-argos rounded border p-3">
+              <h5 className="text-lg font-bold text-white">Prototype</h5>
             </div>
-            <div className="bg-red-500 rounded shadow border p-6 w-64">
-              <h5 className="text-3xl font-bold">5</h5>
-            </div>
-            <div className="bg-red-500 rounded shadow border p-6 w-64">
-              <h5 className="text-3xl font-bold">6</h5>
-            </div>
-            <div className="bg-red-500 rounded shadow border p-6 w-64">
-              <h5 className="text-3xl font-bold">7</h5>
-            </div>
-            <div className="bg-red-500 rounded shadow border p-6 w-64">
-              <h5 className="text-3xl font-bold">8</h5>
+            <div className="bg-argos rounded border p-3">
+              <h5 className="text-lg font-bold text-white">Test</h5>
             </div>
           </div>
         </div>
       </section>
-      <section>
-        <div className="container mx-auto px-5 py-24">
-          <h2>1. Empathize</h2>
-          <h3 className="text-3xl">Research Plan</h3>
-          <h4 className="text-2xl">Background</h4>
-          <p>what the research is about and why it's happening</p>
-          <h5>Problem statement</h5>
-          <h4 className="text-2xl">Objectives</h4>
-          <p>what you want to learn</p>
-          <h5>Understand</h5>
-          <h4 className="text-2xl">Participants</h4>
-          <h4 className="text-2xl">Research method</h4>
-          <h5>Moderated</h5>
-          <p>Introduction</p>
-          <p>questions</p>
-          <p>wrap up</p>
-          <h4 className="text-2xl">Interview guide</h4>
-          <h4 className="text-2xl">Timeline</h4>
+      <div className="grid grid-cols-1 sm:grid-cols-2">
+        <div className="p-8">
+          <h2 className="text-3xl mb-8">Empathize</h2>
+          <h2 className="text-2xl font-semibold">Usability Testing</h2>
+          <p className="pb-4">
+            Argos has designed its site Desktop first and forced its design into
+            a mobile viewport.
+          </p>
+          <h2 className="text-2xl font-semibold">Pain Points</h2>
+          <p>
+            I conducted UX reseach using the User Centerd approach in order to
+            find out user pain points and help produce a better mobile user
+            experience.
+          </p>
         </div>
-      </section>
-      <section>
-        <div className="container mx-auto px-5 py-24">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div className="col-span-2">
-              <div className="flex flex-col">
-                <div>
-                  <h2>Project overview</h2>
-                </div>
-                <div>
-                  <h3>sub heading</h3>
-                  <ul className="list-disc">
-                    <li>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <h3>subheading</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                </div>
-              </div>
-              <div>
-                <h3>Case Studes Sections</h3>
-                <ul>
-                  <li>
-                    <a href="#wireframes">Wireframes</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div>
-              <div className="flex flex-col">
-                <div>
-                  <h3>Role</h3>
-                  <p>UX Designer</p>
-                </div>
-                <div>
-                  <h3>Role</h3>
-                  <p>UX Designer</p>
-                </div>
-                <div>
-                  <h3>Role</h3>
-                  <p>UX Designer</p>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div>
+          <StaticImage alt="business man" src="../../images/mobile-use.jpg" />
         </div>
-      </section>
+      </div>
       <section>
         <div className="container mx-auto px-5 py-24">
-          <h2 className="text-4xl">Research</h2>
-          <p>Primary (do it yourself/usablity studies or surveys)</p>
-          <p>Secondary (articles)</p>
+          <h2 className="text-4xl">UX Research</h2>
+          <h3>Primary (do it yourself/usablity studies or surveys)</h3>
 
-          <h3 className="text-3xl">User interviews</h3>
+          <h3 className="text-3xl">User interviews/customer insights</h3>
+          <p>
+            I interviewed five individuals about their use of Food Delivery
+            Apps. I asked a series of questions to find our their opinions,
+            experiences of ordering food. Each participant had to use a food
+            ordering app at least once a fortnight.
+          </p>
+          <p>Main points</p>
+          <p>#</p>
           <p>empathy map</p>
 
           <h3 className="text-3xl">Pain points</h3>
@@ -137,17 +93,44 @@ export default function vodafone() {
                 width={80}
                 aspectRatio="{4/3}"
               />
-              <h2>1st Persona</h2>
+              <h2>
+                Single Working mother with 1 child. Orders perdominetly from 5
+                local resturants twice a week
+              </h2>
             </div>
-            <div className="">2nd Persona</div>
-            <div className="">3rd Persona</div>
+            <div className="">
+              <StaticImage
+                className="object-cover object-center rounded"
+                alt="business man"
+                src="../../images/business-man.jpeg"
+                width={80}
+                aspectRatio="{4/3}"
+              />
+              <h2>
+                Student living in shared accomodation orders once a week usually
+                on weekends{" "}
+              </h2>
+            </div>
+            <div className="">
+              <StaticImage
+                className="object-cover object-center rounded"
+                alt="business man"
+                src="../../images/business-man.jpeg"
+                width={80}
+                aspectRatio="{4/3}"
+              />
+              <h2>
+                Working mother orders minimum three times a week for her family
+                of four.
+              </h2>
+            </div>
             <div className="">
               <h3>Goals</h3>
               <p>paragraph 1</p>
               <p>paragraph 2</p>
               <p>paragraph 3</p>
               <h3>Pains</h3>
-              <p>paragraph 1</p>
+              <p></p>
               <p>paragraph 2</p>
               <p>paragraph 3</p>
             </div>
