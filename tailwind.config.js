@@ -7,6 +7,7 @@ module.exports = {
     },
     backgroundColor: theme => ({
       argos: "#FF0000",
+      argosLite: "#FA1C1C",
     }),
     extend: {
       backgroundImage: {
