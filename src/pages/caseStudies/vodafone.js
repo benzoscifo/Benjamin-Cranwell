@@ -29,33 +29,54 @@ export default function vodafone() {
         <div className="container mx-auto px-5 m-10">
           <h2 className="text-2xl font-semibold">User Centered Process</h2>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
-            <div className="bg-argos rounded border p-3">
-              <h5 className="text-lg font-bold text-white">Empathize</h5>
-            </div>
-            <div className="bg-argos rounded border p-3">
-              <h5 className="text-lg font-bold text-white">Define</h5>
-            </div>
-
+            <a
+              href="#empathize"
+              className="bg-argos hover:bg-argosLite rounded-full border p-3 text-center"
+            >
+              <button className="underline-offset-2 hover:underline text-white font-bold py-2 px-4">
+                Empathize
+              </button>
+            </a>
+            <a
+              href="#define"
+              className="bg-argos hover:bg-argosLite rounded-full border p-3 text-center"
+            >
+              <button className="underline-offset-2 hover:underline text-white font-bold py-2 px-4">
+                Define
+              </button>
+            </a>
             <a
               href="#ideate"
-              className="bg-argos hover:bg-argosLite rounded border p-3 text-center"
+              className="bg-argos hover:bg-argosLite rounded-full border p-3 text-center"
             >
-              <button class="bg-argos hover:underline text-white font-bold py-2 px-4 rounded">
+              <button className="underline-offset-2 hover:underline text-white font-bold py-2 px-4">
                 Ideate
               </button>
             </a>
-            <div className="bg-argos rounded border p-3">
-              <h5 className="text-lg font-bold text-white">Prototype</h5>
-            </div>
-            <div className="bg-argos rounded border p-3">
-              <h5 className="text-lg font-bold text-white">Test</h5>
-            </div>
+            <a
+              href="#prototype"
+              className="bg-argos hover:bg-argosLite rounded-full border p-3 text-center"
+            >
+              <button className="underline-offset-2 hover:underline text-white font-bold py-2 px-4">
+                Prototype
+              </button>
+            </a>
+            <a
+              href="#test"
+              className="bg-argos hover:bg-argosLite rounded-full border p-3 text-center"
+            >
+              <button className="underline-offset-2 hover:underline text-white font-bold py-2 px-4">
+                Test
+              </button>
+            </a>
           </div>
         </div>
       </section>
-      <hr className="ml-6"></hr>
-      <h2 className="text-3xl text-center font-bold my-8">Empathize</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2">
+      <hr className="mt-6"></hr>
+      <h2 className="text-3xl text-center font-bold my-8">
+        <a id="empathize">Empathize</a>
+      </h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
         <div className="p-8">
           <h2 className="text-3xl font-semibold">My Process</h2>
           <h2 className="text-2xl font-semibold">User Interviews</h2>
@@ -83,8 +104,7 @@ export default function vodafone() {
           <StaticImage alt="business man" src="../../images/empathy-map2.jpg" />
         </div>
       </div>
-      <hr className="ml-6"></hr>
-      <div className="grid grid-cols-1 sm:grid-cols-2">
+      <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
         <div className="border-solid border-2 text-center sm:text-left p-8">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div>
@@ -139,9 +159,7 @@ export default function vodafone() {
           </p>
         </div>
       </div>
-      <hr className="ml-6"></hr>
-
-      <div className="grid grid-cols-1">
+      <div className="grid grid-cols-1 mb-8">
         <h2 className="text-2xl text-center font-semibold">User Journey</h2>
         <div>
           <table class="table-auto border border-seperate">
@@ -223,7 +241,10 @@ export default function vodafone() {
           </table>
         </div>
       </div>
-      <h2 className="text-3xl text-center font-bold my-8">Define</h2>
+      <hr className="mt-6"></hr>
+      <h2 className="text-3xl text-center font-bold my-8">
+        <a id="define">Define</a>
+      </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2">
         <div className="p-8">
           <h2 className="text-2xl font-semibold">Problem Statement</h2>
@@ -242,13 +263,12 @@ export default function vodafone() {
           <StaticImage alt="business man" src="../../images/mobile-use.jpg" />
         </div>
       </div>
-      <hr className="ml-6"></hr>
+      <hr className="mt-6"></hr>
       <div className="text-3xl text-center font-bold my-8">
         <a id="ideate">Ideate</a>
       </div>
-      <hr className="ml-6"></hr>
       <h2 className="text-3xl text-center my-8">Competetive Audit</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2">
+      <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
         <div>
           <StaticImage alt="business man" src="../../images/amazon.jpg" />
         </div>
@@ -270,7 +290,7 @@ export default function vodafone() {
           </ul>
         </div>
       </div>
-      <table class="table-auto border border-seperate">
+      <table class="table-auto border border-seperate mb-8">
         <thead>
           <tr>
             <th className="border">Competitive audit</th>
@@ -399,11 +419,11 @@ export default function vodafone() {
           <StaticImage alt="business man" src="../../images/crazy-8.jpeg" />
         </div>
       </div>
-      <hr className="ml-6"></hr>
+      <hr className="mt-6"></hr>
       <h2 className="text-3xl text-center font-bold my-8">
         StoryBoarding and Wireframing
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2">
+      <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
         <div>
           <StaticImage alt="user-flow" src="../../images/user-flow.png" />
         </div>
@@ -420,21 +440,26 @@ export default function vodafone() {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2">
-        <div>
-          <StaticImage alt="storyboard" src="../../images/storyboard.jpeg" />
-        </div>
-        <div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
+        <div className="p-8">
           <div className="grid grid-cols-2">
             <h2 className="text-3xl font-semibold">Storyboard</h2>
           </div>
         </div>
+        <div>
+          <StaticImage alt="storyboard" src="../../images/storyboard.jpeg" />
+        </div>
+        <div></div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2">
         <div>
+          <StaticImage alt="wireframe" src="../../images/wireframe2.jpeg" />
+        </div>
+
+        <div>
           <div className="grid grid-cols-2">
             <div>
-              <h2 className="text-3xl font-semibold">Storyboard</h2>
+              <h2 className="text-3xl font-semibold p-8">Wireframe</h2>
             </div>
             <div>
               <StaticImage
@@ -444,8 +469,222 @@ export default function vodafone() {
             </div>
           </div>
         </div>
+      </div>
+      <hr className="mt-6"></hr>
+      <h2 className="text-3xl text-center font-bold my-8">
+        Research Plan and Testing
+      </h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 mb-8">
+        <div className="p-8">
+          <div className="text-3xl font-semibold">Research Plan</div>
+        </div>
         <div>
-          <StaticImage alt="wireframe" src="../../images/wireframe2.jpeg" />
+          <div className="grid grid-cols-3 pb-2">
+            <div className="bg-argos text-white text-center pt-8 font-semibold text-xl">
+              Introduction
+            </div>
+            <div className="col-span-2">
+              <ul className="p-2">
+                <li>
+                  <b>Title:</b> Redesigning the Argos Homepage in mobile view in
+                  order to improve user experience when buying Toys
+                </li>
+                <li>
+                  <b>Author:</b> Benjamin, UX researcher
+                </li>
+                <li>
+                  <b>Date:</b> Jan 2022
+                </li>
+                <li>
+                  <b>Project background:</b> I am redesigning the Argos Homepage
+                  in mobile view to improve
+                </li>
+                <li>
+                  <b>Research goals:</b> Figure out if redesigning the mobile
+                  layout creates a more enjoyable experience when buying toys.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="grid grid-cols-3 pb-2">
+            <div className="bg-argos text-white text-center pt-8 font-semibold text-xl">
+              Research questions
+            </div>
+            <div className="col-span-2">
+              <ul className="p-2">
+                <li>
+                  1. How do users search for toys e.g. search or filtering
+                </li>
+                <li>
+                  2. What do users think of the layout of the homepage in mobile
+                  view
+                </li>
+                <li>3. What steps do user make to complete a purchase</li>
+              </ul>
+            </div>
+          </div>
+          <div className="grid grid-cols-3 pb-2">
+            <div className="bg-argos text-white text-center font-semibold text-xl">
+              Key Performance Indicators(KPIs)
+            </div>
+            <div className="col-span-2">
+              <ul className="p-2">
+                <li>1. Time on task</li>
+                <li>2. Conversion rates</li>
+              </ul>
+            </div>
+          </div>
+          <div className="grid grid-cols-3 pb-2">
+            <div className="bg-argos text-white text-center pt-8 font-semibold text-xl">
+              Methodology
+            </div>
+            <div className="col-span-2">
+              <ul className="p-2">
+                <li>Moderated Usability Study</li>
+                <li>
+                  <b>Location:</b> London and Dublin
+                </li>
+                <li>
+                  <b>Date:</b> Over Christmas/New Year 2021/2022
+                </li>
+                <li>
+                  Five participants complete several tasks while under
+                  observation{" "}
+                </li>
+                <li>
+                  Each session will last 30 mins and will include an
+                  introduction, a list of tasks and some follow up questions.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="grid grid-cols-3 pb-2">
+            <div className="bg-argos text-white text-center pt-8 font-semibold text-xl">
+              Participants
+            </div>
+            <div className="col-span-2">
+              <ul className="p-2">
+                <li>
+                  Participants are a mix of people who regularly buy toys online
+                  and others who have never bought toys online.
+                </li>
+                <li>4 Female, 1 male, aged between 35 and 75 years old</li>
+              </ul>
+            </div>
+          </div>
+          <div className="grid grid-cols-3 pb-2">
+            <div className="bg-argos text-white text-center pt-8 font-semibold text-xl">
+              Script
+            </div>
+            <div className="col-span-2">
+              <ul className="p-2">
+                <li>
+                  <b>Prompt 1:</b> Open the Argos website on your mobile and
+                  scroll down the page. As you scroll down the page talk to me
+                  on what you see.
+                  <ul className="pl-8 list-disc">
+                    <li>
+                      <b>Prompt 1 Follow up:</b> How easy it to understand the
+                      different features and what each feature will link to.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <b>Prompt 2: </b>Navigate to the Toys section
+                  <ul className="pl-8 list-disc">
+                    <li>
+                      <b>Prompt 2 Follow up:</b> How did you get to the Toys
+                      section.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <b>Prompt 3: </b> Search for Toys that are on discount
+                  <ul className="pl-8 list-disc">
+                    <li>
+                      <b>Prompt 3 Follow up: </b> How did you find the Toys that
+                      were discounted. How did you feel when searching through
+                      the toys.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <b>Prompt 4: Select Toy and checkout</b>
+                  <ul className="pl-8 list-disc">
+                    <li>
+                      <b>Prompt 4 Follow up: </b> How easy was it to select and
+                      buy. How did you feel about the whole process from start
+                      to finish.
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
+        <div>
+          <StaticImage
+            alt="infinity diagram"
+            src="../../images/affinity-diagram.png"
+          />
+        </div>
+        <div className="p-8">
+          <div className="text-3xl font-semibold">Affinity Diagram</div>
+        </div>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
+        <div className="p-8">
+          <h3 className="text-3xl font-semibold mb-8">
+            Affinity Grouping Diagram
+          </h3>
+          <h4 className="text-xl font-semibold">Patterns and Themes</h4>
+          <ul className="mb-4">
+            <li>
+              It was observed that 4 out of 5 participants had trouble -------.
+              This means that ------.
+            </li>
+          </ul>
+          <h4 className="text-xl font-semibold">Form insights</h4>
+          <ul>
+            <li>Based on the theme that --------, an insight is: -------</li>
+          </ul>
+          <h4>Recommendations</h4>
+        </div>
+        <div>
+          <StaticImage
+            alt="infinity diagram"
+            src="../../images/affinity-grouped-diagram.png"
+          />
+        </div>
+      </div>
+      <hr className="mt-6"></hr>
+      <h2 className="text-3xl text-center font-bold my-8">
+        <a id="prototype">Prototype</a>
+      </h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 text-center">
+        <div>
+          <StaticImage
+            alt="argos mobile homepage"
+            src="../../images/argos-wireframe.png"
+          />
+        </div>
+        <div className="text-3xl font-semibold">High Fidelity Wireframes </div>
+      </div>
+      <hr className="mt-6"></hr>
+      <h2 className="text-3xl text-center font-bold my-8">
+        <a id="test">Test</a>
+      </h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2">
+        <div className="p-8">
+          <div className="text-3xl font-semibold">Update</div>
+        </div>
+        <div>
+          <StaticImage
+            alt="argos mobile homepage"
+            src="../../images/argos-wireframe-update.png"
+          />
         </div>
       </div>
     </Layout>

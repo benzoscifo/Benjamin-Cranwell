@@ -7,11 +7,15 @@ module.exports = {
     },
     backgroundColor: theme => ({
       argos: "#FF0000",
-      argosLite: "#FA1C1C",
+      argosLite: "#00ACD7",
+      orange: "#FFA500",
     }),
     extend: {
       backgroundImage: {
         fireworksBackground: "url('../images/fireworks.jpg')",
+      },
+      colors: {
+        white: "#FFFFFF",
       },
     },
   },
