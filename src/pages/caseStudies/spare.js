@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../../components/Layout"
 import GbiBridged from "../bg-image"
 
-export default function vodafone() {
+export default function argos() {
   return (
     <Layout>
       <div className="grid grid-cols-1 sm:grid-cols-2">

@@ -22,18 +22,10 @@ export default function Navbar() {
           <nav className="md:ml-auto flex flex-col md:flex-row items-center text-base justify-center">
             <div>
               <a
-                href="/projects"
+                href="/caseStudies"
                 className="mr-5 hover:text-gray-900 hover:underline"
               >
-                Projects
-              </a>
-            </div>
-            <div>
-              <a
-                href="/sustainability"
-                className="mr-5 hover:text-gray-900 hover:underline"
-              >
-                Sustainability
+                Case Studies
               </a>
             </div>
             <div>

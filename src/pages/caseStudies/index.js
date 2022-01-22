@@ -12,8 +12,8 @@ export default function Projects({ data }) {
           <div className=" md:w-1/2 flex flex-col md:text-left mb-16 md:mb-0 items-center text-center">
             Argos
             <Link
-              className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg"
-              to="/caseStudies/vodafone"
+              className="inline-flex text-white bg-orange border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg"
+              to="/caseStudies/retail"
             >
               Read the Case Study
             </Link>

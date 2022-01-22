@@ -46,99 +46,22 @@ export default function Home() {
             <div className="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex-col">
                 <StaticImage
-                  src="../images/deliveroo-logo.jpeg"
+                  src="../images/argos.png"
                   className="bg-cover h-48"
                   layout="fullWidth"
                 />
                 <div className="p-4 flex-1 flex flex-col">
-                  <h3 className="mb-4 text-2xl">Deliveroo</h3>
+                  <h3 className="mb-4 text-2xl">Argos</h3>
                   <div class="mb-4 text-grey-darker text-sm flex-1">
                     <p>Improving a user journey.</p>
                   </div>
                   <div class="border-t border-grey-light pt-2 text-xs text-grey no-underline tracking-wide">
                     <Link
-                      className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg"
-                      to="/projects/vodafone"
+                      className="inline-flex text-white bg-orange border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg"
+                      to="/caseStudies/retail"
                     >
                       Button
                     </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex-col">
-                <StaticImage
-                  src="../images/greenfinch.jpeg"
-                  className="bg-cover h-48"
-                  layout="fullWidth"
-                />
-                <div className="p-4 flex-1 flex flex-col">
-                  <h3 className="mb-4 text-2xl">My heading</h3>
-                  <div class="mb-4 text-grey-darker text-sm flex-1">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </p>
-                  </div>
-                  <div class="border-t border-grey-light pt-2 text-xs text-grey no-underline tracking-wide">
-                    <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                      Button
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex-col">
-                <StaticImage
-                  src="../images/greenfinch.jpeg"
-                  className="bg-cover h-48"
-                  layout="fullWidth"
-                />
-                <div className="p-4 flex-1 flex flex-col">
-                  <h3 className="mb-4 text-2xl">My heading</h3>
-                  <div class="mb-4 text-grey-darker text-sm flex-1">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </p>
-                  </div>
-                  <div class="border-t border-grey-light pt-2 text-xs text-grey no-underline tracking-wide">
-                    <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                      Button
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="text-gray-700 body-font border-t border-gray-200">
-        <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-col text-center w-full mb-20">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
-              Sustainability
-            </h1>
-          </div>
-          <div className="flex flex-wrap -m-4">
-            <div className="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex-col">
-                <StaticImage
-                  src="../images/greenfinch.jpeg"
-                  className="bg-cover h-48"
-                  layout="fullWidth"
-                />
-                <div className="p-4 flex-1 flex flex-col">
-                  <h3 className="mb-4 text-2xl">My heading</h3>
-                  <div class="mb-4 text-grey-darker text-sm flex-1">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </p>
-                  </div>
-                  <div class="border-t border-grey-light pt-2 text-xs text-grey no-underline tracking-wide">
-                    <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-400 rounded text-lg">
-                      Button
-                    </button>
                   </div>
                 </div>
               </div>

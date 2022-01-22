@@ -14,13 +14,13 @@ export default function contact() {
               target="_blank"
             >
               <div class="form-group">
-                <label for="exampleInputName">Full Name</label>
+                <label for="exampleInputName">Name</label>
                 <input
                   type="text"
                   name="fullname"
                   class="form-control"
                   id="exampleInputName"
-                  placeholder="Enter your name and surname"
+                  placeholder="name"
                   required="required"
                 />
               </div>
@@ -35,30 +35,37 @@ export default function contact() {
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
                   placeholder="Enter email"
+                  className="text-gray-700 shadow border rounded border-gray-300 focus:outline-none focus:shadow-outline py-1 px-3 mb-3"
                 />
               </div>
               <div class="form-group">
-                <label for="exampleFormControlSelect1">
-                  Favourite Platform
+                <label for="exampleInputMessage" required="required">
+                  Message
                 </label>
-                <select
-                  class="form-control"
-                  id="exampleFormControlSelect1"
-                  name="platform"
-                  required="required"
-                >
-                  <option>Github</option>
-                  <option>Gitlab</option>
-                  <option>Bitbucket</option>
-                </select>
+                <textarea
+                  className="
+        form-control
+        block
+        w-full
+        px-3
+        py-1.5
+        text-base
+        font-normal
+        text-gray-700
+        bg-white bg-clip-padding
+        border border-solid border-gray-300
+        rounded
+        transition
+        ease-in-out
+        m-0
+        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+      "
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                  placeholder="Your message"
+                ></textarea>
               </div>
-
-              <div class="form-group mt-3">
-                <label class="mr-2">Upload your CV:</label>
-                <input type="file" name="file" />
-              </div>
-
-              <button type="submit" class="btn btn-primary">
+              <button type="submit" className="bg-argos text-white rounded p-2">
                 Submit
               </button>
             </form>
