@@ -13,17 +13,19 @@ export default function Navbar() {
             href="/"
           >
             <StaticImage
-              src="../images/kangaroo.svg"
+              src="../images/kangaroo.png"
               width={45}
               aspectRatio={1}
             />
-            <span className="ml-3 text-xl">Benjamin Cranwell</span>
+            <span className="ml-3 text-xl hover:text-green-500 hover:underline">
+              Benjamin Cranwell
+            </span>
           </Link>
-          <nav className="md:ml-auto flex flex-col md:flex-row items-center text-base justify-center">
+          <nav className="md:ml-auto flex flex-col space-y-2 sm:space-y-0 md:flex-row items-center text-base ">
             <div>
               <a
                 href="/caseStudies"
-                className="mr-5 hover:text-gray-900 hover:underline"
+                className="mr-0 sm:mr-5 text-green-400 hover:text-yellow-400 underline decoration-1 font-semibold"
               >
                 Case Studies
               </a>
@@ -31,7 +33,7 @@ export default function Navbar() {
             <div>
               <a
                 href="/about"
-                className="mr-5 hover:text-gray-900 hover:underline"
+                className="mr-0 sm:mr-5 text-green-400 hover:text-yellow-400 underline decoration-1 font-semibold"
               >
                 About
               </a>
@@ -39,7 +41,7 @@ export default function Navbar() {
             <div>
               <a
                 href="/contact"
-                className="mr-5 hover:text-gray-900 hover:underline"
+                className="mr-0 sm:mr-5 text-green-400 hover:text-yellow-400 underline decoration-1 font-semibold"
               >
                 Contact
               </a>

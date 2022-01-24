@@ -1,6 +1,7 @@
 .bg-header {
-  background: url("../images/ocean.jpeg") center center no-repeat;
+  background: url("../images/grufflo.jpg") center center no-repeat;
   background-attachment: fixed;
+  height: 620px;
 }
 
 .bg-quote {

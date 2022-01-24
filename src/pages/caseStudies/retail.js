@@ -27,7 +27,7 @@ export default function retail() {
       </div>
       <section>
         <div className="container mx-auto px-5 m-10">
-          <h2 className="text-2xl font-semibold">User Centered Process</h2>
+          <h2 className="text-2xl font-semibold pb-4">User Centered Process</h2>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
             <a
               href="#empathize"
@@ -73,12 +73,12 @@ export default function retail() {
         </div>
       </section>
       <hr className="mt-6"></hr>
-      <h2 className="text-3xl text-center font-bold my-8">
+      <h2 className="text-3xl text-center font-bold my-8 text-blue">
         <a id="empathize">Empathize</a>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
         <div className="p-8">
-          <h2 className="text-3xl font-semibold">My Process</h2>
+          <h2 className="text-3xl font-semibold underline mb-4">My Process</h2>
           <h2 className="text-2xl font-semibold">User Interviews</h2>
           <ul>
             <li>5 Participants from various backgrounds</li>
@@ -93,11 +93,14 @@ export default function retail() {
           <p></p>
           <h2 className="text-2xl font-semibold">Pain Points</h2>
           <ul className="list-disc">
-            <p>Main Pain Points</p>
-            <li>Returns procedure not easy</li>
-            <li>Not knowing when items are on sale</li>
-            <li>Showing stock is available but not in local area</li>
-            <li>Checkout confirmation information not detailed enough</li>
+            <li className="ml-5">Returns procedure not easy</li>
+            <li className="ml-5">Not knowing when items are on sale</li>
+            <li className="ml-5">
+              Showing stock is available but not in local area
+            </li>
+            <li className="ml-5">
+              Checkout confirmation information not detailed enough
+            </li>
           </ul>
         </div>
         <div className="text-center">
@@ -242,7 +245,7 @@ export default function retail() {
         </div>
       </div>
       <hr className="mt-6"></hr>
-      <h2 className="text-3xl text-center font-bold my-8">
+      <h2 className="text-3xl text-center font-bold my-8 text-blue">
         <a id="define">Define</a>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2">

@@ -6,26 +6,35 @@ export default function contact() {
     <Layout>
       <section className="text-gray-700">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-          <div className="md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+          <div className="w-full md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <form
               accept-charset="UTF-8"
               action="https://getform.io/f/b9a6314e-2785-4a82-b122-b58dea000ee7"
               method="POST"
               target="_blank"
+              className="bg-blue shadow-md rounded px-8 pt-6 pb-8 mb-4"
             >
-              <div class="form-group">
-                <label for="exampleInputName">Name</label>
+              <div className="mb-4">
+                <label
+                  className="block text-gray-700 text-sm font-bold mb-2"
+                  for="exampleInputName"
+                >
+                  Name
+                </label>
                 <input
                   type="text"
                   name="fullname"
                   class="form-control"
                   id="exampleInputName"
                   placeholder="name"
-                  required="required"
+                  className="shadow border rounded border-gray-300 py-1 px-3 mb-3 w-full"
                 />
               </div>
-              <div class="form-group">
-                <label for="exampleInputEmail1" required="required">
+              <div className="mb-6">
+                <label
+                  className="block text-gray-700 text-sm font-bold mb-2"
+                  for="exampleInputEmail1"
+                >
                   Email address
                 </label>
                 <input
@@ -35,42 +44,44 @@ export default function contact() {
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
                   placeholder="Enter email"
-                  className="text-gray-700 shadow border rounded border-gray-300 focus:outline-none focus:shadow-outline py-1 px-3 mb-3"
+                  className="shadow border rounded border-gray-300 py-1 px-3 mb-3 w-full"
                 />
               </div>
-              <div class="form-group">
-                <label for="exampleInputMessage" required="required">
+              <div className="mb-6">
+                <label
+                  className="block text-gray-700 text-sm font-bold mb-2"
+                  for="exampleInputMessage"
+                >
                   Message
                 </label>
                 <textarea
                   className="
-        form-control
-        block
-        w-full
-        px-3
-        py-1.5
-        text-base
-        font-normal
-        text-gray-700
-        bg-white bg-clip-padding
-        border border-solid border-gray-300
-        rounded
-        transition
-        ease-in-out
-        m-0
-        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
-      "
+                      block
+                      w-full
+                      px-3
+                      py-1.5
+                      text-base
+                      font-normal
+                      text-gray-700
+                      bg-white bg-clip-padding
+                      border border-solid border-gray-300
+                      rounded
+                      m-0
+                    "
                   id="exampleFormControlTextarea1"
                   rows="3"
                   placeholder="Your message"
                 ></textarea>
               </div>
-              <button type="submit" className="bg-argos text-white rounded p-2">
+              <button
+                type="submit"
+                className="bg-argos text-white rounded p-2 w-full"
+              >
                 Submit
               </button>
             </form>
           </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full text-center sm:text-left">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
               I Design for our Future
             </h1>

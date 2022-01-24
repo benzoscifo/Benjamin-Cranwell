@@ -9,16 +9,16 @@ export default function Projects({ data }) {
     <Layout>
       <section className="bg-gray-200">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-          <div className=" md:w-1/2 flex flex-col md:text-left mb-16 md:mb-0 items-center text-center">
+          <div className="text-3xl w-full font-semibold md:w-1/2 flex flex-col md:text-left mb-16 md:mb-0 items-center text-center">
             Argos
             <Link
-              className="inline-flex text-white bg-orange border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg"
+              className="block w-full text-center sm:w-1/2 text-white bg-green border-0 py-2 px-6 focus:outline-none hover:bg-orange rounded text-lg mt-6"
               to="/caseStudies/retail"
             >
               Read the Case Study
             </Link>
           </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <div className="lg:max-w-lg lg:w-full md:w-1/2">
             <StaticImage
               className="object-cover object-center rounded"
               alt="hero"

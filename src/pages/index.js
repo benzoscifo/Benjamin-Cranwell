@@ -7,24 +7,24 @@ export default function Home() {
   return (
     <Layout>
       <section className="text-gray-700 body-font">
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <div className="container mx-auto flex px-5 pt-24 pb-20 md:flex-row flex-col items-center">
+          <div className="w-full lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
               I Design for the User and Sustainability
             </h1>
             <p className="mb-8 leading-relaxed">
               I want webpages to be sleek, sharp and sustainable.
             </p>
-            <div className="flex justify-center">
+            <div className="flex w-full lg:w-1/5 justify-center">
               <Link
-                className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg"
+                className="block w-full text-center text-white bg-green border-0 py-2 px-6 focus:outline-none hover:bg-orange rounded text-lg"
                 to="/caseStudies"
               >
                 My work
               </Link>
             </div>
           </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 rounded-lg">
+          <div className="w-full lg:max-w-lg lg:w-full md:w-1/2 w-5/6 rounded-lg">
             <StaticImage
               className="object-cover object-center rounded"
               alt="hero"
@@ -36,8 +36,8 @@ export default function Home() {
         </div>
       </section>
       <section className="text-gray-700 body-font border-t border-gray-200">
-        <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-col text-center w-full mb-20">
+        <div className="container px-5 pt-8 sm:pt-20 pb-24 mx-auto">
+          <div className="flex flex-col text-center w-full mb-8 sm:mb-16">
             <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
               Projects
             </h1>
@@ -50,17 +50,17 @@ export default function Home() {
                   className="bg-cover h-48"
                   layout="fullWidth"
                 />
-                <div className="p-4 flex-1 flex flex-col">
+                <div className="p-4 flex-1 flex flex-col text-center">
                   <h3 className="mb-4 text-2xl">Argos</h3>
                   <div class="mb-4 text-grey-darker text-sm flex-1">
                     <p>Improving a user journey.</p>
                   </div>
                   <div class="border-t border-grey-light pt-2 text-xs text-grey no-underline tracking-wide">
                     <Link
-                      className="inline-flex text-white bg-orange border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg"
+                      className="block w-full text-center text-white bg-green border-0 py-2 px-6 focus:outline-none hover:bg-orange rounded text-lg"
                       to="/caseStudies/retail"
                     >
-                      Button
+                      Case Study
                     </Link>
                   </div>
                 </div>
