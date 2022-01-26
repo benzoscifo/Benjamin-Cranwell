@@ -10,24 +10,26 @@ export default function retail() {
         <div>
           <StaticImage alt="business man" src="../../images/argos-blue.png" />
         </div>
-        <div className="p-8">
+        <div className="p-8 text-center sm:text-left">
           <h2 className="text-2xl font-semibold">The Problem</h2>
           <p className="pb-4">
-            The Argos website in mobile view has a poor layout and it is
-            confusing to navigate.
+            The Argos website in mobile view has a confusing and bloated layout
+            which makes it difficuly to easily navigate.
           </p>
           <h2 className="text-2xl font-semibold">Project Summary</h2>
           <p>
-            I conducted UX research using the User Centerd approach in order to
-            find out user pain points and help produce a better mobile user
-            experience; this research included Usability Testing, creating
-            Personas, Wireframes and Prototypes.
+            I conducted a UX research review using a User Centered approach in
+            order to find out user pain points and thus help produce a better
+            mobile user experience; this research included Usability Testing,
+            creating Personas, Wireframes and Prototypes.
           </p>
         </div>
       </div>
       <section>
         <div className="container mx-auto px-5 m-10">
-          <h2 className="text-2xl font-semibold pb-4">User Centered Process</h2>
+          <h2 className="text-2xl font-semibold pb-4 text-center">
+            User Centered Process
+          </h2>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
             <a
               href="#empathize"
@@ -77,93 +79,133 @@ export default function retail() {
         <a id="empathize">Empathize</a>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
-        <div className="p-8">
-          <h2 className="text-3xl font-semibold underline mb-4">My Process</h2>
+        <div className="p-8 text-center sm:text-left">
           <h2 className="text-2xl font-semibold">User Interviews</h2>
-          <ul>
-            <li>5 Participants from various backgrounds</li>
+          <ul className="pb-6">
             <li>
-              Each participant was asked their experience in using e-commerce
-              platforms.
+              5 Participants from various backgrounds were chosen for initial
+              feedback on using the Argos website.
+            </li>
+            <li>
+              Each participant had to be regular users of the e-commerce site
+              and they were asked on how they use the site, why and when. Notes
+              were taken on what they liked and disliked about using the site.
             </li>
           </ul>
-          <h2 className="text-2xl font-semibold">Empathy Map</h2>I broke down
-          each interview into separate Empathy maps and then combined them in a
-          single aggregated empathy map
-          <p></p>
           <h2 className="text-2xl font-semibold">Pain Points</h2>
-          <ul className="list-disc">
-            <li className="ml-5">Returns procedure not easy</li>
-            <li className="ml-5">Not knowing when items are on sale</li>
+          <ul className="pb-6">
             <li className="ml-5">
-              Showing stock is available but not in local area
+              <b>1. </b>Returns procedure not easy to complete.
             </li>
             <li className="ml-5">
+              <b>2. </b>Not knowing when different items were are on sale
+            </li>
+            <li className="ml-5">
+              <b>3. </b>
+              Showing stock is available but when checking out the finding out
+              it wasn't local
+            </li>
+            <li className="ml-5">
+              <b>4. </b>
               Checkout confirmation information not detailed enough
             </li>
           </ul>
+          <h2 className="text-2xl font-semibold">Empathy Map</h2>
+          <p className="pb-6">
+            I broke down each interview separately and then combined them in a
+            single aggregated Empathy map.
+          </p>
         </div>
         <div className="text-center">
           <StaticImage alt="business man" src="../../images/empathy-map2.jpg" />
         </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
-        <div className="border-solid border-2 text-center sm:text-left p-8">
+        <div className="border-solid border-2 text-center sm:text-left p-8 sm:order-first order-last">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div>
               <StaticImage alt="women" src="../../images/woman-persona.jpeg" />
             </div>
             <div>
-              <h3>Goals</h3>
-              <ul className="list-disc">
-                <li>PreOrder Toys</li>
-                <li>1</li>
-                <li>2</li>
+              <h3 className="underline font-semibold">Goals</h3>
+              <ul>
+                <li>
+                  <b>1. </b>PreOrder Toys
+                </li>
+                <li>
+                  <b>2. </b>Have a good selection on age appropiate toys already
+                  purchased
+                </li>
+                <li>
+                  <b>3. </b>Buy pre-selected toys when on sale
+                </li>
               </ul>
             </div>
             <div>
-              <h3>Frustraions</h3>
-              <ul className="list-disc">
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
+              <h3 className="underline font-semibold">Frustrations</h3>
+              <ul>
+                <li>
+                  <b>1. </b>Having to buy toys last minute
+                </li>
+                <li>
+                  <b>2. </b>Not having a good selection of toys
+                </li>
+                <li>
+                  <b>3. </b>Buying toys at full price{" "}
+                </li>
               </ul>
             </div>
             <div>
-              <ul className="list-disc">
-                <li>Name: Eva</li>
-                <li>Age: 35</li>
-                <li>Education: PhD</li>
-                <li>Location: London</li>
-                <li>Family: 2 children</li>
-                <li>Scientist</li>
+              <ul>
+                <li>
+                  <b>Name:</b> Eva
+                </li>
+                <li>
+                  <b>Age:</b> 35
+                </li>
+                <li>
+                  <b>Education:</b> PhD
+                </li>
+                <li>
+                  <b>Location:</b> London
+                </li>
+                <li>
+                  <b>Family:</b> 2 children
+                </li>
+                <li>
+                  <b>Occupation:</b>Scientist
+                </li>
               </ul>
             </div>
             <div col-span-2>
               <p>
-                Eva is a work from home mother with two primary school children
+                Eva is a working mother with two primary school children that
+                attend a large number of parties throughout the year.
               </p>
             </div>
           </div>
         </div>
-        <div className="p-8">
-          <h2 className="text-2xl font-semibold">Personas</h2>
-          <p className="pb-4">
-            Argos has designed its site Desktop first and forced its design into
-            a mobile viewport.
-          </p>
+        <div className="p-8 text-center sm:text-left">
           <h2 className="text-2xl font-semibold">User Stories</h2>
-          <p>
-            <b>As a</b> busy mother who buys regulary goes to kids birthday
-            parties<br></br>
-            <b>I want</b>
+          <p className="pb-4">
+            <b>As a</b> busy mother who regularly goes to kids birthday parties
+            <br></br>
+            <b>I want </b>
             to review sale items easily on my mobile device<br></br>
-            <b>so that</b>I can stock up on birthday presents for the year.
+            <b>so that</b> I can stock up on birthday presents for the year.
+          </p>
+          <h2 className="text-2xl font-semibold">Personas</h2>
+          <p>
+            From the interviews conducted I created 3 personas. Eva a working
+            mum is shown here, the other two personas were Una a grandmother of
+            10 and John a working father of one.
           </p>
         </div>
       </div>
       <div className="grid grid-cols-1 mb-8">
-        <h2 className="text-2xl text-center font-semibold">User Journey</h2>
+        <h2 className="text-2xl text-center font-semibold mb-4">
+          User Journey
+        </h2>
         <div>
           <table class="table-auto border border-seperate">
             <thead>
@@ -179,7 +221,9 @@ export default function retail() {
             </thead>
             <tbody>
               <tr>
-                <td className="border text-center">Task List</td>
+                <td className="border text-center">
+                  <b>Task List</b>
+                </td>
                 <td className="border text-center">
                   Filter through Categories
                 </td>
@@ -194,7 +238,9 @@ export default function retail() {
                 <td className="border text-center">Pick up items</td>
               </tr>
               <tr class="bg-emerald-200">
-                <td className="border text-center">Feeling Adjective</td>
+                <td className="border text-center">
+                  <b>Feeling Adjective</b>
+                </td>
                 <td className="border text-center">
                   Annoyed that she has to regularly look for toys
                 </td>
@@ -218,7 +264,7 @@ export default function retail() {
               </tr>
               <tr>
                 <td className="border text-center">
-                  Improvement Opportunities
+                  <b>Improvement Opportunities</b>
                 </td>
                 <td className="border text-center">
                   Update user with new sale items regularly
@@ -249,7 +295,7 @@ export default function retail() {
         <a id="define">Define</a>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2">
-        <div className="p-8">
+        <div className="p-8 text-center sm:text-left">
           <h2 className="text-2xl font-semibold">Problem Statement</h2>
           <p className="pb-4">
             <b>Eva</b> is a <b>working mother</b> who needs{" "}
@@ -267,29 +313,36 @@ export default function retail() {
         </div>
       </div>
       <hr className="mt-6"></hr>
-      <div className="text-3xl text-center font-bold my-8">
+      <div className="text-3xl text-center font-bold my-8 text-blue">
         <a id="ideate">Ideate</a>
       </div>
-      <h2 className="text-3xl text-center my-8">Competetive Audit</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
         <div>
           <StaticImage alt="business man" src="../../images/amazon.jpg" />
         </div>
-        <div className="p-8">
-          <h2 className="text-2xl font-semibold">Objective</h2>
+        <div className="p-8 text-center sm:text-left">
+          <h2 className="text-2xl font-bold pb-4">Competetive Audit</h2>
+          <h2 className="text-xl font-semibold">Objective</h2>
           <p className="pb-4">
             Audit industry competitors to compare against Argos user experience
           </p>
-          <h2 className="text-2xl font-semibold">Research Questions</h2>
-          <p>
+          <h2 className="text-xl font-semibold">Research Questions</h2>
+          <p className="pb-4">
             How do the other companies handle the search and filtering
             functionality.
           </p>
-          <h2 className="text-2xl font-semibold">Procedure</h2>
+          <h2 className="text-xl font-semibold">Procedure</h2>
           <p>I reviewed three different areas of each of the companies</p>
-          <ul className="list-disc">
-            <li>homepage layout</li>
-            <li>Search/Filter</li>
+          <ul>
+            <li className="ml-5">
+              <b>1. </b>Homepage layout
+            </li>
+            <li className="ml-5">
+              <b>2. </b>Search/Filter
+            </li>
+            <li className="ml-5">
+              <b>3. </b>Checkout
+            </li>
           </ul>
         </div>
       </div>
@@ -307,20 +360,6 @@ export default function retail() {
         </thead>
         <tbody>
           <tr>
-            <td className="border text-center">Argos</td>
-            <td className="border text-center"></td>
-            <td className="border text-center">www.argos.co.uk</td>
-            <td className="border text-center">
-              A large catalogue of products from toys to homeware to clothing
-              and much more
-            </td>
-            <td className="border text-center">
-              Not many know brands and no choice for better quality products
-            </td>
-            <td className="border text-center">Adam</td>
-            <td className="border text-center">858</td>
-          </tr>
-          <tr>
             <td className="border text-center">Smyths</td>
             <td className="border text-center">Direct</td>
             <td className="border text-center">www.smythstoys.co.uk</td>
@@ -331,8 +370,12 @@ export default function retail() {
             <td className="border text-center">
               Significantly less stores than Argos
             </td>
-            <td className="border text-center">Adam</td>
-            <td className="border text-center">858</td>
+            <td className="border text-center">
+              Less ability to reach more people
+            </td>
+            <td className="border text-center">
+              Improve delivery options to entice more people to use Argos
+            </td>
           </tr>
           <tr class="bg-emerald-200">
             <td className="border text-center">Amazon</td>
@@ -342,8 +385,11 @@ export default function retail() {
               Products ranging from all prices locally and international
             </td>
             <td className="border text-center">No physical stores</td>
-            <td className="border text-center">Adam</td>
-            <td className="border text-center">858</td>
+            <td className="border text-center">
+              With no physical stores their is no ability to speak to someone
+              physically about any issues or problems.
+            </td>
+            <td className="border text-center">Improve the returns process</td>
           </tr>
           <tr>
             <td className="border text-center">BarginMax</td>
@@ -353,86 +399,84 @@ export default function retail() {
               Large selection of medium and low priced toys<br></br>
               Low priced free delivery
             </td>
-            <td className="border text-center"></td>
-            <td className="border text-center">Adam</td>
-            <td className="border text-center">858</td>
+            <td className="border text-center">No physical stores</td>
+            <td className="border text-center">
+              With no physical stores their is no ability to speak to someone
+              physically about any issues or problems.
+            </td>
+            <td className="border text-center">
+              Make the physical stores somewhere you want to visit.
+            </td>
           </tr>
         </tbody>
       </table>
       <div className="grid grid-cols-1 sm:grid-cols-2">
-        <div className="p-8">
-          <h2 className="text-2xl font-semibold">Brainstorming</h2>
-          <p className="pb-4">
-            Argos has designed its site Desktop first and forced its design into
-            a mobile viewport.
-          </p>
-          <h2 className="text-2xl font-semibold">Crazy Eights</h2>
+        <div className="p-8 text-center sm:text-left">
+          <h2 className="text-3xl font-semibold pb-4">Brainstorming</h2>
           <h2 className="text-2xl font-semibold">How Might We</h2>
-          <ul className="list-disc">
-            <li>
-              <b>
-                Amp up the good: How might we create a fun search functionality
-              </b>
+          <ul className="pb-4">
+            <li className="pb-2">
+              <b>Amp up the good:</b> How might we create a fun search
+              functionality
+            </li>
+            <li className="pb-2">
+              <b>Explore the opposite:</b> How might we make it difficult to
+              find items{" "}
+            </li>
+            <li className="pb-2">
+              <b>Change a status quo:</b> How might we have catalogues sent to
+              the customers
+            </li>
+            <li className="pb-2">
+              <b>Remove the bad:</b> How might we remove the difficultly in
+              finding the right gift
+            </li>
+            <li className="pb-2">
+              <b>Go after the adjective:</b> How might we searching for a gift
+              stressless{" "}
+            </li>
+            <li className="pb-2">
+              <b>Question an assumption:</b> How might remove the need for the
+              search functionality
+            </li>
+            <li className="pb-2">
+              <b>Create an analogy using the established need or context:</b>{" "}
+              How might we choosing a gift like the weekly shop
             </li>
             <li>
-              <b>
-                Explore the opposite: How might we make it difficult to find
-                items{" "}
-              </b>
-            </li>
-            <li>
-              <b>
-                Change a status quo: How might we have catalogues sent to the
-                customers
-              </b>
-            </li>
-            <li>
-              <b>
-                Remove the bad: How might we remove the difficultly in finding
-                the right gift
-              </b>
-            </li>
-            <li>
-              <b>
-                Go after the adjective: How might we searching for a gift
-                stressless{" "}
-              </b>
-            </li>
-            <li>
-              <b>
-                Question an assumption: How might remove the need for the search
-                functionality
-              </b>
-            </li>
-            <li>
-              <b>
-                Create an analogy using the established need or context: How
-                might we choosing a gift like the weekly shop
-              </b>
-            </li>
-            <li>
-              <b>
-                Identify unexpected resources that can provide assistance: How
-                might we use previous purchases to help narrow down choices
-              </b>
+              <b>Identify unexpected resources that can provide assistance:</b>{" "}
+              How might we use previous purchases to help narrow down choices
             </li>
           </ul>
+          <h2 className="text-2xl font-semibold">Crazy Eights</h2>
+          <p>I sketched some ideas on how the homepage may look like.</p>
+          <StaticImage
+            className="invisible sm:visible"
+            alt="user-flow"
+            src="../../images/arrow-right.jpg"
+          />
+          <StaticImage
+            className="visible sm:invisible"
+            alt="user-flow"
+            src="../../images/arrow-down.jpg"
+          />
         </div>
         <div>
           <StaticImage alt="business man" src="../../images/crazy-8.jpeg" />
         </div>
       </div>
       <hr className="mt-6"></hr>
-      <h2 className="text-3xl text-center font-bold my-8">
-        StoryBoarding and Wireframing
+      <h2 className="text-3xl text-center font-bold my-8 text-blue">
+        <a id="prototype">Prototype</a>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
-        <div>
+        <div className="sm:order-first order-last">
           <StaticImage alt="user-flow" src="../../images/user-flow.png" />
         </div>
-        <div className="p-8">
-          <h2 className="text-2xl font-semibold">User Flow</h2>
-
+        <div className="p-8 text-center sm:text-left">
+          <h2 className="text-3xl font-bold pb-2">
+            StoryBoarding and Wireframing
+          </h2>
           <h2 className="text-2xl font-semibold">Goal Statement</h2>
           <p className="pb-4">
             <b>Our</b> mobile design <b>will let users </b> navigate the
@@ -441,12 +485,29 @@ export default function retail() {
             or unnecessary content. <b>We will measure effectiveness by </b>{" "}
             completion rates.
           </p>
+          <h2 className="text-2xl font-semibold">User Flow</h2>
+          <p>Opposite is the User Flow</p>
+          <StaticImage
+            className="invisible sm:visible"
+            alt="user-flow"
+            src="../../images/arrow.jpg"
+          />
+          <StaticImage
+            className="visible sm:invisible"
+            alt="user-flow"
+            src="../../images/arrow-down.jpg"
+          />
         </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
-        <div className="p-8">
-          <div className="grid grid-cols-2">
-            <h2 className="text-3xl font-semibold">Storyboard</h2>
+        <div className="p-8 text-center sm:text-left">
+          <div>
+            <h2 className="text-3xl font-semibold pb-4">Storyboard</h2>
+            <p>
+              I drew up a big picture storyboard to show what I had learned from
+              research and to visually demonstrate the ideas to overcome the
+              current problems.
+            </p>
           </div>
         </div>
         <div>
@@ -461,8 +522,25 @@ export default function retail() {
 
         <div>
           <div className="grid grid-cols-2">
-            <div>
-              <h2 className="text-3xl font-semibold p-8">Wireframe</h2>
+            <div className="p-8">
+              <StaticImage
+                className="visible sm:invisible"
+                alt="user-flow"
+                src="../../images/arrow-up.jpg"
+              />
+              <h2 className="text-3xl font-semibold pb-4">Wireframe</h2>
+              <p>Low Fidelity Wireframes</p>
+              <p>
+                With the research and brainstorming done the next step was to
+                mock up some low fidelity wireframes.
+              </p>
+              <StaticImage
+                className="invisible sm:visible"
+                alt="user-flow"
+                src="../../images/arrow.jpg"
+              />
+
+              <StaticImage alt="user-flow" src="../../images/arrow-right.jpg" />
             </div>
             <div>
               <StaticImage
@@ -478,8 +556,12 @@ export default function retail() {
         Research Plan and Testing
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 mb-8">
-        <div className="p-8">
-          <div className="text-3xl font-semibold">Research Plan</div>
+        <div className="p-8 text-center sm:text-left">
+          <div className="text-3xl font-semibold pb-4">Research Plan</div>
+          <p>
+            Now that the Low Fidelity Wireframes are done I set out a Research
+            Plan
+          </p>
         </div>
         <div>
           <div className="grid grid-cols-3 pb-2">
@@ -516,13 +598,16 @@ export default function retail() {
             <div className="col-span-2">
               <ul className="p-2">
                 <li>
-                  1. How do users search for toys e.g. search or filtering
+                  <b>1.</b> How do users search for toys e.g. search or
+                  filtering
                 </li>
                 <li>
-                  2. What do users think of the layout of the homepage in mobile
-                  view
+                  <b>2.</b> What do users think of the layout of the homepage in
+                  mobile view
                 </li>
-                <li>3. What steps do user make to complete a purchase</li>
+                <li>
+                  <b>3.</b> What steps do user make to complete a purchase
+                </li>
               </ul>
             </div>
           </div>
@@ -532,8 +617,12 @@ export default function retail() {
             </div>
             <div className="col-span-2">
               <ul className="p-2">
-                <li>1. Time on task</li>
-                <li>2. Conversion rates</li>
+                <li>
+                  <b>1.</b> Time on task
+                </li>
+                <li>
+                  <b>2.</b> Conversion rates
+                </li>
               </ul>
             </div>
           </div>
@@ -543,7 +632,9 @@ export default function retail() {
             </div>
             <div className="col-span-2">
               <ul className="p-2">
-                <li>Moderated Usability Study</li>
+                <li>
+                  <b>Moderated Usability Study</b>
+                </li>
                 <li>
                   <b>Location:</b> London and Dublin
                 </li>
@@ -551,11 +642,11 @@ export default function retail() {
                   <b>Date:</b> Over Christmas/New Year 2021/2022
                 </li>
                 <li>
-                  Five participants complete several tasks while under
+                  <b>Five</b> participants complete several tasks while under
                   observation{" "}
                 </li>
                 <li>
-                  Each session will last 30 mins and will include an
+                  Each session will last <b>30 mins</b> and will include an
                   introduction, a list of tasks and some follow up questions.
                 </li>
               </ul>
@@ -571,7 +662,9 @@ export default function retail() {
                   Participants are a mix of people who regularly buy toys online
                   and others who have never bought toys online.
                 </li>
-                <li>4 Female, 1 male, aged between 35 and 75 years old</li>
+                <li>
+                  <b>4 Female, 1 male</b>, aged between 35 and 75 years old
+                </li>
               </ul>
             </div>
           </div>
@@ -612,7 +705,7 @@ export default function retail() {
                   </ul>
                 </li>
                 <li>
-                  <b>Prompt 4: Select Toy and checkout</b>
+                  <b>Prompt 4:</b> Select Toy and checkout
                   <ul className="pl-8 list-disc">
                     <li>
                       <b>Prompt 4 Follow up: </b> How easy was it to select and
@@ -627,17 +720,23 @@ export default function retail() {
         </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
-        <div>
+        <div className="sm:order-first order-last">
           <StaticImage
             alt="infinity diagram"
             src="../../images/affinity-diagram.png"
           />
         </div>
         <div className="p-8">
-          <div className="text-3xl font-semibold">Affinity Diagram</div>
+          <div className="text-3xl font-semibold text-center sm:text-left pb-4">
+            Affinity Diagram
+          </div>
+          <p>
+            Now its time to organise the data. Each post-it colour is a
+            participants responses.
+          </p>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 mb-8 text-center sm:text-left">
         <div className="p-8">
           <h3 className="text-3xl font-semibold mb-8">
             Affinity Grouping Diagram
@@ -645,15 +744,29 @@ export default function retail() {
           <h4 className="text-xl font-semibold">Patterns and Themes</h4>
           <ul className="mb-4">
             <li>
-              It was observed that 4 out of 5 participants had trouble -------.
-              This means that ------.
+              It was observed that 5 out of 5 participants had some type of
+              issue with the Homepage. This means that the homepage has a poor
+              user experience.
             </li>
           </ul>
           <h4 className="text-xl font-semibold">Form insights</h4>
-          <ul>
-            <li>Based on the theme that --------, an insight is: -------</li>
+          <ul className="mb-4">
+            <li>
+              Based on the theme that{" "}
+              <b>for all users the Homepage isn't clear</b>, an insight is:
+              users need a homepage with a better layout and hierarchical
+              structure.
+            </li>
           </ul>
-          <h4>Recommendations</h4>
+          <h4 className="text-xl font-semibold">Recommendations</h4>
+          <ul>
+            <li>
+              <b>1. </b>Reduce the amount of links on the homepage.
+            </li>
+            <li>
+              <b>2. </b>Move the Store Finder up the page
+            </li>
+          </ul>
         </div>
         <div>
           <StaticImage
@@ -663,25 +776,37 @@ export default function retail() {
         </div>
       </div>
       <hr className="mt-6"></hr>
-      <h2 className="text-3xl text-center font-bold my-8">
-        <a id="prototype">Prototype</a>
+      <h2 className="text-3xl text-center font-bold my-8 text-blue">
+        <a id="test">Test</a>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 text-center">
-        <div>
+        <div className="sm:order-first order-last">
           <StaticImage
             alt="argos mobile homepage"
             src="../../images/argos-wireframe.png"
           />
         </div>
-        <div className="text-3xl font-semibold">High Fidelity Wireframes </div>
+        <div className="p-8 text-center sm:text-left">
+          {" "}
+          <div className="text-3xl font-semibold pb-4">
+            High Fidelity Wireframes
+          </div>
+          <p>
+            Once I went through the Affinity Diagrams and highlighted the
+            patterns and themes, I tested my first High Fidelity wireframe and
+            Prototype.
+          </p>
+        </div>
       </div>
-      <hr className="mt-6"></hr>
-      <h2 className="text-3xl text-center font-bold my-8">
-        <a id="test">Test</a>
-      </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2">
-        <div className="p-8">
-          <div className="text-3xl font-semibold">Update</div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 text-center">
+        <div className="p-8 text-center sm:text-left">
+          <div className="text-3xl font-semibold pb-4">
+            Updated High Fidelity Diagrams
+          </div>
+          <p>
+            Feedback from the first Wireframes were that the links to the
+            separate catagories could be placed into one carousel
+          </p>
         </div>
         <div>
           <StaticImage

@@ -12,7 +12,7 @@ export default function contact() {
               action="https://getform.io/f/b9a6314e-2785-4a82-b122-b58dea000ee7"
               method="POST"
               target="_blank"
-              className="bg-blue shadow-md rounded px-8 pt-6 pb-8 mb-4"
+              className="bg-blue shadow-md rounded px-4 sm:px-8 pt-6 pb-8 mb-4"
             >
               <div className="mb-4">
                 <label
@@ -27,7 +27,7 @@ export default function contact() {
                   class="form-control"
                   id="exampleInputName"
                   placeholder="name"
-                  className="shadow border rounded border-gray-300 py-1 px-3 mb-3 w-full"
+                  className="shadow border rounded border-gray-300 py-3 px-6 mb-3 w-full"
                 />
               </div>
               <div className="mb-6">
@@ -44,7 +44,7 @@ export default function contact() {
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
                   placeholder="Enter email"
-                  className="shadow border rounded border-gray-300 py-1 px-3 mb-3 w-full"
+                  className="shadow border rounded border-gray-300 py-3 px-6 mb-3 w-full"
                 />
               </div>
               <div className="mb-6">
@@ -83,11 +83,10 @@ export default function contact() {
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full text-center sm:text-left">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-              I Design for our Future
+              Say hello
             </h1>
             <p className="mb-8 leading-relaxed">
-              Together we can build modern webpages to be beautiful, sustainable
-              and impactful without hurting the planet.
+              Send me a message and we can organise to catch up.
             </p>
           </div>
         </div>
