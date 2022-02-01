@@ -679,6 +679,10 @@ export default function argos() {
       <div className="grid grid-cols-1 sm:grid-cols-2">
         <div className="p-8">
           <div className="text-3xl font-semibold">Update</div>
+          <StaticImage
+            alt="argos mobile homepage"
+            src="../../images/argos-wireframe-update.png"
+          />
         </div>
         <div>
           <StaticImage

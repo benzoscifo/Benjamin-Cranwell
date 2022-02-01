@@ -11,6 +11,8 @@ module.exports = {
       orange: "#FFA500",
       green: "#10B981",
       blue: "#42A0F9",
+      charcoal: "#333333",
+      orange: "#FFA500",
     }),
     extend: {
       backgroundImage: {
@@ -20,6 +22,8 @@ module.exports = {
         white: "#FFFFFF",
         argosLite: "#00ACD7",
         blue: "#42A0F9",
+        argos: "#FF0000",
+        orange: "#FFA500",
       },
     },
   },

@@ -3,25 +3,26 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../../components/Layout"
 import GbiBridged from "../bg-image"
 
-export default function retail() {
+export default function halfords() {
   return (
     <Layout>
       <div className="grid grid-cols-1 sm:grid-cols-2">
         <div>
-          <StaticImage alt="business man" src="../../images/argos-blue.png" />
+          <StaticImage
+            alt="business man"
+            src="../../images/halfords-vector-logo.png"
+          />
         </div>
         <div className="p-8 text-center sm:text-left">
           <h2 className="text-2xl font-semibold">The Problem</h2>
           <p className="pb-4">
-            The Argos website in mobile view has a confusing and bloated layout
-            which makes it difficuly to easily navigate.
+            Booking a mobile tire fitting is slow and confusing.
           </p>
           <h2 className="text-2xl font-semibold">Project Summary</h2>
           <p>
             I conducted a UX research review using a User Centered approach in
             order to find out user pain points and thus help produce a better
-            mobile user experience; this research included Usability Testing,
-            creating Personas, Wireframes and Prototypes.
+            experience when booking a mobile tire fitting.
           </p>
         </div>
       </div>
@@ -33,7 +34,7 @@ export default function retail() {
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
             <a
               href="#empathize"
-              className="bg-argos hover:bg-argosLite rounded-full border p-3 text-center"
+              className="bg-charcoal hover:bg-orange rounded-full border p-3 text-center"
             >
               <button className="underline hover:underline text-white font-bold py-2 px-4">
                 Empathize
@@ -41,7 +42,7 @@ export default function retail() {
             </a>
             <a
               href="#define"
-              className="bg-argos hover:bg-argosLite rounded-full border p-3 text-center"
+              className="bg-charcoal hover:bg-orange rounded-full border p-3 text-center"
             >
               <button className="underline hover:underline text-white font-bold py-2 px-4">
                 Define
@@ -49,7 +50,7 @@ export default function retail() {
             </a>
             <a
               href="#ideate"
-              className="bg-argos hover:bg-argosLite rounded-full border p-3 text-center"
+              className="bg-charcoal hover:bg-orange rounded-full border p-3 text-center"
             >
               <button className="underline hover:underline text-white font-bold py-2 px-4">
                 Ideate
@@ -57,7 +58,7 @@ export default function retail() {
             </a>
             <a
               href="#prototype"
-              className="bg-argos hover:bg-argosLite rounded-full border p-3 text-center"
+              className="bg-charcoal hover:bg-orange rounded-full border p-3 text-center"
             >
               <button className="underline hover:underline text-white font-bold py-2 px-4">
                 Prototype
@@ -65,7 +66,7 @@ export default function retail() {
             </a>
             <a
               href="#test"
-              className="bg-argos hover:bg-argosLite rounded-full border p-3 text-center"
+              className="bg-charcoal hover:bg-orange rounded-full border p-3 text-center"
             >
               <button className="underline hover:underline text-white font-bold py-2 px-4">
                 Test
@@ -75,7 +76,7 @@ export default function retail() {
         </div>
       </section>
       <hr className="mt-6"></hr>
-      <h2 className="text-3xl text-center font-bold my-8 text-blue">
+      <h2 className="text-3xl text-center font-bold my-8 text-orange">
         <a id="empathize">Empathize</a>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
@@ -84,30 +85,31 @@ export default function retail() {
           <ul className="pb-6">
             <li>
               5 Participants from various backgrounds were chosen for initial
-              feedback on using the Argos website.
+              feedback on using the Halfords website for car repairs.
             </li>
             <li>
-              Each participant had to be regular users of the e-commerce site
-              and they were asked on how they use the site, why and when. Notes
-              were taken on what they liked and disliked about using the site.
+              None of the participants had never used the Halfords site for car
+              repairs. 2 of the participants had used the website to search of
+              cycling accessories.
             </li>
           </ul>
           <h2 className="text-2xl font-semibold">Pain Points</h2>
           <ul className="pb-6">
             <li className="ml-5">
-              <b>1. </b>Returns procedure not easy to complete.
+              <b>1. </b>The call to action text on the Homepage is not clear.
             </li>
             <li className="ml-5">
-              <b>2. </b>Not knowing when different items were are on sale
+              <b>2. </b>There wasn't a clear distinction between the Halfords
+              e-commerce and Halfords Services
             </li>
             <li className="ml-5">
               <b>3. </b>
-              Showing stock is available but when checking out the finding out
-              it wasn't local
+              Once your location is selected there is no button to book a
+              service
             </li>
             <li className="ml-5">
               <b>4. </b>
-              Checkout confirmation information not detailed enough
+              The checkout process is very confusing
             </li>
           </ul>
           <h2 className="text-2xl font-semibold">Empathy Map</h2>
@@ -124,20 +126,22 @@ export default function retail() {
         <div className="border-solid border-2 text-center sm:text-left p-8 sm:order-first order-last">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div>
-              <StaticImage alt="women" src="../../images/woman-persona.jpeg" />
+              <StaticImage alt="women" src="../../images/persona.jpeg" />
             </div>
             <div>
               <h3 className="underline font-semibold">Goals</h3>
               <ul>
                 <li>
-                  <b>1. </b>PreOrder Toys
+                  <b>1. </b>To easily book a call out service to replace worn
+                  tyres
                 </li>
                 <li>
-                  <b>2. </b>Have a good selection on age appropiate toys already
-                  purchased
+                  <b>2. </b>To have a good selection of products at competitive
+                  prices
                 </li>
                 <li>
-                  <b>3. </b>Buy pre-selected toys when on sale
+                  <b>3. </b>To have a large appointment selection to fit in my
+                  busy work schedule
                 </li>
               </ul>
             </div>
@@ -145,60 +149,59 @@ export default function retail() {
               <h3 className="underline font-semibold">Frustrations</h3>
               <ul>
                 <li>
-                  <b>1. </b>Having to buy toys last minute
+                  <b>1. </b>Not having time to have my car serviced
                 </li>
                 <li>
-                  <b>2. </b>Not having a good selection of toys
+                  <b>2. </b>Not been able to find an appointment that works for
+                  me
                 </li>
                 <li>
-                  <b>3. </b>Buying toys at full price{" "}
+                  <b>3. </b>Websites wanted my to sign up to use their services
                 </li>
               </ul>
             </div>
             <div>
               <ul>
                 <li>
-                  <b>Name:</b> Eva
+                  <b>Name:</b> Ross
                 </li>
                 <li>
-                  <b>Age:</b> 35
+                  <b>Age:</b> 41
                 </li>
                 <li>
-                  <b>Education:</b> PhD
+                  <b>Education:</b> Bachelors Undergradate
                 </li>
                 <li>
                   <b>Location:</b> London
                 </li>
                 <li>
-                  <b>Family:</b> 2 children
+                  <b>Family:</b> 1 child
                 </li>
                 <li>
-                  <b>Occupation:</b> Scientist
+                  <b>Occupation:</b> Digital Marketing
                 </li>
               </ul>
             </div>
             <div col-span-2>
-              <p>
-                Eva is a working mother with two primary school children that
-                attend a large number of parties throughout the year.
-              </p>
+              <p>Ross</p>
             </div>
           </div>
         </div>
         <div className="p-8 text-center sm:text-left">
           <h2 className="text-2xl font-semibold">User Stories</h2>
           <p className="pb-4">
-            <b>As a</b> busy mother who regularly goes to kids birthday parties
+            <b>As a</b> father of one running my own business
             <br></br>
             <b>I want </b>
-            to review sale items easily on my mobile device<br></br>
-            <b>so that</b> I can stock up on birthday presents for the year.
+            to be able to book an appointment<br></br>
+            <b>so that</b> I be confident that my car will be service at time
+            that suits me.
           </p>
           <h2 className="text-2xl font-semibold">Personas</h2>
           <p>
-            From the interviews conducted I created 3 personas. Eva a working
-            mum is shown here, the other two personas were Una a grandmother of
-            10 and John a working father of one.
+            From the interviews conducted I created 3 personas. Ross a busy CEO
+            is shown here, the other two personas were Ben a grandfather with
+            two old cars and Magaly a busy city worker.
           </p>
         </div>
       </div>
@@ -211,12 +214,12 @@ export default function retail() {
             <thead>
               <tr>
                 <th className="border">Action</th>
-                <th className="border">Search Sale items</th>
-                <th className="border">Search for Present</th>
-                <th className="border">Select a Present</th>
-                <th className="border">Go to Checkout</th>
-                <th className="border">Pay for Goods</th>
-                <th className="border">Pick up items</th>
+                <th className="border">Choose Tyre Services</th>
+                <th className="border">Enter car details and location</th>
+                <th className="border">Select correct tyre</th>
+                <th className="border">Select appointment time</th>
+                <th className="border">Confirm time and location</th>
+                <th className="border">Pay and Checkout</th>
               </tr>
             </thead>
             <tbody>
@@ -225,41 +228,43 @@ export default function retail() {
                   <b>Task List</b>
                 </td>
                 <td className="border text-center">
-                  Filter through Categories
+                  Scroll down homepage and select button
+                </td>
+
+                <td className="border text-center">
+                  Enter car registration and postcode
+                </td>
+                <td className="border text-center">Select type of tyre</td>
+                <td className="border text-center">
+                  Choose an appropriate appointment time
                 </td>
                 <td className="border text-center">
-                  Filter through Age and Gender toys
+                  Confirm tyre and appointment time
                 </td>
-                <td className="border text-center">Select Toy or Toys</td>
-                <td className="border text-center">
-                  Review selected items and availablity
-                </td>
-                <td className="border text-center">Confirm items and Pay</td>
-                <td className="border text-center">Pick up items</td>
+                <td className="border text-center">Pay for service</td>
               </tr>
               <tr class="bg-emerald-200">
                 <td className="border text-center">
                   <b>Feeling Adjective</b>
                 </td>
                 <td className="border text-center">
-                  Annoyed that she has to regularly look for toys
+                  Confused with the wording of the call to action
                 </td>
                 <td className="border text-center">
-                  Frustrated at searching through many irrelevant toys
+                  Frustrated to what to do after entering location and car reg
                 </td>
                 <td className="border text-center">
-                  Worried about the quality and choice of present
+                  Confused to where I make my final tyre selection
                 </td>
                 <td className="border text-center">
-                  Worried that the present chosen isn't in her local Argos for
-                  pick up
+                  Annoyed that the mobile service wasn't pre selected
                 </td>
                 <td className="border text-center">
-                  Glad that the item has been chosen and is available
+                  Annoyed that the date and time aren't shown in the basket
+                  screen
                 </td>
                 <td className="border text-center">
-                  Frustrated that she needs to dedicate time to pick up the
-                  present
+                  Confused about the Apply button during the checkout
                 </td>
               </tr>
               <tr>
@@ -267,23 +272,24 @@ export default function retail() {
                   <b>Improvement Opportunities</b>
                 </td>
                 <td className="border text-center">
-                  Update user with new sale items regularly
+                  Use clear wording to book a mobile service
                 </td>
                 <td className="border text-center">
-                  Offer more filter options
+                  Have it clearly sign posted on what you must do next
                 </td>
                 <td className="border text-center">
-                  Have a video showing the toys been used by children
+                  Make it clear that viewing the selected tyre is the next step
+                  in adding to your basket
                 </td>
                 <td className="border text-center">
-                  Have a filter option to show only toys in the users local
-                  store
+                  Have Mobile service pre selected when you land on your chosen
+                  tyre page
                 </td>
                 <td className="border text-center">
-                  Allow several choices for payment
+                  Display the date and time on users basket screen
                 </td>
                 <td className="border text-center">
-                  Have no minimum on same day delivery
+                  Have a tooltip to make clear what certain buttons do
                 </td>
               </tr>
             </tbody>
@@ -291,57 +297,57 @@ export default function retail() {
         </div>
       </div>
       <hr className="mt-6"></hr>
-      <h2 className="text-3xl text-center font-bold my-8 text-blue">
+      <h2 className="text-3xl text-center font-bold my-8 text-orange">
         <a id="define">Define</a>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2">
         <div className="p-8 text-center sm:text-left">
           <h2 className="text-2xl font-semibold">Problem Statement</h2>
           <p className="pb-4">
-            <b>Eva</b> is a <b>working mother</b> who needs{" "}
-            <b>to easily find toys on sale</b> because{" "}
-            <b> she finds the process stressful and time consuming</b>
+            <b>Ross</b> is a <b>busy executive </b> who needs
+            <b>to easily book a mobile car service</b> because{" "}
+            <b> he is very busy and unable to go to a car garage</b>
           </p>
           <h2 className="text-2xl font-semibold">Hypothesis Statement</h2>
           <p>
-            <b>We believe that</b> a simplified layout <b>for </b>Eva{" "}
-            <b>will </b>allow for a smoother process in purchasing items.
+            <b>We believe that</b> clearer step process <b>for </b>Ross
+            <b> will </b>allow for an easier and quicker appointment scheduling.
           </p>
         </div>
         <div>
-          <StaticImage alt="business man" src="../../images/mobile-use.jpg" />
+          <StaticImage alt="business man" src="../../images/car-phone.jpg" />
         </div>
       </div>
       <hr className="mt-6"></hr>
-      <div className="text-3xl text-center font-bold my-8 text-blue">
+      <div className="text-3xl text-center font-bold my-8 text-orange">
         <a id="ideate">Ideate</a>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
         <div>
-          <StaticImage alt="business man" src="../../images/amazon.jpg" />
+          <StaticImage alt="business man" src="../../images/kwik-fit.jpeg" />
         </div>
         <div className="p-8 text-center sm:text-left">
           <h2 className="text-2xl font-bold pb-4">Competetive Audit</h2>
           <h2 className="text-xl font-semibold">Objective</h2>
           <p className="pb-4">
-            Audit industry competitors to compare against Argos user experience
+            Audit industry competitors to compare against Halfords user
+            experience
           </p>
           <h2 className="text-xl font-semibold">Research Questions</h2>
           <p className="pb-4">
-            How do the other companies handle the search and filtering
-            functionality.
+            How do the other companies handle mobile type servicing.
           </p>
           <h2 className="text-xl font-semibold">Procedure</h2>
           <p>I reviewed three different areas of each of the companies</p>
           <ul>
             <li className="ml-5">
-              <b>1. </b>Homepage layout
+              <b>1. </b>Ease of booking
             </li>
             <li className="ml-5">
-              <b>2. </b>Search/Filter
+              <b>2. </b>Appointment available
             </li>
             <li className="ml-5">
-              <b>3. </b>Checkout
+              <b>3. </b>Prices
             </li>
           </ul>
         </div>
@@ -360,52 +366,57 @@ export default function retail() {
         </thead>
         <tbody>
           <tr>
-            <td className="border text-center">Smyths</td>
+            <td className="border text-center">Kwik-Fit</td>
             <td className="border text-center">Direct</td>
-            <td className="border text-center">www.smythstoys.co.uk</td>
+            <td className="border text-center">www.kwik-fit.com</td>
             <td className="border text-center">
-              Good options for delivery and pick up, plus wide range of good
-              quality toys
+              A nice and clear User Experience when choosing tyres
             </td>
             <td className="border text-center">
-              Significantly less stores than Argos
+              Very little choice in mobile appointments
             </td>
             <td className="border text-center">
-              Less ability to reach more people
+              Not great for those needing an appointments urgently
             </td>
             <td className="border text-center">
-              Improve delivery options to entice more people to use Argos
+              Improve appointment booking to increase completion rates
             </td>
           </tr>
           <tr class="bg-emerald-200">
-            <td className="border text-center">Amazon</td>
+            <td className="border text-center">Mobile Tyre Fitting London</td>
             <td className="border text-center">Direct</td>
-            <td className="border text-center">www.amazon.co.uk</td>
+            <td className="border text-center">www.uktyres.co.uk</td>
             <td className="border text-center">
-              Products ranging from all prices locally and international
+              Nice and clear form wizard to show where in the checkout process
+              you are
             </td>
-            <td className="border text-center">No physical stores</td>
             <td className="border text-center">
-              With no physical stores their is no ability to speak to someone
-              physically about any issues or problems.
+              Don't provide coverage to London Zone 4
             </td>
-            <td className="border text-center">Improve the returns process</td>
+            <td className="border text-center">
+              With minimal London coverage many Londoners viewing the site will
+              be unable to use their service
+            </td>
+            <td className="border text-center">
+              To be the number one mobile tyre service in London
+            </td>
           </tr>
           <tr>
-            <td className="border text-center">BarginMax</td>
+            <td className="border text-center">Blackcircles</td>
             <td className="border text-center">Direct</td>
-            <td className="border text-center">www.barginmax.co.uk</td>
+            <td className="border text-center">www.blackcircles.com</td>
             <td className="border text-center">
-              Large selection of medium and low priced toys<br></br>
-              Low priced free delivery
-            </td>
-            <td className="border text-center">No physical stores</td>
-            <td className="border text-center">
-              With no physical stores their is no ability to speak to someone
-              physically about any issues or problems.
+              Earliest fitting date shown on each individual tyres
             </td>
             <td className="border text-center">
-              Make the physical stores somewhere you want to visit.
+              Appointment timings are either AM or PM
+            </td>
+            <td className="border text-center">
+              With vague appointment timings busy customers will go somewhere
+              else rather than waiting around all day for a mechanic.
+            </td>
+            <td className="border text-center">
+              Highlight the availability of your mechanics.
             </td>
           </tr>
         </tbody>
@@ -416,36 +427,37 @@ export default function retail() {
           <h2 className="text-2xl font-semibold">How Might We</h2>
           <ul className="pb-4">
             <li className="pb-2">
-              <b>Amp up the good:</b> How might we create a fun search
-              functionality
+              <b>Amp up the good:</b> How might add to benefits to choosing
+              Halfords tyres
             </li>
             <li className="pb-2">
-              <b>Explore the opposite:</b> How might we make it difficult to
-              find items{" "}
+              <b>Explore the opposite:</b> How might we make visiting the
+              mechanics more attractive
             </li>
             <li className="pb-2">
-              <b>Change a status quo:</b> How might we have catalogues sent to
-              the customers
+              <b>Change a status quo:</b> How might we have people buy tyres
+              other than because of MOT
             </li>
             <li className="pb-2">
               <b>Remove the bad:</b> How might we remove the difficultly in
-              finding the right gift
+              booking an appointment
             </li>
             <li className="pb-2">
-              <b>Go after the adjective:</b> How might we have searching for a
-              gift stressless{" "}
+              <b>Go after the adjective:</b> How might we the buying enjoyable
+              rather than a chore
             </li>
             <li className="pb-2">
-              <b>Question an assumption:</b> How might remove the need for the
-              search functionality
+              <b>Question an assumption:</b> How might remove the need for an
+              appointment
             </li>
             <li className="pb-2">
               <b>Create an analogy using the established need or context:</b>{" "}
-              How might we choosing a gift like the weekly shop
+              How might we make tyre purchasing like shopping on Amazon
             </li>
             <li>
               <b>Identify unexpected resources that can provide assistance:</b>{" "}
-              How might we use previous purchases to help narrow down choices
+              How might we use your MOT information to prefill all your address
+              and billing details
             </li>
           </ul>
           <h2 className="text-2xl font-semibold">Crazy Eights</h2>
@@ -466,7 +478,7 @@ export default function retail() {
         </div>
       </div>
       <hr className="mt-6"></hr>
-      <h2 className="text-3xl text-center font-bold my-8 text-blue">
+      <h2 className="text-3xl text-center font-bold my-8 text-orange">
         <a id="prototype">Prototype</a>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
@@ -479,11 +491,11 @@ export default function retail() {
           </h2>
           <h2 className="text-2xl font-semibold">Goal Statement</h2>
           <p className="pb-4">
-            <b>Our</b> mobile design <b>will let users </b> navigate the
-            homepage <b> which will affect </b> how easily it is for users to
-            find what they are looking for <b> by</b> cutting out any ambiguous
-            or unnecessary content. <b>We will measure effectiveness by </b>{" "}
-            completion rates.
+            <b>Our</b> updated mobile appointment booking <b>will let users </b>{" "}
+            quickly find and book a mechanic <b> which will affect </b> how
+            easily it is for users to complete the checkout process <b> by</b>{" "}
+            cutting out any ambiguous wording or unnecessary steps.{" "}
+            <b>We will measure effectiveness by </b> completion rates.
           </p>
           <h2 className="text-2xl font-semibold">User Flow</h2>
           <p>Opposite is the User Flow</p>
@@ -571,8 +583,9 @@ export default function retail() {
             <div className="col-span-2">
               <ul className="p-2">
                 <li>
-                  <b>Title:</b> Redesigning the Argos Homepage in mobile view in
-                  order to improve user experience when buying Toys
+                  <b>Title:</b> Redesigning the Halfords Mobile Fitting Service
+                  for Tyres in order to improve the user experience and increase
+                  conversion rates
                 </li>
                 <li>
                   <b>Author:</b> Benjamin, UX researcher
@@ -581,12 +594,13 @@ export default function retail() {
                   <b>Date:</b> Jan 2022
                 </li>
                 <li>
-                  <b>Project background:</b> I am redesigning the Argos Homepage
-                  in mobile view to improve
+                  <b>Project background:</b> I am tweaking the user experience
+                  of booking of a mechanice
                 </li>
                 <li>
-                  <b>Research goals:</b> Figure out if redesigning the mobile
-                  layout creates a more enjoyable experience when buying toys.
+                  <b>Research goals:</b> Figure out if making some small changes
+                  to the current process will improve the experience and
+                  completion rate.
                 </li>
               </ul>
             </div>
@@ -598,15 +612,15 @@ export default function retail() {
             <div className="col-span-2">
               <ul className="p-2">
                 <li>
-                  <b>1.</b> How do users search for toys e.g. search or
-                  filtering
+                  <b>1.</b> How do users find the information given when buying
+                  tyres
                 </li>
                 <li>
-                  <b>2.</b> What do users think of the layout of the homepage in
-                  mobile view
+                  <b>2.</b> What do users think of the booking process
                 </li>
                 <li>
-                  <b>3.</b> What steps do user make to complete a purchase
+                  <b>3.</b> What blockers did you encounter when trying to book
+                  a mechanic
                 </li>
               </ul>
             </div>
@@ -659,11 +673,11 @@ export default function retail() {
             <div className="col-span-2">
               <ul className="p-2">
                 <li>
-                  Participants are a mix of people who regularly buy toys online
-                  and others who have never bought toys online.
+                  Participants are a mix of people who are all car owners that
+                  include new, used, large and small cars.
                 </li>
                 <li>
-                  <b>4 Female, 1 male</b>, aged between 35 and 75 years old
+                  <b>2 Female, 2 males</b>, aged between 35 and 75 years old
                 </li>
               </ul>
             </div>
@@ -675,42 +689,50 @@ export default function retail() {
             <div className="col-span-2">
               <ul className="p-2">
                 <li>
-                  <b>Prompt 1:</b> Open the Argos website on your mobile and
-                  scroll down the page. As you scroll down the page talk to me
-                  on what you see.
+                  <b>Prompt 1:</b> Open the Halfords website and select mobile
+                  tyre fitting. As you scroll down the page talk to me on what
+                  you see.
                   <ul className="pl-8 list-disc">
                     <li>
-                      <b>Prompt 1 Follow up:</b> How easy it to understand the
-                      different features and what each feature will link to.
+                      <b>Prompt 1 Follow up:</b> How easy was it find the button
+                      to bring you to the mobile fitting section.
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <b>Prompt 2: </b>Navigate to the Toys section
+                  <b>Prompt 2: </b>Enter your car registration and postcode,
+                  then select tyre fitting.
                   <ul className="pl-8 list-disc">
                     <li>
-                      <b>Prompt 2 Follow up:</b> How did you get to the Toys
-                      section.
+                      <b>Prompt 2 Follow up:</b> How did you find this proces?,
+                      was it easy?.
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <b>Prompt 3: </b> Search for Toys that are on discount
+                  <b>Prompt 3: </b> Select the tyre that you want
                   <ul className="pl-8 list-disc">
                     <li>
-                      <b>Prompt 3 Follow up: </b> How did you find the Toys that
-                      were discounted. How did you feel when searching through
-                      the toys.
+                      <b>Prompt 3 Follow up: </b> How did you feel when you
+                      chose your tyres?
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <b>Prompt 4:</b> Select Toy and checkout
+                  <b>Prompt 4:</b> Select an appointment day and time
                   <ul className="pl-8 list-disc">
                     <li>
-                      <b>Prompt 4 Follow up: </b> How easy was it to select and
-                      buy. How did you feel about the whole process from start
-                      to finish.
+                      <b>Prompt 4 Follow up: </b> How did you feel about the
+                      choice and process of choosing an appointment?
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <b>Prompt 4:</b> View basket and Checkout
+                  <ul className="pl-8 list-disc">
+                    <li>
+                      <b>Prompt 4 Follow up: </b> Did you feel confident and
+                      secure when finialising your appointment?
                     </li>
                   </ul>
                 </li>
@@ -744,28 +766,27 @@ export default function retail() {
           <h4 className="text-xl font-semibold">Patterns and Themes</h4>
           <ul className="mb-4">
             <li>
-              It was observed that 5 out of 5 participants had some type of
-              issue with the Homepage. This means that the homepage has a poor
-              user experience.
+              It was observed that 4 out of 5 participants had some type of
+              confusion on the steps they needed to take during the process.
             </li>
           </ul>
           <h4 className="text-xl font-semibold">Form insights</h4>
           <ul className="mb-4">
             <li>
               Based on the theme that{" "}
-              <b>for all users the Homepage isn't clear</b>, an insight is:
-              users need a homepage with a better layout and hierarchical
-              structure.
+              <b>for some of the users the process steps aren't clear</b>, an
+              insight is: there needs to be clearer sign posting when moving
+              through the different sections of the booking process.
             </li>
           </ul>
           <h4 className="text-xl font-semibold">Recommendations</h4>
           <ul className="text-argos">
             <li>
-              <b>1. </b>
-              Reduce the amount of links on the homepage.
+              <b>1. </b>Remove duplication of entering car registration and
+              postcode.
             </li>
             <li>
-              <b>2. </b>Move the Store Finder up the page
+              <b>2. </b> Move mobile services cta buttons above the fold
             </li>
           </ul>
         </div>
@@ -777,7 +798,7 @@ export default function retail() {
         </div>
       </div>
       <hr className="mt-6"></hr>
-      <h2 className="text-3xl text-center font-bold my-8 text-blue">
+      <h2 className="text-3xl text-center font-bold my-8 text-orange">
         <a id="test">Test</a>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 text-center">
@@ -804,20 +825,12 @@ export default function retail() {
           <div className="text-3xl font-semibold pb-4">
             Updated High Fidelity Diagrams
           </div>
-          <p className="pb-4">
+          <p>
             Feedback from the first Wireframes were that the links to the
             separate catagories could be placed into one carousel
           </p>
-          <div className="text-2xl font-semibold pb-4">Original Designs</div>
-          <StaticImage
-            alt="argos mobile homepage"
-            src="../../images/argos-original.png"
-          />
         </div>
         <div>
-          <div className="text-2xl font-semibold text-argos pb-4">
-            New Design
-          </div>
           <StaticImage
             alt="argos mobile homepage"
             src="../../images/argos-wireframe-update.png"
