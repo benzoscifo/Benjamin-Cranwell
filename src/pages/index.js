@@ -48,7 +48,9 @@ export default function Home() {
                 <StaticImage
                   src="../images/argos.png"
                   className="bg-cover h-48"
-                  layout="fullWidth"
+                  layout="constrained"
+                  width={700}
+                  aspectRatio={16 / 9}
                 />
                 <div className="p-4 flex-1 flex flex-col text-center">
                   <h3 className="mb-4 text-2xl">Argos</h3>
@@ -69,21 +71,24 @@ export default function Home() {
             <div className="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex-col">
                 <StaticImage
-                  src="../images/greenfinch.jpeg"
+                  src="../images/halfordslogo.jpeg"
                   className="bg-cover h-48"
-                  layout="fullWidth"
+                  layout="constrained"
+                  width={700}
+                  aspectRatio={16 / 9}
                 />
-                <div className="p-4 flex-1 flex flex-col">
-                  <h3 className="mb-4 text-2xl">My heading</h3>
+                <div className="p-4 flex-1 flex flex-col text-center">
+                  <h3 className="mb-4 text-2xl">Argos</h3>
                   <div class="mb-4 text-grey-darker text-sm flex-1">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </p>
+                    <p>Improving a user journey.</p>
                   </div>
                   <div class="border-t border-grey-light pt-2 text-xs text-grey no-underline tracking-wide">
-                    <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                      Button
-                    </button>
+                    <Link
+                      className="block w-full text-center text-white bg-green border-0 py-2 px-6 focus:outline-none hover:bg-orange rounded text-lg"
+                      to="/caseStudies/halfords"
+                    >
+                      Case Study
+                    </Link>
                   </div>
                 </div>
               </div>

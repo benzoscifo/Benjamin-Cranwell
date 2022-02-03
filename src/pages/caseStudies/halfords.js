@@ -13,16 +13,16 @@ export default function halfords() {
             src="../../images/halfords-vector-logo.png"
           />
         </div>
-        <div className="p-8 text-center sm:text-left">
+        <div className="p-8 text-center sm:text-left self-center">
           <h2 className="text-2xl font-semibold">The Problem</h2>
           <p className="pb-4">
-            Booking a mobile tire fitting is slow and confusing.
+            Booking a mobile tyre fitting is slow and confusing.
           </p>
           <h2 className="text-2xl font-semibold">Project Summary</h2>
           <p>
             I conducted a UX research review using a User Centered approach in
             order to find out user pain points and thus help produce a better
-            experience when booking a mobile tire fitting.
+            experience when booking a mobile tyre fitting.
           </p>
         </div>
       </div>
@@ -76,11 +76,11 @@ export default function halfords() {
         </div>
       </section>
       <hr className="mt-6"></hr>
-      <h2 className="text-3xl text-center font-bold my-8 text-orange">
+      <h2 className="text-5xl text-center font-bold my-16 text-orange">
         <a id="empathize">Empathize</a>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
-        <div className="p-8 text-center sm:text-left">
+        <div className="p-8 text-center sm:text-left self-center">
           <h2 className="text-2xl font-semibold">User Interviews</h2>
           <ul className="pb-6">
             <li>
@@ -119,7 +119,10 @@ export default function halfords() {
           </p>
         </div>
         <div className="text-center">
-          <StaticImage alt="business man" src="../../images/empathy-map2.jpg" />
+          <StaticImage
+            alt="business man"
+            src="../../images/halfords-empathy.jpg"
+          />
         </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
@@ -187,7 +190,7 @@ export default function halfords() {
             </div>
           </div>
         </div>
-        <div className="p-8 text-center sm:text-left">
+        <div className="p-8 text-center sm:text-left self-center">
           <h2 className="text-2xl font-semibold">User Stories</h2>
           <p className="pb-4">
             <b>As a</b> father of one running my own business
@@ -206,7 +209,7 @@ export default function halfords() {
         </div>
       </div>
       <div className="grid grid-cols-1 mb-8">
-        <h2 className="text-2xl text-center font-semibold mb-4">
+        <h2 className="text-2xl text-center font-semibold my-4">
           User Journey
         </h2>
         <div>
@@ -297,15 +300,15 @@ export default function halfords() {
         </div>
       </div>
       <hr className="mt-6"></hr>
-      <h2 className="text-3xl text-center font-bold my-8 text-orange">
+      <h2 className="text-5xl text-center font-bold my-16 text-orange">
         <a id="define">Define</a>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2">
-        <div className="p-8 text-center sm:text-left">
+        <div className="p-8 text-center sm:text-left self-center">
           <h2 className="text-2xl font-semibold">Problem Statement</h2>
           <p className="pb-4">
-            <b>Ross</b> is a <b>busy executive </b> who needs
-            <b>to easily book a mobile car service</b> because{" "}
+            <b>Ross</b> is a <b>CEO of a small start-up </b> who needs
+            <b> to easily book a mobile car service</b> because{" "}
             <b> he is very busy and unable to go to a car garage</b>
           </p>
           <h2 className="text-2xl font-semibold">Hypothesis Statement</h2>
@@ -319,7 +322,7 @@ export default function halfords() {
         </div>
       </div>
       <hr className="mt-6"></hr>
-      <div className="text-3xl text-center font-bold my-8 text-orange">
+      <div className="text-5xl text-center font-bold my-16 text-orange">
         <a id="ideate">Ideate</a>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
@@ -339,7 +342,7 @@ export default function halfords() {
           </p>
           <h2 className="text-xl font-semibold">Procedure</h2>
           <p>I reviewed three different areas of each of the companies</p>
-          <ul>
+          <ul className="text-orange">
             <li className="ml-5">
               <b>1. </b>Ease of booking
             </li>
@@ -422,45 +425,49 @@ export default function halfords() {
         </tbody>
       </table>
       <div className="grid grid-cols-1 sm:grid-cols-2">
-        <div className="p-8 text-center sm:text-left">
+        <div className="p-8 text-center sm:text-left self-center">
           <h2 className="text-3xl font-semibold pb-4">Brainstorming</h2>
-          <h2 className="text-2xl font-semibold">How Might We</h2>
+          <h2 className="text-xl font-semibold">How Might We</h2>
           <ul className="pb-4">
             <li className="pb-2">
-              <b>Amp up the good:</b> How might add to benefits to choosing
-              Halfords tyres
+              <b className="text-orange">Amp up the good:</b> How might add to
+              benefits to choosing Halfords tyres
             </li>
             <li className="pb-2">
-              <b>Explore the opposite:</b> How might we make visiting the
-              mechanics more attractive
+              <b className="text-orange">Explore the opposite:</b> How might we
+              make visiting the mechanics more attractive
             </li>
             <li className="pb-2">
-              <b>Change a status quo:</b> How might we have people buy tyres
-              other than because of MOT
+              <b className="text-orange">Change a status quo:</b> How might we
+              have people buy tyres other than because of MOT
             </li>
             <li className="pb-2">
-              <b>Remove the bad:</b> How might we remove the difficultly in
-              booking an appointment
+              <b className="text-orange">Remove the bad:</b> How might we remove
+              the difficultly in booking an appointment
             </li>
             <li className="pb-2">
-              <b>Go after the adjective:</b> How might we the buying enjoyable
-              rather than a chore
+              <b className="text-orange">Go after the adjective:</b> How might
+              we the buying enjoyable rather than a chore
             </li>
             <li className="pb-2">
-              <b>Question an assumption:</b> How might remove the need for an
-              appointment
+              <b className="text-orange">Question an assumption:</b> How might
+              remove the need for an appointment
             </li>
             <li className="pb-2">
-              <b>Create an analogy using the established need or context:</b>{" "}
+              <b className="text-orange">
+                Create an analogy using the established need or context:
+              </b>{" "}
               How might we make tyre purchasing like shopping on Amazon
             </li>
             <li>
-              <b>Identify unexpected resources that can provide assistance:</b>{" "}
+              <b className="text-orange">
+                Identify unexpected resources that can provide assistance:
+              </b>{" "}
               How might we use your MOT information to prefill all your address
               and billing details
             </li>
           </ul>
-          <h2 className="text-2xl font-semibold">Crazy Eights</h2>
+          <h2 className="text-xl font-semibold">Crazy Eights</h2>
           <p>I sketched some ideas on how the homepage may look like.</p>
           <StaticImage
             className="invisible sm:visible"
@@ -474,18 +481,24 @@ export default function halfords() {
           />
         </div>
         <div>
-          <StaticImage alt="business man" src="../../images/crazy-8.jpeg" />
+          <StaticImage
+            alt="business man"
+            src="../../images/halfords-crazyeights.jpg"
+          />
         </div>
       </div>
       <hr className="mt-6"></hr>
-      <h2 className="text-3xl text-center font-bold my-8 text-orange">
+      <h2 className="text-5xl text-center font-bold my-16 text-orange">
         <a id="prototype">Prototype</a>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
         <div className="sm:order-first order-last">
-          <StaticImage alt="user-flow" src="../../images/user-flow.png" />
+          <StaticImage
+            alt="user-flow"
+            src="../../images/halfords-userflow.png"
+          />
         </div>
-        <div className="p-8 text-center sm:text-left">
+        <div className="p-8 text-center sm:text-left self-center">
           <h2 className="text-3xl font-bold pb-2">
             StoryBoarding and Wireframing
           </h2>
@@ -512,7 +525,7 @@ export default function halfords() {
         </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
-        <div className="p-8 text-center sm:text-left">
+        <div className="p-8 text-center sm:text-left self-center">
           <div>
             <h2 className="text-3xl font-semibold pb-4">Storyboard</h2>
             <p>
@@ -523,13 +536,19 @@ export default function halfords() {
           </div>
         </div>
         <div>
-          <StaticImage alt="storyboard" src="../../images/storyboard.jpeg" />
+          <StaticImage
+            alt="storyboard"
+            src="../../images/halfords-storyboard.jpg"
+          />
         </div>
         <div></div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2">
         <div>
-          <StaticImage alt="wireframe" src="../../images/wireframe2.jpeg" />
+          <StaticImage
+            alt="wireframe"
+            src="../../images/halfords-paper-wireframe.jpg"
+          />
         </div>
 
         <div>
@@ -557,18 +576,18 @@ export default function halfords() {
             <div>
               <StaticImage
                 alt="wireframe"
-                src="../../images/wireframe-homepage.png"
+                src="../../images/halfords-wireframe.png"
               />
             </div>
           </div>
         </div>
       </div>
       <hr className="mt-6"></hr>
-      <h2 className="text-3xl text-center font-bold my-8">
+      <h2 className="text-3xl text-center font-bold my-12">
         Research Plan and Testing
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 mb-8">
-        <div className="p-8 text-center sm:text-left">
+        <div className="p-8 text-center sm:text-left self-center">
           <div className="text-3xl font-semibold pb-4">Research Plan</div>
           <p>
             Now that the Low Fidelity Wireframes are done I set out a Research
@@ -577,7 +596,7 @@ export default function halfords() {
         </div>
         <div>
           <div className="grid grid-cols-3 pb-2">
-            <div className="bg-argos text-white text-center pt-8 font-semibold text-xl">
+            <div className="bg-orange text-white text-center pt-8 font-semibold text-xl">
               Introduction
             </div>
             <div className="col-span-2">
@@ -606,7 +625,7 @@ export default function halfords() {
             </div>
           </div>
           <div className="grid grid-cols-3 pb-2">
-            <div className="bg-argos text-white text-center pt-8 font-semibold text-xl">
+            <div className="bg-orange text-white text-center pt-8 font-semibold text-xl">
               Research questions
             </div>
             <div className="col-span-2">
@@ -626,7 +645,7 @@ export default function halfords() {
             </div>
           </div>
           <div className="grid grid-cols-3 pb-2">
-            <div className="bg-argos text-white text-center font-semibold text-xl">
+            <div className="bg-orange text-white text-center font-semibold text-xl pt-4">
               Key Performance Indicators(KPIs)
             </div>
             <div className="col-span-2">
@@ -641,7 +660,7 @@ export default function halfords() {
             </div>
           </div>
           <div className="grid grid-cols-3 pb-2">
-            <div className="bg-argos text-white text-center pt-8 font-semibold text-xl">
+            <div className="bg-orange text-white text-center pt-8 font-semibold text-xl">
               Methodology
             </div>
             <div className="col-span-2">
@@ -667,7 +686,7 @@ export default function halfords() {
             </div>
           </div>
           <div className="grid grid-cols-3 pb-2">
-            <div className="bg-argos text-white text-center pt-8 font-semibold text-xl">
+            <div className="bg-orange text-white text-center pt-8 font-semibold text-xl">
               Participants
             </div>
             <div className="col-span-2">
@@ -683,7 +702,7 @@ export default function halfords() {
             </div>
           </div>
           <div className="grid grid-cols-3 pb-2">
-            <div className="bg-argos text-white text-center pt-8 font-semibold text-xl">
+            <div className="bg-orange text-white text-center pt-8 font-semibold text-xl">
               Script
             </div>
             <div className="col-span-2">
@@ -745,10 +764,10 @@ export default function halfords() {
         <div className="sm:order-first order-last">
           <StaticImage
             alt="infinity diagram"
-            src="../../images/affinity-diagram.png"
+            src="../../images/halfords-affinity.jpg"
           />
         </div>
-        <div className="p-8">
+        <div className="p-8 self-center">
           <div className="text-3xl font-semibold text-center sm:text-left pb-4">
             Affinity Diagram
           </div>
@@ -759,7 +778,7 @@ export default function halfords() {
         </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8 text-center sm:text-left">
-        <div className="p-8">
+        <div className="p-8 self-center">
           <h3 className="text-3xl font-semibold mb-8">
             Affinity Grouping Diagram
           </h3>
@@ -780,35 +799,35 @@ export default function halfords() {
             </li>
           </ul>
           <h4 className="text-xl font-semibold">Recommendations</h4>
-          <ul className="text-argos">
+          <ul className="text-orange text-xl">
             <li>
-              <b>1. </b>Remove duplication of entering car registration and
-              postcode.
+              <b>1. </b>Add step tracker to each page so users know where they
+              are in the process
             </li>
             <li>
-              <b>2. </b> Move mobile services cta buttons above the fold
+              <b>2. </b> Move mobile services buttons above the fold
             </li>
           </ul>
         </div>
         <div>
           <StaticImage
             alt="infinity diagram"
-            src="../../images/affinity-grouped-diagram.png"
+            src="../../images/halfords-grouped.jpg"
           />
         </div>
       </div>
       <hr className="mt-6"></hr>
-      <h2 className="text-3xl text-center font-bold my-8 text-orange">
+      <h2 className="text-5xl text-center font-bold my-16 text-orange">
         <a id="test">Test</a>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 text-center">
         <div className="sm:order-first order-last">
           <StaticImage
-            alt="argos mobile homepage"
-            src="../../images/argos-wireframe.png"
+            alt="orange mobile homepage"
+            src="../../images/halfords-high-wireframes.png"
           />
         </div>
-        <div className="p-8 text-center sm:text-left">
+        <div className="p-8 text-center sm:text-left self-center">
           {" "}
           <div className="text-3xl font-semibold pb-4">
             High Fidelity Wireframes
@@ -821,19 +840,19 @@ export default function halfords() {
         </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 text-center">
-        <div className="p-8 text-center sm:text-left">
+        <div className="p-8 text-center sm:text-left self-center">
           <div className="text-3xl font-semibold pb-4">
             Updated High Fidelity Diagrams
           </div>
           <p>
-            Feedback from the first Wireframes were that the links to the
-            separate catagories could be placed into one carousel
+            Feedback from the first Wireframes showed that users wanted the step
+            tracker higher up the page.
           </p>
         </div>
-        <div>
+        <div className="mb-12">
           <StaticImage
-            alt="argos mobile homepage"
-            src="../../images/argos-wireframe-update.png"
+            alt="orange mobile homepage"
+            src="../../images/halfords-high.png"
           />
         </div>
       </div>

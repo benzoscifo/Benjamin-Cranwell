@@ -10,7 +10,7 @@ export default function retail() {
         <div>
           <StaticImage alt="business man" src="../../images/argos-blue.png" />
         </div>
-        <div className="p-8 text-center sm:text-left">
+        <div className="p-8 text-center sm:text-left self-center">
           <h2 className="text-2xl font-semibold">The Problem</h2>
           <p className="pb-4">
             The Argos website in mobile view has a confusing and bloated layout
@@ -75,11 +75,11 @@ export default function retail() {
         </div>
       </section>
       <hr className="mt-6"></hr>
-      <h2 className="text-3xl text-center font-bold my-8 text-blue">
+      <h2 className="text-5xl text-center font-bold my-8 text-blue">
         <a id="empathize">Empathize</a>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
-        <div className="p-8 text-center sm:text-left">
+        <div className="p-8 text-center sm:text-left self-center">
           <h2 className="text-2xl font-semibold">User Interviews</h2>
           <ul className="pb-6">
             <li>
@@ -185,7 +185,7 @@ export default function retail() {
             </div>
           </div>
         </div>
-        <div className="p-8 text-center sm:text-left">
+        <div className="p-8 text-center sm:text-left self-center">
           <h2 className="text-2xl font-semibold">User Stories</h2>
           <p className="pb-4">
             <b>As a</b> busy mother who regularly goes to kids birthday parties
@@ -203,7 +203,7 @@ export default function retail() {
         </div>
       </div>
       <div className="grid grid-cols-1 mb-8">
-        <h2 className="text-2xl text-center font-semibold mb-4">
+        <h2 className="text-2xl text-center font-semibold my-4">
           User Journey
         </h2>
         <div>
@@ -291,11 +291,11 @@ export default function retail() {
         </div>
       </div>
       <hr className="mt-6"></hr>
-      <h2 className="text-3xl text-center font-bold my-8 text-blue">
+      <h2 className="text-5xl text-center font-bold my-8 text-blue">
         <a id="define">Define</a>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2">
-        <div className="p-8 text-center sm:text-left">
+        <div className="p-8 text-center sm:text-left self-center">
           <h2 className="text-2xl font-semibold">Problem Statement</h2>
           <p className="pb-4">
             <b>Eva</b> is a <b>working mother</b> who needs{" "}
@@ -313,27 +313,27 @@ export default function retail() {
         </div>
       </div>
       <hr className="mt-6"></hr>
-      <div className="text-3xl text-center font-bold my-8 text-blue">
+      <div className="text-5xl text-center font-bold my-8 text-blue">
         <a id="ideate">Ideate</a>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
         <div>
           <StaticImage alt="business man" src="../../images/amazon.jpg" />
         </div>
-        <div className="p-8 text-center sm:text-left">
-          <h2 className="text-2xl font-bold pb-4">Competetive Audit</h2>
-          <h2 className="text-xl font-semibold">Objective</h2>
+        <div className="p-8 text-center sm:text-left self-center">
+          <h2 className="text-3xl font-bold pb-4">Competetive Audit</h2>
+          <h2 className="text-2xl font-semibold">Objective</h2>
           <p className="pb-4">
             Audit industry competitors to compare against Argos user experience
           </p>
-          <h2 className="text-xl font-semibold">Research Questions</h2>
+          <h2 className="text-2xl font-semibold">Research Questions</h2>
           <p className="pb-4">
             How do the other companies handle the search and filtering
             functionality.
           </p>
-          <h2 className="text-xl font-semibold">Procedure</h2>
+          <h2 className="text-2xl font-semibold">Procedure</h2>
           <p>I reviewed three different areas of each of the companies</p>
-          <ul>
+          <ul className="text-argos">
             <li className="ml-5">
               <b>1. </b>Homepage layout
             </li>
@@ -411,44 +411,48 @@ export default function retail() {
         </tbody>
       </table>
       <div className="grid grid-cols-1 sm:grid-cols-2">
-        <div className="p-8 text-center sm:text-left">
+        <div className="p-8 text-center sm:text-left self-center">
           <h2 className="text-3xl font-semibold pb-4">Brainstorming</h2>
-          <h2 className="text-2xl font-semibold">How Might We</h2>
+          <h2 className="text-xl font-semibold">How Might We</h2>
           <ul className="pb-4">
             <li className="pb-2">
-              <b>Amp up the good:</b> How might we create a fun search
-              functionality
+              <b className="text-argos">Amp up the good:</b> How might we create
+              a fun search functionality
             </li>
             <li className="pb-2">
-              <b>Explore the opposite:</b> How might we make it difficult to
-              find items{" "}
+              <b className="text-argos">Explore the opposite:</b> How might we
+              make it difficult to find items{" "}
             </li>
             <li className="pb-2">
-              <b>Change a status quo:</b> How might we have catalogues sent to
-              the customers
+              <b className="text-argos">Change a status quo:</b> How might we
+              have catalogues sent to the customers
             </li>
             <li className="pb-2">
-              <b>Remove the bad:</b> How might we remove the difficultly in
-              finding the right gift
+              <b className="text-argos">Remove the bad:</b> How might we remove
+              the difficultly in finding the right gift
             </li>
             <li className="pb-2">
-              <b>Go after the adjective:</b> How might we have searching for a
-              gift stressless{" "}
+              <b className="text-argos">Go after the adjective:</b> How might we
+              have searching for a gift stressless{" "}
             </li>
             <li className="pb-2">
-              <b>Question an assumption:</b> How might remove the need for the
-              search functionality
+              <b className="text-argos">Question an assumption:</b> How might
+              remove the need for the search functionality
             </li>
             <li className="pb-2">
-              <b>Create an analogy using the established need or context:</b>{" "}
+              <b className="text-argos">
+                Create an analogy using the established need or context:
+              </b>{" "}
               How might we choosing a gift like the weekly shop
             </li>
             <li>
-              <b>Identify unexpected resources that can provide assistance:</b>{" "}
+              <b className="text-argos">
+                Identify unexpected resources that can provide assistance:
+              </b>{" "}
               How might we use previous purchases to help narrow down choices
             </li>
           </ul>
-          <h2 className="text-2xl font-semibold">Crazy Eights</h2>
+          <h2 className="text-xl font-semibold">Crazy Eights</h2>
           <p>I sketched some ideas on how the homepage may look like.</p>
           <StaticImage
             className="invisible sm:visible"
@@ -466,18 +470,18 @@ export default function retail() {
         </div>
       </div>
       <hr className="mt-6"></hr>
-      <h2 className="text-3xl text-center font-bold my-8 text-blue">
+      <h2 className="text-5xl text-center font-bold my-8 text-blue">
         <a id="prototype">Prototype</a>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
         <div className="sm:order-first order-last">
           <StaticImage alt="user-flow" src="../../images/user-flow.png" />
         </div>
-        <div className="p-8 text-center sm:text-left">
+        <div className="p-8 text-center sm:text-left self-center">
           <h2 className="text-3xl font-bold pb-2">
             StoryBoarding and Wireframing
           </h2>
-          <h2 className="text-2xl font-semibold">Goal Statement</h2>
+          <h2 className="text-xl font-semibold">Goal Statement</h2>
           <p className="pb-4">
             <b>Our</b> mobile design <b>will let users </b> navigate the
             homepage <b> which will affect </b> how easily it is for users to
@@ -485,7 +489,7 @@ export default function retail() {
             or unnecessary content. <b>We will measure effectiveness by </b>{" "}
             completion rates.
           </p>
-          <h2 className="text-2xl font-semibold">User Flow</h2>
+          <h2 className="text-xl font-semibold">User Flow</h2>
           <p>Opposite is the User Flow</p>
           <StaticImage
             className="invisible sm:visible"
@@ -500,7 +504,7 @@ export default function retail() {
         </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
-        <div className="p-8 text-center sm:text-left">
+        <div className="p-8 text-center sm:text-left self-center">
           <div>
             <h2 className="text-3xl font-semibold pb-4">Storyboard</h2>
             <p>
@@ -552,11 +556,11 @@ export default function retail() {
         </div>
       </div>
       <hr className="mt-6"></hr>
-      <h2 className="text-3xl text-center font-bold my-8">
+      <h2 className="text-3xl text-center font-bold my-12">
         Research Plan and Testing
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 mb-8">
-        <div className="p-8 text-center sm:text-left">
+        <div className="p-8 text-center sm:text-left self-center">
           <div className="text-3xl font-semibold pb-4">Research Plan</div>
           <p>
             Now that the Low Fidelity Wireframes are done I set out a Research
@@ -612,7 +616,7 @@ export default function retail() {
             </div>
           </div>
           <div className="grid grid-cols-3 pb-2">
-            <div className="bg-argos text-white text-center font-semibold text-xl">
+            <div className="bg-argos text-white text-center font-semibold text-xl pt-4">
               Key Performance Indicators(KPIs)
             </div>
             <div className="col-span-2">
@@ -726,7 +730,7 @@ export default function retail() {
             src="../../images/affinity-diagram.png"
           />
         </div>
-        <div className="p-8">
+        <div className="p-8 self-center">
           <div className="text-3xl font-semibold text-center sm:text-left pb-4">
             Affinity Diagram
           </div>
@@ -737,7 +741,7 @@ export default function retail() {
         </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8 text-center sm:text-left">
-        <div className="p-8">
+        <div className="p-8 self-center">
           <h3 className="text-3xl font-semibold mb-8">
             Affinity Grouping Diagram
           </h3>
@@ -759,7 +763,7 @@ export default function retail() {
             </li>
           </ul>
           <h4 className="text-xl font-semibold">Recommendations</h4>
-          <ul className="text-argos">
+          <ul className="text-argos text-xl">
             <li>
               <b>1. </b>
               Reduce the amount of links on the homepage.
@@ -777,7 +781,7 @@ export default function retail() {
         </div>
       </div>
       <hr className="mt-6"></hr>
-      <h2 className="text-3xl text-center font-bold my-8 text-blue">
+      <h2 className="text-5xl text-center font-bold my-8 text-blue">
         <a id="test">Test</a>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 text-center">
@@ -787,7 +791,7 @@ export default function retail() {
             src="../../images/argos-wireframe.png"
           />
         </div>
-        <div className="p-8 text-center sm:text-left">
+        <div className="p-8 text-center sm:text-left self-center">
           {" "}
           <div className="text-3xl font-semibold pb-4">
             High Fidelity Wireframes
@@ -800,7 +804,7 @@ export default function retail() {
         </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 text-center">
-        <div className="p-8 text-center sm:text-left">
+        <div className="p-8 text-center sm:text-left self-center">
           <div className="text-3xl font-semibold pb-4">
             Updated High Fidelity Diagrams
           </div>
@@ -808,11 +812,6 @@ export default function retail() {
             Feedback from the first Wireframes were that the links to the
             separate catagories could be placed into one carousel
           </p>
-          <div className="text-2xl font-semibold pb-4">Original Designs</div>
-          <StaticImage
-            alt="argos mobile homepage"
-            src="../../images/argos-original.png"
-          />
         </div>
         <div>
           <div className="text-2xl font-semibold text-argos pb-4">
