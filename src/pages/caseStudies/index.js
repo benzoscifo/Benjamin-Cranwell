@@ -52,18 +52,21 @@ export default function Projects({ data }) {
         </div>
       </section>
       <section className="bg-gray-200">
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center text-3xl font-semibold">
           <div className="md:w-1/2 flex flex-col md:text-left mb-16 md:mb-0 items-center text-center">
-            left
-            <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-              Button
-            </button>
+            Bloodhound
+            <Link
+              className="block w-full text-center sm:w-1/2 text-white bg-green border-0 py-2 px-6 focus:outline-none hover:bg-orange rounded text-lg mt-6"
+              to="/caseStudies/bloodhound"
+            >
+              Read the Case Study
+            </Link>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <StaticImage
               className="object-cover object-center rounded"
               alt="hero"
-              src="https://dummyimage.com/720x600/edf2f7/a5afbd"
+              src="../../images/bloodhound3.png"
               placeholder="tracedSVG"
               rotate="90"
             />

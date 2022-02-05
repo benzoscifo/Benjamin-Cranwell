@@ -12,7 +12,8 @@ module.exports = {
       green: "#10B981",
       blue: "#42A0F9",
       charcoal: "#333333",
-      orange: "#FFA500",
+      bloodhound: "#CD2D09",
+      white: "#FFFFFF",
     }),
     extend: {
       backgroundImage: {
@@ -24,6 +25,7 @@ module.exports = {
         blue: "#42A0F9",
         argos: "#FF0000",
         orange: "#FFA500",
+        bloodhound: "#CD2D09",
       },
     },
   },

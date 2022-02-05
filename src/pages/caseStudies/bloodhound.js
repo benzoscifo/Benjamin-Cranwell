@@ -2,26 +2,31 @@ import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../../components/Layout"
 
-export default function halfords() {
+export default function bloodhound() {
   return (
     <Layout>
       <div className="grid grid-cols-1 sm:grid-cols-2">
-        <div>
-          <StaticImage
-            alt="business man"
-            src="../../images/halfords-vector-logo.png"
-          />
+        <div className="text-center self-center">
+          <h2 className="text-6xl text-bloodhound font-extrabold">
+            Bloodhound<br></br>
+            <span className="text-4xl">app</span>
+          </h2>
         </div>
         <div className="p-8 text-center sm:text-left self-center">
-          <h2 className="text-2xl font-semibold">The Problem</h2>
+          <h2 className="text-2xl font-semibold">The Idea</h2>
           <p className="pb-4">
-            Booking a mobile tyre fitting is slow and confusing.
+            The App is targeted towards Employers enabling them to be aware of
+            any online behaviour their employees or potiental employees that may
+            not fit into their company values. With GDPR rules rightfully
+            protecting personal information only information that is freely
+            available on the web will be displayed.
           </p>
           <h2 className="text-2xl font-semibold">Project Summary</h2>
           <p>
-            I conducted a UX research review using a User Centered approach in
-            order to find out user pain points and thus help produce a better
-            experience when booking a mobile tyre fitting.
+            Beginning with user interview and understanding the needs of the
+            User I defined the problem, made some low fidelity wireframes, ran
+            user testing and finally produced high fidelity wireframes and
+            protoype.
           </p>
         </div>
       </div>
@@ -33,7 +38,7 @@ export default function halfords() {
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
             <a
               href="#empathize"
-              className="bg-charcoal hover:bg-orange rounded-full border p-3 text-center"
+              className="bg-bloodhound hover:bg-blue rounded-full border p-3 text-center"
             >
               <button className="underline hover:underline text-white font-bold py-2 px-4">
                 Empathize
@@ -41,7 +46,7 @@ export default function halfords() {
             </a>
             <a
               href="#define"
-              className="bg-charcoal hover:bg-orange rounded-full border p-3 text-center"
+              className="bg-bloodhound hover:bg-blue rounded-full border p-3 text-center"
             >
               <button className="underline hover:underline text-white font-bold py-2 px-4">
                 Define
@@ -49,15 +54,15 @@ export default function halfords() {
             </a>
             <a
               href="#ideate"
-              className="bg-charcoal hover:bg-orange rounded-full border p-3 text-center"
+              className="bg-bloodhound  hover:bg-blue rounded-full border p-3 text-center"
             >
-              <button className="underline hover:underline text-white font-bold py-2 px-4">
+              <button className="underline text-white font-bold py-2 px-4">
                 Ideate
               </button>
             </a>
             <a
               href="#prototype"
-              className="bg-charcoal hover:bg-orange rounded-full border p-3 text-center"
+              className="bg-bloodhound hover:bg-blue rounded-full border p-3 text-center"
             >
               <button className="underline hover:underline text-white font-bold py-2 px-4">
                 Prototype
@@ -65,7 +70,7 @@ export default function halfords() {
             </a>
             <a
               href="#test"
-              className="bg-charcoal hover:bg-orange rounded-full border p-3 text-center"
+              className="bg-bloodhound hover:bg-blue rounded-full border p-3 text-center"
             >
               <button className="underline hover:underline text-white font-bold py-2 px-4">
                 Test
@@ -75,7 +80,7 @@ export default function halfords() {
         </div>
       </section>
       <hr className="mt-6"></hr>
-      <h2 className="text-5xl text-center font-bold my-16 text-orange">
+      <h2 className="text-5xl text-center font-bold my-16 text-blue">
         <a id="empathize">Empathize</a>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
@@ -83,19 +88,21 @@ export default function halfords() {
           <h2 className="text-2xl font-semibold">User Interviews</h2>
           <ul className="pb-6">
             <li>
-              5 Participants from various backgrounds were chosen for initial
-              feedback on using the Halfords website for car repairs.
+              4 Participants that are involved in Human Resourse from medium and
+              large compaines were chosen for initial feedback on the App idea
+              and what features they would like.
             </li>
             <li>
-              None of the participants had never used the Halfords site for car
-              repairs. 2 of the participants had used the website to search of
-              cycling accessories.
+              All participants had used social media to run checks on potential
+              employees and current employees. However none of the participants
+              know of an app or have used an app to search someones social
+              media.
             </li>
           </ul>
           <h2 className="text-2xl font-semibold">Pain Points</h2>
           <ul className="pb-6">
             <li className="ml-5">
-              <b>1. </b>The call to action text on the Homepage is not clear.
+              <b>1. </b>.
             </li>
             <li className="ml-5">
               <b>2. </b>There wasn't a clear distinction between the Halfords
@@ -118,17 +125,21 @@ export default function halfords() {
           </p>
         </div>
         <div className="text-center">
-          <StaticImage
-            alt="business man"
-            src="../../images/halfords-empathy.jpg"
-          />
+          <div className="grid grid-cols-1 sm:grid-cols-2">
+            <div>Thinks</div>
+            <div>Feels</div>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2">
+            <div>Says</div>
+            <div>Does</div>
+          </div>
         </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
         <div className="border-solid border-2 text-center sm:text-left p-8 sm:order-first order-last">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div>
-              <StaticImage alt="women" src="../../images/persona.jpeg" />
+              <StaticImage alt="women" src="../../images/femalePersona.png" />
             </div>
             <div>
               <h3 className="underline font-semibold">Goals</h3>
@@ -299,7 +310,7 @@ export default function halfords() {
         </div>
       </div>
       <hr className="mt-6"></hr>
-      <h2 className="text-5xl text-center font-bold my-16 text-orange">
+      <h2 className="text-5xl text-center font-bold my-16 text-bloodhound">
         <a id="define">Define</a>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2">
@@ -317,16 +328,19 @@ export default function halfords() {
           </p>
         </div>
         <div>
-          <StaticImage alt="business man" src="../../images/car-phone.jpg" />
+          <StaticImage alt="business man" src="../../images/social-media.jpg" />
         </div>
       </div>
       <hr className="mt-6"></hr>
-      <div className="text-5xl text-center font-bold my-16 text-orange">
+      <div className="text-5xl text-center font-bold my-16 text-bloodhound">
         <a id="ideate">Ideate</a>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
-        <div>
-          <StaticImage alt="business man" src="../../images/kwik-fit.jpeg" />
+        <div className="text-center self-center">
+          <StaticImage
+            alt="business man"
+            src="../../images/socialCatfish.png"
+          />
         </div>
         <div className="p-8 text-center sm:text-left">
           <h2 className="text-2xl font-bold pb-4">Competetive Audit</h2>
@@ -341,7 +355,7 @@ export default function halfords() {
           </p>
           <h2 className="text-xl font-semibold">Procedure</h2>
           <p>I reviewed three different areas of each of the companies</p>
-          <ul className="text-orange">
+          <ul className="text-bloodhound">
             <li className="ml-5">
               <b>1. </b>Ease of booking
             </li>
@@ -429,37 +443,37 @@ export default function halfords() {
           <h2 className="text-xl font-semibold">How Might We</h2>
           <ul className="pb-4">
             <li className="pb-2">
-              <b className="text-orange">Amp up the good:</b> How might add to
-              benefits to choosing Halfords tyres
+              <b className="text-bloodhound">Amp up the good:</b> How might add
+              to benefits to choosing Halfords tyres
             </li>
             <li className="pb-2">
-              <b className="text-orange">Explore the opposite:</b> How might we
-              make visiting the mechanics more attractive
+              <b className="text-bloodhound">Explore the opposite:</b> How might
+              we make visiting the mechanics more attractive
             </li>
             <li className="pb-2">
-              <b className="text-orange">Change a status quo:</b> How might we
-              have people buy tyres other than because of MOT
+              <b className="text-bloodhound">Change a status quo:</b> How might
+              we have people buy tyres other than because of MOT
             </li>
             <li className="pb-2">
-              <b className="text-orange">Remove the bad:</b> How might we remove
-              the difficultly in booking an appointment
+              <b className="text-bloodhound">Remove the bad:</b> How might we
+              remove the difficultly in booking an appointment
             </li>
             <li className="pb-2">
-              <b className="text-orange">Go after the adjective:</b> How might
-              we the buying enjoyable rather than a chore
+              <b className="text-bloodhound">Go after the adjective:</b> How
+              might we the buying enjoyable rather than a chore
             </li>
             <li className="pb-2">
-              <b className="text-orange">Question an assumption:</b> How might
-              remove the need for an appointment
+              <b className="text-bloodhound">Question an assumption:</b> How
+              might remove the need for an appointment
             </li>
             <li className="pb-2">
-              <b className="text-orange">
+              <b className="text-bloodhound">
                 Create an analogy using the established need or context:
               </b>{" "}
               How might we make tyre purchasing like shopping on Amazon
             </li>
             <li>
-              <b className="text-orange">
+              <b className="text-bloodhound">
                 Identify unexpected resources that can provide assistance:
               </b>{" "}
               How might we use your MOT information to prefill all your address
@@ -487,7 +501,7 @@ export default function halfords() {
         </div>
       </div>
       <hr className="mt-6"></hr>
-      <h2 className="text-5xl text-center font-bold my-16 text-orange">
+      <h2 className="text-5xl text-center font-bold my-16 text-bloodhound">
         <a id="prototype">Prototype</a>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
@@ -595,7 +609,7 @@ export default function halfords() {
         </div>
         <div>
           <div className="grid grid-cols-3 pb-2">
-            <div className="bg-orange text-white text-center pt-8 font-semibold text-xl">
+            <div className="bg-bloodhound text-white text-center pt-8 font-semibold text-xl">
               Introduction
             </div>
             <div className="col-span-2">
@@ -624,7 +638,7 @@ export default function halfords() {
             </div>
           </div>
           <div className="grid grid-cols-3 pb-2">
-            <div className="bg-orange text-white text-center pt-8 font-semibold text-xl">
+            <div className="bg-bloodhound text-white text-center pt-8 font-semibold text-xl">
               Research questions
             </div>
             <div className="col-span-2">
@@ -644,7 +658,7 @@ export default function halfords() {
             </div>
           </div>
           <div className="grid grid-cols-3 pb-2">
-            <div className="bg-orange text-white text-center font-semibold text-xl pt-4">
+            <div className="bg-bloodhound text-white text-center font-semibold text-xl pt-4">
               Key Performance Indicators(KPIs)
             </div>
             <div className="col-span-2">
@@ -659,7 +673,7 @@ export default function halfords() {
             </div>
           </div>
           <div className="grid grid-cols-3 pb-2">
-            <div className="bg-orange text-white text-center pt-8 font-semibold text-xl">
+            <div className="bg-bloodhound text-white text-center pt-8 font-semibold text-xl">
               Methodology
             </div>
             <div className="col-span-2">
@@ -685,7 +699,7 @@ export default function halfords() {
             </div>
           </div>
           <div className="grid grid-cols-3 pb-2">
-            <div className="bg-orange text-white text-center pt-8 font-semibold text-xl">
+            <div className="bg-bloodhound text-white text-center pt-8 font-semibold text-xl">
               Participants
             </div>
             <div className="col-span-2">
@@ -701,7 +715,7 @@ export default function halfords() {
             </div>
           </div>
           <div className="grid grid-cols-3 pb-2">
-            <div className="bg-orange text-white text-center pt-8 font-semibold text-xl">
+            <div className="bg-bloodhound text-white text-center pt-8 font-semibold text-xl">
               Script
             </div>
             <div className="col-span-2">
@@ -798,7 +812,7 @@ export default function halfords() {
             </li>
           </ul>
           <h4 className="text-xl font-semibold">Recommendations</h4>
-          <ul className="text-orange text-xl">
+          <ul className="text-bloodhound text-xl">
             <li>
               <b>1. </b>Add step tracker to each page so users know where they
               are in the process
@@ -816,13 +830,13 @@ export default function halfords() {
         </div>
       </div>
       <hr className="mt-6"></hr>
-      <h2 className="text-5xl text-center font-bold my-16 text-orange">
+      <h2 className="text-5xl text-center font-bold my-16 text-bloodhound">
         <a id="test">Test</a>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 text-center">
         <div className="sm:order-first order-last">
           <StaticImage
-            alt="orange mobile homepage"
+            alt="bloodhound mobile homepage"
             src="../../images/halfords-high-wireframes.png"
           />
         </div>
@@ -850,7 +864,7 @@ export default function halfords() {
         </div>
         <div className="mb-12">
           <StaticImage
-            alt="orange mobile homepage"
+            alt="bloodhound mobile homepage"
             src="../../images/halfords-high.png"
           />
         </div>
