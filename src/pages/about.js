@@ -28,6 +28,11 @@ export default function about() {
               rotate="90"
               layout="constrained"
             />
+            <h1 className="title-font sm:text-4xl text-3xl mt-6 font-medium text-gray-900">
+              Born in <span className="text-green-400">Ireland</span> now living
+              in <span className="text-argos">London</span> by way of
+              <span className="text-yellow-400"> Australasia</span>
+            </h1>
           </div>
         </div>
       </div>
@@ -35,9 +40,9 @@ export default function about() {
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-              Born in <span className="text-green-400">Ireland</span> now living
-              in <span className="text-blue-400">London</span> by way of
-              <span className="text-yellow-400"> Australasia</span>
+              Front-End Web Developer that has a passion for{" "}
+              <span className="text-green-400">sustainability</span> and
+              creating better <span className="text-blue">mobile</span> designs
             </h1>
             <p className="mb-8 leading-relaxed">
               For the past seven years I have been working as a{" "}

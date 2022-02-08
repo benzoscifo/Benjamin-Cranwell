@@ -102,7 +102,7 @@ export default function bloodhound() {
           <h2 className="text-2xl font-semibold">Pain Points</h2>
           <ul className="pb-6">
             <li className="ml-5">
-              <b>1. No app available in Europe due to GDPR rules</b>.
+              <b>1. </b>No app available in Europe due to GDPR rules.
             </li>
             <li className="ml-5">
               <b>2. </b>Having to have separate social media accounts
@@ -116,17 +116,17 @@ export default function bloodhound() {
               Unable to view deleted posts and images
             </li>
           </ul>
+        </div>
+        <div className="p-8 text-center">
           <h2 className="text-2xl font-semibold">Empathy Map</h2>
           <p className="pb-6">
             I broke down each interview separately and then combined them in a
             single aggregated Empathy map.
           </p>
-        </div>
-        <div className="text-center">
           <div className="grid grid-cols-1 sm:grid-cols-2">
             <div className="p-2">
               <div className="text-2xl font-semibold underline">Feels</div>
-              <ul className="text-lg">
+              <ul className="text-sm">
                 <li>1. Feels its important to educate first </li>
                 <li>2. Feels that she should'nt have to do this task</li>
                 <li>3. Feels its an invasion of privicy</li>
@@ -137,7 +137,7 @@ export default function bloodhound() {
             </div>
             <div className="p-2">
               <div className="text-2xl font-semibold underline">Says</div>
-              <ul className="text-lg">
+              <ul className="text-sm">
                 <li>
                   1. Says thats it important for her company to maintain a good
                   image
@@ -159,7 +159,7 @@ export default function bloodhound() {
           <div className="grid grid-cols-1 sm:grid-cols-2">
             <div className="p-2">
               <div className="text-2xl font-semibold underline">Does</div>
-              <ul className="text-lg">
+              <ul className="text-sm">
                 <li>
                   1. Does a lot of reviewing forums that talk about workplaces
                 </li>
@@ -176,7 +176,7 @@ export default function bloodhound() {
             </div>
             <div className="p-2">
               <div className="text-2xl font-semibold underline">Thinks</div>
-              <ul className="text-lg">
+              <ul className="text-sm">
                 <li>
                   1. Thats it is possible wrong to be viewing peoples social
                   media
