@@ -17,7 +17,7 @@ module.exports = {
     }),
     extend: {
       backgroundImage: {
-        fireworksBackground: "url('../images/fireworks.jpg')",
+        oceanBackground: "url('../images/ocean.jpeg')",
       },
       colors: {
         white: "#FFFFFF",

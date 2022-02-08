@@ -681,7 +681,7 @@ export default function argos() {
           <div className="text-3xl font-semibold">Update</div>
           <StaticImage
             alt="argos mobile homepage"
-            src="../../images/argos-wireframe-update.png"
+            src="../../images/wireframe-homepage.png"
           />
         </div>
         <div>

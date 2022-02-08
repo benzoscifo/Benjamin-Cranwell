@@ -2,11 +2,35 @@ import React from "react"
 import Layout from "../components/Layout"
 import "../styles/global.css"
 import "./about.css"
+import { StaticImage } from "gatsby-plugin-image"
 
 export default function about() {
   return (
     <Layout>
-      <header className="bg-header flex items-center justify-center pb-12"></header>
+      <div className="container mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 text-center">
+          <div>
+            <StaticImage
+              className="object-cover object-center rounded"
+              alt="hero"
+              src="../images/powerscourt.jpg"
+              placeholder="tracedSVG"
+              rotate="90"
+              layout="constrained"
+            />
+          </div>
+          <div>
+            <StaticImage
+              className="object-cover object-center rounded"
+              alt="hero"
+              src="../images/grufflo.jpg"
+              placeholder="tracedSVG"
+              rotate="90"
+              layout="constrained"
+            />
+          </div>
+        </div>
+      </div>
       <section className="text-gray-700 body-font">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">

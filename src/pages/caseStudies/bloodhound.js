@@ -23,7 +23,7 @@ export default function bloodhound() {
           </p>
           <h2 className="text-2xl font-semibold">Project Summary</h2>
           <p>
-            Beginning with user interview and understanding the needs of the
+            Beginning with user interviews and understanding the needs of the
             User I defined the problem, made some low fidelity wireframes, ran
             user testing and finally produced high fidelity wireframes and
             protoype.
@@ -88,7 +88,7 @@ export default function bloodhound() {
           <h2 className="text-2xl font-semibold">User Interviews</h2>
           <ul className="pb-6">
             <li>
-              4 Participants that are involved in Human Resourse from medium and
+              2 Participants that are involved in Human Resourse from medium and
               large compaines were chosen for initial feedback on the App idea
               and what features they would like.
             </li>
@@ -102,20 +102,18 @@ export default function bloodhound() {
           <h2 className="text-2xl font-semibold">Pain Points</h2>
           <ul className="pb-6">
             <li className="ml-5">
-              <b>1. </b>.
+              <b>1. No app available in Europe due to GDPR rules</b>.
             </li>
             <li className="ml-5">
-              <b>2. </b>There wasn't a clear distinction between the Halfords
-              e-commerce and Halfords Services
+              <b>2. </b>Having to have separate social media accounts
             </li>
             <li className="ml-5">
               <b>3. </b>
-              Once your location is selected there is no button to book a
-              service
+              Not having time to go through all media posts
             </li>
             <li className="ml-5">
               <b>4. </b>
-              The checkout process is very confusing
+              Unable to view deleted posts and images
             </li>
           </ul>
           <h2 className="text-2xl font-semibold">Empathy Map</h2>
@@ -126,12 +124,71 @@ export default function bloodhound() {
         </div>
         <div className="text-center">
           <div className="grid grid-cols-1 sm:grid-cols-2">
-            <div>Thinks</div>
-            <div>Feels</div>
+            <div className="p-2">
+              <div className="text-2xl font-semibold underline">Feels</div>
+              <ul className="text-lg">
+                <li>1. Feels its important to educate first </li>
+                <li>2. Feels that she should'nt have to do this task</li>
+                <li>3. Feels its an invasion of privicy</li>
+                <li>
+                  4. Feels that there are more important tasks to focus on
+                </li>
+              </ul>
+            </div>
+            <div className="p-2">
+              <div className="text-2xl font-semibold underline">Says</div>
+              <ul className="text-lg">
+                <li>
+                  1. Says thats it important for her company to maintain a good
+                  image
+                </li>
+                <li>
+                  2. Says her day is too busy to look through all social media
+                  posts
+                </li>
+                <li>
+                  3. Say that she wants more time to spend on more important
+                  tasks
+                </li>
+                <li>
+                  4. Says that it should be the responsiblity of the employee
+                </li>
+              </ul>
+            </div>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2">
-            <div>Says</div>
-            <div>Does</div>
+            <div className="p-2">
+              <div className="text-2xl font-semibold underline">Does</div>
+              <ul className="text-lg">
+                <li>
+                  1. Does a lot of reviewing forums that talk about workplaces
+                </li>
+                <li>
+                  2. Does a lot of internal messaging about the dangers on
+                  posting online
+                </li>
+                <li>
+                  3. Does presentations to constantly update staff on the
+                  company policies{" "}
+                </li>
+                <li>4. Does spend time researcing new platforms</li>
+              </ul>
+            </div>
+            <div className="p-2">
+              <div className="text-2xl font-semibold underline">Thinks</div>
+              <ul className="text-lg">
+                <li>
+                  1. Thats it is possible wrong to be viewing peoples social
+                  media
+                </li>
+                <li>2. Thinks it's impossible to review everything</li>
+                <li>3. Thinks that people shouldn't be spyed on</li>
+                <li>
+                  4. Thinks that she needs more guidance on what is and isn't
+                  acceptable
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -145,16 +202,14 @@ export default function bloodhound() {
               <h3 className="underline font-semibold">Goals</h3>
               <ul>
                 <li>
-                  <b>1. </b>To easily book a call out service to replace worn
-                  tyres
+                  <b>1. </b>To have access to all social media platforms in one
+                  place
                 </li>
                 <li>
-                  <b>2. </b>To have a good selection of products at competitive
-                  prices
+                  <b>2. </b>Be able to find any employee's public posts
                 </li>
                 <li>
-                  <b>3. </b>To have a large appointment selection to fit in my
-                  busy work schedule
+                  <b>3. </b>Be able to filter by keywords
                 </li>
               </ul>
             </div>
@@ -162,36 +217,37 @@ export default function bloodhound() {
               <h3 className="underline font-semibold">Frustrations</h3>
               <ul>
                 <li>
-                  <b>1. </b>Not having time to have my car serviced
+                  <b>1. </b>Not having time to review all new and old images and
+                  posts
                 </li>
                 <li>
-                  <b>2. </b>Not been able to find an appointment that works for
-                  me
+                  <b>2. </b>Having to keep up-to-date with all new social media
+                  platforms
                 </li>
                 <li>
-                  <b>3. </b>Websites wanted my to sign up to use their services
+                  <b>3. </b>Not being able to see deleted images and posts
                 </li>
               </ul>
             </div>
             <div>
               <ul>
                 <li>
-                  <b>Name:</b> Ross
+                  <b>Name:</b> Sarah
                 </li>
                 <li>
-                  <b>Age:</b> 41
+                  <b>Age:</b> 28
                 </li>
                 <li>
-                  <b>Education:</b> Bachelors Undergradate
+                  <b>Education:</b> Masters
                 </li>
                 <li>
                   <b>Location:</b> London
                 </li>
                 <li>
-                  <b>Family:</b> 1 child
+                  <b>Family:</b> No children
                 </li>
                 <li>
-                  <b>Occupation:</b> Digital Marketing
+                  <b>Occupation:</b> Human Resources
                 </li>
               </ul>
             </div>
@@ -203,12 +259,11 @@ export default function bloodhound() {
         <div className="p-8 text-center sm:text-left self-center">
           <h2 className="text-2xl font-semibold">User Stories</h2>
           <p className="pb-4">
-            <b>As a</b> father of one running my own business
+            <b>As an</b> employee working at a large company
             <br></br>
             <b>I want </b>
-            to be able to book an appointment<br></br>
-            <b>so that</b> I be confident that my car will be service at time
-            that suits me.
+            to be able to review public post and images on social media<br></br>
+            <b>so that</b> I prevent any possible issues for the company.
           </p>
           <h2 className="text-2xl font-semibold">Personas</h2>
           <p>
@@ -227,12 +282,12 @@ export default function bloodhound() {
             <thead>
               <tr>
                 <th className="border">Action</th>
-                <th className="border">Choose Tyre Services</th>
-                <th className="border">Enter car details and location</th>
-                <th className="border">Select correct tyre</th>
-                <th className="border">Select appointment time</th>
-                <th className="border">Confirm time and location</th>
-                <th className="border">Pay and Checkout</th>
+                <th className="border">Choose a person</th>
+                <th className="border">Choose a social media platform</th>
+                <th className="border">Scroll through images/text</th>
+                <th className="border">Choose another social media platform</th>
+                <th className="border">Scroll through images/text</th>
+                <th className="border"></th>
               </tr>
             </thead>
             <tbody>
@@ -240,19 +295,19 @@ export default function bloodhound() {
                 <td className="border text-center">
                   <b>Task List</b>
                 </td>
-                <td className="border text-center">
-                  Scroll down homepage and select button
-                </td>
+                <td className="border text-center">Enter persons details</td>
 
                 <td className="border text-center">
-                  Enter car registration and postcode
-                </td>
-                <td className="border text-center">Select type of tyre</td>
-                <td className="border text-center">
-                  Choose an appropriate appointment time
+                  Select from the many social media platforms
                 </td>
                 <td className="border text-center">
-                  Confirm tyre and appointment time
+                  Scroll through the many images and/or posts
+                </td>
+                <td className="border text-center">
+                  Select another social media platform
+                </td>
+                <td className="border text-center">
+                  Scroll through more images and/or posts
                 </td>
                 <td className="border text-center">Pay for service</td>
               </tr>
@@ -261,20 +316,21 @@ export default function bloodhound() {
                   <b>Feeling Adjective</b>
                 </td>
                 <td className="border text-center">
-                  Confused with the wording of the call to action
+                  Annoyed that the user profile needs more details
                 </td>
                 <td className="border text-center">
-                  Frustrated to what to do after entering location and car reg
+                  Frustrated that there are so many social media platforms
                 </td>
                 <td className="border text-center">
-                  Confused to where I make my final tyre selection
+                  Annoyed at having to scroll through endless photos and posts
                 </td>
                 <td className="border text-center">
-                  Annoyed that the mobile service wasn't pre selected
+                  Frustrated that they need to log into a new social media
+                  platform
                 </td>
                 <td className="border text-center">
-                  Annoyed that the date and time aren't shown in the basket
-                  screen
+                  Annoyed at having to waste time scrolling through more images
+                  and posts
                 </td>
                 <td className="border text-center">
                   Confused about the Apply button during the checkout
@@ -285,21 +341,20 @@ export default function bloodhound() {
                   <b>Improvement Opportunities</b>
                 </td>
                 <td className="border text-center">
-                  Use clear wording to book a mobile service
+                  Display more users profiles rather than asking for more
+                  information of the person you are searching for
                 </td>
                 <td className="border text-center">
-                  Have it clearly sign posted on what you must do next
+                  Have a single page displaying all the social media platforms
                 </td>
                 <td className="border text-center">
-                  Make it clear that viewing the selected tyre is the next step
-                  in adding to your basket
+                  Have filtering so you can search keywords
                 </td>
                 <td className="border text-center">
-                  Have Mobile service pre selected when you land on your chosen
-                  tyre page
+                  Have a way to navigate easily to a new social media platform
                 </td>
                 <td className="border text-center">
-                  Display the date and time on users basket screen
+                  Have image recognition to filter images
                 </td>
                 <td className="border text-center">
                   Have a tooltip to make clear what certain buttons do
@@ -323,8 +378,10 @@ export default function bloodhound() {
           </p>
           <h2 className="text-2xl font-semibold">Hypothesis Statement</h2>
           <p>
-            <b>We believe that</b> clearer step process <b>for </b>Ross
-            <b> will </b>allow for an easier and quicker appointment scheduling.
+            <b>We believe that</b> an app that can gather all social media posts
+            in one place <b>for </b>Sarah
+            <b> will </b> free up time by reducing the amount she needs to spend
+            on social media platforms.
           </p>
         </div>
         <div>
@@ -346,131 +403,66 @@ export default function bloodhound() {
           <h2 className="text-2xl font-bold pb-4">Competetive Audit</h2>
           <h2 className="text-xl font-semibold">Objective</h2>
           <p className="pb-4">
-            Audit industry competitors to compare against Halfords user
-            experience
+            Audit industry competitors to compare against other simplier apps
           </p>
           <h2 className="text-xl font-semibold">Research Questions</h2>
           <p className="pb-4">
-            How do the other companies handle mobile type servicing.
+            How do other companies handle searching for social media posts.
           </p>
           <h2 className="text-xl font-semibold">Procedure</h2>
-          <p>I reviewed three different areas of each of the companies</p>
+          <p>
+            I tried to reviewed three different areas of each of the companies
+            apps
+          </p>
           <ul className="text-bloodhound">
             <li className="ml-5">
-              <b>1. </b>Ease of booking
+              <b>1. </b>How far back you could see posts and images
             </li>
             <li className="ml-5">
-              <b>2. </b>Appointment available
+              <b>2. </b>What social media platforms do they cover
             </li>
             <li className="ml-5">
-              <b>3. </b>Prices
+              <b>3. </b>Are they able to see deleted posts and images
             </li>
           </ul>
         </div>
       </div>
-      <table class="table-auto border border-seperate mb-8">
-        <thead>
-          <tr>
-            <th className="border">Competitive audit</th>
-            <th className="border">Competitor type</th>
-            <th className="border">Website</th>
-            <th className="border">Strengths</th>
-            <th className="border">Weaknesses</th>
-            <th className="border">Gaps</th>
-            <th className="border">Opportunities</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td className="border text-center">Kwik-Fit</td>
-            <td className="border text-center">Direct</td>
-            <td className="border text-center">www.kwik-fit.com</td>
-            <td className="border text-center">
-              A nice and clear User Experience when choosing tyres
-            </td>
-            <td className="border text-center">
-              Very little choice in mobile appointments
-            </td>
-            <td className="border text-center">
-              Not great for those needing an appointments urgently
-            </td>
-            <td className="border text-center">
-              Improve appointment booking to increase completion rates
-            </td>
-          </tr>
-          <tr class="bg-emerald-200">
-            <td className="border text-center">Mobile Tyre Fitting London</td>
-            <td className="border text-center">Direct</td>
-            <td className="border text-center">www.uktyres.co.uk</td>
-            <td className="border text-center">
-              Nice and clear form wizard to show where in the checkout process
-              you are
-            </td>
-            <td className="border text-center">
-              Don't provide coverage to London Zone 4
-            </td>
-            <td className="border text-center">
-              With minimal London coverage many Londoners viewing the site will
-              be unable to use their service
-            </td>
-            <td className="border text-center">
-              To be the number one mobile tyre service in London
-            </td>
-          </tr>
-          <tr>
-            <td className="border text-center">Blackcircles</td>
-            <td className="border text-center">Direct</td>
-            <td className="border text-center">www.blackcircles.com</td>
-            <td className="border text-center">
-              Earliest fitting date shown on each individual tyres
-            </td>
-            <td className="border text-center">
-              Appointment timings are either AM or PM
-            </td>
-            <td className="border text-center">
-              With vague appointment timings busy customers will go somewhere
-              else rather than waiting around all day for a mechanic.
-            </td>
-            <td className="border text-center">
-              Highlight the availability of your mechanics.
-            </td>
-          </tr>
-        </tbody>
-      </table>
+
       <div className="grid grid-cols-1 sm:grid-cols-2">
         <div className="p-8 text-center sm:text-left self-center">
           <h2 className="text-3xl font-semibold pb-4">Brainstorming</h2>
           <h2 className="text-xl font-semibold">How Might We</h2>
           <ul className="pb-4">
             <li className="pb-2">
-              <b className="text-bloodhound">Amp up the good:</b> How might add
-              to benefits to choosing Halfords tyres
+              <b className="text-bloodhound">Amp up the good:</b> How might we
+              make searching for people a beneficial for the searchee
             </li>
             <li className="pb-2">
               <b className="text-bloodhound">Explore the opposite:</b> How might
-              we make visiting the mechanics more attractive
+              we make one large database
             </li>
             <li className="pb-2">
               <b className="text-bloodhound">Change a status quo:</b> How might
-              we have people buy tyres other than because of MOT
+              we stop people posting images and posts on the internet
             </li>
             <li className="pb-2">
               <b className="text-bloodhound">Remove the bad:</b> How might we
-              remove the difficultly in booking an appointment
+              have no restriction on what we search for
             </li>
             <li className="pb-2">
               <b className="text-bloodhound">Go after the adjective:</b> How
-              might we the buying enjoyable rather than a chore
+              might we make profile search a legal practive
             </li>
             <li className="pb-2">
               <b className="text-bloodhound">Question an assumption:</b> How
-              might remove the need for an appointment
+              might we remove the need for social media
             </li>
             <li className="pb-2">
               <b className="text-bloodhound">
                 Create an analogy using the established need or context:
               </b>{" "}
-              How might we make tyre purchasing like shopping on Amazon
+              How might we make searching posts and images like looking at
+              Instagram
             </li>
             <li>
               <b className="text-bloodhound">
@@ -496,7 +488,7 @@ export default function bloodhound() {
         <div>
           <StaticImage
             alt="business man"
-            src="../../images/halfords-crazyeights.jpg"
+            src="../../images/bloodhound-crazy8.jpg"
           />
         </div>
       </div>
@@ -508,7 +500,7 @@ export default function bloodhound() {
         <div className="sm:order-first order-last">
           <StaticImage
             alt="user-flow"
-            src="../../images/halfords-userflow.png"
+            src="../../images/bloodhound-userflow.png"
           />
         </div>
         <div className="p-8 text-center sm:text-left self-center">
@@ -551,7 +543,7 @@ export default function bloodhound() {
         <div>
           <StaticImage
             alt="storyboard"
-            src="../../images/halfords-storyboard.jpg"
+            src="../../images/bloodhound-storyboard.jpg"
           />
         </div>
         <div></div>
@@ -560,38 +552,40 @@ export default function bloodhound() {
         <div>
           <StaticImage
             alt="wireframe"
-            src="../../images/halfords-paper-wireframe.jpg"
+            src="../../images/bloodhound-wireframe.jpg"
           />
         </div>
 
         <div>
-          <div className="grid grid-cols-2">
-            <div className="p-8">
-              <StaticImage
-                className="visible sm:invisible"
-                alt="user-flow"
-                src="../../images/arrow-up.jpg"
-              />
-              <h2 className="text-3xl font-semibold pb-4">Wireframe</h2>
-              <p>Low Fidelity Wireframes</p>
-              <p>
-                With the research and brainstorming done the next step was to
-                mock up some low fidelity wireframes.
-              </p>
-              <StaticImage
-                className="invisible sm:visible"
-                alt="user-flow"
-                src="../../images/arrow.jpg"
-              />
+          <div className="p-8">
+            <StaticImage
+              className="visible sm:invisible"
+              alt="user-flow"
+              src="../../images/arrow-up.jpg"
+            />
+            <h2 className="text-3xl font-semibold pb-4">Wireframe</h2>
+            <p>Low Fidelity Wireframes</p>
+            <p>
+              With the research and brainstorming done the next step was to mock
+              up some low fidelity wireframes.
+            </p>
+            <StaticImage
+              className="invisible sm:visible"
+              alt="user-flow"
+              src="../../images/arrow.jpg"
+            />
 
-              <StaticImage alt="user-flow" src="../../images/arrow-right.jpg" />
-            </div>
-            <div>
-              <StaticImage
-                alt="wireframe"
-                src="../../images/halfords-wireframe.png"
-              />
-            </div>
+            <StaticImage
+              className="m-2"
+              alt="down arrow"
+              src="../../images/arrow-down.jpg"
+            />
+          </div>
+          <div className="p-8">
+            <StaticImage
+              alt="wireframe"
+              src="../../images/bloodhound-low-wireframe.png"
+            />
           </div>
         </div>
       </div>
@@ -615,24 +609,22 @@ export default function bloodhound() {
             <div className="col-span-2">
               <ul className="p-2">
                 <li>
-                  <b>Title:</b> Redesigning the Halfords Mobile Fitting Service
-                  for Tyres in order to improve the user experience and increase
-                  conversion rates
+                  <b>Title:</b> Design an app that allows users to view
+                  different social media content in one single place
                 </li>
                 <li>
                   <b>Author:</b> Benjamin, UX researcher
                 </li>
                 <li>
-                  <b>Date:</b> Jan 2022
+                  <b>Date:</b> Feb 2022
                 </li>
                 <li>
-                  <b>Project background:</b> I am tweaking the user experience
-                  of booking of a mechanice
+                  <b>Project background:</b> I am designing from scratch the
+                  look and feel of the app
                 </li>
                 <li>
-                  <b>Research goals:</b> Figure out if making some small changes
-                  to the current process will improve the experience and
-                  completion rate.
+                  <b>Research goals:</b> To find out if users find the app easy
+                  to use and beneficial.
                 </li>
               </ul>
             </div>
@@ -644,15 +636,17 @@ export default function bloodhound() {
             <div className="col-span-2">
               <ul className="p-2">
                 <li>
-                  <b>1.</b> How do users find the information given when buying
-                  tyres
+                  <b>1.</b> Do users find the duration slider a helpful feature
                 </li>
                 <li>
-                  <b>2.</b> What do users think of the booking process
+                  <b>
+                    2. How do they find the layout of the results from the
+                    social media companies
+                  </b>
                 </li>
                 <li>
-                  <b>3.</b> What blockers did you encounter when trying to book
-                  a mechanic
+                  <b>3.</b> Does the results page show clearly the individual
+                  results
                 </li>
               </ul>
             </div>
@@ -667,7 +661,7 @@ export default function bloodhound() {
                   <b>1.</b> Time on task
                 </li>
                 <li>
-                  <b>2.</b> Conversion rates
+                  <b>2.</b> Correct search result
                 </li>
               </ul>
             </div>
@@ -682,13 +676,13 @@ export default function bloodhound() {
                   <b>Moderated Usability Study</b>
                 </li>
                 <li>
-                  <b>Location:</b> London and Dublin
+                  <b>Location:</b> London
                 </li>
                 <li>
-                  <b>Date:</b> Over Christmas/New Year 2021/2022
+                  <b>Date:</b> February 2022
                 </li>
                 <li>
-                  <b>Five</b> participants complete several tasks while under
+                  <b>2</b> participants complete several tasks while under
                   observation{" "}
                 </li>
                 <li>
@@ -705,11 +699,11 @@ export default function bloodhound() {
             <div className="col-span-2">
               <ul className="p-2">
                 <li>
-                  Participants are a mix of people who are all car owners that
-                  include new, used, large and small cars.
+                  Participants are two Human Resources employees that work in
+                  large companies based out of London
                 </li>
                 <li>
-                  <b>2 Female, 2 males</b>, aged between 35 and 75 years old
+                  <b>2 Females</b>, aged between 26 and 38 years old
                 </li>
               </ul>
             </div>
@@ -721,50 +715,53 @@ export default function bloodhound() {
             <div className="col-span-2">
               <ul className="p-2">
                 <li>
-                  <b>Prompt 1:</b> Open the Halfords website and select mobile
-                  tyre fitting. As you scroll down the page talk to me on what
-                  you see.
+                  <b>Prompt 1:</b> Open the App and enter the name Benjamin
+                  Cranwell.
                   <ul className="pl-8 list-disc">
                     <li>
-                      <b>Prompt 1 Follow up:</b> How easy was it find the button
-                      to bring you to the mobile fitting section.
+                      <b>Prompt 1 Follow up:</b> How did you find the search and
+                      results function of the app.
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <b>Prompt 2: </b>Enter your car registration and postcode,
-                  then select tyre fitting.
+                  <b>Prompt 2: </b>Choose the user Benjamin Cranwell and
+                  navigate to his profile page.
                   <ul className="pl-8 list-disc">
                     <li>
-                      <b>Prompt 2 Follow up:</b> How did you find this proces?,
-                      was it easy?.
+                      <b>Prompt 2 Follow up:</b> What do you think of the
+                      profile page? Is there something missing that you would
+                      like to see?.
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <b>Prompt 3: </b> Select the tyre that you want
+                  <b>Prompt 3: </b> Select the social media platform you want to
+                  review
                   <ul className="pl-8 list-disc">
                     <li>
-                      <b>Prompt 3 Follow up: </b> How did you feel when you
-                      chose your tyres?
+                      <b>Prompt 3 Follow up: </b> Tell me how you felt about the
+                      process of reviewing the social media content? Is there a
+                      different layout you would like to see?
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <b>Prompt 4:</b> Select an appointment day and time
+                  <b>Prompt 4:</b> Filter the content by keywords
                   <ul className="pl-8 list-disc">
                     <li>
-                      <b>Prompt 4 Follow up: </b> How did you feel about the
-                      choice and process of choosing an appointment?
+                      <b>Prompt 4 Follow up: </b> Was the filtering process as
+                      you expected? Did it help in making the process easier?
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <b>Prompt 4:</b> View basket and Checkout
+                  <b>Prompt 4:</b> Change results from Most Recent to One Month
+                  Old
                   <ul className="pl-8 list-disc">
                     <li>
-                      <b>Prompt 4 Follow up: </b> Did you feel confident and
-                      secure when finialising your appointment?
+                      <b>Prompt 4 Follow up: </b> How was is using the duration
+                      slider feature? Was the results layout as you wanted it?
                     </li>
                   </ul>
                 </li>
@@ -777,7 +774,7 @@ export default function bloodhound() {
         <div className="sm:order-first order-last">
           <StaticImage
             alt="infinity diagram"
-            src="../../images/halfords-affinity.jpg"
+            src="../../images/bloodhound-affinity-diagram.png"
           />
         </div>
         <div className="p-8 self-center">
@@ -798,34 +795,35 @@ export default function bloodhound() {
           <h4 className="text-xl font-semibold">Patterns and Themes</h4>
           <ul className="mb-4">
             <li>
-              It was observed that 4 out of 5 participants had some type of
-              confusion on the steps they needed to take during the process.
+              It was observed that 2 out of 2 participants felt that the filter
+              functionality needed to have more options.
             </li>
           </ul>
           <h4 className="text-xl font-semibold">Form insights</h4>
           <ul className="mb-4">
             <li>
               Based on the theme that{" "}
-              <b>for some of the users the process steps aren't clear</b>, an
-              insight is: there needs to be clearer sign posting when moving
-              through the different sections of the booking process.
+              <b>
+                for all of the users the filter component wasn't detailed enough
+              </b>
+              , an insight is: there needs to be more filter options to search
+              through posts.
             </li>
           </ul>
           <h4 className="text-xl font-semibold">Recommendations</h4>
           <ul className="text-bloodhound text-xl">
             <li>
-              <b>1. </b>Add step tracker to each page so users know where they
-              are in the process
+              <b>1. </b>Add more filters options
             </li>
             <li>
-              <b>2. </b> Move mobile services buttons above the fold
+              <b>2. </b> Allow to search multiple platforms at once
             </li>
           </ul>
         </div>
         <div>
           <StaticImage
             alt="infinity diagram"
-            src="../../images/halfords-grouped.jpg"
+            src="../../images/bloodhound-affinity-grouped-diagram.png"
           />
         </div>
       </div>
@@ -837,7 +835,7 @@ export default function bloodhound() {
         <div className="sm:order-first order-last">
           <StaticImage
             alt="bloodhound mobile homepage"
-            src="../../images/halfords-high-wireframes.png"
+            src="../../images/bloodhound-high.png"
           />
         </div>
         <div className="p-8 text-center sm:text-left self-center">
@@ -858,14 +856,14 @@ export default function bloodhound() {
             Updated High Fidelity Diagrams
           </div>
           <p>
-            Feedback from the first Wireframes showed that users wanted the step
-            tracker higher up the page.
+            Feedback from the first Wireframes and Prototype showed that users
+            wanted the search function on the page.
           </p>
         </div>
         <div className="mb-12">
           <StaticImage
             alt="bloodhound mobile homepage"
-            src="../../images/halfords-high.png"
+            src="../../images/bloodhound-high-update.png"
           />
         </div>
       </div>

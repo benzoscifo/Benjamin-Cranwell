@@ -27,7 +27,19 @@ export default function contact() {
                   class="form-control"
                   id="exampleInputName"
                   placeholder="name"
-                  className="shadow border rounded border-gray-300 py-3 px-6 mb-3 w-full"
+                  className="
+                  block
+                  w-full
+                  px-3
+                  py-3
+                  text-base
+                  font-normal
+                  text-gray-700
+                  bg-white bg-clip-padding
+                  border border-solid border-gray-300
+                  rounded
+                  m-0
+                "
                 />
               </div>
               <div className="mb-6">
@@ -44,7 +56,19 @@ export default function contact() {
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
                   placeholder="Enter email"
-                  className="shadow border rounded border-gray-300 py-3 px-6 mb-3 w-full"
+                  className="
+                  block
+                  w-full
+                  px-3
+                  py-3
+                  text-base
+                  font-normal
+                  text-gray-700
+                  bg-white bg-clip-padding
+                  border border-solid border-gray-300
+                  rounded
+                  m-0
+                "
                 />
               </div>
               <div className="mb-6">

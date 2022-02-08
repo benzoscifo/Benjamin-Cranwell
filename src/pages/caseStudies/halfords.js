@@ -337,7 +337,7 @@ export default function halfords() {
           </p>
           <h2 className="text-xl font-semibold">Research Questions</h2>
           <p className="pb-4">
-            How do the other companies handle mobile type servicing.
+            How do the other companies handle mobile tyre servicing.
           </p>
           <h2 className="text-xl font-semibold">Procedure</h2>
           <p>I reviewed three different areas of each of the companies</p>
@@ -429,8 +429,8 @@ export default function halfords() {
           <h2 className="text-xl font-semibold">How Might We</h2>
           <ul className="pb-4">
             <li className="pb-2">
-              <b className="text-orange">Amp up the good:</b> How might add to
-              benefits to choosing Halfords tyres
+              <b className="text-orange">Amp up the good:</b> How might we add
+              to benefits to choosing Halfords tyres
             </li>
             <li className="pb-2">
               <b className="text-orange">Explore the opposite:</b> How might we
@@ -450,7 +450,7 @@ export default function halfords() {
             </li>
             <li className="pb-2">
               <b className="text-orange">Question an assumption:</b> How might
-              remove the need for an appointment
+              we remove the need for an appointment
             </li>
             <li className="pb-2">
               <b className="text-orange">
@@ -467,7 +467,7 @@ export default function halfords() {
             </li>
           </ul>
           <h2 className="text-xl font-semibold">Crazy Eights</h2>
-          <p>I sketched some ideas on how the homepage may look like.</p>
+          <p>Opposite are some ideas I drew</p>
           <StaticImage
             className="invisible sm:visible"
             alt="user-flow"
@@ -494,7 +494,7 @@ export default function halfords() {
         <div className="sm:order-first order-last">
           <StaticImage
             alt="user-flow"
-            src="../../images/halfords-userflow.png"
+            src="../../images/halfords-user-flow.png"
           />
         </div>
         <div className="p-8 text-center sm:text-left self-center">
@@ -746,10 +746,10 @@ export default function halfords() {
                   </ul>
                 </li>
                 <li>
-                  <b>Prompt 4:</b> View basket and Checkout
+                  <b>Prompt 5:</b> View basket and Checkout
                   <ul className="pl-8 list-disc">
                     <li>
-                      <b>Prompt 4 Follow up: </b> Did you feel confident and
+                      <b>Prompt 5 Follow up: </b> Did you feel confident and
                       secure when finialising your appointment?
                     </li>
                   </ul>
