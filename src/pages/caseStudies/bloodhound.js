@@ -13,7 +13,9 @@ export default function bloodhound() {
           </h2>
         </div>
         <div className="p-8 text-center sm:text-left self-center">
-          <h2 className="text-2xl font-semibold">The Idea</h2>
+          <a id="topOfPage" className="text-2xl font-semibold">
+            The Idea
+          </a>{" "}
           <p className="pb-4">
             The App is targeted towards Employers enabling them to be aware of
             any online behaviour their employees or potiental employees that may
@@ -33,7 +35,7 @@ export default function bloodhound() {
       <section>
         <div className="container mx-auto px-5 m-10">
           <h2 className="text-2xl font-semibold pb-4 text-center">
-            User Centered Process
+            Use the quick links below to navigate to the different sections
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
             <a
@@ -277,8 +279,107 @@ export default function bloodhound() {
         <h2 className="text-2xl text-center font-semibold my-4">
           User Journey
         </h2>
-        <div>
-          <table class="table-auto border border-seperate">
+        <div className="block sm:hidden">
+          <table className="table-auto border border-seperate">
+            <thead>
+              <tr>
+                <th className="border">Action</th>
+                <th className="border">Task List</th>
+                <th className="border">Feeling Adjective</th>
+                <th className="border">Improvement Opportunities</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="border text-center">
+                  <b>Choose a person</b>
+                </td>
+                <td className="border text-center">Enter persons details</td>
+                <td className="border text-center">
+                  Annoyed that the user profile needs more details
+                </td>
+                <td className="border text-center">
+                  Display more user profiles rather than asking for more
+                  information of the person you are searching for
+                </td>
+              </tr>
+              <tr>
+                <td className="border text-center">
+                  <b>Choose a social media platform</b>
+                </td>
+                <td className="border text-center">
+                  Select from the many social media platforms
+                </td>
+                <td className="border text-center">
+                  Frustrated that there are so many social media platforms
+                </td>
+                <td className="border text-center">
+                  Have a single page displaying all the social media platforms
+                </td>
+              </tr>
+              <tr>
+                <td className="border text-center">
+                  <b>Scroll through images/text</b>
+                </td>
+                <td className="border text-center">
+                  Scroll through images/text
+                </td>
+                <td className="border text-center">
+                  Annoyed at having to scroll through endless photos and posts
+                </td>
+                <td className="border text-center">
+                  Have filtering so you can search keywords
+                </td>
+              </tr>
+              <tr>
+                <td className="border text-center">
+                  <b>Choose another social media platform</b>
+                </td>
+                <td className="border text-center">
+                  Select another media platform
+                </td>
+                <td className="border text-center">
+                  Frustrated that they need to log into a new social media
+                  platform
+                </td>
+                <td className="border text-center">
+                  Have a way to navigate easily to a new social media platform
+                </td>
+              </tr>
+              <tr>
+                <td className="border text-center">
+                  <b>Scroll through images/text</b>
+                </td>
+                <td className="border text-center">
+                  Scroll through more images and/or posts
+                </td>
+                <td className="border text-center">
+                  Annoyed at having waste time scrolling through more images and
+                  posts
+                </td>
+                <td className="border text-center">
+                  Have image recognition to filter images
+                </td>
+              </tr>
+              <tr>
+                <td className="border text-center">
+                  <b>Filter keywords</b>
+                </td>
+                <td className="border text-center">
+                  Choose a keyword to filter
+                </td>
+                <td className="border text-center">
+                  Disappointed it shows results from other users comments
+                </td>
+                <td className="border text-center">
+                  Only show results from the person you are searching
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div className="hidden sm:block">
+          <table className="table-auto border border-seperate">
             <thead>
               <tr>
                 <th className="border">Action</th>
@@ -287,7 +388,7 @@ export default function bloodhound() {
                 <th className="border">Scroll through images/text</th>
                 <th className="border">Choose another social media platform</th>
                 <th className="border">Scroll through images/text</th>
-                <th className="border"></th>
+                <th className="border">Filter keywords</th>
               </tr>
             </thead>
             <tbody>
@@ -309,9 +410,11 @@ export default function bloodhound() {
                 <td className="border text-center">
                   Scroll through more images and/or posts
                 </td>
-                <td className="border text-center">Pay for service</td>
+                <td className="border text-center">
+                  Choose a keyword to filter
+                </td>
               </tr>
-              <tr class="bg-emerald-200">
+              <tr className="bg-emerald-200">
                 <td className="border text-center">
                   <b>Feeling Adjective</b>
                 </td>
@@ -333,7 +436,7 @@ export default function bloodhound() {
                   and posts
                 </td>
                 <td className="border text-center">
-                  Confused about the Apply button during the checkout
+                  Disappointed it shows results from other users comments
                 </td>
               </tr>
               <tr>
@@ -341,7 +444,7 @@ export default function bloodhound() {
                   <b>Improvement Opportunities</b>
                 </td>
                 <td className="border text-center">
-                  Display more users profiles rather than asking for more
+                  Display more user profiles rather than asking for more
                   information of the person you are searching for
                 </td>
                 <td className="border text-center">
@@ -357,7 +460,7 @@ export default function bloodhound() {
                   Have image recognition to filter images
                 </td>
                 <td className="border text-center">
-                  Have a tooltip to make clear what certain buttons do
+                  Only show results from the person you are searching
                 </td>
               </tr>
             </tbody>
@@ -866,6 +969,16 @@ export default function bloodhound() {
             src="../../images/bloodhound-high-update.png"
           />
         </div>
+      </div>
+      <div className="text-center my-6">
+        <a
+          href="#topOfPage"
+          className="bg-argos hover:bg-argosLite rounded-full border p-3"
+        >
+          <button className="underline hover:underline text-white font-bold py-4 px-8">
+            Back to top
+          </button>
+        </a>
       </div>
     </Layout>
   )

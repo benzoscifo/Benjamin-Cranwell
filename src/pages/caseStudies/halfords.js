@@ -13,7 +13,9 @@ export default function halfords() {
           />
         </div>
         <div className="p-8 text-center sm:text-left self-center">
-          <h2 className="text-2xl font-semibold">The Problem</h2>
+          <a id="topOfPage" className="text-2xl font-semibold">
+            The Problem
+          </a>
           <p className="pb-4">
             Booking a mobile tyre fitting is slow and confusing.
           </p>
@@ -28,7 +30,7 @@ export default function halfords() {
       <section>
         <div className="container mx-auto px-5 m-10">
           <h2 className="text-2xl font-semibold pb-4 text-center">
-            User Centered Process
+            Use the quick links below to navigate to the different sections
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
             <a
@@ -211,8 +213,104 @@ export default function halfords() {
         <h2 className="text-2xl text-center font-semibold my-4">
           User Journey
         </h2>
-        <div>
-          <table class="table-auto border border-seperate">
+        <div className="block sm:hidden">
+          <table className="table-auto border border-seperate">
+            <thead>
+              <tr>
+                <th className="border">Competitive audit</th>
+                <th className="border">Kwik-Fit</th>
+                <th className="border">Mobile Tyre Fitting London</th>
+                <th className="border">Blackcircles</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="border text-center">
+                  <b>Competitor type</b>
+                </td>
+                <td className="border text-center">Direct</td>
+                <td className="border text-center">Direct</td>
+                <td className="border text-center">Direct</td>
+              </tr>
+              <tr>
+                <td className="border text-center">
+                  <b>Website</b>
+                </td>
+                <td className="border text-center">
+                  www.kwik-fit<br></br>.com
+                </td>
+                <td className="border text-center">
+                  www.uktyres<br></br>.co.uk
+                </td>
+                <td className="border text-center">
+                  www.blackcircles<br></br>.com
+                </td>
+              </tr>
+              <tr>
+                <td className="border text-center">
+                  <b>Strengths</b>
+                </td>
+                <td className="border text-center">
+                  A nice and clear UX when choosing tyres
+                </td>
+                <td className="border text-center">
+                  Nice and clear form wizard to show where in the checkout
+                  process you are
+                </td>
+                <td className="border text-center">
+                  Earliest fitting date shown on each individual tyres
+                </td>
+              </tr>
+              <tr>
+                <td className="border text-center">
+                  <b>Weaknesses</b>
+                </td>
+                <td className="border text-center">
+                  Very little choice in mobile appointments
+                </td>
+                <td className="border text-center">
+                  Don't provide coverage to London Zone 4
+                </td>
+                <td className="border text-center">
+                  Appointment timings are either AM or PM
+                </td>
+              </tr>
+              <tr>
+                <td className="border text-center">
+                  <b>Gaps</b>
+                </td>
+                <td className="border text-center">
+                  Not great for those needing appointments urgently
+                </td>
+                <td className="border text-center">
+                  With minimal London coverage many Londoners viewing the site
+                  will be unable to use their service
+                </td>
+                <td className="border text-center">
+                  With vague appointment timings busy customers will go
+                  somewhere else rather than waiting around all day for a
+                  mechanic
+                </td>
+              </tr>
+              <tr>
+                <td className="border text-center">
+                  <b>Opportunities</b>
+                </td>
+                <td className="border text-center">
+                  Improve appointment booking to increase completion rates
+                </td>
+                <td className="border text-center">
+                  To be the number one mobile tyre service service in London
+                </td>
+                <td className="border text-center">
+                  Highlight the availability of your mechanics
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div className="hidden sm:block">
+          <table className="table-auto border border-seperate">
             <thead>
               <tr>
                 <th className="border">Action</th>
@@ -245,7 +343,7 @@ export default function halfords() {
                 </td>
                 <td className="border text-center">Pay for service</td>
               </tr>
-              <tr class="bg-emerald-200">
+              <tr className="bg-emerald-200">
                 <td className="border text-center">
                   <b>Feeling Adjective</b>
                 </td>
@@ -253,7 +351,7 @@ export default function halfords() {
                   Confused with the wording of the call to action
                 </td>
                 <td className="border text-center">
-                  Frustrated to what to do after entering location and car reg
+                  Frustrated in what to do after entering location and car reg
                 </td>
                 <td className="border text-center">
                   Confused to where I make my final tyre selection
@@ -337,7 +435,7 @@ export default function halfords() {
           </p>
           <h2 className="text-xl font-semibold">Research Questions</h2>
           <p className="pb-4">
-            How do the other companies handle mobile tyre servicing.
+            How do the other companies handle mobile tyre servicing
           </p>
           <h2 className="text-xl font-semibold">Procedure</h2>
           <p>I reviewed three different areas of each of the companies</p>
@@ -354,75 +452,173 @@ export default function halfords() {
           </ul>
         </div>
       </div>
-      <table class="table-auto border border-seperate mb-8">
-        <thead>
-          <tr>
-            <th className="border">Competitive audit</th>
-            <th className="border">Competitor type</th>
-            <th className="border">Website</th>
-            <th className="border">Strengths</th>
-            <th className="border">Weaknesses</th>
-            <th className="border">Gaps</th>
-            <th className="border">Opportunities</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td className="border text-center">Kwik-Fit</td>
-            <td className="border text-center">Direct</td>
-            <td className="border text-center">www.kwik-fit.com</td>
-            <td className="border text-center">
-              A nice and clear User Experience when choosing tyres
-            </td>
-            <td className="border text-center">
-              Very little choice in mobile appointments
-            </td>
-            <td className="border text-center">
-              Not great for those needing an appointments urgently
-            </td>
-            <td className="border text-center">
-              Improve appointment booking to increase completion rates
-            </td>
-          </tr>
-          <tr class="bg-emerald-200">
-            <td className="border text-center">Mobile Tyre Fitting London</td>
-            <td className="border text-center">Direct</td>
-            <td className="border text-center">www.uktyres.co.uk</td>
-            <td className="border text-center">
-              Nice and clear form wizard to show where in the checkout process
-              you are
-            </td>
-            <td className="border text-center">
-              Don't provide coverage to London Zone 4
-            </td>
-            <td className="border text-center">
-              With minimal London coverage many Londoners viewing the site will
-              be unable to use their service
-            </td>
-            <td className="border text-center">
-              To be the number one mobile tyre service in London
-            </td>
-          </tr>
-          <tr>
-            <td className="border text-center">Blackcircles</td>
-            <td className="border text-center">Direct</td>
-            <td className="border text-center">www.blackcircles.com</td>
-            <td className="border text-center">
-              Earliest fitting date shown on each individual tyres
-            </td>
-            <td className="border text-center">
-              Appointment timings are either AM or PM
-            </td>
-            <td className="border text-center">
-              With vague appointment timings busy customers will go somewhere
-              else rather than waiting around all day for a mechanic.
-            </td>
-            <td className="border text-center">
-              Highlight the availability of your mechanics.
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <div className="block sm:hidden">
+        <table className="table-auto border border-seperate">
+          <thead>
+            <tr>
+              <th className="border">Action</th>
+              <th className="border">Task List</th>
+              <th className="border">Feeling Adjective</th>
+              <th className="border">Improvement Opportunities</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="border text-center">
+                <b>Choose Tyre Services</b>
+              </td>
+              <td className="border text-center">
+                Scroll down homepage and select button
+              </td>
+              <td className="border text-center">
+                Confused with the wording of the call to action
+              </td>
+              <td className="border text-center">
+                Use clear wording to book a mobile service
+              </td>
+            </tr>
+            <tr>
+              <td className="border text-center">
+                <b>Enter car details and location</b>
+              </td>
+              <td className="border text-center">
+                Enter car registration and postcode
+              </td>
+              <td className="border text-center">
+                Frustrated in what to do after entering location and car reg
+              </td>
+              <td className="border text-center">
+                Have it clearly sign posted on what you must do next
+              </td>
+            </tr>
+            <tr>
+              <td className="border text-center">
+                <b>Select correct tyre</b>
+              </td>
+              <td className="border text-center">Select type of tyre</td>
+              <td className="border text-center">
+                Confused to where I make my final tyre selection
+              </td>
+              <td className="border text-center">
+                Make it clear that viewing the selected tyre is the next step in
+                adding to your basket
+              </td>
+            </tr>
+            <tr>
+              <td className="border text-center">
+                <b>Select appointment time</b>
+              </td>
+              <td className="border text-center">
+                Choose an appropriate appointment time
+              </td>
+              <td className="border text-center">
+                Annoyed that the mobile service wasn't pre selected
+              </td>
+              <td className="border text-center">
+                Have Mobile service pre selected when you land on your chosen
+                tyre page
+              </td>
+            </tr>
+            <tr>
+              <td className="border text-center">
+                <b>Confirm time and location</b>
+              </td>
+              <td className="border text-center">
+                Confirm tyre and appointment time
+              </td>
+              <td className="border text-center">
+                Annoyed that the date and time aren't shown in the basket screen
+              </td>
+              <td className="border text-center">
+                Display the date and time on users basket screen
+              </td>
+            </tr>
+            <tr>
+              <td className="border text-center">
+                <b>Pay and Checkout</b>
+              </td>
+              <td className="border text-center">Pay for service</td>
+              <td className="border text-center">
+                Confused about the Apply button during the checkout
+              </td>
+              <td className="border text-center">
+                Have a tooltip to make clear what certain buttons do
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div className="hidden sm:block">
+        <table className="table-auto border border-seperate mb-8">
+          <thead>
+            <tr>
+              <th className="border">Competitive audit</th>
+              <th className="border">Competitor type</th>
+              <th className="border">Website</th>
+              <th className="border">Strengths</th>
+              <th className="border">Weaknesses</th>
+              <th className="border">Gaps</th>
+              <th className="border">Opportunities</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="border text-center">Kwik-Fit</td>
+              <td className="border text-center">Direct</td>
+              <td className="border text-center">www.kwik-fit.com</td>
+              <td className="border text-center">
+                A nice and clear User Experience when choosing tyres
+              </td>
+              <td className="border text-center">
+                Very little choice in mobile appointments
+              </td>
+              <td className="border text-center">
+                Not great for those needing appointments urgently
+              </td>
+              <td className="border text-center">
+                Improve appointment booking to increase completion rates
+              </td>
+            </tr>
+            <tr className="bg-emerald-200">
+              <td className="border text-center">Mobile Tyre Fitting London</td>
+              <td className="border text-center">Direct</td>
+              <td className="border text-center">www.uktyres.co.uk</td>
+              <td className="border text-center">
+                Nice and clear form wizard to show where in the checkout process
+                you are
+              </td>
+              <td className="border text-center">
+                Don't provide coverage to London Zone 4
+              </td>
+              <td className="border text-center">
+                With minimal London coverage many Londoners viewing the site
+                will be unable to use their service
+              </td>
+              <td className="border text-center">
+                To be the number one mobile tyre service in London
+              </td>
+            </tr>
+            <tr>
+              <td className="border text-center">Blackcircles</td>
+              <td className="border text-center">Direct</td>
+              <td className="border text-center">www.blackcircles.com</td>
+              <td className="border text-center">
+                Earliest fitting date shown on each individual tyres
+              </td>
+              <td className="border text-center">
+                Appointment timings are either AM or PM
+              </td>
+              <td className="border text-center">
+                With vague appointment timings busy customers will go somewhere
+                else rather than waiting around all day for a mechanic
+              </td>
+              <td className="border text-center">
+                Highlight the availability of your mechanics
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
       <div className="grid grid-cols-1 sm:grid-cols-2">
         <div className="p-8 text-center sm:text-left self-center">
           <h2 className="text-3xl font-semibold pb-4">Brainstorming</h2>
@@ -507,7 +703,7 @@ export default function halfords() {
             quickly find and book a mechanic <b> which will affect </b> how
             easily it is for users to complete the checkout process <b> by</b>{" "}
             cutting out any ambiguous wording or unnecessary steps.{" "}
-            <b>We will measure effectiveness by </b> completion rates.
+            <b>We will measure effectiveness by </b> completion rates
           </p>
           <h2 className="text-2xl font-semibold">User Flow</h2>
           <p>Opposite is the User Flow</p>
@@ -618,7 +814,7 @@ export default function halfords() {
                 <li>
                   <b>Research goals:</b> Figure out if making some small changes
                   to the current process will improve the experience and
-                  completion rate.
+                  completion rate
                 </li>
               </ul>
             </div>
@@ -679,7 +875,7 @@ export default function halfords() {
                 </li>
                 <li>
                   Each session will last <b>30 mins</b> and will include an
-                  introduction, a list of tasks and some follow up questions.
+                  introduction, a list of tasks and some follow up questions
                 </li>
               </ul>
             </div>
@@ -692,7 +888,7 @@ export default function halfords() {
               <ul className="p-2">
                 <li>
                   Participants are a mix of people who are all car owners that
-                  include new, used, large and small cars.
+                  include new, used, large and small cars
                 </li>
                 <li>
                   <b>2 Female, 2 males</b>, aged between 35 and 75 years old
@@ -709,21 +905,21 @@ export default function halfords() {
                 <li>
                   <b>Prompt 1:</b> Open the Halfords website and select mobile
                   tyre fitting. As you scroll down the page talk to me on what
-                  you see.
+                  you see
                   <ul className="pl-8 list-disc">
                     <li>
                       <b>Prompt 1 Follow up:</b> How easy was it find the button
-                      to bring you to the mobile fitting section.
+                      to bring you to the mobile fitting section
                     </li>
                   </ul>
                 </li>
                 <li>
                   <b>Prompt 2: </b>Enter your car registration and postcode,
-                  then select tyre fitting.
+                  then select tyre fitting
                   <ul className="pl-8 list-disc">
                     <li>
                       <b>Prompt 2 Follow up:</b> How did you find this proces?,
-                      was it easy?.
+                      was it easy?
                     </li>
                   </ul>
                 </li>
@@ -794,7 +990,7 @@ export default function halfords() {
               Based on the theme that{" "}
               <b>for some of the users the process steps aren't clear</b>, an
               insight is: there needs to be clearer sign posting when moving
-              through the different sections of the booking process.
+              through the different sections of the booking process
             </li>
           </ul>
           <h4 className="text-xl font-semibold">Recommendations</h4>
@@ -854,6 +1050,16 @@ export default function halfords() {
             src="../../images/halfords-high.png"
           />
         </div>
+      </div>
+      <div className="text-center my-6">
+        <a
+          href="#topOfPage"
+          className="bg-argos hover:bg-argosLite rounded-full border p-3"
+        >
+          <button className="underline hover:underline text-white font-bold py-4 px-8">
+            Back to top
+          </button>
+        </a>
       </div>
     </Layout>
   )

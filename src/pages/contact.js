@@ -15,32 +15,17 @@ export default function contact() {
               className="bg-blue shadow-md rounded px-4 sm:px-8 pt-6 pb-8 mb-4"
             >
               <div className="mb-4">
-                <label
-                  className="block text-gray-700 text-sm font-bold mb-2"
-                  for="exampleInputName"
-                >
-                  Name
+                <label class="block">
+                  <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+                    Name
+                  </span>
+                  <input
+                    type="email"
+                    name="email"
+                    class="mt-1 p-3 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1"
+                    placeholder="Enter name"
+                  />
                 </label>
-                <input
-                  type="text"
-                  name="fullname"
-                  class="form-control"
-                  id="exampleInputName"
-                  placeholder="name"
-                  className="
-                  block
-                  w-full
-                  px-3
-                  py-3
-                  text-base
-                  font-normal
-                  text-gray-700
-                  bg-white bg-clip-padding
-                  border border-solid border-gray-300
-                  rounded
-                  m-0
-                "
-                />
               </div>
               <div className="mb-6">
                 <label

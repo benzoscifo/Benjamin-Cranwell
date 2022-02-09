@@ -14,28 +14,12 @@ export default function Sustainability({ data }) {
               Button
             </button>
           </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <StaticImage
-              className="object-cover object-center rounded"
-              alt="hero"
-              src="https://dummyimage.com/720x600/edf2f7/a5afbd"
-              placeholder="tracedSVG"
-              rotate="90"
-            />
-          </div>
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6"></div>
         </div>
       </section>
       <section className="bg-green-400">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <StaticImage
-              className="object-cover object-center rounded"
-              alt="hero"
-              src="https://dummyimage.com/720x600/edf2f7/a5afbd"
-              placeholder="tracedSVG"
-              rotate="90"
-            />
-          </div>
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6"></div>
           <div className=" md:w-1/2 flex flex-col md:text-left mb-16 md:mb-0 items-center text-center">
             right
             <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
@@ -52,15 +36,7 @@ export default function Sustainability({ data }) {
               Button
             </button>
           </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <StaticImage
-              className="object-cover object-center rounded"
-              alt="hero"
-              src="https://dummyimage.com/720x600/edf2f7/a5afbd"
-              placeholder="tracedSVG"
-              rotate="90"
-            />
-          </div>
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6"></div>
         </div>
       </section>
     </Layout>

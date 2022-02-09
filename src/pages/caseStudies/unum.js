@@ -284,7 +284,7 @@ export default function argos() {
       </section>
       <section className="text-gray-700">
         <div className="container mx-auto px-5 py-24">
-          <div class="grid grid-cols-1 md:grid-cols-5 lg:grid-cols-9 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-5 lg:grid-cols-9 gap-4">
             <div className="border border-black rounded-sm p-8 lg:px-2 text-center">
               Empathize
             </div>
@@ -369,7 +369,7 @@ export default function argos() {
       </section>
       <section className="text-gray-700">
         <div className="container mx-auto px-5 py-24">
-          <table class="table-auto border border-seperate">
+          <table className="table-auto border border-seperate">
             <thead>
               <tr>
                 <th className="border">Title</th>
@@ -393,7 +393,7 @@ export default function argos() {
                   Tools and the Impact on Design
                 </td>
               </tr>
-              <tr class="bg-emerald-200">
+              <tr className="bg-emerald-200">
                 <td className="border text-center">
                   A Long and Winding Tour of the History of UI Frameworks and
                   Tools and the Impact on Design
@@ -429,7 +429,7 @@ export default function argos() {
       <section className="text-gray-700">
         <div className="container mx-auto px-5 py-24">
           <h3>Dave C.</h3>
-          <table class="table-auto border border-seperate">
+          <table className="table-auto border border-seperate">
             <thead>
               <tr>
                 <th className="border">1</th>
@@ -465,7 +465,7 @@ export default function argos() {
                   </ol>
                 </td>
               </tr>
-              <tr class="bg-emerald-200">
+              <tr className="bg-emerald-200">
                 <td className="border text-center">2</td>
                 <td className="border text-center">
                   Prompt 1: For the first task, I'd like you to open the app,

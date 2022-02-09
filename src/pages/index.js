@@ -56,10 +56,10 @@ export default function Home() {
                 />
                 <div className="p-4 flex-1 flex flex-col text-center">
                   <h3 className="mb-4 text-2xl">Argos</h3>
-                  <div class="mb-4 text-grey-darker text-sm flex-1">
+                  <div className="mb-4 text-grey-darker text-sm flex-1">
                     <p>Improving a user journey.</p>
                   </div>
-                  <div class="border-t border-grey-light pt-2 text-xs text-grey no-underline tracking-wide">
+                  <div className="border-t border-grey-light pt-2 text-xs text-grey no-underline tracking-wide">
                     <Link
                       className="block w-full text-center text-white bg-green border-0 py-2 px-6 focus:outline-none hover:bg-orange rounded text-lg"
                       to="/caseStudies/retail"
@@ -81,10 +81,10 @@ export default function Home() {
                 />
                 <div className="p-4 flex-1 flex flex-col text-center">
                   <h3 className="mb-4 text-2xl">Halfords</h3>
-                  <div class="mb-4 text-grey-darker text-sm flex-1">
+                  <div className="mb-4 text-grey-darker text-sm flex-1">
                     <p>Improving a user journey.</p>
                   </div>
-                  <div class="border-t border-grey-light pt-2 text-xs text-grey no-underline tracking-wide">
+                  <div className="border-t border-grey-light pt-2 text-xs text-grey no-underline tracking-wide">
                     <Link
                       className="block w-full text-center text-white bg-green border-0 py-2 px-6 focus:outline-none hover:bg-orange rounded text-lg"
                       to="/caseStudies/halfords"
@@ -104,13 +104,13 @@ export default function Home() {
                 />
                 <div className="p-4 flex-1 flex flex-col text-center">
                   <h3 className="mb-4 text-2xl">Bloodhound</h3>
-                  <div class="mb-4 text-grey-darker text-sm flex-1">
+                  <div className="mb-4 text-grey-darker text-sm flex-1">
                     <p>
                       An app for employers to help vet current or future
                       employees
                     </p>
                   </div>
-                  <div class="border-t border-grey-light pt-2 text-xs text-grey no-underline tracking-wide">
+                  <div className="border-t border-grey-light pt-2 text-xs text-grey no-underline tracking-wide">
                     <Link
                       className="block w-full text-center text-white bg-green border-0 py-2 px-6 focus:outline-none hover:bg-orange rounded text-lg"
                       to="/caseStudies/bloodhound"

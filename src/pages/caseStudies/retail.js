@@ -11,24 +11,26 @@ export default function retail() {
           <StaticImage alt="business man" src="../../images/argos-blue.png" />
         </div>
         <div className="p-8 text-center sm:text-left self-center">
-          <h2 className="text-2xl font-semibold">The Problem</h2>
+          <a id="topOfPage" className="text-2xl font-semibold">
+            The Problem
+          </a>
           <p className="pb-4">
-            The Argos website in mobile view has a confusing and bloated layout
-            which makes it difficuly to easily navigate.
+            When using Argos website in mobile view I found the layout confusing
+            and bloated which made it difficult to navigate.
           </p>
           <h2 className="text-2xl font-semibold">Project Summary</h2>
           <p>
             I conducted a UX research review using a User Centered approach in
-            order to find out user pain points and thus help produce a better
-            mobile user experience; this research included Usability Testing,
-            creating Personas, Wireframes and Prototypes.
+            order to find out user pain points and thus design a better mobile
+            user experience; this research included Usability Testing, creating
+            Personas, Wireframes and Prototyping.
           </p>
         </div>
       </div>
       <section>
         <div className="container mx-auto px-5 m-10">
           <h2 className="text-2xl font-semibold pb-4 text-center">
-            User Centered Process
+            Use the quick links below to navigate to the different sections
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
             <a
@@ -68,7 +70,7 @@ export default function retail() {
               className="bg-argos hover:bg-argosLite rounded-full border p-3 text-center"
             >
               <button className="underline hover:underline text-white font-bold py-2 px-4">
-                Test
+                Testing
               </button>
             </a>
           </div>
@@ -92,7 +94,7 @@ export default function retail() {
               were taken on what they liked and disliked about using the site.
             </li>
           </ul>
-          <h2 className="text-2xl font-semibold">Pain Points</h2>
+          <h2 className="text-2xl font-semibold">Main Pain Points</h2>
           <ul className="pb-6">
             <li className="ml-5">
               <b>1. </b>Returns procedure not easy to complete.
@@ -206,8 +208,103 @@ export default function retail() {
         <h2 className="text-2xl text-center font-semibold my-4">
           User Journey
         </h2>
-        <div>
-          <table class="table-auto border border-seperate">
+        <div className="block sm:hidden">
+          <table className="table-auto border border-seperate">
+            <thead>
+              <tr>
+                <th className="border">Action</th>
+                <th className="border">Task List</th>
+                <th className="border">Feeling Adjective</th>
+                <th className="border">Improvement Opportunities</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="border text-center">
+                  <b>Search Sale items</b>
+                </td>
+                <td className="border text-center">
+                  Filter through Categories
+                </td>
+                <td className="border text-center">
+                  Annoyed that she has to regularly look for toys
+                </td>
+                <td className="border text-center">
+                  Update user with new sale items regularly
+                </td>
+              </tr>
+              <tr>
+                <td className="border text-center">
+                  <b>Search for Present</b>
+                </td>
+                <td className="border text-center">
+                  Filter through Age and Gender toys
+                </td>
+                <td className="border text-center">
+                  Frustrated at searching through many irrelevant toys
+                </td>
+                <td className="border text-center">
+                  Offer more filter options
+                </td>
+              </tr>
+              <tr>
+                <td className="border text-center">
+                  <b>Select a Present</b>
+                </td>
+                <td className="border text-center">Select Toy or Toys</td>
+                <td className="border text-center">
+                  Worried about the quality and choice of present
+                </td>
+                <td className="border text-center">
+                  Have a video showing the toys been used by children
+                </td>
+              </tr>
+              <tr>
+                <td className="border text-center">
+                  <b>Go to Checkout</b>
+                </td>
+                <td className="border text-center">
+                  Review selected items and availability
+                </td>
+                <td className="border text-center">
+                  Worried that the present chosen isn't in her local Argos for
+                  pick up
+                </td>
+                <td className="border text-center">
+                  Have a filter option to show only toys in the users local
+                  store
+                </td>
+              </tr>
+              <tr>
+                <td className="border text-center">
+                  <b>Pay for Goods</b>
+                </td>
+                <td className="border text-center">Confirm items and Pay</td>
+                <td className="border text-center">
+                  Glad that the item has been chosen and is available
+                </td>
+                <td className="border text-center">
+                  Allow several choices for payment
+                </td>
+              </tr>
+              <tr>
+                <td className="border text-center">
+                  <b>Pick up items</b>
+                </td>
+                <td className="border text-center">Pick up items</td>
+                <td className="border text-center">
+                  Frustrated that she needs to dedicate time to pick up the
+                  present
+                </td>
+                <td className="border text-center">
+                  Have no minimum spend on same day delivery
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div className="hidden sm:block">
+          <table className="table-auto border border-seperate">
             <thead>
               <tr>
                 <th className="border">Action</th>
@@ -232,12 +329,12 @@ export default function retail() {
                 </td>
                 <td className="border text-center">Select Toy or Toys</td>
                 <td className="border text-center">
-                  Review selected items and availablity
+                  Review selected items and availability
                 </td>
                 <td className="border text-center">Confirm items and Pay</td>
                 <td className="border text-center">Pick up items</td>
               </tr>
-              <tr class="bg-emerald-200">
+              <tr className="bg-emerald-200">
                 <td className="border text-center">
                   <b>Feeling Adjective</b>
                 </td>
@@ -283,7 +380,7 @@ export default function retail() {
                   Allow several choices for payment
                 </td>
                 <td className="border text-center">
-                  Have no minimum on same day delivery
+                  Have no minimum spend on same day delivery
                 </td>
               </tr>
             </tbody>
@@ -346,70 +443,178 @@ export default function retail() {
           </ul>
         </div>
       </div>
-      <table class="table-auto border border-seperate mb-8">
-        <thead>
-          <tr>
-            <th className="border">Competitive audit</th>
-            <th className="border">Competitor type</th>
-            <th className="border">Website</th>
-            <th className="border">Strengths</th>
-            <th className="border">Weaknesses</th>
-            <th className="border">Gaps</th>
-            <th className="border">Opportunities</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td className="border text-center">Smyths</td>
-            <td className="border text-center">Direct</td>
-            <td className="border text-center">www.smythstoys.co.uk</td>
-            <td className="border text-center">
-              Good options for delivery and pick up, plus wide range of good
-              quality toys
-            </td>
-            <td className="border text-center">
-              Significantly less stores than Argos
-            </td>
-            <td className="border text-center">
-              Less ability to reach more people
-            </td>
-            <td className="border text-center">
-              Improve delivery options to entice more people to use Argos
-            </td>
-          </tr>
-          <tr class="bg-emerald-200">
-            <td className="border text-center">Amazon</td>
-            <td className="border text-center">Direct</td>
-            <td className="border text-center">www.amazon.co.uk</td>
-            <td className="border text-center">
-              Products ranging from all prices locally and international
-            </td>
-            <td className="border text-center">No physical stores</td>
-            <td className="border text-center">
-              With no physical stores their is no ability to speak to someone
-              physically about any issues or problems.
-            </td>
-            <td className="border text-center">Improve the returns process</td>
-          </tr>
-          <tr>
-            <td className="border text-center">BarginMax</td>
-            <td className="border text-center">Direct</td>
-            <td className="border text-center">www.barginmax.co.uk</td>
-            <td className="border text-center">
-              Large selection of medium and low priced toys<br></br>
-              Low priced free delivery
-            </td>
-            <td className="border text-center">No physical stores</td>
-            <td className="border text-center">
-              With no physical stores their is no ability to speak to someone
-              physically about any issues or problems.
-            </td>
-            <td className="border text-center">
-              Make the physical stores somewhere you want to visit.
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <div className="block sm:hidden">
+        <table className="table-auto border border-seperate">
+          <thead>
+            <tr>
+              <th className="border">Competitive audit</th>
+              <th className="border">
+                <b>Smyths</b>
+              </th>
+              <th className="border">
+                <b>Amazon</b>
+              </th>
+              <th className="border">
+                <b>BarginMax</b>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="border text-center">
+                <b>Competitor type</b>
+              </td>
+              <td className="border text-center">Direct</td>
+              <td className="border text-center">Direct</td>
+              <td className="border text-center">Direct</td>
+            </tr>
+            <tr>
+              <td className="border text-center">
+                <b>Website</b>
+              </td>
+              <td className="border text-center">
+                www.smythstoys<br></br>.co.uk
+              </td>
+              <td className="border text-center">
+                www.amazon<br></br>.co.uk
+              </td>
+              <td className="border text-center">
+                www.barginmax<br></br>.co.uk
+              </td>
+            </tr>
+            <tr>
+              <td className="border text-center">
+                <b>Strengths</b>
+              </td>
+              <td className="border text-center">
+                Good options for delivery and pick up, plus wide range of good
+                quality toys
+              </td>
+              <td className="border text-center">
+                Products ranging from all prices locally and international
+              </td>
+              <td className="border text-center">
+                Large selection of medium and low priced toys <br></br>Low
+                priced free delivery
+              </td>
+            </tr>
+            <tr>
+              <td className="border text-center">
+                <b>Weaknesses</b>
+              </td>
+              <td className="border text-center">
+                Significantly less stores than Argos
+              </td>
+              <td className="border text-center">No physical stores</td>
+              <td className="border text-center">No physical stores</td>
+            </tr>
+            <tr>
+              <td className="border text-center">
+                <b>Gaps</b>
+              </td>
+              <td className="border text-center">
+                Less ability to reach more people
+              </td>
+              <td className="border text-center">
+                With no physical stores their is no ability to speak to someone
+                physically about any issues or problems
+              </td>
+              <td className="border text-center">
+                With no physical stores their is no ability to speak to someone
+                physically about any issues or problems
+              </td>
+            </tr>
+            <tr>
+              <td className="border text-center">
+                <b>Opportunities</b>
+              </td>
+              <td className="border text-center">
+                Improve delivery options to entice more people to use Argos
+              </td>
+              <td className="border text-center">
+                Improve the returns process
+              </td>
+              <td className="border text-center">
+                Make the physical stores somewhere you want to visit
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div className="hidden sm:block">
+        <table className="table-auto border border-seperate mb-8">
+          <thead>
+            <tr>
+              <th className="border">Competitive audit</th>
+              <th className="border">Competitor type</th>
+              <th className="border">Website</th>
+              <th className="border">Strengths</th>
+              <th className="border">Weaknesses</th>
+              <th className="border">Gaps</th>
+              <th className="border">Opportunities</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="border text-center">
+                <b>Smyths</b>
+              </td>
+              <td className="border text-center">Direct</td>
+              <td className="border text-center">www.smythstoys.co.uk</td>
+              <td className="border text-center">
+                Good options for delivery and pick up, plus wide range of good
+                quality toys
+              </td>
+              <td className="border text-center">
+                Significantly less stores than Argos
+              </td>
+              <td className="border text-center">
+                Less ability to reach more people
+              </td>
+              <td className="border text-center">
+                Improve delivery options to entice more people to use Argos
+              </td>
+            </tr>
+            <tr className="bg-emerald-200">
+              <td className="border text-center">
+                <b>Amazon</b>
+              </td>
+              <td className="border text-center">Direct</td>
+              <td className="border text-center">www.amazon.co.uk</td>
+              <td className="border text-center">
+                Products ranging from all prices locally and international
+              </td>
+              <td className="border text-center">No physical stores</td>
+              <td className="border text-center">
+                With no physical stores their is no ability to speak to someone
+                physically about any issues or problems.
+              </td>
+              <td className="border text-center">
+                Improve the returns process
+              </td>
+            </tr>
+            <tr>
+              <td className="border text-center">
+                <b>BarginMax</b>
+              </td>
+              <td className="border text-center">Direct</td>
+              <td className="border text-center">www.barginmax.co.uk</td>
+              <td className="border text-center">
+                Large selection of medium and low priced toys<br></br>
+                Low priced free delivery
+              </td>
+              <td className="border text-center">No physical stores</td>
+              <td className="border text-center">
+                With no physical stores their is no ability to speak to someone
+                physically about any issues or problems.
+              </td>
+              <td className="border text-center">
+                Make the physical stores somewhere you want to visit.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
       <div className="grid grid-cols-1 sm:grid-cols-2">
         <div className="p-8 text-center sm:text-left self-center">
           <h2 className="text-3xl font-semibold pb-4">Brainstorming</h2>
@@ -822,6 +1027,16 @@ export default function retail() {
             src="../../images/argos-wireframe-update.png"
           />
         </div>
+      </div>
+      <div className="text-center my-6">
+        <a
+          href="#topOfPage"
+          className="bg-argos hover:bg-argosLite rounded-full border p-3"
+        >
+          <button className="underline hover:underline text-white font-bold py-4 px-8">
+            Back to top
+          </button>
+        </a>
       </div>
     </Layout>
   )

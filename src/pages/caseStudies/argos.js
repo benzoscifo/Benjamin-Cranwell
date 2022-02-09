@@ -162,7 +162,7 @@ export default function argos() {
       <div className="grid grid-cols-1 mb-8">
         <h2 className="text-2xl text-center font-semibold">User Journey</h2>
         <div>
-          <table class="table-auto border border-seperate">
+          <table className="table-auto border border-seperate">
             <thead>
               <tr>
                 <th className="border">Action</th>
@@ -190,7 +190,7 @@ export default function argos() {
                 <td className="border text-center">Confirm items and Pay</td>
                 <td className="border text-center">Pick up items</td>
               </tr>
-              <tr class="bg-emerald-200">
+              <tr className="bg-emerald-200">
                 <td className="border text-center">Feeling Adjective</td>
                 <td className="border text-center">
                   Annoyed that she has to regularly look for toys
@@ -290,7 +290,7 @@ export default function argos() {
           </ul>
         </div>
       </div>
-      <table class="table-auto border border-seperate mb-8">
+      <table className="table-auto border border-seperate mb-8">
         <thead>
           <tr>
             <th className="border">Competitive audit</th>
@@ -331,7 +331,7 @@ export default function argos() {
             <td className="border text-center">Adam</td>
             <td className="border text-center">858</td>
           </tr>
-          <tr class="bg-emerald-200">
+          <tr className="bg-emerald-200">
             <td className="border text-center">Amazon</td>
             <td className="border text-center">Direct</td>
             <td className="border text-center">www.amazon.co.uk</td>
