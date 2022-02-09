@@ -15,46 +15,30 @@ export default function contact() {
               className="bg-blue shadow-md rounded px-4 sm:px-8 pt-6 pb-8 mb-4"
             >
               <div className="mb-4">
-                <label class="block">
-                  <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+                <label className="block">
+                  <span className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-gray-700">
                     Name
                   </span>
                   <input
-                    type="email"
-                    name="email"
-                    class="mt-1 p-3 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1"
+                    type="text"
+                    name="text"
+                    className="mt-1 p-3 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1"
                     placeholder="Enter name"
                   />
                 </label>
               </div>
               <div className="mb-6">
-                <label
-                  className="block text-gray-700 text-sm font-bold mb-2"
-                  for="exampleInputEmail1"
-                >
-                  Email address
+                <label className="block">
+                  <span className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-gray-700">
+                    Email
+                  </span>
+                  <input
+                    type="email"
+                    name="email"
+                    className="mt-1 p-3 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1"
+                    placeholder="Enter email"
+                  />
                 </label>
-                <input
-                  type="email"
-                  name="email"
-                  class="form-control"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                  placeholder="Enter email"
-                  className="
-                  block
-                  w-full
-                  px-3
-                  py-3
-                  text-base
-                  font-normal
-                  text-gray-700
-                  bg-white bg-clip-padding
-                  border border-solid border-gray-300
-                  rounded
-                  m-0
-                "
-                />
               </div>
               <div className="mb-6">
                 <label
