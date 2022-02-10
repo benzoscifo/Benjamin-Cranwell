@@ -79,7 +79,7 @@ export default function contact() {
               Say hello
             </h1>
             <p className="mb-8 leading-relaxed">
-              Send me a message and we can organise to catch up.
+              Send me a message and we can chat.
             </p>
           </div>
         </div>

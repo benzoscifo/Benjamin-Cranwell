@@ -8,7 +8,44 @@ export default function Projects({ data }) {
   return (
     <Layout>
       <section className="bg-gray-200">
-        <div className="container mx-auto flex px-5 pt-24 pb-0 sm:pb-24 md:flex-row flex-col justify-center items-center text-3xl font-semibold">
+        {/* <div className="flex flex-row justify-around">
+          <div className="">
+            {" "}
+            <a
+              href="#argos"
+              className="bg-argos hover:bg-argosLite rounded-lg border py-3 px-6"
+            >
+              <button className="underline hover:underline text-white font-bold py-4 px-8">
+                Argos
+              </button>
+            </a>
+          </div>
+          <div className="">
+            <a
+              href="#halfords"
+              className="bg-charcoal hover:bg-orange rounded-full border p-3"
+            >
+              <button className="underline hover:underline text-white font-bold py-4 px-8">
+                Halfords
+              </button>
+            </a>
+          </div>
+          <div className="">
+            <a
+              href="#bloodhound"
+              className="bg-bloodhound hover:bg-argosLite rounded-full border p-3"
+            >
+              <button className="underline hover:underline text-white font-bold py-4 px-8">
+                Bloodhound App
+              </button>
+            </a>
+          </div>
+        </div> */}
+
+        <a
+          id="argos"
+          className="container mx-auto flex px-5 pt-24 pb-0 sm:pb-24 md:flex-row flex-col justify-center items-center text-3xl font-semibold"
+        >
           <div className="md:w-1/2 flex flex-col md:text-left mb-16 md:mb-0 items-center text-center">
             Argos
             <Link
@@ -27,10 +64,13 @@ export default function Projects({ data }) {
               rotate="90"
             />
           </div>
-        </div>
+        </a>
       </section>
       <section className="bg-gray-400">
-        <div className="container mx-auto flex px-5 pt-24 pb-0 sm:pb-24 md:flex-row flex-col items-center">
+        <a
+          id="halfords"
+          className="container mx-auto flex px-5 pb-0 sm:pb-24 md:flex-row flex-col items-center"
+        >
           <div className="md:w-1/2 sm:order-first order-last">
             <StaticImage
               className="object-cover object-center rounded"
@@ -49,10 +89,13 @@ export default function Projects({ data }) {
               Read the Case Study
             </Link>
           </div>
-        </div>
+        </a>
       </section>
       <section className="bg-gray-200">
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center text-3xl font-semibold">
+        <a
+          id="bloodhound"
+          className="container mx-auto flex px-5 pb-24 md:flex-row flex-col items-center text-3xl font-semibold"
+        >
           <div className="md:w-1/2 flex flex-col md:text-left mb-16 md:mb-0 items-center text-center">
             Bloodhound
             <Link
@@ -71,7 +114,7 @@ export default function Projects({ data }) {
               rotate="90"
             />
           </div>
-        </div>
+        </a>
       </section>
     </Layout>
   )
