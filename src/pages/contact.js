@@ -47,26 +47,12 @@ export default function contact() {
                 >
                   Message
                 </label>
-                <input
+                <textarea
                   type="text"
                   name="message"
-                  className="
-                      block
-                      w-full
-                      px-3
-                      py-1.5
-                      text-base
-                      font-normal
-                      text-gray-700
-                      bg-white bg-clip-padding
-                      border border-solid border-gray-300
-                      rounded
-                      m-0
-                    "
-                  id="exampleFormControlTextarea1"
-                  rows="3"
                   placeholder="Your message"
-                />
+                  className="mt-1 p-3 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1 leading-8"
+                ></textarea>
               </div>
               <button
                 type="submit"
