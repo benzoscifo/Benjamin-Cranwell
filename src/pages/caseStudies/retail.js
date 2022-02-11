@@ -473,13 +473,13 @@ export default function retail() {
                 <b>Website</b>
               </td>
               <td className="border text-center">
-                www.smythstoys<br></br>.co.uk
+                www.<br></br>smythstoys<br></br>.co.uk
               </td>
               <td className="border text-center">
                 www.amazon<br></br>.co.uk
               </td>
               <td className="border text-center">
-                www.barginmax<br></br>.co.uk
+                www.<br></br>barginmax<br></br>.co.uk
               </td>
             </tr>
             <tr>

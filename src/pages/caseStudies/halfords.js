@@ -241,7 +241,7 @@ export default function halfords() {
                   www.uktyres<br></br>.co.uk
                 </td>
                 <td className="border text-center">
-                  www.blackcircles<br></br>.com
+                  www.<br></br>blackcircles<br></br>.com
                 </td>
               </tr>
               <tr>
