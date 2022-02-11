@@ -122,7 +122,7 @@ export default function bloodhound() {
         <div className="p-8 text-center">
           <h2 className="text-2xl font-semibold">Empathy Map</h2>
           <p className="pb-6">
-            I broke down each interview separately and then combined them in a
+            I broke down both interviews separately and then combined them in a
             single aggregated Empathy map.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2">
@@ -253,9 +253,6 @@ export default function bloodhound() {
                 </li>
               </ul>
             </div>
-            <div col-span-2>
-              <p>Ross</p>
-            </div>
           </div>
         </div>
         <div className="p-8 text-center sm:text-left self-center">
@@ -264,14 +261,15 @@ export default function bloodhound() {
             <b>As an</b> employee working at a large company
             <br></br>
             <b>I want </b>
-            to be able to review public post and images on social media<br></br>
+            to be able to review public posts and images on social media
+            <br></br>
             <b>so that</b> I prevent any possible issues for the company.
           </p>
           <h2 className="text-2xl font-semibold">Personas</h2>
           <p>
-            From the interviews conducted I created 3 personas. Ross a busy CEO
-            is shown here, the other two personas were Ben a grandfather with
-            two old cars and Magaly a busy city worker.
+            From the interviews conducted I created 2 personas. Sarah a Human
+            Resources Manager is shown here, the other personas was another
+            Human Resources Manager based in a large Financial company.
           </p>
         </div>
       </div>
@@ -475,9 +473,13 @@ export default function bloodhound() {
         <div className="p-8 text-center sm:text-left self-center">
           <h2 className="text-2xl font-semibold">Problem Statement</h2>
           <p className="pb-4">
-            <b>Ross</b> is a <b>CEO of a small start-up </b> who needs
-            <b> to easily book a mobile car service</b> because{" "}
-            <b> he is very busy and unable to go to a car garage</b>
+            <b>Sarah</b> is a <b>Human Resources Manager </b> who needs
+            <b> to easily review employees public posts</b> because{" "}
+            <b>
+              {" "}
+              she is very busy and can't review every different social media
+              platform
+            </b>
           </p>
           <h2 className="text-2xl font-semibold">Hypothesis Statement</h2>
           <p>
@@ -515,7 +517,7 @@ export default function bloodhound() {
           <h2 className="text-xl font-semibold">Procedure</h2>
           <p>
             I tried to reviewed three different areas of each of the companies
-            apps
+            apps however due to GDPR rules in Europe I was unable to review any.
           </p>
           <ul className="text-bloodhound">
             <li className="ml-5">
@@ -571,8 +573,7 @@ export default function bloodhound() {
               <b className="text-bloodhound">
                 Identify unexpected resources that can provide assistance:
               </b>{" "}
-              How might we use your MOT information to prefill all your address
-              and billing details
+              How might we family members to feedback on a users posts
             </li>
           </ul>
           <h2 className="text-xl font-semibold">Crazy Eights</h2>
@@ -742,10 +743,8 @@ export default function bloodhound() {
                   <b>1.</b> Do users find the duration slider a helpful feature
                 </li>
                 <li>
-                  <b>
-                    2. How do they find the layout of the results from the
-                    social media companies
-                  </b>
+                  <b>2. </b>How do they find the layout of the results from the
+                  social media companies
                 </li>
                 <li>
                   <b>3.</b> Does the results page show clearly the individual

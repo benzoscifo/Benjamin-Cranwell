@@ -671,7 +671,7 @@ export default function retail() {
           />
         </div>
         <div>
-          <StaticImage alt="business man" src="../../images/crazy-8.jpeg" />
+          <StaticImage alt="business man" src="../../images/argos-crazy8.jpg" />
         </div>
       </div>
       <hr className="mt-6"></hr>
@@ -780,8 +780,7 @@ export default function retail() {
             <div className="col-span-2">
               <ul className="p-2">
                 <li>
-                  <b>Title:</b> Redesigning the Argos Homepage in mobile view in
-                  order to improve user experience when buying Toys
+                  <b>Title:</b> Redesigning the Argos Homepage in mobile view
                 </li>
                 <li>
                   <b>Author:</b> Benjamin, UX researcher
@@ -791,7 +790,8 @@ export default function retail() {
                 </li>
                 <li>
                   <b>Project background:</b> I am redesigning the Argos Homepage
-                  in mobile view to improve
+                  in mobile view in order to improve user experience when buying
+                  Toys
                 </li>
                 <li>
                   <b>Research goals:</b> Figure out if redesigning the mobile
@@ -940,8 +940,8 @@ export default function retail() {
             Affinity Diagram
           </div>
           <p>
-            Now its time to organise the data. Each post-it colour is a
-            participants responses.
+            Now its time to organise the data. Each post-it colour is an
+            individual participants response.
           </p>
         </div>
       </div>
@@ -1014,8 +1014,8 @@ export default function retail() {
             Updated High Fidelity Diagrams
           </div>
           <p className="pb-4">
-            Feedback from the first Wireframes were that the links to the
-            separate catagories could be placed into one carousel
+            Feedback from testing the first Wireframes were that the links to
+            the separate catagories could be placed into one carousel.
           </p>
         </div>
         <div>

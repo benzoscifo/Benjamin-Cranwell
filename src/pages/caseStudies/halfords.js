@@ -17,12 +17,13 @@ export default function halfords() {
             The Problem
           </a>
           <p className="pb-4">
-            Booking a mobile tyre fitting is slow and confusing.
+            Booking a mobile tyre fitting is slow and confusing on the Halfords
+            website.
           </p>
           <h2 className="text-2xl font-semibold">Project Summary</h2>
           <p>
             I conducted a UX research review using a User Centered approach in
-            order to find out user pain points and thus help produce a better
+            order to find out user pain points to help produce a better
             experience when booking a mobile tyre fitting.
           </p>
         </div>
@@ -97,7 +98,7 @@ export default function halfords() {
           <h2 className="text-2xl font-semibold">Pain Points</h2>
           <ul className="pb-6">
             <li className="ml-5">
-              <b>1. </b>The call to action text on the Homepage is not clear.
+              <b>1. </b>The button text on the Homepage is not clear.
             </li>
             <li className="ml-5">
               <b>2. </b>There wasn't a clear distinction between the Halfords
@@ -185,9 +186,6 @@ export default function halfords() {
                   <b>Occupation:</b> Digital Marketing
                 </li>
               </ul>
-            </div>
-            <div col-span-2>
-              <p>Ross</p>
             </div>
           </div>
         </div>
@@ -626,7 +624,7 @@ export default function halfords() {
           <ul className="pb-4">
             <li className="pb-2">
               <b className="text-orange">Amp up the good:</b> How might we add
-              to benefits to choosing Halfords tyres
+              in shop benefits to choosing Halfords tyres
             </li>
             <li className="pb-2">
               <b className="text-orange">Explore the opposite:</b> How might we
@@ -891,7 +889,7 @@ export default function halfords() {
                   include new, used, large and small cars
                 </li>
                 <li>
-                  <b>2 Female, 2 males</b>, aged between 35 and 75 years old
+                  <b>2 Female, 3 Males</b>, aged between 35 and 75 years old
                 </li>
               </ul>
             </div>
@@ -967,8 +965,8 @@ export default function halfords() {
             Affinity Diagram
           </div>
           <p>
-            Now its time to organise the data. Each post-it colour is a
-            participants responses.
+            Now its time to organise the data. Each post-it colour is an
+            individual participants responses.
           </p>
         </div>
       </div>
@@ -980,7 +978,7 @@ export default function halfords() {
           <h4 className="text-xl font-semibold">Patterns and Themes</h4>
           <ul className="mb-4">
             <li>
-              It was observed that 4 out of 5 participants had some type of
+              It was observed that 3 out of 4 participants had some type of
               confusion on the steps they needed to take during the process.
             </li>
           </ul>

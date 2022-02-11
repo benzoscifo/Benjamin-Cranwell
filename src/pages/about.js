@@ -40,7 +40,7 @@ export default function about() {
               <span className="text-green-400">sustainability</span> and
               creating better <span className="text-blue">mobile</span> designs
             </a>
-            <p className="mb-8 leading-relaxed">
+            <p className="leading-relaxed">
               For the past seven years I have been working as a{" "}
               <b>Front-End Web Developer</b> at a Design and Development agency
               based in Brixton. My passion is mobile design and development, I
@@ -49,20 +49,20 @@ export default function about() {
               clearly as an after thought.
             </p>
           </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full">
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full text-center md:text-left self-end">
             <p>
               During my time as a front-end developer I have worked closely
               along side our design team and delivery team in producing high
               quality products for large local and international companies. I
               have worked on small projects solo and worked on large projects in
               which myself and my collegues work closely with the client and
-              their desgin team.
+              their design team.
             </p>
           </div>
         </div>
       </section>
       <section className="text-gray-700 body-font">
-        <div className="container mx-auto flex px-5 pb-24 md:flex-row flex-col items-center">
+        <div className="container mx-auto flex px-5 pb-24 md:flex-row flex-col text-center md:text-left items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
               A little bit more about{" "}
