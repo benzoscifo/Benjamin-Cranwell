@@ -15,15 +15,15 @@ export default function retail() {
             The Problem
           </a>
           <p className="pb-4">
-            When using Argos website in mobile view I found the layout confusing
-            and bloated which made it difficult to navigate.
+            When using the Argos website in mobile view I found the layout
+            confusing and bloated which made it difficult to navigate.
           </p>
           <h2 className="text-2xl font-semibold">Project Summary</h2>
           <p>
             I conducted a UX research review using a User Centered approach in
-            order to find out user pain points and thus design a better mobile
-            user experience; this research included Usability Testing, creating
-            Personas, Wireframes and Prototyping.
+            order to find out user pain points and thus design a new layout for
+            a better User Experience; this research included Usability Testing,
+            creating Personas, Wireframes and Prototyping.
           </p>
         </div>
       </div>
