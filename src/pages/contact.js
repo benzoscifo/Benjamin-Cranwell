@@ -47,7 +47,9 @@ export default function contact() {
                 >
                   Message
                 </label>
-                <textarea
+                <input
+                  type="text"
+                  name="message"
                   className="
                       block
                       w-full
@@ -64,7 +66,7 @@ export default function contact() {
                   id="exampleFormControlTextarea1"
                   rows="3"
                   placeholder="Your message"
-                ></textarea>
+                />
               </div>
               <button
                 type="submit"
