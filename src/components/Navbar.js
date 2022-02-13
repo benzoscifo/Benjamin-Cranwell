@@ -48,7 +48,7 @@ export default function Navbar() {
             </div>
             <div>
               <a
-                href="/sustainability"
+                href="/sustainable"
                 className="mr-0 sm:mr-5 text-green hover:text-yellow-400 underline decoration-1 font-semibold"
               >
                 Sustainability
