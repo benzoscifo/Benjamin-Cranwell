@@ -17,7 +17,7 @@ export default function Navbar() {
               width={45}
               aspectRatio={1}
             />
-            <span className="ml-3 text-xl hover:text-green-500 hover:underline">
+            <span className="ml-3 text-xl hover:text-green hover:underline">
               Benjamin Cranwell
             </span>
           </Link>
@@ -25,7 +25,7 @@ export default function Navbar() {
             <div>
               <a
                 href="/caseStudies"
-                className="mr-0 sm:mr-5 text-green-400 hover:text-yellow-400 underline decoration-1 font-semibold"
+                className="mr-0 sm:mr-5 text-green hover:text-yellow-400 underline decoration-1 font-semibold"
               >
                 Case Studies
               </a>
@@ -33,7 +33,7 @@ export default function Navbar() {
             <div>
               <a
                 href="/about"
-                className="mr-0 sm:mr-5 text-green-400 hover:text-yellow-400 underline decoration-1 font-semibold"
+                className="mr-0 sm:mr-5 text-green hover:text-yellow-400 underline decoration-1 font-semibold"
               >
                 About
               </a>
@@ -41,9 +41,17 @@ export default function Navbar() {
             <div>
               <a
                 href="/contact"
-                className="mr-0 sm:mr-5 text-green-400 hover:text-yellow-400 underline decoration-1 font-semibold"
+                className="mr-0 sm:mr-5 text-green hover:text-yellow-400 underline decoration-1 font-semibold"
               >
                 Contact
+              </a>
+            </div>
+            <div>
+              <a
+                href="/sustainability"
+                className="mr-0 sm:mr-5 text-green hover:text-yellow-400 underline decoration-1 font-semibold"
+              >
+                Sustainability
               </a>
             </div>
           </nav>

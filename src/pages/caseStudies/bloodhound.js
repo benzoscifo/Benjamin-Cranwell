@@ -827,8 +827,8 @@ export default function bloodhound() {
                   </ul>
                 </li>
                 <li>
-                  <b>Prompt 2: </b>Choose the user Benjamin Cranwell and
-                  navigate to his profile page.
+                  <b>Prompt 2: </b>Choose the user Benjamin Cranwell based in
+                  London and navigate to his profile page.
                   <ul className="pl-8 list-disc">
                     <li>
                       <b>Prompt 2 Follow up:</b> What do you think of the

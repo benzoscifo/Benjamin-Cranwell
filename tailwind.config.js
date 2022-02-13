@@ -26,6 +26,7 @@ module.exports = {
         argos: "#FF0000",
         orange: "#FFA500",
         bloodhound: "#CD2D09",
+        green: "#10B981",
       },
     },
   },
