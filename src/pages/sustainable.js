@@ -34,12 +34,12 @@ export default function Sustainability() {
             </p>
           </div>
         </div>
-        <div className="text-3xl font-semibold text-center py-12">
+        <h2 className="text-3xl font-semibold text-center py-12">
           Below are some <span className="text-yellow-400">alternative</span>{" "}
           ideas on how to make <span className="text-argos">your</span> web page
           more
           <span className="text-green"> sustainable</span>
-        </div>
+        </h2>
         <div className="grid grid-cols-1 sm:grid-cols-3 text-center">
           <div className="p-8">
             <h3 className="text-2xl font-semibold pb-4 text-yellow-400">

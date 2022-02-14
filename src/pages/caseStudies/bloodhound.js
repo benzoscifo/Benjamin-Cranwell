@@ -5,17 +5,20 @@ import Layout from "../../components/Layout"
 export default function bloodhound() {
   return (
     <Layout>
+      <h1 className="sr-only">Bloodhound Case Study</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2">
         <div className="text-center self-center">
-          <h2 className="text-6xl text-bloodhound font-extrabold">
+          <div className="text-6xl text-bloodhound font-extrabold">
             Bloodhound<br></br>
             <span className="text-4xl">app</span>
-          </h2>
+          </div>
         </div>
         <div className="p-8 text-center sm:text-left self-center">
-          <a id="topOfPage" className="text-2xl font-semibold">
-            The Idea
-          </a>{" "}
+          <h2>
+            <a id="topOfPage" className="text-2xl font-semibold">
+              The Idea
+            </a>
+          </h2>
           <p className="pb-4">
             The App is targeted towards Employers enabling them to be aware of
             any online behaviour their employees or potiental employees that may
@@ -34,9 +37,9 @@ export default function bloodhound() {
       </div>
       <section>
         <div className="container mx-auto px-5 m-10">
-          <h2 className="text-2xl font-semibold pb-4 text-center">
+          <h3 className="text-2xl font-semibold pb-4 text-center">
             Use the quick links below to navigate to the different sections
-          </h2>
+          </h3>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
             <a
               href="#empathize"
@@ -87,7 +90,7 @@ export default function bloodhound() {
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
         <div className="p-8 text-center sm:text-left self-center">
-          <h2 className="text-2xl font-semibold">User Interviews</h2>
+          <h3 className="text-2xl font-semibold">User Interviews</h3>
           <ul className="pb-6">
             <li>
               2 Participants that are involved in Human Resourse from medium and
@@ -101,7 +104,7 @@ export default function bloodhound() {
               media.
             </li>
           </ul>
-          <h2 className="text-2xl font-semibold">Pain Points</h2>
+          <h3 className="text-2xl font-semibold">Pain Points</h3>
           <ul className="pb-6">
             <li className="ml-5">
               <b>1. </b>No app available in Europe due to GDPR rules.
@@ -120,7 +123,7 @@ export default function bloodhound() {
           </ul>
         </div>
         <div className="p-8 text-center">
-          <h2 className="text-2xl font-semibold">Empathy Map</h2>
+          <h3 className="text-2xl font-semibold">Empathy Map</h3>
           <p className="pb-6">
             I broke down both interviews separately and then combined them in a
             single aggregated Empathy map.
@@ -256,7 +259,7 @@ export default function bloodhound() {
           </div>
         </div>
         <div className="p-8 text-center sm:text-left self-center">
-          <h2 className="text-2xl font-semibold">User Stories</h2>
+          <h3 className="text-2xl font-semibold">User Stories</h3>
           <p className="pb-4">
             <b>As an</b> employee working at a large company
             <br></br>
@@ -265,7 +268,7 @@ export default function bloodhound() {
             <br></br>
             <b>so that</b> I prevent any possible issues for the company.
           </p>
-          <h2 className="text-2xl font-semibold">Personas</h2>
+          <h3 className="text-2xl font-semibold">Personas</h3>
           <p>
             From the interviews conducted I created 2 personas. Sarah a Human
             Resources Manager is shown here, the other personas was another
@@ -274,9 +277,9 @@ export default function bloodhound() {
         </div>
       </div>
       <div className="grid grid-cols-1 mb-8">
-        <h2 className="text-2xl text-center font-semibold my-4">
+        <h3 className="text-2xl text-center font-semibold my-4">
           User Journey
-        </h2>
+        </h3>
         <div className="block sm:hidden">
           <table className="table-auto border border-seperate">
             <thead>
@@ -471,7 +474,7 @@ export default function bloodhound() {
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2">
         <div className="p-8 text-center sm:text-left self-center">
-          <h2 className="text-2xl font-semibold">Problem Statement</h2>
+          <h3 className="text-2xl font-semibold">Problem Statement</h3>
           <p className="pb-4">
             <b>Sarah</b> is a <b>Human Resources Manager </b> who needs
             <b> to easily review employees public posts</b> because{" "}
@@ -481,7 +484,7 @@ export default function bloodhound() {
               platform
             </b>
           </p>
-          <h2 className="text-2xl font-semibold">Hypothesis Statement</h2>
+          <h3 className="text-2xl font-semibold">Hypothesis Statement</h3>
           <p>
             <b>We believe that</b> an app that can gather all social media posts
             in one place <b>for </b>Sarah
@@ -495,7 +498,9 @@ export default function bloodhound() {
       </div>
       <hr className="mt-6"></hr>
       <div className="text-5xl text-center font-bold my-16 text-bloodhound">
-        <a id="ideate">Ideate</a>
+        <h2>
+          <a id="ideate">Ideate</a>
+        </h2>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
         <div className="text-center self-center">
@@ -505,16 +510,16 @@ export default function bloodhound() {
           />
         </div>
         <div className="p-8 text-center sm:text-left">
-          <h2 className="text-2xl font-bold pb-4">Competetive Audit</h2>
-          <h2 className="text-xl font-semibold">Objective</h2>
+          <h3 className="text-3xl font-bold pb-4">Competetive Audit</h3>
+          <h4 className="text-xl font-semibold">Objective</h4>
           <p className="pb-4">
             Audit industry competitors to compare against other simplier apps
           </p>
-          <h2 className="text-xl font-semibold">Research Questions</h2>
+          <h4 className="text-xl font-semibold">Research Questions</h4>
           <p className="pb-4">
             How do other companies handle searching for social media posts.
           </p>
-          <h2 className="text-xl font-semibold">Procedure</h2>
+          <h4 className="text-xl font-semibold">Procedure</h4>
           <p>
             I tried to reviewed three different areas of each of the companies
             apps however due to GDPR rules in Europe I was unable to review any.
@@ -535,8 +540,8 @@ export default function bloodhound() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2">
         <div className="p-8 text-center sm:text-left self-center">
-          <h2 className="text-3xl font-semibold pb-4">Brainstorming</h2>
-          <h2 className="text-xl font-semibold">How Might We</h2>
+          <h3 className="text-3xl font-semibold pb-4">Brainstorming</h3>
+          <h4 className="text-xl font-semibold">How Might We</h4>
           <ul className="pb-4">
             <li className="pb-2">
               <b className="text-bloodhound">Amp up the good:</b> How might we
@@ -576,7 +581,7 @@ export default function bloodhound() {
               How might we family members to feedback on a users posts
             </li>
           </ul>
-          <h2 className="text-xl font-semibold">Crazy Eights</h2>
+          <h4 className="text-xl font-semibold">Crazy Eights</h4>
           <p>I sketched some ideas on how the homepage may look like.</p>
           <StaticImage
             className="invisible sm:visible"
@@ -608,10 +613,10 @@ export default function bloodhound() {
           />
         </div>
         <div className="p-8 text-center sm:text-left self-center">
-          <h2 className="text-3xl font-bold pb-2">
+          <h3 className="text-3xl font-bold pb-2">
             StoryBoarding and Wireframing
-          </h2>
-          <h2 className="text-2xl font-semibold">Goal Statement</h2>
+          </h3>
+          <h4 className="text-2xl font-semibold">Goal Statement</h4>
           <p className="pb-4">
             <b>Our</b> updated mobile appointment booking <b>will let users </b>{" "}
             quickly find and book a mechanic <b> which will affect </b> how
@@ -619,7 +624,7 @@ export default function bloodhound() {
             cutting out any ambiguous wording or unnecessary steps.{" "}
             <b>We will measure effectiveness by </b> completion rates.
           </p>
-          <h2 className="text-2xl font-semibold">User Flow</h2>
+          <h4 className="text-2xl font-semibold">User Flow</h4>
           <p>Opposite is the User Flow</p>
           <StaticImage
             className="invisible sm:visible"
@@ -636,7 +641,7 @@ export default function bloodhound() {
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
         <div className="p-8 text-center sm:text-left self-center">
           <div>
-            <h2 className="text-3xl font-semibold pb-4">Storyboard</h2>
+            <h3 className="text-3xl font-semibold pb-4">Storyboard</h3>
             <p>
               I drew up a big picture storyboard to show what I had learned from
               research and to visually demonstrate the ideas to overcome the
@@ -667,7 +672,7 @@ export default function bloodhound() {
               alt="user-flow"
               src="../../images/arrow-up.jpg"
             />
-            <h2 className="text-3xl font-semibold pb-4">Wireframe</h2>
+            <h3 className="text-3xl font-semibold pb-4">Wireframe</h3>
             <p>Low Fidelity Wireframes</p>
             <p>
               With the research and brainstorming done the next step was to mock
@@ -694,12 +699,12 @@ export default function bloodhound() {
         </div>
       </div>
       <hr className="mt-6"></hr>
-      <h2 className="text-3xl text-center font-bold my-12">
+      <h3 className="text-3xl text-center font-bold my-12">
         Research Plan and Testing
-      </h2>
+      </h3>
       <div className="grid grid-cols-1 md:grid-cols-2 mb-8">
         <div className="p-8 text-center sm:text-left self-center">
-          <div className="text-3xl font-semibold pb-4">Research Plan</div>
+          <h4 className="text-3xl font-semibold pb-4">Research Plan</h4>
           <p>
             Now that the Low Fidelity Wireframes are done I set out a Research
             Plan
@@ -880,9 +885,9 @@ export default function bloodhound() {
           />
         </div>
         <div className="p-8 self-center">
-          <div className="text-3xl font-semibold text-center sm:text-left pb-4">
+          <h4 className="text-3xl font-semibold text-center sm:text-left pb-4">
             Affinity Diagram
-          </div>
+          </h4>
           <p>
             Now its time to organise the data. Each post-it colour is a
             participants responses.
@@ -891,17 +896,17 @@ export default function bloodhound() {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8 text-center sm:text-left">
         <div className="p-8 self-center">
-          <h3 className="text-3xl font-semibold mb-8">
+          <h4 className="text-3xl font-semibold mb-8">
             Affinity Grouping Diagram
-          </h3>
-          <h4 className="text-xl font-semibold">Patterns and Themes</h4>
+          </h4>
+          <h5 className="text-xl font-semibold">Patterns and Themes</h5>
           <ul className="mb-4">
             <li>
               It was observed that 2 out of 2 participants felt that the filter
               functionality needed to have more options.
             </li>
           </ul>
-          <h4 className="text-xl font-semibold">Form insights</h4>
+          <h5 className="text-xl font-semibold">Form insights</h5>
           <ul className="mb-4">
             <li>
               Based on the theme that{" "}
@@ -912,7 +917,7 @@ export default function bloodhound() {
               through posts.
             </li>
           </ul>
-          <h4 className="text-xl font-semibold">Recommendations</h4>
+          <h5 className="text-xl font-semibold">Recommendations</h5>
           <ul className="text-bloodhound text-xl">
             <li>
               <b>1. </b>Add more filters options
@@ -942,9 +947,9 @@ export default function bloodhound() {
         </div>
         <div className="p-8 text-center sm:text-left self-center">
           {" "}
-          <div className="text-3xl font-semibold pb-4">
+          <h3 className="text-3xl font-semibold pb-4">
             High Fidelity Wireframes
-          </div>
+          </h3>
           <p>
             Once I went through the Affinity Diagrams and highlighted the
             patterns and themes, I tested my first High Fidelity wireframe and
@@ -954,9 +959,9 @@ export default function bloodhound() {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 text-center">
         <div className="p-8 text-center sm:text-left self-center">
-          <div className="text-3xl font-semibold pb-4">
+          <h3 className="text-3xl font-semibold pb-4">
             Updated High Fidelity Diagrams
-          </div>
+          </h3>
           <p>
             Feedback from the first Wireframes and Prototype showed that users
             wanted the search function on the page.
