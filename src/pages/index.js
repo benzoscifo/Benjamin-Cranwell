@@ -126,9 +126,8 @@ export default function Home() {
       </section>
       <section className="text-gray-900 body-font border-t border-gray-200">
         <h2 className="text-center text-3xl font-semibold text-green px-5 pt-8">
-          How can a UX Designer can help make a more sustainable website?{" "}
-          <br></br>
-          <span className="text-orange">Here's an example</span>
+          How can a UX Designer help make a more sustainable website? <br></br>
+          <span className="text-orange">Here is an example</span>
         </h2>
         <div className="container text-gray-900 mx-auto flex px-5 py-10 sm:py-24 md:flex-row flex-col items-center">
           <div className="w-full md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
