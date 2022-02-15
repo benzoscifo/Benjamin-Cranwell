@@ -22,7 +22,7 @@ export default function contact() {
                   </h2>
                   <input
                     type="text"
-                    name="text"
+                    name="fullname"
                     className="mt-1 p-3 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1"
                     placeholder="Enter name"
                   />
