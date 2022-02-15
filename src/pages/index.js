@@ -186,9 +186,9 @@ export default function Home() {
             </p>
             <p>
               Another example is to have low resolution images as placeholders
-              which are smaller in file size and help reduce the energy cost on
-              inital page load. Once the low fidelity images are loaded they are
-              then replaced by high resolution images.
+              which are smaller in file size which as mentioned help reduce the
+              energy cost on inital page load. Once the low fidelity images are
+              loaded they are then replaced by high resolution images.
             </p>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full text-center sm:text-left">
