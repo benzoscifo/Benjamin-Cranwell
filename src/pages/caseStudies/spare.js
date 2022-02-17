@@ -1,7 +1,6 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../../components/Layout"
-import GbiBridged from "../bg-image"
 
 export default function argos() {
   return (
