@@ -975,7 +975,7 @@ export default function bloodhound() {
           />
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 text-center">
+      {/* <div className="grid grid-cols-1 sm:grid-cols-2 text-center">
         <div className="sm:order-first order-last">
           <img src={bloodhoundGIF} alt="prototype" />
         </div>
@@ -984,7 +984,7 @@ export default function bloodhound() {
           <h3 className="text-3xl font-semibold pb-4">Prototype</h3>
           <p>Shown here is a GIF of the basic journey</p>
         </div>
-      </div>
+      </div> */}
       <div className="text-center my-6">
         <a
           href="#topOfPage"
