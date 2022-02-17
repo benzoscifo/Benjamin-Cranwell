@@ -982,6 +982,7 @@ export default function bloodhound() {
         <div className="p-8 text-center sm:text-left self-center">
           {" "}
           <h3 className="text-3xl font-semibold pb-4">Prototype</h3>
+          <p>Shown here is a GIF of the basic journey</p>
         </div>
       </div>
       <div className="text-center my-6">
