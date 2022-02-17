@@ -997,5 +997,3 @@ export default function bloodhound() {
     </Layout>
   )
 }
-
-;<img src={bloodhoundGIF} alt="prototype" />
