@@ -1,7 +1,6 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../../components/Layout"
-import bloodhoundGIF from "../../gifs/bloodhoundGIF.gif"
 
 export default function bloodhound() {
   return (
@@ -975,16 +974,6 @@ export default function bloodhound() {
           />
         </div>
       </div>
-      {/* <div className="grid grid-cols-1 sm:grid-cols-2 text-center">
-        <div className="sm:order-first order-last">
-          <img src={bloodhoundGIF} alt="prototype" />
-        </div>
-        <div className="p-8 text-center sm:text-left self-center">
-          {" "}
-          <h3 className="text-3xl font-semibold pb-4">Prototype</h3>
-          <p>Shown here is a GIF of the basic journey</p>
-        </div>
-      </div> */}
       <div className="text-center my-6">
         <a
           href="#topOfPage"
