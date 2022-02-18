@@ -1,6 +1,7 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../../components/Layout"
+import bloodhoundVideo from "../../video/bloodhound.mp4"
 
 export default function bloodhound() {
   return (
@@ -938,7 +939,7 @@ export default function bloodhound() {
       <h2 className="text-5xl text-center font-bold my-16 text-bloodhound">
         <a id="test">Test</a>
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 text-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 text-center pb-8">
         <div className="sm:order-first order-last">
           <StaticImage
             alt="bloodhound mobile homepage"
@@ -957,7 +958,7 @@ export default function bloodhound() {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 text-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 text-center pb-8">
         <div className="p-8 text-center sm:text-left self-center">
           <h3 className="text-3xl font-semibold pb-4">
             Updated High Fidelity Diagrams
@@ -972,6 +973,21 @@ export default function bloodhound() {
             alt="bloodhound mobile homepage"
             src="../../images/bloodhound-after.png"
           />
+        </div>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 text-center pb-8">
+        <div className="sm:order-first order-last">
+          <video controls>
+            <source src={bloodhoundVideo} type="video/mp4" />
+          </video>
+        </div>
+        <div className="p-8 text-center sm:text-left self-center">
+          {" "}
+          <h3 className="text-3xl font-semibold pb-4">Prototype</h3>
+          <p>
+            Research and iterations continued with participants testing the
+            prototype.
+          </p>
         </div>
       </div>
       <div className="text-center my-6">
