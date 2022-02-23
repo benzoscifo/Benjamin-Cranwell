@@ -995,7 +995,7 @@ export default function retail() {
         <div className="sm:order-first order-last">
           <StaticImage
             alt="argos mobile homepage"
-            src="../../images/argos-wireframe.png"
+            src="../../images/argos-prototype1.png"
           />
         </div>
         <div className="p-8 text-center sm:text-left self-center">
@@ -1026,7 +1026,7 @@ export default function retail() {
           </div>
           <StaticImage
             alt="argos mobile homepage"
-            src="../../images/argos-wireframe-update.png"
+            src="../../images/argos-prototype.png"
           />
         </div>
       </div>

@@ -1020,7 +1020,7 @@ export default function halfords() {
         <div className="sm:order-first order-last">
           <StaticImage
             alt="orange mobile homepage"
-            src="../../images/halfords-high-wireframes.png"
+            src="../../images/halfords-prototype.png"
           />
         </div>
         <div className="p-8 text-center sm:text-left self-center">
@@ -1048,7 +1048,7 @@ export default function halfords() {
         <div className="mb-12">
           <StaticImage
             alt="orange mobile homepage"
-            src="../../images/halfords-high.png"
+            src="../../images/halfords-prototype1.png"
           />
         </div>
       </div>

@@ -943,7 +943,7 @@ export default function bloodhound() {
         <div className="sm:order-first order-last">
           <StaticImage
             alt="bloodhound mobile homepage"
-            src="../../images/bloodhound-before.png"
+            src="../../images/bloodhound-prototype-early.png"
           />
         </div>
         <div className="p-8 text-center sm:text-left self-center">
@@ -971,7 +971,7 @@ export default function bloodhound() {
         <div className="mb-12">
           <StaticImage
             alt="bloodhound mobile homepage"
-            src="../../images/bloodhound-after.png"
+            src="../../images/bloodhound-prototype.png"
           />
         </div>
       </div>
