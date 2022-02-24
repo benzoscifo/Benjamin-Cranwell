@@ -943,7 +943,7 @@ export default function bloodhound() {
         <div className="sm:order-first order-last">
           <StaticImage
             alt="bloodhound mobile homepage"
-            src="../../images/bloodhound-prototype-early.png"
+            src="../../images/bloodhound-early.png"
           />
         </div>
         <div className="p-8 text-center sm:text-left self-center">
@@ -971,7 +971,7 @@ export default function bloodhound() {
         <div className="mb-12">
           <StaticImage
             alt="bloodhound mobile homepage"
-            src="../../images/bloodhound-prototype.png"
+            src="../../images/bloodhound-white.png"
           />
         </div>
       </div>
@@ -993,7 +993,7 @@ export default function bloodhound() {
       <div className="text-center my-6">
         <a
           href="#topOfPage"
-          className="bg-argos hover:bg-argosLite rounded-full border p-3"
+          className="bg-bloodhound hover:bg-blue rounded-full border p-3"
         >
           <button className="underline hover:underline text-white font-bold py-4 px-8">
             Back to top

@@ -1055,7 +1055,7 @@ export default function halfords() {
       <div className="text-center my-6">
         <a
           href="#topOfPage"
-          className="bg-argos hover:bg-argosLite rounded-full border p-3"
+          className="bg-orange hover:bg-charcoal rounded-full border p-3"
         >
           <button className="underline hover:underline text-white font-bold py-4 px-8">
             Back to top
