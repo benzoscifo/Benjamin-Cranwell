@@ -10,7 +10,7 @@ export default function Home() {
         <div className="container mx-auto flex px-5 pt-24 pb-20 md:flex-row flex-col items-center">
           <div className="w-full lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className=" sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-              I build webpages to be sleek, sharp and sustainable
+              I build web pages to be sleek, sharp and sustainable
             </h1>
             <p className="mb-8 text-xl leading-relaxed">
               Always trying to create better mobile designs
@@ -125,11 +125,14 @@ export default function Home() {
         </div>
       </section>
       <section className="text-gray-900 body-font border-t border-gray-200">
-        <h2 className="text-center text-3xl font-semibold text-green px-5 pt-8">
-          How can a UX Designer help make a more sustainable website? <br></br>
-          <span className="text-orange">Here is an example</span>
+        <h2 className="text-center text-4xl font-semibold text-green px-5 py-8">
+          UX Designers and Sustainability
         </h2>
-        <div className="container text-gray-900 mx-auto flex px-5 py-10 sm:py-24 md:flex-row flex-col items-center">
+        <h3 className="text-center text-2xl text-orange">
+          Here is a quick example of how Designers can help in making a more
+          sustainable website
+        </h3>
+        <div className="container text-gray-900 mx-auto flex px-5 py-10 sm:py-24 md:flex-row flex-col items-center justify-center">
           <div className="w-full md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h3 className="font-semibold text-2xl text-gray-900 pb-2">
               Next Clothing Company
@@ -148,7 +151,7 @@ export default function Home() {
             </p>
             <p className="text-sm text-gray-700">
               <b>
-                <q>
+                <q className="italic">
                   Cambridge Dictionary defines Sustainable as 'causing, or made
                   in a way that causes, little or no damage to the environment
                   and therefore able to continue for a long time.
@@ -168,7 +171,7 @@ export default function Home() {
         </div>
       </section>
       <section className="text-gray-700 body-font">
-        <div className="container mx-auto flex px-5 pb-24 md:flex-row flex-col items-center">
+        <div className="container mx-auto flex px-5 pb-24 md:flex-row flex-col items-center justify-center">
           <div className="w-full md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h3 className="text-2xl font-medium text-gray-900 pb-2">
               So how can a UX Designer help?
@@ -181,8 +184,8 @@ export default function Home() {
             </p>
             <p className="pb-4">
               However if like the Next website images are vital to the success
-              of the company then make sure they are compressed so making their
-              file size as small as can be.
+              of the company then make sure they are <b>compressed </b>so making
+              their file size as small as can be.
             </p>
             <p>
               Another example is to have low resolution images as placeholders
