@@ -140,13 +140,18 @@ export default function Home() {
 
             <p className="pb-4">
               According to Statisa <i>Next.co.uk</i> is the most visited fashion
-              website in the UK, with nearly <b>50m</b> visits in December
-              alone.
+              website in the UK, with nearly{" "}
+              <span className="text-orange font-bold">50m</span> visits in
+              December alone.
             </p>
             <p className="pb-4">
               And from the screenshots shown here you can see that Next's
-              homepage has an extremely low performance rating partly due to its
-              uncompressed images and therefore having a lousy sustainable
+              homepage has an{" "}
+              <span className="underline">
+                extremely low performance rating
+              </span>{" "}
+              <span className="text-argos font-bold">(20%)</span> partly due to
+              its uncompressed images and therefore having a lousy sustainable
               website
             </p>
             <p className="text-sm text-gray-700">
@@ -174,7 +179,7 @@ export default function Home() {
         <div className="container mx-auto flex px-5 pb-24 md:flex-row flex-col items-center justify-center">
           <div className="w-full md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h3 className="text-2xl font-medium text-gray-900 pb-2">
-              So how can a UX Designer help?
+              So how can a UX Designer <span className="text-green">help?</span>
             </h3>
 
             <p className="pb-4">
@@ -184,7 +189,8 @@ export default function Home() {
             </p>
             <p className="pb-4">
               However if like the Next website images are vital to the success
-              of the company then make sure they are <b>compressed </b>so making
+              of the company then make sure they are{" "}
+              <span className="text-green font-bold">compressed </span>so making
               their file size as small as can be.
             </p>
             <p>
