@@ -12,9 +12,6 @@ export default function Home() {
             <h1 className=" sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
               I build web pages to be sleek, sharp and sustainable
             </h1>
-            <p className="mb-8 text-xl leading-relaxed">
-              With a passion for desiging better mobile designs
-            </p>
             <div className="flex w-full lg:w-1/5 justify-center">
               <Link
                 className="block w-full text-center text-green hover:text-orange border-2 border-green py-2 px-6 hover:border-orange rounded text-lg"
