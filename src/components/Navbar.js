@@ -13,7 +13,7 @@ export default function Navbar() {
             href="/"
           >
             <StaticImage
-              src="../images/kangaroo.png"
+              src="../images/kangaroo.svg"
               width={45}
               aspectRatio={1}
             />
