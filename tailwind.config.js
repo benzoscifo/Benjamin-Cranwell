@@ -14,6 +14,7 @@ module.exports = {
       charcoal: "#333333",
       bloodhound: "#CD2D09",
       white: "#FFFFFF",
+      gray: "#F2F1F0",
     }),
     extend: {
       backgroundImage: {

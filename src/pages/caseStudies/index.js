@@ -11,12 +11,12 @@ export default function Projects({ data }) {
       <section className="bg-gray-200">
         <a
           id="argos"
-          className="container mx-auto flex px-5 pt-24 pb-0 sm:pb-24 md:flex-row flex-col justify-center items-center text-3xl font-semibold"
+          className="container mx-auto flex px-5 py-12 sm:pb-24 md:flex-row flex-col justify-center items-center text-3xl font-semibold"
         >
-          <h2 className="md:w-1/2 flex flex-col md:text-left mb-16 md:mb-0 items-center text-center">
+          <h2 className="md:w-1/2 flex flex-col md:text-left mb-16 md:mb-0 items-center text-argos text-center">
             Argos
             <Link
-              className="block w-full text-center sm:w-1/2 text-white bg-green border-0 py-2 px-6 hover:bg-orange rounded text-lg mt-6"
+              className="block w-full text-center sm:w-1/2 text-green hover:text-orange border-2 border-green hover:border-orange py-2 px-6 rounded text-lg mt-6"
               to="/caseStudies/retail"
             >
               Read the Case Study
@@ -33,10 +33,10 @@ export default function Projects({ data }) {
           </div>
         </a>
       </section>
-      <section className="bg-gray-400">
+      <section className="bg-gray">
         <a
           id="halfords"
-          className="container mx-auto flex px-5 pb-0 sm:pb-24 md:flex-row flex-col items-center"
+          className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center"
         >
           <div className="md:w-1/2 sm:order-first order-last">
             <StaticImage
@@ -47,10 +47,10 @@ export default function Projects({ data }) {
               rotate="90"
             />
           </div>
-          <h2 className="md:w-1/2 flex flex-col md:text-left mt-16 sm:mt-0 mb-16 md:mb-0 items-center text-center text-3xl font-semibold">
+          <h2 className="md:w-1/2 flex flex-col md:text-left mb-16 sm:mt-0 mb-16 md:mb-0 items-center text-center text-orange text-3xl font-semibold">
             Halfords
             <Link
-              className="block w-full text-center sm:w-1/2 text-white bg-green border-0 py-2 px-6 hover:bg-orange rounded text-lg mt-6"
+              className="block w-full text-center sm:w-1/2 text-green hover:text-orange border-2 border-green hover:border-orange py-2 px-6 rounded text-lg mt-6"
               to="/caseStudies/halfords"
             >
               Read the Case Study
@@ -61,12 +61,12 @@ export default function Projects({ data }) {
       <section className="bg-gray-200">
         <a
           id="bloodhound"
-          className="container mx-auto flex px-5 pb-24 md:flex-row flex-col items-center text-3xl font-semibold"
+          className="container mx-auto flex px-5 py-12 sm:pb-24 md:flex-row flex-col items-center text-3xl font-semibold"
         >
-          <h2 className="md:w-1/2 flex flex-col md:text-left mb-16 md:mb-0 items-center text-center">
+          <h2 className="md:w-1/2 flex flex-col md:text-left mb-16 md:mb-0 items-center text-center text-bloodhound">
             Bloodhound
             <Link
-              className="block w-full text-center sm:w-1/2 text-white bg-green border-0 py-2 px-6 hover:bg-orange rounded text-lg mt-6"
+              className="block w-full text-center sm:w-1/2 text-green hover:text-orange border-2 border-green hover:border-orange py-2 px-6 rounded text-lg mt-6"
               to="/caseStudies/bloodhound"
             >
               Read the Case Study

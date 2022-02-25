@@ -17,7 +17,7 @@ export default function Home() {
             </p>
             <div className="flex w-full lg:w-1/5 justify-center">
               <Link
-                className="block w-full text-center text-white bg-green border-0 py-2 px-6 hover:bg-orange rounded text-lg"
+                className="block w-full text-center text-green hover:text-orange border-2 border-green py-2 px-6 hover:border-orange rounded text-lg"
                 to="/caseStudies"
               >
                 My work
@@ -40,7 +40,7 @@ export default function Home() {
       <section className="text-gray-700 body-font border-t border-gray-200">
         <div className="container px-5 pt-8 sm:pt-20 pb-20 mx-auto">
           <div className="flex flex-col text-center w-full mb-8 sm:mb-16">
-            <h2 className="sm:text-3xl text-2xl font-semibold  text-green">
+            <h2 className="sm:text-3xl text-2xl font-semibold text-green">
               Projects
             </h2>
           </div>
@@ -61,7 +61,7 @@ export default function Home() {
                   </div>
                   <div className="border-t border-grey-light pt-2 text-xs text-grey no-underline tracking-wide">
                     <Link
-                      className="block w-full text-center text-white bg-green border-0 py-2 px-6 focusring hover:bg-orange rounded text-lg"
+                      className="block w-full text-center text-green hover:text-orange border-2 border-green py-2 px-6 focusring hover:border-orange rounded text-lg"
                       to="/caseStudies/retail"
                     >
                       Case Study
@@ -86,7 +86,7 @@ export default function Home() {
                   </div>
                   <div className="border-t border-grey-light pt-2 text-xs text-grey no-underline tracking-wide">
                     <Link
-                      className="block w-full text-center text-white bg-green border-0 py-2 px-6 focusring hover:bg-orange rounded text-lg"
+                      className="block w-full text-center text-green hover:text-orange border-2 border-green py-2 px-6 focusring hover:border-orange rounded text-lg"
                       to="/caseStudies/halfords"
                     >
                       Case Study
@@ -112,7 +112,7 @@ export default function Home() {
                   </div>
                   <div className="border-t border-grey-light pt-2 text-xs text-grey no-underline tracking-wide">
                     <Link
-                      className="block w-full text-center text-white bg-green border-0 py-2 px-6 focusring hover:bg-orange rounded text-lg"
+                      className="block w-full text-center text-green hover:text-orange border-2 border-green py-2 px-6 focusring hover:border-orange rounded text-lg"
                       to="/caseStudies/bloodhound"
                     >
                       Case Study
