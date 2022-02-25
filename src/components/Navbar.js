@@ -25,7 +25,7 @@ export default function Navbar() {
             <div>
               <a
                 href="/caseStudies"
-                className="mr-0 sm:mr-5 text-green hover:text-yellow-400 underline decoration-1 font-semibold"
+                className="mr-0 sm:mr-5 text-green hover:text-yellow-400 underline decoration-1 font-medium"
               >
                 Case Studies
               </a>
@@ -33,7 +33,7 @@ export default function Navbar() {
             <div>
               <a
                 href="/about"
-                className="mr-0 sm:mr-5 text-green hover:text-yellow-400 underline decoration-1 font-semibold"
+                className="mr-0 sm:mr-5 text-green hover:text-yellow-400 underline decoration-1 font-medium"
               >
                 About
               </a>
@@ -41,7 +41,7 @@ export default function Navbar() {
             <div>
               <a
                 href="/contact"
-                className="mr-0 sm:mr-5 text-green hover:text-yellow-400 underline decoration-1 font-semibold"
+                className="mr-0 sm:mr-5 text-green hover:text-yellow-400 underline decoration-1 font-medium"
               >
                 Contact
               </a>
@@ -49,7 +49,7 @@ export default function Navbar() {
             <div>
               <a
                 href="/sustainable"
-                className="mr-0 sm:mr-5 text-green hover:text-yellow-400 underline decoration-1 font-semibold"
+                className="mr-0 sm:mr-5 text-green hover:text-yellow-400 underline decoration-1 font-medium"
               >
                 Sustainability
               </a>

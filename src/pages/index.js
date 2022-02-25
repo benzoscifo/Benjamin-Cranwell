@@ -13,7 +13,7 @@ export default function Home() {
               I build web pages to be sleek, sharp and sustainable
             </h1>
             <p className="mb-8 text-xl leading-relaxed">
-              Always trying to create better mobile designs
+              With a passion for desiging better mobile designs
             </p>
             <div className="flex w-full lg:w-1/5 justify-center">
               <Link
@@ -57,9 +57,9 @@ export default function Home() {
                 <div className="p-4 flex-1 flex flex-col text-center">
                   <h3 className="mb-4 text-2xl">Argos</h3>
                   <div className="mb-4 text-grey-darker text-sm flex-1">
-                    <p>Improving a user journey.</p>
+                    <p>Making mobile use enjoyable.</p>
                   </div>
-                  <div className="border-t border-grey-light pt-2 text-xs text-grey no-underline tracking-wide">
+                  <div className="pt-2 text-xs text-grey no-underline tracking-wide">
                     <Link
                       className="block w-full text-center text-green hover:text-orange border-2 border-green py-2 px-6 focusring hover:border-orange rounded text-lg"
                       to="/caseStudies/retail"
@@ -82,9 +82,9 @@ export default function Home() {
                 <div className="p-4 flex-1 flex flex-col text-center">
                   <h3 className="mb-4 text-2xl">Halfords</h3>
                   <div className="mb-4 text-grey-darker text-sm flex-1">
-                    <p>Improving a user journey.</p>
+                    <p>Making Halfords the name for tyres.</p>
                   </div>
-                  <div className="border-t border-grey-light pt-2 text-xs text-grey no-underline tracking-wide">
+                  <div className="pt-2 text-xs text-grey no-underline tracking-wide">
                     <Link
                       className="block w-full text-center text-green hover:text-orange border-2 border-green py-2 px-6 focusring hover:border-orange rounded text-lg"
                       to="/caseStudies/halfords"
@@ -110,7 +110,7 @@ export default function Home() {
                       employees
                     </p>
                   </div>
-                  <div className="border-t border-grey-light pt-2 text-xs text-grey no-underline tracking-wide">
+                  <div className="pt-2 text-xs text-grey no-underline tracking-wide">
                     <Link
                       className="block w-full text-center text-green hover:text-orange border-2 border-green py-2 px-6 focusring hover:border-orange rounded text-lg"
                       to="/caseStudies/bloodhound"
@@ -128,11 +128,12 @@ export default function Home() {
         <h2 className="text-center text-4xl font-semibold text-green px-5 py-8">
           UX Designers and Sustainability
         </h2>
-        <h3 className="text-center text-2xl text-orange">
-          Here is a quick example of how Designers can help in making a more
-          sustainable website
+        <h3 className="container text-center sm:text-left text-2xl px-5 text-orange mx-auto">
+          <div className="text-3xl font-semibold underline">
+            How to make a difference
+          </div>
         </h3>
-        <div className="container text-gray-900 mx-auto flex px-5 py-10 sm:py-24 md:flex-row flex-col items-center justify-center">
+        <div className="container text-gray-900 mx-auto flex px-5 py-10 sm:pt-8 sm:pb-24 md:flex-row flex-col items-center justify-center">
           <div className="w-full md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h3 className="font-semibold text-2xl text-gray-900 pb-2">
               Next Clothing Company
@@ -168,7 +169,7 @@ export default function Home() {
             <StaticImage
               className="object-cover object-center rounded"
               alt="next retail store"
-              src="../images/next-performance.jpg"
+              src="../images/next-shop.jpeg"
               placeholder="tracedSVG"
               rotate="90"
             />
@@ -204,7 +205,7 @@ export default function Home() {
             <StaticImage
               className="object-cover object-center rounded"
               alt="next retail store"
-              src="../images/next-images.jpg"
+              src="../images/squoosh.png"
               placeholder="tracedSVG"
               rotate="90"
             />
