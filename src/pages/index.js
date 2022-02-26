@@ -12,7 +12,7 @@ export default function Home() {
             <h1 className=" sm:text-4xl text-3xl mb-8 font-medium text-gray-900">
               I build web pages to be sleek, sharp and sustainable
             </h1>
-            <div className="flex w-full lg:w-1/5 justify-center">
+            <div className="animate-pulse flex w-full lg:w-1/5 justify-center">
               <Link
                 className="block w-full text-center text-green hover:text-orange border-2 border-green py-2 px-6 hover:border-orange rounded text-lg"
                 to="/caseStudies"
@@ -68,7 +68,7 @@ export default function Home() {
               </div>
             </div>
             <div className="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex-col">
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex-col border border-beige-200">
                 <StaticImage
                   src="../images/halfordslogo.jpeg"
                   className="bg-cover h-48"
@@ -93,7 +93,7 @@ export default function Home() {
               </div>
             </div>
             <div className="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex-col">
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex-col border border-beige-200">
                 <StaticImage
                   src="../images/bloodhound3.png"
                   className="bg-cover h-48"
@@ -125,7 +125,7 @@ export default function Home() {
         <h2 className="text-center text-4xl font-semibold text-green px-5 py-8">
           UX Designers and Sustainability
         </h2>
-        <h3 className="container text-center sm:text-left text-2xl px-5 text-orange mx-auto">
+        <h3 className="container text-center sm:text-left text-2xl px-5 text-orange mx-auto justify-center flex">
           <div className="text-3xl font-semibold underline">
             How to make a difference
           </div>

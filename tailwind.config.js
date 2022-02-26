@@ -28,6 +28,7 @@ module.exports = {
         orange: "#FFA500",
         bloodhound: "#CD2D09",
         green: "#10B981",
+        beige: "#E8DED1",
       },
     },
   },
