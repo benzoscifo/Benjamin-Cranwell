@@ -36,8 +36,8 @@ export default function Sustainability() {
         </div>
         <div className="text-3xl font-semibold text-center py-12">
           Below are some <span className="text-yellow-400">alternative</span>{" "}
-          ideas on how to make <span className="text-argos">your</span> web page
-          more
+          ideas and an example on how to make{" "}
+          <span className="text-argos">your</span> web page more
           <span className="text-green"> sustainable</span>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-3 text-center">
