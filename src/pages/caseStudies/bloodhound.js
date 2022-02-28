@@ -202,7 +202,10 @@ export default function bloodhound() {
         <div className="border-solid border-2 text-center sm:text-left p-8 sm:order-first order-last">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div>
-              <StaticImage alt="women" src="../../images/femalePersona.png" />
+              <StaticImage
+                alt="women persona"
+                src="../../images/femalePersona.webp"
+              />
             </div>
             <div>
               <h3 className="underline font-semibold">Goals</h3>
@@ -494,7 +497,10 @@ export default function bloodhound() {
           </p>
         </div>
         <div>
-          <StaticImage alt="business man" src="../../images/social-media.jpg" />
+          <StaticImage
+            alt="social media icons"
+            src="../../images/social-media.webp"
+          />
         </div>
       </div>
       <hr className="mt-6"></hr>
@@ -587,18 +593,18 @@ export default function bloodhound() {
           <StaticImage
             className="invisible sm:visible"
             alt="user-flow"
-            src="../../images/arrow-right.jpg"
+            src="../../images/arrow-right.webp"
           />
           <StaticImage
             className="visible sm:invisible"
             alt="user-flow"
-            src="../../images/arrow-down.jpg"
+            src="../../images/arrow-down.webp"
           />
         </div>
         <div>
           <StaticImage
             alt="business man"
-            src="../../images/bloodhound-crazy8.jpg"
+            src="../../images/bloodhound-crazy8.webp"
           />
         </div>
       </div>
@@ -630,12 +636,12 @@ export default function bloodhound() {
           <StaticImage
             className="invisible sm:visible"
             alt="user-flow"
-            src="../../images/arrow.jpg"
+            src="../../images/arrow.webp"
           />
           <StaticImage
             className="visible sm:invisible"
             alt="user-flow"
-            src="../../images/arrow-down.jpg"
+            src="../../images/arrow-down.webp"
           />
         </div>
       </div>
@@ -653,7 +659,7 @@ export default function bloodhound() {
         <div>
           <StaticImage
             alt="storyboard"
-            src="../../images/bloodhound-storyboard.jpg"
+            src="../../images/bloodhound-storyboard.webp"
           />
         </div>
         <div></div>
@@ -662,7 +668,7 @@ export default function bloodhound() {
         <div>
           <StaticImage
             alt="wireframe"
-            src="../../images/bloodhound-wireframe.jpg"
+            src="../../images/bloodhound-wireframe.webp"
           />
         </div>
 
@@ -670,8 +676,8 @@ export default function bloodhound() {
           <div className="p-8">
             <StaticImage
               className="visible sm:invisible"
-              alt="user-flow"
-              src="../../images/arrow-up.jpg"
+              alt="arrow"
+              src="../../images/arrow-up.webp"
             />
             <h3 className="text-3xl font-semibold pb-4">Wireframe</h3>
             <p>Low Fidelity Wireframes</p>
@@ -681,20 +687,20 @@ export default function bloodhound() {
             </p>
             <StaticImage
               className="invisible sm:visible"
-              alt="user-flow"
-              src="../../images/arrow.jpg"
+              alt="arrow"
+              src="../../images/arrow.webp"
             />
 
             <StaticImage
               className="m-2"
               alt="down arrow"
-              src="../../images/arrow-down.jpg"
+              src="../../images/arrow-down.webp"
             />
           </div>
           <div className="p-8">
             <StaticImage
               alt="wireframe"
-              src="../../images/bloodhound-low-wireframe.png"
+              src="../../images/bloodhound-low-wireframe.webp"
             />
           </div>
         </div>

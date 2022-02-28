@@ -2,10 +2,10 @@ import React, { useState } from "react"
 import Layout from "../components/Layout"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation"
+import { RoughNotation } from "react-rough-notation"
 
 const Home = () => {
-  const [show, setShow] = useState(true)
+  const [show] = useState(true)
   return (
     <Layout>
       <section className="text-gray-700 body-font">
@@ -33,7 +33,6 @@ const Home = () => {
                 className="object-cover object-center rounded"
                 alt="hero"
                 src="../images/benjamin.jpg"
-                placeholder="tracedSVG"
                 rotate="90"
               />
             </Link>
@@ -101,7 +100,7 @@ const Home = () => {
             <div className="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex-col border border-beige-200">
                 <StaticImage
-                  src="../images/bloodhound3.png"
+                  src="../images/bloodhound3.webp"
                   className="bg-cover h-48"
                   layout="fullWidth"
                 />

@@ -12,7 +12,6 @@ export default function Sustainability() {
               className="object-cover object-center rounded"
               alt="google lighthouse"
               src="../images/lighthouse-logo.png"
-              placeholder="tracedSVG"
               rotate="90"
               layout="constrained"
             />
@@ -56,7 +55,6 @@ export default function Sustainability() {
             <StaticImage
               alt="carousel image"
               layout="constrained"
-              placeholder="tracedSVG"
               src="../images/carousel.png"
             />
           </div>
@@ -75,7 +73,6 @@ export default function Sustainability() {
               height={400}
               alt="yellow car"
               layout="constrained"
-              placeholder="tracedSVG"
               src="../images/lotus.jpeg"
             />
           </div>
@@ -96,7 +93,6 @@ export default function Sustainability() {
             <StaticImage
               alt="carousel image"
               layout="constrained"
-              placeholder="tracedSVG"
               src="../images/multiple-videos.png"
             />
           </div>
@@ -117,8 +113,7 @@ export default function Sustainability() {
             <StaticImage
               alt="yellow car"
               layout="constrained"
-              placeholder="tracedSVG"
-              src="../images/hero-video.jpg"
+              src="../images/hero-video.png"
             />
           </div>
         </div>
@@ -139,14 +134,13 @@ export default function Sustainability() {
             <StaticImage
               alt="carousel image"
               layout="constrained"
-              placeholder="tracedSVG"
               src="../images/multiple-images.png"
             />
           </div>
           <div className="self-center text-4xl font-bold">VS</div>
           <div className="p-8">
             <h3 className="text-2xl font-semibold pb-4">
-              <span className="text-green">Less</span> videos
+              <span className="text-green">Less</span> Images
             </h3>
             <p>Images can be compressed to reduce file size</p>
             <p className="pb-8">
@@ -156,7 +150,6 @@ export default function Sustainability() {
             <StaticImage
               alt="yellow car"
               layout="constrained"
-              placeholder="tracedSVG"
               src="../images/single-image.png"
             />
           </div>
@@ -209,7 +202,6 @@ export default function Sustainability() {
               className="object-cover object-center rounded"
               alt="next retail store"
               src="../images/next-shop.jpeg"
-              placeholder="tracedSVG"
               rotate="90"
             />
           </div>
@@ -245,7 +237,6 @@ export default function Sustainability() {
               className="object-cover object-center rounded"
               alt="next retail store"
               src="../images/squoosh.png"
-              placeholder="tracedSVG"
               rotate="90"
             />
           </div>

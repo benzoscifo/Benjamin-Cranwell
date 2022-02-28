@@ -2,7 +2,6 @@ import React from "react"
 import Layout from "../components/Layout"
 import "../styles/global.css"
 import "./about.css"
-import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 export default function about() {
@@ -15,7 +14,6 @@ export default function about() {
               className="object-cover object-center rounded"
               alt="hero"
               src="../images/grufflo.jpg"
-              placeholder="tracedSVG"
               rotate="90"
               layout="constrained"
             />

@@ -125,8 +125,8 @@ export default function halfords() {
         </div>
         <div className="text-center">
           <StaticImage
-            alt="business man"
-            src="../../images/halfords-empathy.jpg"
+            alt="empathy map"
+            src="../../images/halfords-empathy.webp"
           />
         </div>
       </div>
@@ -134,7 +134,7 @@ export default function halfords() {
         <div className="border-solid border-2 text-center sm:text-left p-8 sm:order-first order-last">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div>
-              <StaticImage alt="women" src="../../images/persona.jpeg" />
+              <StaticImage alt="women" src="../../images/persona.webp" />
             </div>
             <div>
               <h3 className="underline font-semibold">Goals</h3>
@@ -416,7 +416,7 @@ export default function halfords() {
           </p>
         </div>
         <div>
-          <StaticImage alt="business man" src="../../images/car-phone.jpg" />
+          <StaticImage alt="business man" src="../../images/car-phone.webp" />
         </div>
       </div>
       <hr className="mt-6"></hr>
@@ -425,7 +425,7 @@ export default function halfords() {
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
         <div>
-          <StaticImage alt="business man" src="../../images/kwik-fit.jpeg" />
+          <StaticImage alt="business man" src="../../images/kwik-fit.webp" />
         </div>
         <div className="p-8 text-center sm:text-left">
           <h3 className="text-3xl font-bold pb-4">Competetive Audit</h3>
@@ -668,18 +668,18 @@ export default function halfords() {
           <StaticImage
             className="invisible sm:visible"
             alt="user-flow"
-            src="../../images/arrow-right.jpg"
+            src="../../images/arrow-right.webp"
           />
           <StaticImage
             className="visible sm:invisible"
             alt="user-flow"
-            src="../../images/arrow-down.jpg"
+            src="../../images/arrow-down.webp"
           />
         </div>
         <div>
           <StaticImage
             alt="business man"
-            src="../../images/halfords-crazyeights.jpg"
+            src="../../images/halfords-crazyeights.webp"
           />
         </div>
       </div>
@@ -711,12 +711,12 @@ export default function halfords() {
           <StaticImage
             className="invisible sm:visible"
             alt="user-flow"
-            src="../../images/arrow.jpg"
+            src="../../images/arrow.webp"
           />
           <StaticImage
             className="visible sm:invisible"
             alt="user-flow"
-            src="../../images/arrow-down.jpg"
+            src="../../images/arrow-down.webp"
           />
         </div>
       </div>
@@ -734,7 +734,7 @@ export default function halfords() {
         <div>
           <StaticImage
             alt="storyboard"
-            src="../../images/halfords-storyboard.jpg"
+            src="../../images/halfords-storyboard.webp"
           />
         </div>
         <div></div>
@@ -743,7 +743,7 @@ export default function halfords() {
         <div>
           <StaticImage
             alt="wireframe"
-            src="../../images/halfords-paper-wireframe.jpg"
+            src="../../images/halfords-paper-wireframe.webp"
           />
         </div>
 
@@ -753,7 +753,7 @@ export default function halfords() {
               <StaticImage
                 className="visible sm:invisible"
                 alt="user-flow"
-                src="../../images/arrow-up.jpg"
+                src="../../images/arrow-up.webp"
               />
               <h3 className="text-3xl font-semibold pb-4">Wireframe</h3>
               <p>Low Fidelity Wireframes</p>
@@ -764,15 +764,18 @@ export default function halfords() {
               <StaticImage
                 className="invisible sm:visible"
                 alt="user-flow"
-                src="../../images/arrow.jpg"
+                src="../../images/arrow.webp"
               />
 
-              <StaticImage alt="user-flow" src="../../images/arrow-right.jpg" />
+              <StaticImage
+                alt="user-flow"
+                src="../../images/arrow-right.webp"
+              />
             </div>
             <div>
               <StaticImage
                 alt="wireframe"
-                src="../../images/halfords-wireframe.png"
+                src="../../images/halfords-wireframe.webp"
               />
             </div>
           </div>
@@ -960,7 +963,7 @@ export default function halfords() {
         <div className="sm:order-first order-last">
           <StaticImage
             alt="infinity diagram"
-            src="../../images/halfords-affinity.jpg"
+            src="../../images/halfords-affinity.webp"
           />
         </div>
         <div className="p-8 self-center">
@@ -1008,7 +1011,7 @@ export default function halfords() {
         <div>
           <StaticImage
             alt="infinity diagram"
-            src="../../images/halfords-grouped.jpg"
+            src="../../images/halfords-grouped.webp"
           />
         </div>
       </div>

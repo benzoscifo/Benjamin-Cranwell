@@ -8,7 +8,7 @@ export default function retail() {
       <h1 className="sr-only">Argos Case Study</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2">
         <div>
-          <StaticImage alt="business man" src="../../images/argos-blue.png" />
+          <StaticImage alt="business man" src="../../images/argos-blue.webp" />
         </div>
         <div className="p-8 text-center sm:text-left self-center">
           <h2>
@@ -121,14 +121,14 @@ export default function retail() {
           </p>
         </div>
         <div className="text-center">
-          <StaticImage alt="business man" src="../../images/empathy-map2.jpg" />
+          <StaticImage alt="empathy map" src="../../images/empathy-map2.webp" />
         </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
         <div className="border-solid border-2 text-center sm:text-left p-8 sm:order-first order-last">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div>
-              <StaticImage alt="women" src="../../images/woman-persona.jpeg" />
+              <StaticImage alt="women" src="../../images/woman-persona.webp" />
             </div>
             <div>
               <h3 className="underline font-semibold">Goals</h3>
@@ -408,7 +408,7 @@ export default function retail() {
           </p>
         </div>
         <div>
-          <StaticImage alt="business man" src="../../images/mobile-use.jpg" />
+          <StaticImage alt="business man" src="../../images/mobile-use.webp" />
         </div>
       </div>
       <hr className="mt-6"></hr>
@@ -417,7 +417,7 @@ export default function retail() {
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
         <div>
-          <StaticImage alt="business man" src="../../images/amazon.jpg" />
+          <StaticImage alt="business man" src="../../images/amazon.webp" />
         </div>
         <div className="p-8 text-center sm:text-left self-center">
           <h3 className="text-3xl font-bold pb-4">Competetive Audit</h3>
@@ -664,16 +664,19 @@ export default function retail() {
           <StaticImage
             className="invisible sm:visible"
             alt="user-flow"
-            src="../../images/arrow-right.jpg"
+            src="../../images/arrow-right.webp"
           />
           <StaticImage
             className="visible sm:invisible"
             alt="user-flow"
-            src="../../images/arrow-down.jpg"
+            src="../../images/arrow-down.webp"
           />
         </div>
         <div>
-          <StaticImage alt="business man" src="../../images/argos-crazy8.jpg" />
+          <StaticImage
+            alt="business man"
+            src="../../images/argos-crazy8.webp"
+          />
         </div>
       </div>
       <hr className="mt-6"></hr>
@@ -682,7 +685,7 @@ export default function retail() {
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 mb-8">
         <div className="sm:order-first order-last">
-          <StaticImage alt="user-flow" src="../../images/user-flow.png" />
+          <StaticImage alt="user-flow" src="../../images/user-flow.webp" />
         </div>
         <div className="p-8 text-center sm:text-left self-center">
           <h3 className="text-3xl font-bold pb-2">
@@ -701,12 +704,12 @@ export default function retail() {
           <StaticImage
             className="invisible sm:visible"
             alt="user-flow"
-            src="../../images/arrow.jpg"
+            src="../../images/arrow.webp"
           />
           <StaticImage
             className="visible sm:invisible"
             alt="user-flow"
-            src="../../images/arrow-down.jpg"
+            src="../../images/arrow-down.webp"
           />
         </div>
       </div>
@@ -722,13 +725,13 @@ export default function retail() {
           </div>
         </div>
         <div>
-          <StaticImage alt="storyboard" src="../../images/storyboard.jpeg" />
+          <StaticImage alt="storyboard" src="../../images/storyboard.webp" />
         </div>
         <div></div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2">
         <div>
-          <StaticImage alt="wireframe" src="../../images/wireframe2.jpeg" />
+          <StaticImage alt="wireframe" src="../../images/wireframe2.webp" />
         </div>
 
         <div>
@@ -737,7 +740,7 @@ export default function retail() {
               <StaticImage
                 className="visible sm:invisible"
                 alt="user-flow"
-                src="../../images/arrow-up.jpg"
+                src="../../images/arrow-up.webp"
               />
               <h3 className="text-3xl font-semibold pb-4">Wireframe</h3>
               <p>Low Fidelity Wireframes</p>
@@ -748,7 +751,7 @@ export default function retail() {
               <StaticImage
                 className="invisible sm:visible"
                 alt="user-flow"
-                src="../../images/arrow.jpg"
+                src="../../images/arrow.webp"
               />
 
               <StaticImage alt="user-flow" src="../../images/arrow-right.jpg" />
@@ -756,7 +759,7 @@ export default function retail() {
             <div>
               <StaticImage
                 alt="wireframe"
-                src="../../images/wireframe-homepage.png"
+                src="../../images/wireframe-homepage.webp"
               />
             </div>
           </div>
@@ -934,7 +937,7 @@ export default function retail() {
         <div className="sm:order-first order-last">
           <StaticImage
             alt="infinity diagram"
-            src="../../images/affinity-diagram.png"
+            src="../../images/affinity-diagram.webp"
           />
         </div>
         <div className="p-8 self-center">
@@ -983,7 +986,7 @@ export default function retail() {
         <div>
           <StaticImage
             alt="infinity diagram"
-            src="../../images/affinity-grouped-diagram.png"
+            src="../../images/affinity-grouped-diagram.webp"
           />
         </div>
       </div>

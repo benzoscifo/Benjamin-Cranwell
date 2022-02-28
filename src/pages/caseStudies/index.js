@@ -25,9 +25,8 @@ export default function Projects({ data }) {
           <div className="md:w-1/2">
             <StaticImage
               className="object-cover object-center rounded"
-              alt="hero"
+              alt="argos logo"
               src="../../images/argos.png"
-              placeholder="tracedSVG"
               rotate="90"
             />
           </div>
@@ -43,7 +42,6 @@ export default function Projects({ data }) {
               className="object-cover object-center rounded"
               alt="hero"
               src="../../images/halfordslogo.jpeg"
-              placeholder="tracedSVG"
               rotate="90"
             />
           </div>
@@ -76,8 +74,7 @@ export default function Projects({ data }) {
             <StaticImage
               className="object-cover object-center rounded"
               alt="hero"
-              src="../../images/bloodhound3.png"
-              placeholder="tracedSVG"
+              src="../../images/bloodhound3.webp"
               rotate="90"
             />
           </div>
