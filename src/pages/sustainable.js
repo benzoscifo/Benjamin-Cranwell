@@ -32,7 +32,7 @@ export default function Sustainability() {
             </p>
           </div>
         </div>
-        <h2 className="text-3xl font-semibold text-center py-12">
+        <h2 className="text-3xl font-semibold text-center py-12 px-8">
           Below are some <span className="text-yellow-400">ideas</span> and an{" "}
           <span className="text-blue">example </span>on how to make{" "}
           <span className="text-argos">your</span> web page more
@@ -59,7 +59,7 @@ export default function Sustainability() {
             />
           </div>
           <div className="self-center text-4xl font-bold">VS</div>
-          <div className="pb-14 py-8 sm:pb-8 sm:py-8">
+          <div className="pb-14 py-8 sm:pb-8 sm:py-8 px-8">
             <h3 className="text-2xl font-semibold pb-4">
               <span className="text-green">Static</span> Image
             </h3>
@@ -79,7 +79,7 @@ export default function Sustainability() {
         </div>
         <hr></hr>
         <div className="grid grid-cols-1 sm:grid-cols-3 text-center">
-          <div className="pt-16 py-8 sm:pt-8 py-8">
+          <div className="pt-16 py-8 sm:pt-8 py-8 px-8">
             <h3 className="text-2xl font-semibold pb-4">
               Webpage with <span className="text-orange">multiple</span> videos
             </h3>
@@ -97,7 +97,7 @@ export default function Sustainability() {
             />
           </div>
           <div className="self-center text-4xl font-bold">VS</div>
-          <div className="pb-14 py-8 sm:pb-8 sm:py-8">
+          <div className="pb-14 py-8 sm:pb-8 sm:py-8 px-8">
             <h3 className="text-2xl font-semibold pb-4">
               Webpage with a <span className="text-green">single</span> video
             </h3>
@@ -111,7 +111,7 @@ export default function Sustainability() {
             </p>
 
             <StaticImage
-              alt="yellow car"
+              alt="yoga website"
               layout="constrained"
               src="../images/hero-video.png"
             />
@@ -119,7 +119,7 @@ export default function Sustainability() {
         </div>
         <hr></hr>
         <div className="grid grid-cols-1 sm:grid-cols-3 text-center">
-          <div className="pt-16 py-8 sm:pt-8 py-8">
+          <div className="pt-16 py-8 sm:pt-8 px-8">
             <h3 className="text-2xl font-semibold pb-4">
               Multiple <span className="text-yellow-400">Images</span>
             </h3>

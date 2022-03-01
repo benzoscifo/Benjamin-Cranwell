@@ -71,12 +71,14 @@ export default function Projects({ data }) {
             </Link>
           </h2>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <StaticImage
-              className="object-cover object-center rounded"
-              alt="hero"
-              src="../../images/bloodhound3.webp"
-              rotate="90"
-            />
+            <div className="py-16">
+              <StaticImage
+                className="object-cover object-center rounded"
+                alt="hero"
+                src="../../images/bloodhound-logo.png"
+                rotate="90"
+              />
+            </div>
           </div>
         </a>
       </section>

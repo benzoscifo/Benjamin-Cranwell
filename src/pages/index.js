@@ -99,12 +99,14 @@ const Home = () => {
             </div>
             <div className="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex-col border border-beige-200">
-                <StaticImage
-                  src="../images/bloodhound3.webp"
-                  className="bg-cover h-48"
-                  layout="fullWidth"
-                />
-                <div className="p-4 flex-1 flex flex-col text-center">
+                <div className="py-4 md:py-7 lg:py-16">
+                  <StaticImage
+                    src="../images/bloodhound-logo.png"
+                    className="bg-cover h-48"
+                    layout="fullWidth"
+                  />
+                </div>
+                <div className="px-4 pb-4 pt-4 lg:pt-12 flex-1 flex flex-col text-center">
                   <h3 className="mb-4 text-2xl">Bloodhound</h3>
                   <div className="mb-4 text-grey-darker text-sm flex-1">
                     <p>
