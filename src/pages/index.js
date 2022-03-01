@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <Layout>
       <section className="text-gray-700 body-font">
-        <div className="container mx-auto flex px-5 py-20 md:flex-row flex-col items-center">
+        <div className="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center">
           <div className="w-full lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className=" sm:text-4xl text-3xl mb-8 font-medium text-gray-900">
               I build web pages to be sleek, sharp and{" "}
@@ -40,7 +40,7 @@ const Home = () => {
         </div>
       </section>
       <section className="text-gray-700 body-font border-t border-gray-200">
-        <div className="container px-5 pt-8 sm:pt-20 pb-20 mx-auto">
+        <div className="container px-5 py-16 mx-auto">
           <div className="flex flex-col text-center w-full mb-8 sm:mb-16">
             <h2 className="sm:text-3xl text-2xl font-semibold text-green">
               Projects
