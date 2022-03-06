@@ -7,76 +7,25 @@ import { StaticImage } from "gatsby-plugin-image"
 export default function about() {
   return (
     <Layout>
-      <div className="container mx-auto">
-        <div className="grid grid-cols-1 sm:grid-cols-2 text-center">
-          <div>
-            <StaticImage
-              className="object-cover object-center rounded"
-              alt="hero"
-              src="../images/grufflo.jpg"
-              rotate="90"
-              layout="constrained"
-            />
+      <div className="bg-darkGray py-10 px-20">
+        <p className="text-3xl text-gray-400">
+          UX Designer and Front-End Web Developer
+        </p>
+      </div>
+      <div className="bg-black">
+        <div className="flex flex-wrap justify-around text-center bg-black py-12">
+          <div className="basis-1/3 bg-black p-1.5 rounded-3xl pb-10">
+            <StaticImage alt="wikipedia" src="../images/wikipedia.png" />
           </div>
-          <div className="self-center">
-            <h1 className="title-font sm:text-4xl text-3xl px-5 mt-6 font-medium text-gray-900">
-              Born in <span className="text-green-400">Ireland</span> now living
-              in <span className="text-argos">London</span> by way of
-              <span className="text-yellow-400"> Australasia</span>
-            </h1>
+          <div className="basis-1/3 bg-black p-1.5 rounded-3xl pb-10">
+            <StaticImage alt="bbc homepage" src="../images/bbc.png" />
+          </div>
+          <div className="basis-1/3 bg-black p-1.5 rounded-3xl pb-10">
+            <StaticImage alt="imdb homepage" src="../images/imdb.png" />
           </div>
         </div>
       </div>
-      <section className="text-gray-700 body-font">
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-              Front-End Web Developer that has a passion for{" "}
-              <span className="text-green-400">sustainability</span> and
-              creating better <span className="text-blue">mobile</span> designs
-            </h2>
-            <p className="leading-relaxed">
-              For the past seven years I have been working as a{" "}
-              <b>Front-End Web Developer</b> at a Design and Development agency
-              based in Brixton. My passion is mobile design and development, I
-              am an advocate for mobile first designs and get frustrated at
-              using websites on my phone that were built with mobile designs
-              clearly as an after thought.
-            </p>
-          </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full text-center md:text-left self-end">
-            <p>
-              During my time as a front-end developer I have worked closely
-              along side our design team and delivery team in producing high
-              quality products for large local and international companies. I
-              have worked on small projects solo and worked on large projects in
-              which myself and my collegues work closely with the client and
-              their design team.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section className="text-gray-700 body-font">
-        <div className="container mx-auto flex px-5 pb-24 md:flex-row flex-col text-center md:text-left items-center">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full">
-            <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-              A little bit more about{" "}
-              <span className="text-purple-400">me</span>
-            </h2>
-            <p className="mb-8 leading-relaxed">
-              I am a father of two children. My daughter Artemis is 5 and my son
-              Asteris is 2 and from the names you might of guessed that my
-              partner Eva is Greek. I have lived in a few countries before
-              finally settling in London. After finishing school in Ireland I
-              went to New Zealand and stayed for 5 years living mainly in
-              Auckland and afterwards I spent 10 years in Australia, living in
-              Brisbane, Sydney and Wodonga. In my free time I play squash in my
-              local club and am a Watford FC supporter.
-            </p>
-          </div>
-        </div>
-      </section>
-      <div className="container px-4 py-12 mx-auto text-gray-400">
+      <div className="bg-darkGray px-4 py-12 mx-auto text-gray-400">
         <div className="flex justify-around">
           <div>
             <a

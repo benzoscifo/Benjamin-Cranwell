@@ -15,6 +15,9 @@ module.exports = {
       bloodhound: "#CD2D09",
       white: "#FFFFFF",
       gray: "#F2F1F0",
+      gold: "#FFD700",
+      black: "#000000",
+      darkGray: "#212121",
     }),
     extend: {
       backgroundImage: {
@@ -29,6 +32,9 @@ module.exports = {
         bloodhound: "#CD2D09",
         green: "#10B981",
         beige: "#E8DED1",
+        gold: "#FFD700",
+        black: "#000000",
+        darkGray: "#212121",
       },
     },
   },

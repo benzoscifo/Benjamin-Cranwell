@@ -21,7 +21,7 @@ export default function Navbar() {
               Benjamin Cranwell
             </span>
           </Link>
-          <nav className="md:ml-auto flex flex-col space-y-2 sm:space-y-0 md:flex-row items-center text-base ">
+          <nav className="md:ml-auto flex flex-col space-y-2 sm:space-y-0 md:flex-row items-center text-base">
             <div>
               <a
                 href="/caseStudies"
