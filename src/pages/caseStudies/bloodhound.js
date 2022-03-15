@@ -9,12 +9,18 @@ export default function bloodhound() {
       <h1 className="sr-only">Bloodhound Case Study</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2">
         <div className="text-center self-center">
-          <div className="text-6xl text-bloodhound font-extrabold">
-            Bloodhound<br></br>
-            <span className="text-4xl">app</span>
-          </div>
+          <StaticImage
+            alt="mobile images"
+            src="../../images/bloodPhotoShop.png"
+            width={800}
+            aspectRatio={16 / 9}
+          />
         </div>
         <div className="p-8 text-center sm:text-left self-center">
+          <div className="text-6xl text-bloodhound font-extrabold pb-6">
+            Bloodhound
+            <span className="text-4xl"> app</span>
+          </div>
           <h2>
             <a id="topOfPage" className="text-2xl font-semibold">
               The Idea
@@ -39,7 +45,7 @@ export default function bloodhound() {
       <section>
         <div className="container mx-auto px-5 m-10">
           <h3 className="text-2xl font-semibold pb-4 text-center">
-            Use the quick links below to navigate to the different sections
+            Section Navigation
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
             <a

@@ -18,6 +18,11 @@ module.exports = {
       gold: "#FFD700",
       black: "#000000",
       darkGray: "#212121",
+      pastelBlue: "#AFCBFF",
+      blueViolets: "#4377D1",
+      pastelGreen: "#ADDDCE",
+      pastelPink: "#F3D1DC",
+      darkPastelGreen: "#70AE98",
     }),
     extend: {
       backgroundImage: {
@@ -35,6 +40,10 @@ module.exports = {
         gold: "#FFD700",
         black: "#000000",
         darkGray: "#212121",
+        pastelBlue: "#AFCBFF",
+        blueViolets: "#9DABDD",
+        pastelGreen: "#70AE98",
+        pastelPink: "#F3D1DC",
       },
     },
   },

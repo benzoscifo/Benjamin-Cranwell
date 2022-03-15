@@ -11,7 +11,7 @@ const Home = () => {
       <section className="text-gray-700 body-font">
         <div className="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center">
           <div className="w-full lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className=" sm:text-4xl text-3xl mb-8 font-medium text-gray-900">
+            <h1 className=" sm:text-4xl text-3xl mb-8 font-medium text-gray-400">
               I build web pages to be sleek, sharp and{" "}
               <RoughNotation type="underline" show={show} color={"red"}>
                 sustainable
@@ -20,7 +20,7 @@ const Home = () => {
 
             <div className="flex w-full lg:w-1/5 justify-center">
               <Link
-                className="block w-full text-center text-green hover:text-orange border-2 border-green py-2 px-6 hover:border-orange rounded text-lg"
+                className="block w-full text-center text-pastelGreen hover:text-white border-2 border-pastelGreen py-2 px-6 hover:bg-darkPastelGreen rounded text-lg"
                 to="/caseStudies"
               >
                 My work
@@ -39,10 +39,10 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="text-gray-700 body-font border-t border-gray-200">
+      <section className="text-gray-700 body-font border-t border-gray-200 bg-darkPastelGreen">
         <div className="container px-5 py-16 mx-auto">
           <div className="flex flex-col text-center w-full mb-8 sm:mb-16">
-            <h2 className="sm:text-3xl text-2xl font-semibold text-green">
+            <h2 className="sm:text-3xl text-2xl font-semibold text-white">
               Projects
             </h2>
           </div>
@@ -63,7 +63,7 @@ const Home = () => {
                   </div>
                   <div className="pt-2 text-xs text-grey no-underline tracking-wide">
                     <Link
-                      className="block w-full text-center text-green hover:text-orange border-2 border-green py-2 px-6 focusring hover:border-orange rounded text-lg"
+                      className="block w-full text-center text-pastelGreen hover:text-white border-2 border-pastelGreen py-2 px-6 focusring hover:bg-darkPastelGreen rounded text-lg"
                       to="/caseStudies/retail"
                     >
                       Case Study
@@ -88,7 +88,7 @@ const Home = () => {
                   </div>
                   <div className="pt-2 text-xs text-grey no-underline tracking-wide">
                     <Link
-                      className="block w-full text-center text-green hover:text-orange border-2 border-green py-2 px-6 focusring hover:border-orange rounded text-lg"
+                      className="block w-full text-center text-pastelGreen hover:text-white border-2 border-pastelGreen py-2 px-6 focusring hover:bg-darkPastelGreen rounded text-lg"
                       to="/caseStudies/halfords"
                     >
                       Case Study
@@ -116,7 +116,7 @@ const Home = () => {
                   </div>
                   <div className="pt-2 text-xs text-grey no-underline tracking-wide">
                     <Link
-                      className="block w-full text-center text-green hover:text-orange border-2 border-green py-2 px-6 focusring hover:border-orange rounded text-lg"
+                      className="block w-full text-center text-pastelGreen hover:text-white border-2 border-pastelGreen py-2 px-6 focusring hover:bg-darkPastelGreen rounded text-lg"
                       to="/caseStudies/bloodhound"
                     >
                       Case Study
@@ -130,8 +130,8 @@ const Home = () => {
       </section>
 
       <div className="container px-4 py-12 mx-auto text-gray-400">
-        <div className="flex justify-around">
-          <div>
+        <div className="flex flex-row justify-around">
+          <div className="block text-center text-pastelGreen hover:text-white border-2 border-pastelGreen py-2 px-6 focusring hover:bg-darkPastelGreen rounded text-lg">
             <a
               href="https://www.linkedin.com/in/benjamin-cranwell-5945101a3"
               target="_blank"
@@ -139,7 +139,7 @@ const Home = () => {
               LinkedIn
             </a>
           </div>
-          <div>
+          <div className="block text-center text-pastelGreen hover:text-white border-2 border-pastelGreen py-2 px-6 focusring hover:bg-darkPastelGreen rounded text-lg">
             <a
               href="https://medium.com/@benjamin_51824/developer-to-ux-designer-portfolio-d508cdbfeb6a"
               target="_blank"
