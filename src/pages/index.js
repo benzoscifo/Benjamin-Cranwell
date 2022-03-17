@@ -101,7 +101,7 @@ const Home = () => {
               <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex-col border border-beige-200">
                 <div className="py-4 md:py-7 lg:py-10">
                   <StaticImage
-                    src="../images/bloodhound-logo.png"
+                    src="../images/bloodhound-logo-photo.png"
                     className="bg-cover h-48"
                     layout="fullWidth"
                   />
