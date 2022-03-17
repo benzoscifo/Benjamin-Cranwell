@@ -5,7 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 export default function Sustainability() {
   return (
     <Layout>
-      <div className="container mx-auto">
+      <div className="flex flex-wrap mx-auto py-20 px-6 w-full max-w-screen-xl">
         <div className="grid grid-cols-1 sm:grid-cols-2 text-center">
           <div>
             <StaticImage

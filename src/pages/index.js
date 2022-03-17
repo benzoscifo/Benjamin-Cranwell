@@ -8,8 +8,8 @@ const Home = () => {
   const [show] = useState(true)
   return (
     <Layout>
-      <section className="text-gray-700 body-font">
-        <div className="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center">
+      <section className="text-gray-700 body-font mt-20">
+        <div className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl">
           <div className="w-full lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className=" sm:text-4xl text-3xl mb-8 font-medium text-gray-400">
               I build web pages to be sleek, sharp and{" "}
@@ -18,7 +18,7 @@ const Home = () => {
               </RoughNotation>
             </h1>
 
-            <div className="flex w-full lg:w-1/5 justify-center">
+            <div className="flex w-full lg:w-1/5 justify-center pb-6">
               <Link
                 className="block w-full text-center text-pastelGreen hover:text-white border-2 border-pastelGreen py-2 px-6 hover:bg-darkPastelGreen rounded text-lg"
                 to="/caseStudies"
@@ -39,10 +39,10 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="text-gray-700 body-font border-t border-gray-200 bg-darkPastelGreen">
-        <div className="container px-5 py-16 mx-auto">
+      <section className="text-gray-700 body-font mt-20">
+        <div className="flex flex-wrap mx-auto pb-20 px-6 w-full max-w-screen-xl bg-darkPastelGreen">
           <div className="flex flex-col text-center w-full mb-8 sm:mb-16">
-            <h2 className="sm:text-3xl text-2xl font-semibold text-white">
+            <h2 className="sm:text-3xl text-2xl font-semibold text-white mt-20">
               Projects
             </h2>
           </div>
@@ -129,8 +129,7 @@ const Home = () => {
         </div>
       </section>
 
-      <div className="container px-4 py-12 mx-auto text-gray-400">
-        <div className="flex flex-row justify-around">
+      <div className="flex flex-wrap mx-auto py-20 px-6 w-full max-w-screen-xl justify-around">
           <div className="block text-center text-pastelGreen hover:text-white border-2 border-pastelGreen py-2 px-6 focusring hover:bg-darkPastelGreen rounded text-lg">
             <a
               href="https://www.linkedin.com/in/benjamin-cranwell-5945101a3"
@@ -147,7 +146,6 @@ const Home = () => {
               Blog
             </a>
           </div>
-        </div>
       </div>
     </Layout>
   )

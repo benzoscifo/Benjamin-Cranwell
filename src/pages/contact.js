@@ -6,7 +6,7 @@ export default function contact() {
     <Layout>
       <h1 className="sr-only">Contact Form</h1>
       <section className="text-gray-700">
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div className="flex flex-wrap mx-auto py-20 px-6 w-full max-w-screen-xl">
           <div className="w-full md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <form
               accept-charset="UTF-8"
@@ -64,34 +64,32 @@ export default function contact() {
               </button>
             </form>
           </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full text-center sm:text-left">
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full self-center text-center md:text-left">
             <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
               Say hello
             </h2>
-            <p className="mb-8 leading-relaxed">
+            <p className="mb-8 text-lg leading-relaxed">
               Send me a message and we can chat.
             </p>
           </div>
         </div>
       </section>
-      <div className="container px-4 py-12 mx-auto text-gray-400">
-        <div className="flex justify-around">
+      <div className="flex flex-wrap mx-auto py-20 px-6 w-full max-w-screen-xl justify-around">
         <div className="block text-center text-blue hover:text-white border-2 border-blue py-2 px-6 focusring hover:bg-blue rounded text-lg">
-            <a
-              href="https://www.linkedin.com/in/benjamin-cranwell-5945101a3"
-              target="_blank"
-            >
-              LinkedIn
-            </a>
-          </div>
-          <div className="block text-center text-blue hover:text-white border-2 border-blue py-2 px-6 focusring hover:bg-blue rounded text-lg">
-            <a
-              href="https://medium.com/@benjamin_51824/developer-to-ux-designer-portfolio-d508cdbfeb6a"
-              target="_blank"
-            >
-              Blog
-            </a>
-          </div>
+          <a
+            href="https://www.linkedin.com/in/benjamin-cranwell-5945101a3"
+            target="_blank"
+          >
+            LinkedIn
+          </a>
+        </div>
+        <div className="block text-center text-blue hover:text-white border-2 border-blue py-2 px-6 focusring hover:bg-blue rounded text-lg">
+          <a
+            href="https://medium.com/@benjamin_51824/developer-to-ux-designer-portfolio-d508cdbfeb6a"
+            target="_blank"
+          >
+            Blog
+          </a>
         </div>
       </div>
     </Layout>

@@ -8,7 +8,7 @@ export default function Projects({ data }) {
   return (
     <Layout>
       <h1 className="sr-only">Case Studies Links</h1>
-      <section className="bg-pastelBlue">
+      <section className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl bg-pastelBlue">
         <a
           id="argos"
           className="container mx-auto flex px-5 py-12 sm:pb-24 md:flex-row flex-col justify-center items-center text-3xl font-semibold"
@@ -32,7 +32,7 @@ export default function Projects({ data }) {
           </div>
         </a>
       </section>
-      <section className="bg-blueViolets">
+      <section className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl bg-blueViolets">
         <a
           id="halfords"
           className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center"
@@ -56,7 +56,7 @@ export default function Projects({ data }) {
           </h2>
         </a>
       </section>
-      <section className="bg-pastelBlue">
+      <section className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl bg-pastelBlue">
         <a
           id="bloodhound"
           className="container mx-auto flex px-5 py-12 sm:pb-24 md:flex-row flex-col items-center text-3xl font-semibold"
@@ -82,6 +82,24 @@ export default function Projects({ data }) {
           </div>
         </a>
       </section>
+      <div className="flex flex-wrap mx-auto py-6 px-6 w-full max-w-screen-xl  justify-around">
+        <div className="block text-center text-pastelGreen hover:text-white border-2 border-pastelGreen py-2 px-6 focusring hover:bg-darkPastelGreen rounded text-lg">
+          <a
+            href="https://www.linkedin.com/in/benjamin-cranwell-5945101a3"
+            target="_blank"
+          >
+            LinkedIn
+          </a>
+        </div>
+        <div className="block text-center text-pastelGreen hover:text-white border-2 border-pastelGreen py-2 px-6 focusring hover:bg-darkPastelGreen rounded text-lg">
+          <a
+            href="https://medium.com/@benjamin_51824/developer-to-ux-designer-portfolio-d508cdbfeb6a"
+            target="_blank"
+          >
+            Blog
+          </a>
+        </div>
+      </div>
     </Layout>
   )
 }

@@ -7,41 +7,47 @@ export default function bloodhound() {
   return (
     <Layout>
       <h1 className="sr-only">Bloodhound Case Study</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2">
+      <section className="mt-10">
+      <div className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl">
         <div className="text-center self-center">
           <StaticImage
             alt="mobile images"
             src="../../images/bloodPhotoShop.png"
-            width={800}
-            aspectRatio={16 / 9}
           />
         </div>
-        <div className="p-8 text-center sm:text-left self-center">
-          <div className="text-6xl text-bloodhound font-extrabold pb-6">
-            Bloodhound
-            <span className="text-4xl"> app</span>
-          </div>
-          <h2>
-            <a id="topOfPage" className="text-2xl font-semibold">
-              The Idea
-            </a>
-          </h2>
-          <p className="pb-4">
-            The App is targeted towards Employers enabling them to be aware of
-            any online behaviour their employees or potiental employees that may
-            not fit into their company values. With GDPR rules rightfully
-            protecting personal information only information that is freely
-            available on the web will be displayed.
-          </p>
-          <h2 className="text-2xl font-semibold">Project Summary</h2>
-          <p>
-            Beginning with user interviews and understanding the needs of the
-            User I defined the problem, made some low fidelity wireframes, ran
-            user testing and finally produced high fidelity wireframes and
-            protoype.
-          </p>
-        </div>
       </div>
+      </section>
+      <section className="mt-14 md:mt-20">
+        <div className="flex flex-col mdflex-row mx-auto py-0 px-6 w-full max-w-screen-xl">
+          <div className="p-8 text-center sm:text-left self-center">
+            <div className="text-6xl text-bloodhound font-extrabold pb-6">
+              Bloodhound
+              <span className="text-4xl"> app</span>
+            </div>
+          </div>
+          <div>
+            <h2>
+              <a id="topOfPage" className="text-2xl font-semibold">
+                The Idea
+              </a>
+            </h2>
+            <p className="pb-4 text-lg">
+              The App is targeted towards Employers enabling them to be aware of
+              any online behaviour their employees or potiental employees that may
+              not fit into their company values. With GDPR rules rightfully
+              protecting personal information only information that is freely
+              available on the web will be displayed.
+            </p>
+            <h2 className="text-2xl font-semibold">Project Summary</h2>
+            <p>
+              Beginning with user interviews and understanding the needs of the
+              User I defined the problem, made some low fidelity wireframes, ran
+              user testing and finally produced high fidelity wireframes and
+              protoype.
+            </p>
+          </div>
+        </div>
+      </section>
       <section>
         <div className="container mx-auto px-5 m-10">
           <h3 className="text-2xl font-semibold pb-4 text-center">
