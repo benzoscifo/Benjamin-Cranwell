@@ -12,7 +12,7 @@ export default function bloodhound() {
         <div className="text-center self-center">
           <StaticImage
             alt="mobile images"
-            src="../../images/bloodPhotoShop.png"
+            src="../../images/bloodHoundHero.png"
           />
         </div>
       </div>
@@ -48,7 +48,7 @@ export default function bloodhound() {
           </div>
         </div>
       </section>
-      <section>
+      <section className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl">
         <div className="container mx-auto px-5 m-10">
           <h3 className="text-2xl font-semibold pb-4 text-center">
             Section Navigation

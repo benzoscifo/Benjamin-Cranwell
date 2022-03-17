@@ -242,6 +242,24 @@ export default function Sustainability() {
           </div>
         </div>
       </section>
+      <div className="flex flex-wrap mx-auto py-20 px-6 w-full max-w-screen-xl justify-around">
+        <div className="block text-center text-blue hover:text-white border-2 border-blue py-2 px-6 focusring hover:bg-blue rounded text-lg">
+          <a
+            href="https://www.linkedin.com/in/benjamin-cranwell-5945101a3"
+            target="_blank"
+          >
+            LinkedIn
+          </a>
+        </div>
+        <div className="block text-center text-blue hover:text-white border-2 border-blue py-2 px-6 focusring hover:bg-blue rounded text-lg">
+          <a
+            href="https://medium.com/@benjamin_51824/developer-to-ux-designer-portfolio-d508cdbfeb6a"
+            target="_blank"
+          >
+            Blog
+          </a>
+        </div>
+      </div>
     </Layout>
   )
 }

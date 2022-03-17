@@ -8,9 +8,9 @@ import { Link } from "gatsby"
 export default function about() {
   return (
     <Layout>
-      <div className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl bg-pastelGreen">
+      <div className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl bg-darkPastelGreen">
         <div className="py-10">
-          <p className="text-3xl text-gray-400">
+          <p className="text-3xl text-white">
             UX Designer and Front-End Web Developer
           </p>
         </div>
@@ -35,8 +35,8 @@ export default function about() {
             />
           </div>
       </div>
-      <div className="flex flex-wrap mx-auto py-6 px-6 w-full max-w-screen-xl bg-pastelGreen justify-around">
-        <div className="block text-center text-pastelGreen hover:text-white border-2 border-pastelGreen py-2 px-6 focusring hover:bg-darkPastelGreen rounded text-lg">
+      <div className="flex flex-wrap mx-auto py-6 px-6 w-full max-w-screen-xl bg-darkPastelGreen justify-around">
+        <div className="block text-center text-white hover:text-darkPastelGreen border-2 border-white py-2 px-6 focusring hover:bg-white rounded text-lg">
           <a
             href="https://www.linkedin.com/in/benjamin-cranwell-5945101a3"
             target="_blank"
@@ -44,7 +44,7 @@ export default function about() {
             LinkedIn
           </a>
         </div>
-        <div className="block text-center text-pastelGreen hover:text-white border-2 border-pastelGreen py-2 px-6 focusring hover:bg-darkPastelGreen rounded text-lg">
+        <div className="block text-center text-white hover:text-darkPastelGreen border-2 border-white py-2 px-6 focusring hover:bg-white rounded text-lg">
           <a
             href="https://medium.com/@benjamin_51824/developer-to-ux-designer-portfolio-d508cdbfeb6a"
             target="_blank"

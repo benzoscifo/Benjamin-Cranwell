@@ -47,6 +47,7 @@ module.exports = {
         pastelGreen: "#70AE98",
         pastelPink: "#F3D1DC",
         brickRed: "#D1495B",
+        darkPastelGreen: "#70AE98",
       },
     },
   },
