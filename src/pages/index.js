@@ -40,7 +40,7 @@ const Home = () => {
         </div>
       </section>
       <section className="text-gray-700 body-font mt-20">
-        <div className="flex flex-wrap mx-auto pb-20 px-6 w-full max-w-screen-xl bg-darkPastelGreen">
+        <div className="flex flex-wrap mx-auto pb-20 px-6 w-full max-w-screen-xl bg-darkPastelGreen rounded">
           <div className="flex flex-col text-center w-full mb-8 sm:mb-16">
             <h2 className="sm:text-3xl text-2xl font-semibold text-white mt-20">
               Projects

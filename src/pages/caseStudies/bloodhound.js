@@ -12,7 +12,7 @@ export default function bloodhound() {
         <div className="text-center self-center">
           <StaticImage
             alt="mobile images"
-            src="../../images/bloodHoundHero.png"
+            src="../../images/bloodhoundHero.png"
           />
         </div>
       </div>
@@ -72,7 +72,7 @@ export default function bloodhound() {
             </a>
             <a
               href="#ideate"
-              className="bg-bloodhound  hover:bg-blue rounded-full border p-3 text-center"
+              className="bg-bloodhound hover:bg-blue rounded-full border p-3 text-center"
             >
               <button className="underline text-white font-bold py-2 px-4">
                 Ideate
