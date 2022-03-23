@@ -25,6 +25,8 @@ module.exports = {
       darkPastelGreen: "#70AE98",
       brickRed: "#D1495B",
       paleGreen: "#0B4F6C",
+      bbc: "#b90000",
+      bbcBlue: "#1338BE",
     }),
     extend: {
       backgroundImage: {
@@ -48,6 +50,8 @@ module.exports = {
         pastelPink: "#F3D1DC",
         brickRed: "#D1495B",
         darkPastelGreen: "#70AE98",
+        bbc: "#b90000",
+        bbcBlue: "#1338BE", 
       },
     },
   },

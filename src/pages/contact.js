@@ -17,7 +17,7 @@ export default function contact() {
             >
               <div className="mb-4">
                 <label className="block">
-                  <h2 className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-gray-700">
+                  <h2 className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-gray-700 text-lg">
                     Name
                   </h2>
                   <input
@@ -30,7 +30,7 @@ export default function contact() {
               </div>
               <div className="mb-6">
                 <label className="block">
-                  <h2 className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-gray-700">
+                  <h2 className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-gray-700 text-lg">
                     Email
                   </h2>
                   <input
@@ -44,7 +44,7 @@ export default function contact() {
               <div className="mb-6">
                 <h2 className="sr-only">Message</h2>
                 <label
-                  className="block text-gray-700 text-sm font-bold mb-2"
+                  className="block text-gray-700 text-lg font-bold mb-2"
                   for="exampleInputMessage"
                 >
                   Message
@@ -58,7 +58,7 @@ export default function contact() {
               </div>
               <button
                 type="submit"
-                className="bg-argos text-white rounded p-2 w-full"
+                className="bg-argos text-white rounded p-2 w-full text-lg"
               >
                 Submit
               </button>

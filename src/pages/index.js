@@ -49,72 +49,74 @@ const Home = () => {
           <div className="flex flex-wrap -m-4">
             <div className="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex-col">
+                <div>
                 <StaticImage
-                  src="../images/argos.png"
+                  src="../images/next-black.png"
                   className="bg-cover h-48"
                   layout="constrained"
                   width={700}
                   aspectRatio={16 / 9}
                 />
+                </div>
                 <div className="p-4 flex-1 flex flex-col text-center">
-                  <h3 className="mb-4 text-2xl">Argos</h3>
+                  <h3 className="mb-4 text-2xl">Next</h3>
                   <div className="mb-4 text-grey-darker text-sm flex-1">
-                    <p>Making mobile use enjoyable.</p>
+                    <p className="text-lg">10 point Heuristic Review</p>
                   </div>
                   <div className="pt-2 text-xs text-grey no-underline tracking-wide">
                     <Link
                       className="block w-full text-center text-pastelGreen hover:text-white border-2 border-pastelGreen py-2 px-6 focusring hover:bg-darkPastelGreen rounded text-lg"
-                      to="/caseStudies/retail"
+                      to="/caseStudies/next"
                     >
-                      Case Study
+                      Heuristic Evaluation
                     </Link>
                   </div>
                 </div>
               </div>
             </div>
             <div className="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex-col border border-beige-200">
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex-col">
                 <StaticImage
-                  src="../images/halfordslogo.jpeg"
+                  src="../images/bbc-homepage.png"
                   className="bg-cover h-48"
                   layout="constrained"
                   width={700}
                   aspectRatio={16 / 9}
                 />
                 <div className="p-4 flex-1 flex flex-col text-center">
-                  <h3 className="mb-4 text-2xl">Halfords</h3>
+                  <h3 className="mb-4 text-2xl">BBC News</h3>
                   <div className="mb-4 text-grey-darker text-sm flex-1">
-                    <p>Making Halfords the name for tyres.</p>
+                    <p className="text-lg">7 point Accessibility Review</p>
                   </div>
                   <div className="pt-2 text-xs text-grey no-underline tracking-wide">
                     <Link
                       className="block w-full text-center text-pastelGreen hover:text-white border-2 border-pastelGreen py-2 px-6 focusring hover:bg-darkPastelGreen rounded text-lg"
-                      to="/caseStudies/halfords"
+                      to="/caseStudies/bbc"
                     >
-                      Case Study
+                      Accessibility Evaluation
                     </Link>
                   </div>
                 </div>
               </div>
             </div>
             <div className="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex-col border border-beige-200">
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex-col">
                 <div className="py-4 md:py-7 lg:py-10">
                   <StaticImage
-                    src="../images/bloodhound-logo-photo.png"
+                    src="../images/bloodhound-logo.png"
                     className="bg-cover h-48"
                     layout="fullWidth"
                   />
                 </div>
-                <div className="px-4 pb-4 lg:pt-12 flex-1 flex flex-col text-center">
+                <div className="px-4 pb-5 lg:pt-14 flex-1 flex flex-col text-center">
                   <h3 className="mb-4 text-2xl">Bloodhound</h3>
-                  <div className="mb-4 text-grey-darker text-sm flex-1">
-                    <p>
+                  <div className="mb-3 text-grey-darker text-sm flex-1">
+                    <p className="text-lg">
                       An app for employers to help vet current or future
                       employees
                     </p>
                   </div>
-                  <div className="pt-2 text-xs text-grey no-underline tracking-wide">
+                  <div className="text-xs text-grey no-underline tracking-wide">
                     <Link
                       className="block w-full text-center text-pastelGreen hover:text-white border-2 border-pastelGreen py-2 px-6 focusring hover:bg-darkPastelGreen rounded text-lg"
                       to="/caseStudies/bloodhound"
@@ -128,8 +130,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-      <div className="flex flex-wrap mx-auto py-20 px-6 w-full max-w-screen-xl justify-around">
+      <section className="flex flex-wrap mx-auto py-20 px-6 w-full max-w-screen-xl justify-around">
           <div className="block text-center text-pastelGreen hover:text-white border-2 border-pastelGreen py-2 px-6 focusring hover:bg-darkPastelGreen rounded text-lg">
             <a
               href="https://www.linkedin.com/in/benjamin-cranwell-5945101a3"
@@ -146,7 +147,7 @@ const Home = () => {
               Blog
             </a>
           </div>
-      </div>
+      </section>
     </Layout>
   )
 }

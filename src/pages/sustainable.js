@@ -23,11 +23,11 @@ export default function Sustainability() {
               <span className="text-orange"> S</span>ustain
               <span className="text-green">a</span>bility
             </h1>
-            <p className="mx-20">
+            <p className="mx-20 text-lg">
               <b>UX</b> Deginers can make small decisions early on in the design
               process that can greatly benefit the{" "}
-              <span className="text-blue">user</span>, the{" "}
-              <span className="text-green">planet</span> and the development
+              <span className="text-blue text-lg">user</span>, the{" "}
+              <span className="text-green text-lg">planet</span> and the development
               team
             </p>
           </div>
@@ -43,12 +43,12 @@ export default function Sustainability() {
             <h3 className="text-2xl font-semibold pb-4 text-yellow-400">
               Carousel
             </h3>
-            <p>
+            <p className="text-lg">
               Carousels can be very Javascipt heavy which may increase page load
               times
             </p>
-            <p>They generally have poor accessibility rating</p>
-            <p className="pb-8">
+            <p className="text-lg">They generally have poor accessibility rating</p>
+            <p className="text-lg pb-8">
               Research shows that they aren't always the best way to present
               home page content{" "}
             </p>
@@ -63,9 +63,9 @@ export default function Sustainability() {
             <h3 className="text-2xl font-semibold pb-4">
               <span className="text-green">Static</span> Image
             </h3>
-            <p>Images can be compressed and lazy loaded to reduce size</p>
-            <p>They are easier to made accessible in comparison to carousels</p>
-            <p className="pb-8">
+            <p className="text-lg">Images can be compressed and lazy loaded to reduce size</p>
+            <p className="text-lg">They are easier to made accessible in comparison to carousels</p>
+            <p className="pb-8 text-lg">
               A well chosen image can more beneficial than several images on
               rotation.
             </p>
@@ -83,11 +83,11 @@ export default function Sustainability() {
             <h3 className="text-2xl font-semibold pb-4">
               Webpage with <span className="text-orange">multiple</span> videos
             </h3>
-            <p>
+            <p className="text-lg">
               Videos are extremely large assests to download and can increase
               load times massively hurting SEO rankings
             </p>
-            <p className="pb-8">
+            <p className="pb-8 text-lg">
               Videos that play automatically can be unpleasant for many users
             </p>
             <StaticImage
@@ -101,11 +101,11 @@ export default function Sustainability() {
             <h3 className="text-2xl font-semibold pb-4">
               Webpage with a <span className="text-green">single</span> video
             </h3>
-            <p>
+            <p className="text-lg">
               Videos can help build a bridge between your brand and your
               customers{" "}
             </p>
-            <p className="pb-8">
+            <p className="pb-8 text-lg">
               Videos can be lazy loaded and only downloaded when the user
               presses play{" "}
             </p>
@@ -123,11 +123,11 @@ export default function Sustainability() {
             <h3 className="text-2xl font-semibold pb-4">
               Multiple <span className="text-yellow-400">Images</span>
             </h3>
-            <p>
+            <p className="text-lg">
               Images are important for many website in connecting their brand to
               the user however too many images can bloat the webpage size
             </p>
-            <p className="pb-8">
+            <p className="pb-8 text-lg">
               As Images are only second to Videos for file size they can
               seriously reduce page load times again hurting your SEO rankings
             </p>
@@ -142,8 +142,8 @@ export default function Sustainability() {
             <h3 className="text-2xl font-semibold pb-4">
               <span className="text-green">Less</span> Images
             </h3>
-            <p>Images can be compressed to reduce file size</p>
-            <p className="pb-8">
+            <p className="text-lg">Images can be compressed to reduce file size</p>
+            <p className="pb-8 text-lg">
               Images can be lazy loaded to reduce load times but you still
               should be try and reduce the number of images on your website
             </p>
@@ -171,13 +171,13 @@ export default function Sustainability() {
               Next Clothing Company
             </h3>
 
-            <p className="pb-4">
+            <p className="pb-4 text-lg">
               According to Statisa <i>Next.co.uk</i> is the most visited fashion
               website in the UK, with nearly{" "}
               <span className="text-orange font-bold">50m</span> visits in
               December alone.
             </p>
-            <p className="pb-4">
+            <p className="pb-4 text-lg">
               And from the screenshots shown here you can see that Next's
               homepage has an{" "}
               <span className="underline">
@@ -187,7 +187,7 @@ export default function Sustainability() {
               its uncompressed images and therefore having a lousy sustainable
               website
             </p>
-            <p className="text-sm text-gray-700">
+            <p className="text-sm text-gray-700 text-lg">
               <b>
                 <q className="italic">
                   Cambridge Dictionary defines Sustainable as 'causing, or made
@@ -214,18 +214,18 @@ export default function Sustainability() {
               So how can a UX Designer <span className="text-green">help?</span>
             </h3>
 
-            <p className="pb-4">
+            <p className="pb-4 text-lg">
               Firstly you could reduce the number of images on a page as it will
               reduce the amount of energy needed to transfer and download the
               files from a server.
             </p>
-            <p className="pb-4">
+            <p className="pb-4 text-lg">
               However if like the Next website images are vital to the success
               of the company then make sure they are{" "}
               <span className="text-green font-bold">compressed </span>so making
               their file size as small as can be.
             </p>
-            <p>
+            <p className="text-lg">
               Another example is to have low resolution images as placeholders
               which are smaller in file size which as mentioned help reduce the
               energy cost on inital page load. Once the low fidelity images are

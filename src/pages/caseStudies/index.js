@@ -8,77 +8,75 @@ export default function Projects({ data }) {
   return (
     <Layout>
       <h1 className="sr-only">Case Studies Links</h1>
-      <section className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl bg-pastelBlue">
+      <section className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl">
         <a
           id="argos"
           className="container mx-auto flex px-5 py-12 sm:pb-24 md:flex-row flex-col justify-center items-center text-3xl font-semibold"
         >
-          <h2 className="md:w-1/2 flex flex-col md:text-left mb-16 md:mb-0 items-center text-argos text-center">
-            Argos
+          <h2 className="md:w-1/2 flex flex-col md:text-left mb-16 md:mb-0 items-center text-darkPastelGreen text-center">
+            Next
             <Link
-              className="block w-full text-center sm:w-1/2 text-argos hover:text-white border-2 border-argos hover:bg-argos py-2 px-6 rounded text-lg mt-6"
-              to="/caseStudies/retail"
+              className="block w-full text-center sm:w-1/2 text-darkPastelGreen hover:text-white border-2 border-darkPastelGreen hover:bg-darkPastelGreen py-2 px-6 rounded text-lg mt-6"
+              to="/caseStudies/next"
             >
-              Read the Case Study
+              Heuristic Evaluation
             </Link>
           </h2>
           <div className="md:w-1/2">
             <StaticImage
               className="object-cover object-center rounded"
-              alt="argos logo"
-              src="../../images/argos.png"
+              alt="next logo"
+              src="../../images/white-Next.png"
               rotate="90"
             />
           </div>
         </a>
       </section>
-      <section className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl bg-blueViolets">
+      <section className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl">
         <a
-          id="halfords"
+          id="bbc"
           className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center"
         >
           <div className="md:w-1/2 sm:order-first order-last">
             <StaticImage
               className="object-cover object-center rounded"
               alt="hero"
-              src="../../images/halfordslogophoto.png"
+              src="../../images/bbc-homepage.png"
               rotate="90"
             />
           </div>
-          <h2 className="md:w-1/2 flex flex-col md:text-left mb-16 sm:mt-0 mb-16 md:mb-0 items-center text-center text-orange text-3xl font-semibold">
-            Halfords
+          <h2 className="md:w-1/2 flex flex-col md:text-left mb-16 sm:mt-0 mb-16 md:mb-0 items-center text-center text-bbc text-3xl font-semibold">
+            BBC
             <Link
-              className="block w-full text-center sm:w-1/2 text-orange hover:text-white border-2 border-orange hover:bg-orange py-2 px-6 rounded text-lg mt-6"
-              to="/caseStudies/halfords"
+              className="block w-full text-center sm:w-1/2 text-bbc hover:text-white border-2 border-bbc hover:border-bbcBlue hover:bg-bbcBlue py-2 px-6 rounded text-lg mt-6"
+              to="/caseStudies/bbc"
             >
-              Read the Case Study
+              Accessibility Evaluation
             </Link>
           </h2>
         </a>
       </section>
-      <section className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl bg-pastelBlue">
+      <section className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl">
         <a
-          id="bloodhound"
-          className="container mx-auto flex px-5 py-12 sm:pb-24 md:flex-row flex-col items-center text-3xl font-semibold"
+          id="argos"
+          className="container mx-auto flex px-5 py-12 sm:pb-24 md:flex-row flex-col justify-center items-center text-3xl font-semibold"
         >
-          <h2 className="md:w-1/2 flex flex-col md:text-left mb-16 md:mb-0 items-center text-center text-bloodhound">
+          <h2 className="md:w-1/2 flex flex-col md:text-left mb-16 md:mb-0 items-center text-pastelBlue text-center">
             Bloodhound
             <Link
-              className="block w-full text-center sm:w-1/2 text-argos hover:text-white border-2 border-argos hover:bg-argos py-2 px-6 rounded text-lg mt-6"
+              className="block w-full text-center sm:w-1/2 text-pastelBlue hover:text-white border-2 border-pastelBlue hover:border-bloodhound hover:bg-bloodhound py-2 px-6 rounded text-lg mt-6"
               to="/caseStudies/bloodhound"
             >
-              Read the Case Study
+              Mobile App
             </Link>
           </h2>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <div className="py-16">
-              <StaticImage
-                className="object-cover object-center rounded"
-                alt="hero"
-                src="../../images/bloodhound-logo-photo.png"
-                rotate="90"
-              />
-            </div>
+          <div className="md:w-1/2">
+            <StaticImage
+              className="object-cover object-center rounded"
+              alt="next logo"
+              src="../../images/bloodhound-index.png"
+              rotate="90"
+            />
           </div>
         </a>
       </section>
