@@ -18,7 +18,7 @@ export default function () {
                 Accessibility Evaluation
             </h2>
             <p className="pb-4 text-base sm:text-xl">
-              I conducted an Accessibility review choosing the UK most popular online news website with an audience of 38.7 million (stat: January 2022). Accessibility effects everyone at one time or another no matter who you are whether it be a permanent, temporary or situational disability.
+              I conducted an Accessibility review choosing the UK's most popular online news website with an audience of 38.7 million (stat: January 2022). Accessibility effects everyone at one time or another no matter who you are whether it be a permanent, temporary or situational disability.
             </p>
             <h2 className="text-xl sm:text-2xl font-semibold">The Methodology</h2>
             <p className="text-base sm:text-xl">
@@ -43,9 +43,9 @@ export default function () {
           <div className="p-8 text-center sm:text-left">
             <h2 className="text-xl sm:text-2xl font-semibold pb-6 pb-6">1. Keyboard-only</h2>
             <p className="text-base sm:text-xl pb-1.5">
-              The user should be able to use the keyboard to navigate to page elements such as links and forms; and are they in correct order as shown on the page.
+              The user should be able to use the keyboard to navigate to page elements such as links and forms and in a logical order so the user can easily follow.
             </p>
-            <p className="text-base sm:text-xl">BBC has a nicely structured their links and buttons in a logical order. A nice touch is that early in the page is a tabbable element that links to a specific BBC accessibility help page. </p>
+            <p className="text-base sm:text-xl">BBC has nicely structured their links and buttons in a logical order. A nice touch is that early in the page is a tabbable element that links to a specific BBC accessibility help page. </p>
           </div>
         </div>
       </section>
@@ -63,7 +63,7 @@ export default function () {
           <div className="p-8 text-center sm:text-left">
             <h2 className="text-xl sm:text-2xl font-semibold pb-6">2. Screen readers</h2>
             <p className="text-base sm:text-xl pb-1.5">
-              Using designs that match the real world allows for easier understanding and interaction for the user. For example the bin on a laptop is an image or icon of a waste paper bin.</p><p className="text-base sm:text-xl"> Unfortunately the buttons in the Next checkout process don't follow this prinicple for interaction design. One problem with the Next buttons is that they don't look like buttons, they need to improve their size, shape and shadow.
+              Screen readers help users with visual difficults by reading out the content.</p><p className="text-base sm:text-xl"> The BBC news website is well structered with a good heading hierarchy and also uses aria roles to give the user a clearer understanding of the element they are interacting with.
             </p>
           </div>
         </div>
@@ -84,7 +84,7 @@ export default function () {
           <div className="p-8 text-center sm:text-left">
             <h2 className="text-xl sm:text-2xl font-semibold pb-6">3. Browser zoom</h2>
             <p className="text-base sm:text-xl pb-1.5">
-              The website should be designed to allow for a zoom range between 100% and 200% making sure the webpage layout doesn't break or the content is un-readable </p>
+              The website should be designed to allow for a zoom range between 100% and 200% making sure the webpage layout doesn't break or the content is unreadable </p>
             <p className="text-base sm:text-xl"> The BBC News website comfortably allows for the website to be zoomed in by 200%. The webpages are responsive and this allows for text to wrap and the content to be displayed as like in Tablet layout.
             </p>
           </div>
@@ -156,7 +156,7 @@ export default function () {
             <p className="text-base sm:text-xl pb-1.5">
               The heading layout allows for the user to understand the organisation of the content on the page and the importance of each heading.
             </p>
-            <p className="text-base sm:text-xl">BBC has a solid heading structure but has several H2 headings before the H1 heading.</p>
+            <p className="text-base sm:text-xl">BBC has a solid heading structure but has several H2 headings before the H1 heading that may confuse a first time user.</p>
           </div>
         </div>
       </section>
@@ -176,7 +176,7 @@ export default function () {
           <div className="p-8 text-center sm:text-left">
             <h2 className="text-xl sm:text-2xl font-semibold pb-6">7. Font and Typeface</h2>
             <p className="text-base sm:text-xl pb-1.5">
-              Font and Typeface is vital in accessibility for users with poor vision, learning disabilities, aphasia and dyslexia by providing greater legibility and readability. 
+              Font and Typeface is vital in accessibility for users with poor vision, learning disabilities, aphasia and dyslexia. A well thoughout and tested font can provide greater legibility and readability. 
             </p>
             <p className="text-base sm:text-xl">BBC uses its own font called Reith which is a very accessible and works across all mediums from the smallest(mobile) to the largest(Billboards).</p>
           </div>
