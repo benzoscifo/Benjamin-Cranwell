@@ -65,7 +65,7 @@ export default function bloodhound() {
       </section>
       <section className="mt-14 md:mt-20">
         <div className="flex flex-col md:flex-row mx-auto py-0 px-6 w-full max-w-screen-xl">
-          <div className="p-8">
+          <div className="p-8 text-center sm:text-left">
             <h2 className="text-xl sm:text-2xl font-semibold pb-6">First Drafts</h2>
             <p className="text-base sm:text-xl">
               Beginning with user interviews and understanding the needs of the

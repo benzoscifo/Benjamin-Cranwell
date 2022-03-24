@@ -9,7 +9,7 @@ export default function about() {
   return (
     <Layout>
       <div className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl bg-darkPastelGreen">
-        <div className="py-10">
+        <div className="py-10 text-center sm:text-left">
           <p className="text-3xl text-white">
             UX Designer and Front-End Web Developer
           </p>

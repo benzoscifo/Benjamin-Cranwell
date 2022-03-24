@@ -73,7 +73,7 @@ export default function () {
         <div>
           <StaticImage
             alt="mobile images"
-            src="../../images/real-next.png"
+            src="../../images/real-Next.png"
             className="rounded-lg"
           />
         </div>
