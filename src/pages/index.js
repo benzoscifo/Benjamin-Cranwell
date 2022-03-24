@@ -49,19 +49,17 @@ const Home = () => {
           <div className="flex flex-wrap -m-4">
             <div className="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex-col">
-                <div>
+                <div className="pt-5">
                 <StaticImage
                   src="../images/next-black.png"
                   className="bg-cover h-48"
-                  layout="constrained"
-                  width={700}
-                  aspectRatio={16 / 9}
+                  layout="fullWidth"
                 />
                 </div>
-                <div className="p-4 flex-1 flex flex-col text-center">
+                <div className="p-4 pb-5 lg:pt-14 flex-1 flex flex-col text-center">
                   <h3 className="mb-4 text-2xl">Next</h3>
                   <div className="mb-4 text-grey-darker text-sm flex-1">
-                    <p className="text-lg">10 point Heuristic Review</p>
+                    <p className="text-lg">Fashion and Homewares Retailer</p>
                   </div>
                   <div className="pt-2 text-xs text-grey no-underline tracking-wide">
                     <Link
@@ -86,7 +84,7 @@ const Home = () => {
                 <div className="p-4 flex-1 flex flex-col text-center">
                   <h3 className="mb-4 text-2xl">BBC News</h3>
                   <div className="mb-4 text-grey-darker text-sm flex-1">
-                    <p className="text-lg">7 point Accessibility Review</p>
+                    <p className="text-lg">British Broadcasting Corporation</p>
                   </div>
                   <div className="pt-2 text-xs text-grey no-underline tracking-wide">
                     <Link

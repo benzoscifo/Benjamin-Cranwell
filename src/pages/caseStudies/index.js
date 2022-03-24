@@ -11,9 +11,9 @@ export default function Projects({ data }) {
       <section className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl">
         <a
           id="argos"
-          className="container mx-auto flex px-5 py-12 sm:pb-24 md:flex-row flex-col justify-center items-center text-3xl font-semibold"
+          className="container mx-auto flex px-5 py-8 sm:py-12 sm:pb-24 md:flex-row flex-col justify-center items-center text-3xl font-semibold"
         >
-          <h2 className="md:w-1/2 flex flex-col md:text-left mb-16 md:mb-0 items-center text-darkPastelGreen text-center">
+          <h2 className="md:w-1/2 flex flex-col md:text-left mb-8 sm:mb-16 md:mb-0 items-center text-darkPastelGreen text-center">
             Next
             <Link
               className="block w-full text-center sm:w-1/2 text-darkPastelGreen hover:text-white border-2 border-darkPastelGreen hover:bg-darkPastelGreen py-2 px-6 rounded text-lg mt-6"
@@ -35,7 +35,7 @@ export default function Projects({ data }) {
       <section className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl">
         <a
           id="bbc"
-          className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center"
+          className="container mx-auto flex px-5 py-8 sm:py-12 md:flex-row flex-col items-center"
         >
           <div className="md:w-1/2 sm:order-first order-last">
             <StaticImage
@@ -45,7 +45,7 @@ export default function Projects({ data }) {
               rotate="90"
             />
           </div>
-          <h2 className="md:w-1/2 flex flex-col md:text-left mb-16 sm:mt-0 mb-16 md:mb-0 items-center text-center text-bbc text-3xl font-semibold">
+          <h2 className="md:w-1/2 flex flex-col md:text-left mb-8 sm:mb-16 sm:mt-0 md:mb-0 items-center text-center text-bbc text-3xl font-semibold">
             BBC
             <Link
               className="block w-full text-center sm:w-1/2 text-bbc hover:text-white border-2 border-bbc hover:border-bbcBlue hover:bg-bbcBlue py-2 px-6 rounded text-lg mt-6"
@@ -59,9 +59,9 @@ export default function Projects({ data }) {
       <section className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl">
         <a
           id="argos"
-          className="container mx-auto flex px-5 py-12 sm:pb-24 md:flex-row flex-col justify-center items-center text-3xl font-semibold"
+          className="container mx-auto flex px-5 py-8 sm:py-12 sm:pb-24 md:flex-row flex-col justify-center items-center text-3xl font-semibold"
         >
-          <h2 className="md:w-1/2 flex flex-col md:text-left mb-16 md:mb-0 items-center text-pastelBlue text-center">
+          <h2 className="md:w-1/2 flex flex-col md:text-left mb-8 sm:mb-16 md:mb-0 items-center text-pastelBlue text-center">
             Bloodhound
             <Link
               className="block w-full text-center sm:w-1/2 text-pastelBlue hover:text-white border-2 border-pastelBlue hover:border-bloodhound hover:bg-bloodhound py-2 px-6 rounded text-lg mt-6"

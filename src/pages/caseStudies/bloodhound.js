@@ -7,27 +7,27 @@ export default function bloodhound() {
   return (
     <Layout>
       <h1 className="sr-only">Bloodhound Case Study</h1>
-      <section className="mt-14">
+      <section className="mt-8 sm:mt-14">
         <div className="flex flex-col md:flex-row mx-auto py-0 px-6 w-full max-w-screen-xl">
           <div className="p-8 text-center sm:text-left self-center">
             <div className="pb-6"> 
-              <a id="topOfPage" className="text-6xl text-bloodhound font-extrabold">
+              <a id="topOfPage" className="text-4xl sm:text-6xl text-bloodhound font-extrabold">
               Bloodhound
               <span className="text-4xl"> app</span>
               </a>
             </div>
-            <h2 className="text-2xl font-semibold">
+            <h2 className="text-xl sm:text-2xl font-semibold">
                 The Idea
             </h2>
-            <p className="pb-4 text-lg">
+            <p className="pb-4 text-base sm:text-xl">
               The App is targeted towards Employers enabling them to be aware of
               any online behaviour of their employees or potiental employees that may
               not fit into their company values. With GDPR rules rightfully
               protecting personal information only information that is freely
               available on the web will be displayed.
             </p>
-            <h2 className="text-2xl font-semibold">Project Summary</h2>
-            <p className="text-lg">
+            <h2 className="text-xl sm:text-2xl font-semibold">Project Summary</h2>
+            <p className="text-base sm:text-xl">
               Beginning with user interviews and understanding the needs of the
               User I defined the problem, ideated several designs, formulated a Research Plan, produced wireframes and finally tested using a prototype.
             </p>
@@ -46,9 +46,9 @@ export default function bloodhound() {
       </section>
       <section className="mt-14 md:mt-20">
         <div className="flex flex-col md:flex-row mx-auto py-0 px-6 w-full max-w-screen-xl">
-          <div className="p-8">
-            <h2 className="text-2xl font-semibold pb-6 pb-6">Process Summary</h2>
-            <p className="text-xl">
+          <div className="p-8 text-center sm:text-left">
+            <h2 className="text-xl sm:text-2xl font-semibold pb-6 pb-6">Process Summary</h2>
+            <p className="text-base sm:text-xl">
               Beginning with user interviews and understanding the needs of the
               User I defined the problem, made some low fidelity wireframes, ran
               user testing and finally produced high fidelity wireframes and
@@ -66,8 +66,8 @@ export default function bloodhound() {
       <section className="mt-14 md:mt-20">
         <div className="flex flex-col md:flex-row mx-auto py-0 px-6 w-full max-w-screen-xl">
           <div className="p-8">
-            <h2 className="text-2xl font-semibold pb-6">First Drafts</h2>
-            <p className="text-xl">
+            <h2 className="text-xl sm:text-2xl font-semibold pb-6">First Drafts</h2>
+            <p className="text-base sm:text-xl">
               Beginning with user interviews and understanding the needs of the
               User I defined the problem, made some low fidelity wireframes, ran
               user testing and finally produced high fidelity wireframes and
@@ -88,9 +88,9 @@ export default function bloodhound() {
       </section>
       <section className="mt-14 md:mt-20">
         <div className="flex flex-col md:flex-row mx-auto py-0 px-6 w-full max-w-screen-xl">
-          <div className="p-8">
-            <h2 className="text-2xl font-semibold pb-6">Process Summary</h2>
-            <p className="text-xl">
+          <div className="p-8 text-center sm:text-left">
+            <h2 className="text-xl sm:text-2xl font-semibold pb-6">Process Summary</h2>
+            <p className="text-base sm:text-xl">
               Beginning with user interviews and understanding the needs of the
               User I defined the problem, made some low fidelity wireframes, ran
               user testing and finally produced high fidelity wireframes and
@@ -111,9 +111,9 @@ export default function bloodhound() {
       </section>
       <section className="mt-14 md:mt-20">
         <div className="flex flex-col md:flex-row mx-auto py-0 px-6 w-full max-w-screen-xl">
-          <div className="p-8">
-            <h2 className="text-2xl font-semibold pb-6">Testing</h2>
-            <p className="text-xl">
+          <div className="p-8 text-center sm:text-left">
+            <h2 className="text-xl sm:text-2xl font-semibold pb-6">Testing</h2>
+            <p className="text-base sm:text-xl">
               Beginning with user interviews and understanding the needs of the
               User I defined the problem, made some low fidelity wireframes, ran
               user testing and finally produced high fidelity wireframes and
@@ -134,9 +134,9 @@ export default function bloodhound() {
       </section>
       <section className="mt-14 md:mt-20">
         <div className="flex flex-col md:flex-row mx-auto py-0 px-6 w-full max-w-screen-xl">
-          <div className="p-8">
-            <h2 className="text-2xl font-semibold pb-6">Final Prototype</h2>
-            <p className="text-xl">
+          <div className="p-8 text-center sm:text-left">
+            <h2 className="text-xl sm:text-2xl font-semibold pb-6">Final Prototype</h2>
+            <p className="text-base sm:text-xl">
               After retesting the High Fidelity prototype a few small changes where made.
             </p>
           </div>
