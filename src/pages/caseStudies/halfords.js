@@ -42,9 +42,9 @@ export default function () {
         <div className="flex flex-col md:flex-row mx-auto py-0 px-6 w-full max-w-screen-xl">
           <div className="p-8">
             <h2 className="text-2xl font-semibold pb-6 pb-6">1. Visibility of system status</h2>
-            <p className="text-xl pb-1.5">
+            <p className="text-xl">
               The system should always show the status of an on-going operation to the users until it is done.
-            The Next checkout process doesn't show the user where in the process they are and what is left to do. There is a back chevron is the left hand corner but very little other sign posting.</p><p className="text-xl"> Because the Next checkout process is done over several separate pages an improvement to the checkout process would be to have a progress tracker to visually show where in the process they are and how much is left to do.
+            The Next checkout process doesn't show the user where in the process they are and what is left to do. There is a back chevron is the left hand corner but very little other sign posting.</p><p className="text-"> Because the Next checkout process is done over several separate pages an improvement to the checkout process would be to have a progress tracker to visually show where in the process they are and how much is left to do.
             </p>
           </div>
         </div>

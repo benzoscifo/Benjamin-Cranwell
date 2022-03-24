@@ -29,7 +29,7 @@ export default function bloodhound() {
             <h2 className="text-xl sm:text-2xl font-semibold">Project Summary</h2>
             <p className="text-base sm:text-xl">
               Beginning with user interviews and understanding the needs of the
-              User I defined the problem, ideated several designs, formulated a Research Plan, produced wireframes and finally tested using a prototype.
+              User I defined the problem, ideated several designs, formulated a Research Plan, produced Wireframes and finally tested using a Prototype.
             </p>
           </div>
         </div>
@@ -49,10 +49,7 @@ export default function bloodhound() {
           <div className="p-8 text-center sm:text-left">
             <h2 className="text-xl sm:text-2xl font-semibold pb-6 pb-6">Process Summary</h2>
             <p className="text-base sm:text-xl">
-              Beginning with user interviews and understanding the needs of the
-              User I defined the problem, made some low fidelity wireframes, ran
-              user testing and finally produced high fidelity wireframes and
-              protoype.
+              Using a User Centered approach I broke down the sections to Empathize, Define, Ideate, Prototype and Test. In following this process it helped me created user pain points, build affinity maps and started coming up with some early design sketches.
             </p>
           </div>
         </div>
@@ -68,10 +65,7 @@ export default function bloodhound() {
           <div className="p-8 text-center sm:text-left">
             <h2 className="text-xl sm:text-2xl font-semibold pb-6">First Drafts</h2>
             <p className="text-base sm:text-xl">
-              Beginning with user interviews and understanding the needs of the
-              User I defined the problem, made some low fidelity wireframes, ran
-              user testing and finally produced high fidelity wireframes and
-              protoype.
+              Once I had gathered the initial information I began to draft some simple sketches. I was able to quickly put together several pages to start fleshing out what a common user journey would look like. 
             </p>
           </div>
         </div>
@@ -89,12 +83,9 @@ export default function bloodhound() {
       <section className="mt-14 md:mt-20">
         <div className="flex flex-col md:flex-row mx-auto py-0 px-6 w-full max-w-screen-xl">
           <div className="p-8 text-center sm:text-left">
-            <h2 className="text-xl sm:text-2xl font-semibold pb-6">Process Summary</h2>
+            <h2 className="text-xl sm:text-2xl font-semibold pb-6">Wireframing</h2>
             <p className="text-base sm:text-xl">
-              Beginning with user interviews and understanding the needs of the
-              User I defined the problem, made some low fidelity wireframes, ran
-              user testing and finally produced high fidelity wireframes and
-              protoype.
+              After several drafts of my handwritten sketches I started to put together some low fidelity wireframes. I created a couple of slightly different versions to test with.
             </p>
           </div>
         </div>
@@ -114,10 +105,7 @@ export default function bloodhound() {
           <div className="p-8 text-center sm:text-left">
             <h2 className="text-xl sm:text-2xl font-semibold pb-6">Testing</h2>
             <p className="text-base sm:text-xl">
-              Beginning with user interviews and understanding the needs of the
-              User I defined the problem, made some low fidelity wireframes, ran
-              user testing and finally produced high fidelity wireframes and
-              protoype.
+              I tested using low fidelity wireframes and as I got closer to what the final product would look like I made some High Fidelity wireframes and Prototypes. I made sure to keep testing using my high fidelity designs to make sure I had a product that had excellent User Experience.
             </p>
           </div>
         </div>
@@ -135,9 +123,9 @@ export default function bloodhound() {
       <section className="mt-14 md:mt-20">
         <div className="flex flex-col md:flex-row mx-auto py-0 px-6 w-full max-w-screen-xl">
           <div className="p-8 text-center sm:text-left">
-            <h2 className="text-xl sm:text-2xl font-semibold pb-6">Final Prototype</h2>
+            <h2 className="text-xl sm:text-2xl font-semibold pb-6">Final Product</h2>
             <p className="text-base sm:text-xl">
-              After retesting the High Fidelity prototype a few small changes where made.
+              After a vigorous testing cycle I completed my final Design. However as this is a minimal viable product (MVP) and I will be adding more features, there will be many more testing sessions ahead.
             </p>
           </div>
         </div>
