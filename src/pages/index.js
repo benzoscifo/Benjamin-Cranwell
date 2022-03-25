@@ -47,7 +47,7 @@ const Home = () => {
               Projects
             </h2>
           </div>
-          <div className="mini-card-grid">      
+          <div className="mini-card-grid overflow-x-scroll sm:overflow-hidden">      
     <article className="mini-card module module-article article" id="mini-post-342750">
       <time datetime="2021-06-23" title="Originally published Jun 23, 2021">
         <strong>
