@@ -68,8 +68,12 @@ export default function contact() {
             <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
               Say hello
             </h2>
-            <p className="mb-8 text-lg leading-relaxed">
-              Send me a message and we can chat.
+            <p className="pb-4 text-lg leading-relaxed">
+              Send me a message or an email and we can chat.
+            </p>
+            <p>
+              <b>Email: </b>   
+                <a href='mailto:bdcranwell@gmail.com' className="underline text-blue">bdcranwell@gmail.com</a>
             </p>
           </div>
         </div>
