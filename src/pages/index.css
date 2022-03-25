@@ -89,13 +89,6 @@ h3.mini-card-title {
 	margin: 0px 0px 1rem;
 }
 
-a:focus {
-	opacity: 0.66;
-}
-
-a:hover {
-	opacity: 0.66;
-}
 
 div.tags {
 	box-sizing: border-box;
@@ -106,10 +99,6 @@ div.tags {
 	line-height: 1;
 	margin: 0px 0px 0.5rem;
 }
-
-
-
-
 
 
 div.author-row {

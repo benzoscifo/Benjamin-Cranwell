@@ -23,12 +23,14 @@ export default function Projects({ data }) {
             </Link>
           </h2>
           <div className="md:w-1/2">
-            <StaticImage
-              className="object-cover object-center rounded"
-              alt="next logo"
-              src="../../images/white-Next.png"
-              rotate="90"
-            />
+            <Link to="/caseStudies/next">
+              <StaticImage
+                className="object-cover object-center rounded"
+                alt="next logo"
+                src="../../images/white-Next.png"
+                rotate="90"
+              />
+            </Link>
           </div>
         </a>
       </section>
@@ -38,12 +40,14 @@ export default function Projects({ data }) {
           className="container mx-auto flex px-5 py-8 sm:py-12 md:flex-row flex-col items-center"
         >
           <div className="md:w-1/2 sm:order-first order-last">
-            <StaticImage
-              className="object-cover object-center rounded"
-              alt="hero"
-              src="../../images/bbc-homepage.png"
-              rotate="90"
-            />
+            <Link to="/caseStudies/bbc">
+              <StaticImage
+                className="object-cover object-center rounded"
+                alt="hero"
+                src="../../images/bbc-homepage.png"
+                rotate="90"
+              />
+            </Link>
           </div>
           <h2 className="md:w-1/2 flex flex-col md:text-left mb-8 sm:mb-16 sm:mt-0 md:mb-0 items-center text-center text-bbc text-3xl font-semibold">
             BBC
@@ -71,12 +75,14 @@ export default function Projects({ data }) {
             </Link>
           </h2>
           <div className="md:w-1/2">
-            <StaticImage
-              className="object-cover object-center rounded"
-              alt="next logo"
-              src="../../images/bloodhound-index.png"
-              rotate="90"
-            />
+            <Link to="/caseStudies/bloodhound">
+              <StaticImage
+                className="object-cover object-center rounded"
+                alt="next logo"
+                src="../../images/bloodhound-index.png"
+                rotate="90"
+              />
+            </Link>
           </div>
         </a>
       </section>
