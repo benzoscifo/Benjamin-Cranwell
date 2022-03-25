@@ -3,6 +3,7 @@ import Layout from "../components/Layout"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 import { RoughNotation } from "react-rough-notation"
+import "./index.css"
 
 const Home = () => {
   const [show] = useState(true)
@@ -20,7 +21,7 @@ const Home = () => {
 
             <div className="flex w-full lg:w-1/5 justify-center pb-6">
               <Link
-                className="block w-full text-center text-pastelGreen hover:text-white border-2 border-pastelGreen py-2 px-6 hover:bg-darkPastelGreen rounded text-lg"
+                className="block w-full text-center text-pastelGreen hover:text-white border-2 border-pastelGreen py-2 px-6 hover:bg-darkPastelGreen rounded text-lg animate-pulse"
                 to="/caseStudies"
               >
                 My work
@@ -40,91 +41,72 @@ const Home = () => {
         </div>
       </section>
       <section className="text-gray-700 body-font mt-20">
-        <div className="flex flex-wrap mx-auto pb-20 px-6 w-full max-w-screen-xl bg-darkPastelGreen rounded">
+        <div className="flex flex-wrap mx-auto pb-20 px-6 w-full max-w-screen-xl bg-darkPastelGreen rounded justify-center">
           <div className="flex flex-col text-center w-full mb-8 sm:mb-16">
             <h2 className="sm:text-3xl text-2xl font-semibold text-white mt-20">
               Projects
             </h2>
           </div>
-          <div className="flex flex-wrap -m-4">
-            <div className="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex-col">
-                <div className="pt-5">
-                <StaticImage
-                  src="../images/next-black.png"
-                  className="bg-cover h-48"
-                  layout="fullWidth"
-                />
-                </div>
-                <div className="p-4 pb-5 lg:pt-14 flex-1 flex flex-col text-center">
-                  <h3 className="mb-4 text-2xl">Next</h3>
-                  <div className="mb-4 text-grey-darker text-sm flex-1">
-                    <p className="text-lg">Fashion and Homewares Retailer</p>
-                  </div>
-                  <div className="pt-2 text-xs text-grey no-underline tracking-wide">
-                    <Link
-                      className="block w-full text-center text-pastelGreen hover:text-white border-2 border-pastelGreen py-2 px-6 focusring hover:bg-darkPastelGreen rounded text-lg"
-                      to="/caseStudies/next"
-                    >
-                      Heuristic Evaluation
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex-col">
-                <StaticImage
-                  src="../images/bbc-homepage.png"
-                  className="bg-cover h-48"
-                  layout="constrained"
-                  width={700}
-                  aspectRatio={16 / 9}
-                />
-                <div className="p-4 flex-1 flex flex-col text-center">
-                  <h3 className="mb-4 text-2xl">BBC News</h3>
-                  <div className="mb-4 text-grey-darker text-sm flex-1">
-                    <p className="text-lg">British Broadcasting Corporation</p>
-                  </div>
-                  <div className="pt-2 text-xs text-grey no-underline tracking-wide">
-                    <Link
-                      className="block w-full text-center text-pastelGreen hover:text-white border-2 border-pastelGreen py-2 px-6 focusring hover:bg-darkPastelGreen rounded text-lg"
-                      to="/caseStudies/bbc"
-                    >
-                      Accessibility Evaluation
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex-col">
-                <div className="py-4 md:py-7 lg:py-10">
-                  <StaticImage
-                    src="../images/bloodhound-logo.png"
-                    className="bg-cover h-48"
-                    layout="fullWidth"
-                  />
-                </div>
-                <div className="px-4 pb-5 lg:pt-14 flex-1 flex flex-col text-center">
-                  <h3 className="mb-4 text-2xl">Bloodhound</h3>
-                  <div className="mb-3 text-grey-darker text-sm flex-1">
-                    <p className="text-lg">
-                      An app for employers to help vet current or future
-                      employees
-                    </p>
-                  </div>
-                  <div className="text-xs text-grey no-underline tracking-wide">
-                    <Link
-                      className="block w-full text-center text-pastelGreen hover:text-white border-2 border-pastelGreen py-2 px-6 focusring hover:bg-darkPastelGreen rounded text-lg"
-                      to="/caseStudies/bloodhound"
-                    >
-                      Case Study
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className="mini-card-grid">      
+    <article className="mini-card module module-article article" id="mini-post-342750">
+      <time datetime="2021-06-23" title="Originally published Jun 23, 2021">
+        <strong>
+          Project</strong> Mar 01, 2022 </time>
+      <h3 className="mini-card-title">
+          Next Online Fashion, Kids Clothes & Homeware 
+      </h3>
+      <Link className="pt-4" to="/caseStudies/next">
+        <StaticImage
+          src="../images/next-black.png"
+          layout="constrained"
+          className="rounded-lg"
+        />
+      </Link>
+      <div className="author-row">
+        <Link className="author-name" to="/caseStudies/next" >
+          Heuristic Evaluation </Link>
+      </div>
+    </article>
+    <article className="mini-card module module-article article" id="mini-post-342448">
+    <time datetime="2021-06-23" title="Originally published Jun 23, 2021">
+        <strong>
+          Project
+        </strong> 14 Feb 2022 </time>
+      <h3 className="mini-card-title">
+          British Broadcasting Corporation News
+      </h3>
+      <Link to="/caseStudies/bbc">
+        <StaticImage
+          src="../images/bbc-homepage2.png"
+          layout="constrained"
+          className="rounded-lg"
+        />
+      </Link>
+      <div className="author-row">
+        <Link className="author-name" to="/caseStudies/bbc" >
+          Accessibility Evaluation </Link>
+      </div>
+    </article>
+    <article className="mini-card module module-article article" id="mini-post-341982">
+    <time datetime="2021-06-23" title="Originally published Jun 23, 2021">
+        <strong>
+          Project
+        </strong> Feb 23, 2022 </time>
+      <h3 className="mini-card-title">
+          An app for employers to help vet employees
+      </h3>
+      <Link to="/caseStudies/bloodhound">
+        <StaticImage
+          src="../images/bloodhound-app.png"
+          layout="fullWidth"
+          className="rounded-lg"
+        />
+      </Link>
+      <div className="author-row">
+        <Link className="author-name" to="/caseStudies/bloodhound" >
+          Case Study </Link>
+      </div>
+    </article>
           </div>
         </div>
       </section>
