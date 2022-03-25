@@ -40,6 +40,7 @@ export default function bloodhound() {
           <StaticImage
             alt="mobile images"
             src="../../images/bloodhoundHero.png"
+            className="rounded-lg"
           />
         </div>
       </div>
@@ -57,7 +58,8 @@ export default function bloodhound() {
       <section className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl">
         <StaticImage
           alt="mobile images"
-          src="../../images/bloodhoundPortfolio.png"
+          src="../../images/bloodhound-portfolio.png"
+          className="rounded-lg"
         />
       </section>
       <section className="mt-14 md:mt-20">
@@ -75,7 +77,8 @@ export default function bloodhound() {
         <div>
           <StaticImage
             alt="mobile images"
-            src="../../images/bloodhound-wireframe.webp"
+            src="../../images/bloodhound-wireframe.png"
+            className="rounded-lg"
           />
         </div>
       </div>
@@ -91,14 +94,15 @@ export default function bloodhound() {
         </div>
       </section>
       <section className="mt-10">
-      <div className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl justify-center">
-        <div>
-          <StaticImage
-            alt="mobile images"
-            src="../../images/bloodhound-low-wireframe.webp"
-          />
+        <div className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl">
+          <div>
+            <StaticImage
+              alt="mobile images"
+              src="../../images/bloodhound-low-fidelity.png"
+              className="rounded-lg"
+            />
+          </div>
         </div>
-      </div>
       </section>
       <section className="mt-14 md:mt-20">
         <div className="flex flex-col md:flex-row mx-auto py-0 px-6 w-full max-w-screen-xl">
@@ -116,6 +120,7 @@ export default function bloodhound() {
           <StaticImage
             alt="mobile images"
             src="../../images/bloodhound-early.png"
+            className="rounded-lg"
           />
         </div>
       </div>
@@ -135,7 +140,8 @@ export default function bloodhound() {
         <div>
           <StaticImage
             alt="mobile images"
-            src="../../images/bloodhound-white.png"
+            src="../../images/bloodhound-final.png"
+            className="rounded-lg"
           />
         </div>
       </div>
