@@ -93,11 +93,11 @@ const Home = () => {
           Project
         </strong> Feb 23, 2022 </time>
       <h3 className="mini-card-title">
-          An app for employers to help vet employees
+          An app to help employers during the hiring process
       </h3>
       <Link to="/caseStudies/bloodhound">
         <StaticImage
-          src="../images/bloodhound-app.png"
+          src="../images/bloodhound-large.png"
           layout="fullWidth"
           className="rounded-lg"
         />
