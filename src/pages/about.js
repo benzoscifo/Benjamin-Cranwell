@@ -9,12 +9,7 @@ import Shapes from "../images/light.jpg"
 export default function about() {
   return (
     <Layout>
-      <Parallax
-        className="parallaxImage"
-        bgImage={Shapes}
-        bgImageAlt="argos logo"
-        strength={800}
-      >
+      <Parallax bgImage={Shapes} bgImageAlt="argos logo" strength={800}>
         <div className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl">
           <div className="py-10 text-center sm:text-left">
             <p className="text-3xl text-white">
