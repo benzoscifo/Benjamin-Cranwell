@@ -1554,6 +1554,11 @@ article#mini-post-341982.mini-card.module.module-article.article:not(:first-chil
   height: 100vh;
 }
 
+.parallaxImageSmall {
+  position: relative;
+  height: 50vh;
+}
+
 .content {
   display: flex;
   align-items: center;
