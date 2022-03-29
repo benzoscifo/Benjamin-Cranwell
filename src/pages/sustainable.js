@@ -27,8 +27,8 @@ export default function Sustainability() {
               <b>UX</b> Deginers can make small decisions early on in the design
               process that can greatly benefit the{" "}
               <span className="text-blue text-lg">user</span>, the{" "}
-              <span className="text-green text-lg">planet</span> and the development
-              team
+              <span className="text-green text-lg">planet</span> and the
+              development team
             </p>
           </div>
         </div>
@@ -47,7 +47,9 @@ export default function Sustainability() {
               Carousels can be very Javascipt heavy which may increase page load
               times
             </p>
-            <p className="text-lg">They generally have poor accessibility rating</p>
+            <p className="text-lg">
+              They generally have poor accessibility rating
+            </p>
             <p className="text-lg pb-8">
               Research shows that they aren't always the best way to present
               home page content{" "}
@@ -63,8 +65,12 @@ export default function Sustainability() {
             <h3 className="text-2xl font-semibold pb-4">
               <span className="text-green">Static</span> Image
             </h3>
-            <p className="text-lg">Images can be compressed and lazy loaded to reduce size</p>
-            <p className="text-lg">They are easier to made accessible in comparison to carousels</p>
+            <p className="text-lg">
+              Images can be compressed and lazy loaded to reduce size
+            </p>
+            <p className="text-lg">
+              They are easier to made accessible in comparison to carousels
+            </p>
             <p className="pb-8 text-lg">
               A well chosen image can more beneficial than several images on
               rotation.
@@ -142,7 +148,9 @@ export default function Sustainability() {
             <h3 className="text-2xl font-semibold pb-4">
               <span className="text-green">Less</span> Images
             </h3>
-            <p className="text-lg">Images can be compressed to reduce file size</p>
+            <p className="text-lg">
+              Images can be compressed to reduce file size
+            </p>
             <p className="pb-8 text-lg">
               Images can be lazy loaded to reduce load times but you still
               should be try and reduce the number of images on your website

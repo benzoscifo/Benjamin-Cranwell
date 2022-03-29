@@ -72,8 +72,13 @@ export default function contact() {
               Send me a message or an email and we can chat.
             </p>
             <p>
-              <b>Email: </b>   
-                <a href='mailto:bdcranwell@gmail.com' className="underline text-blue">bdcranwell@gmail.com</a>
+              <b>Email: </b>
+              <a
+                href="mailto:bdcranwell@gmail.com"
+                className="underline text-blue"
+              >
+                bdcranwell@gmail.com
+              </a>
             </p>
           </div>
         </div>

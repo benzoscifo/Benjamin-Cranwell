@@ -51,7 +51,7 @@ module.exports = {
         brickRed: "#D1495B",
         darkPastelGreen: "#70AE98",
         bbc: "#b90000",
-        bbcBlue: "#1338BE", 
+        bbcBlue: "#1338BE",
       },
     },
   },

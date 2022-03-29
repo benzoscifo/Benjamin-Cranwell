@@ -9,22 +9,24 @@ export default function Navbar() {
       <header className="text-gray-700 body-font border-b border-gray-200">
         <div className="h-full w-auto block max-w-screen-xl py-4 px-10 mx-auto">
           <div className="flex flex-col md:flex-row justify-between">
-            <div className="text-center md:text-left">
+            <div className="flex justify-center text-center md:text-left">
               <Link
                 className="title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
                 href="/"
               >
-                <StaticImage
-                  src="../images/kangaroo.svg"
-                  width={45}
-                  aspectRatio={1}
-                />
-                <span className="ml-3 text-xl text-gray-400 hover:text-pastelGreen hover:underline">
-                  Benjamin Cranwell
-                </span>
+                <div className="flex items-center">
+                  <StaticImage
+                    src="../images/kangaroo.svg"
+                    width={45}
+                    aspectRatio={1}
+                  />
+                  <span className="ml-3 text-xl text-gray-400 hover:text-pastelGreen hover:underline">
+                    Benjamin Cranwell
+                  </span>
+                </div>
               </Link>
             </div>
-            <div>
+            <div className="flex justify-center">
               <nav className="md:ml-auto flex flex-col space-y-2 sm:space-y-0 md:flex-row items-center text-base">
                 <div>
                   <a
