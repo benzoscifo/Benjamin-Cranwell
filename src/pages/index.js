@@ -6,7 +6,7 @@ import { RoughNotation } from "react-rough-notation"
 import "./index.css"
 import { Parallax } from "react-parallax"
 import Abstract from "../images/darkBackground.jpg"
-import AbstractLight from "../images/BackgroundLight.jpg"
+import AbstractLight from "../images/backgroundLight.jpg"
 
 const Home = () => {
   const [show] = useState(true)
