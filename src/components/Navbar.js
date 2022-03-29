@@ -52,14 +52,6 @@ export default function Navbar() {
                     Contact
                   </a>
                 </div>
-                <div>
-                  <a
-                    href="/sustainable"
-                    className="mr-0 sm:mr-5 text-pastelGreen hover:text-brickRed hover:underline decoration-1 font-medium"
-                  >
-                    Sustainability
-                  </a>
-                </div>
               </nav>
             </div>
           </div>
