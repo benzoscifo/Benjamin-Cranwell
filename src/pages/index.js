@@ -83,7 +83,9 @@ const Home = () => {
                 >
                   <strong>Project</strong> Mar 01, 2022{" "}
                 </time>
-                <h3 className="mini-card-title">Next Online Fashion, Kids</h3>
+                <h3 className="mini-card-title">
+                  Next: Fashion, Kids and Homeware Store
+                </h3>
                 <Link className="pt-4" to="/caseStudies/next">
                   <StaticImage
                     src="../images/next-home.png"
