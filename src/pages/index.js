@@ -83,12 +83,10 @@ const Home = () => {
                 >
                   <strong>Project</strong> Mar 01, 2022{" "}
                 </time>
-                <h3 className="mini-card-title">
-                  Next Online Fashion, Kids Clothes & Homeware
-                </h3>
+                <h3 className="mini-card-title">Next Online Fashion, Kids</h3>
                 <Link className="pt-4" to="/caseStudies/next">
                   <StaticImage
-                    src="../images/next-black.png"
+                    src="../images/next-home.png"
                     layout="constrained"
                     className="rounded-lg"
                   />
@@ -114,7 +112,7 @@ const Home = () => {
                 </h3>
                 <Link to="/caseStudies/bbc">
                   <StaticImage
-                    src="../images/bbc-homepage2.png"
+                    src="../images/bbc-home.png"
                     layout="constrained"
                     className="rounded-lg"
                   />
@@ -127,7 +125,7 @@ const Home = () => {
               </article>
               <article
                 className="mini-card module module-article article"
-                id="mini-post-341982"
+                id="mini-post-342448"
               >
                 <time
                   datetime="2021-06-23"
@@ -140,7 +138,7 @@ const Home = () => {
                 </h3>
                 <Link to="/caseStudies/bloodhound">
                   <StaticImage
-                    src="../images/bloodhound-large.png"
+                    src="../images/bloodhound-home.png"
                     layout="fullWidth"
                     className="rounded-lg"
                   />

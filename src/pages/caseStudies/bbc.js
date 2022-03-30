@@ -101,7 +101,7 @@ export default function () {
           <div>
             <StaticImage
               alt="mobile images"
-              src="../../images/bbc-reader.png"
+              src="../../images/bbc-screen.png"
               className="rounded-lg"
             />
           </div>
@@ -198,7 +198,7 @@ export default function () {
           <div>
             <StaticImage
               alt="mobile images"
-              src="../../images/bbc-colour.png"
+              src="../../images/bbc-contrast.png"
               className="rounded-lg"
             />
           </div>
@@ -259,7 +259,7 @@ export default function () {
             <StaticImage
               alt="mobile images"
               src="../../images/bbc-white.png"
-              className="rounded-lg border-4 border-bbc"
+              className="rounded-lg"
             />
           </div>
         </div>
