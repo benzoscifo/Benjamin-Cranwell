@@ -12,105 +12,84 @@ export default function Projects({ data }) {
   return (
     <Layout>
       <h1 className="sr-only">Case Studies Links</h1>
-      <Parallax
-        className="parallaxImageSmall"
-        bgImage={Shapes}
-        bgImageAlt="argos logo"
-        strength={800}
-      >
-        <section className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl">
-          <a
-            id="argos"
-            className="container mx-auto flex px-5 py-8 sm:py-12 sm:pb-24 md:flex-row flex-col justify-center items-center text-3xl font-semibold"
-          >
-            <h2 className="md:w-1/2 flex flex-col md:text-left mb-8 sm:mb-16 md:mb-0 items-center text-darkPastelGreen text-center">
-              Next
-              <Link
-                className="block w-full text-center sm:w-1/2 text-white border-2 bg-darkPastelGreen border-darkPastelGreen hover:border-black hover:bg-black py-2 px-6 rounded text-lg mt-6"
-                to="/caseStudies/next"
-              >
-                Heuristic Evaluation
-              </Link>
-            </h2>
-            <div className="md:w-1/2">
-              <Link to="/caseStudies/next">
-                <StaticImage
-                  className="object-cover object-center rounded"
-                  alt="next logo"
-                  src="../../images/white-Next.png"
-                  rotate="90"
-                />
-              </Link>
-            </div>
-          </a>
-        </section>
-      </Parallax>
-      <Parallax
-        className="parallaxImageSmall"
-        bgImage={Cloud}
-        bgImageAlt="argos logo"
-        strength={800}
-      >
-        <section className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl">
-          <a
-            id="bbc"
-            className="container mx-auto flex px-5 py-8 sm:py-12 md:flex-row flex-col items-center"
-          >
-            <div className="md:w-1/2 sm:order-first order-last">
-              <Link to="/caseStudies/bbc">
-                <StaticImage
-                  className="object-cover object-center rounded"
-                  alt="hero"
-                  src="../../images/bbc-homepage.png"
-                  rotate="90"
-                />
-              </Link>
-            </div>
-            <h2 className="md:w-1/2 flex flex-col md:text-left mb-8 sm:mb-16 sm:mt-0 md:mb-0 items-center text-center text-bbc text-3xl font-semibold">
-              BBC
-              <Link
-                className="block w-full text-center sm:w-1/2 text-white border-2 hover:border-bbcBlue hover:bg-bbcBlue bg-bbc border-bbc py-2 px-6 rounded text-lg mt-6"
-                to="/caseStudies/bbc"
-              >
-                Accessibility Evaluation
-              </Link>
-            </h2>
-          </a>
-        </section>
-      </Parallax>
-      <Parallax
-        className="parallaxImageSmall"
-        bgImage={Squares}
-        bgImageAlt="argos logo"
-        strength={800}
-      >
-        <section className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl">
-          <a
-            id="argos"
-            className="container mx-auto flex px-5 py-8 sm:py-12 sm:pb-24 md:flex-row flex-col justify-center items-center text-3xl font-semibold"
-          >
-            <h2 className="md:w-1/2 flex flex-col md:text-left mb-8 sm:mb-16 md:mb-0 items-center text-pastelBlue text-center">
-              Bloodhound
-              <Link
-                className="block w-full text-center sm:w-1/2 text-white border-2 bg-bloodhound border-bloodhound hover:border-pastelBlue hover:bg-pastelBlue py-2 px-6 rounded text-lg mt-6"
-                to="/caseStudies/bloodhound"
-              >
-                Mobile App
-              </Link>
-            </h2>
-            <div className="md:w-1/2">
-              <Link to="/caseStudies/bloodhound">
-                <StaticImage
-                  className="object-cover object-center rounded"
-                  alt="next logo"
-                  src="../../images/bloodhound-index.png"
-                  rotate="90"
-                />
-              </Link>
-            </div>
-          </a>
-        </section>
-      </Parallax>
+      <section className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl">
+        <a
+          id="argos"
+          className="container mx-auto flex px-5 py-8 sm:py-12 sm:pb-24 md:flex-row flex-col justify-center items-center text-3xl font-semibold"
+        >
+          <h2 className="md:w-1/2 flex flex-col md:text-left mb-8 sm:mb-16 md:mb-0 items-center text-darkPastelGreen text-center">
+            Next
+            <Link
+              className="block w-full text-center sm:w-1/2 text-white border-2 bg-darkPastelGreen border-darkPastelGreen hover:border-black hover:bg-black py-2 px-6 rounded text-lg mt-6"
+              to="/caseStudies/next"
+            >
+              Heuristic Evaluation
+            </Link>
+          </h2>
+          <div className="md:w-1/2">
+            <Link to="/caseStudies/next">
+              <StaticImage
+                className="object-cover object-center rounded"
+                alt="next logo"
+                src="../../images/white-Next.png"
+                rotate="90"
+              />
+            </Link>
+          </div>
+        </a>
+      </section>
+      <section className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl">
+        <a
+          id="bbc"
+          className="container mx-auto flex px-5 py-8 sm:py-12 md:flex-row flex-col items-center"
+        >
+          <div className="md:w-1/2 sm:order-first order-last">
+            <Link to="/caseStudies/bbc">
+              <StaticImage
+                className="object-cover object-center rounded"
+                alt="hero"
+                src="../../images/bbc-homepage.png"
+                rotate="90"
+              />
+            </Link>
+          </div>
+          <h2 className="md:w-1/2 flex flex-col md:text-left mb-8 sm:mb-16 sm:mt-0 md:mb-0 items-center text-center text-bbc text-3xl font-semibold">
+            BBC
+            <Link
+              className="block w-full text-center sm:w-1/2 text-white border-2 hover:border-bbcBlue hover:bg-bbcBlue bg-bbc border-bbc py-2 px-6 rounded text-lg mt-6"
+              to="/caseStudies/bbc"
+            >
+              Accessibility Evaluation
+            </Link>
+          </h2>
+        </a>
+      </section>
+      <section className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl">
+        <a
+          id="argos"
+          className="container mx-auto flex px-5 py-8 sm:py-12 sm:pb-24 md:flex-row flex-col justify-center items-center text-3xl font-semibold"
+        >
+          <h2 className="md:w-1/2 flex flex-col md:text-left mb-8 sm:mb-16 md:mb-0 items-center text-pastelBlue text-center">
+            Bloodhound
+            <Link
+              className="block w-full text-center sm:w-1/2 text-white border-2 bg-bloodhound border-bloodhound hover:border-pastelBlue hover:bg-pastelBlue py-2 px-6 rounded text-lg mt-6"
+              to="/caseStudies/bloodhound"
+            >
+              Mobile App
+            </Link>
+          </h2>
+          <div className="md:w-1/2">
+            <Link to="/caseStudies/bloodhound">
+              <StaticImage
+                className="object-cover object-center rounded"
+                alt="next logo"
+                src="../../images/bloodhound-index.png"
+                rotate="90"
+              />
+            </Link>
+          </div>
+        </a>
+      </section>
       <div className="flex flex-wrap mx-auto py-6 px-6 w-full max-w-screen-xl  justify-around">
         <div className="block text-center text-pastelGreen hover:text-white border-2 border-pastelGreen py-2 px-6 focusring hover:bg-darkPastelGreen rounded text-lg">
           <a

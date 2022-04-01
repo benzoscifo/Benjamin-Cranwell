@@ -119,7 +119,7 @@ export default function Sustainability() {
             <StaticImage
               alt="yoga website"
               layout="constrained"
-              src="../images/hero-video.png"
+              src="../images/hero-video.jpg"
             />
           </div>
         </div>
