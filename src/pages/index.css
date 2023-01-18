@@ -1563,6 +1563,5 @@ article#mini-post-341982.mini-card.module.module-article.article:not(:first-chil
   display: flex;
   align-items: center;
   position: absolute;
-  height: 100vh;
   width: 100%;
 }
