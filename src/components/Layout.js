@@ -7,7 +7,7 @@ export default function Layout({ children }) {
   return (
     <div className="layout min-h-screen">
       <Navbar />
-      <div className="content"></div>
+      <div className="contentBasic"></div>
       {children}
     </div>
   )
