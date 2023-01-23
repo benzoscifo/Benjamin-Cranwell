@@ -21,16 +21,16 @@ const Home = () => {
         <section className="content text-gray-700 body-font my-20">
           <div className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl">
             <div className="w-full lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-              <h1 className=" sm:text-4xl text-3xl mb-8 font-medium text-gray-400">
+              <h1 className=" sm:text-4xl text-3xl mb-32 font-medium text-gray-400">
                 I build web pages to be sleek, sharp and{" "}
                 <RoughNotation type="underline" show={show} color={"red"}>
                   sustainable
                 </RoughNotation>
               </h1>
 
-              <div className="flex w-full lg:w-1/5 justify-center pb-6">
+              <div className="flex w-full lg:w-1/4 justify-center pb-6">
                 <Link
-                  className="block w-full text-center text-pastelGreen hover:text-white border-2 border-pastelGreen py-2 px-6 hover:bg-darkPastelGreen rounded text-lg animate-pulse"
+                  className="block w-full text-center bg-darkPastelGreen text-white font-bold hover:text-pastelGreen border-2 border-darkPastelGreen py-2 px-6 hover:bg-white rounded text-lg animate-pulse"
                   to="/caseStudies"
                 >
                   My work
