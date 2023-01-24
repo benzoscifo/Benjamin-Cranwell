@@ -175,16 +175,16 @@ const Home = () => {
       </section>
        <footer class="inline md:hidden w-full bg-darkPastelGreen h-24 border-t-2 border-white fixed left-0 bottom-0 flex justify-center items-center text-white text-xl h-screen py-2">
         <div className="flex justify-evenly">
-          <div className="border-r-4 border-black px-4 py-4">
-            <Link to="/home">Home</Link>
+          <div className="border-r-4 border-black px-4 py-3">
+            <Link to="/">Home</Link>
           </div>
-          <div className="border-r-4 border-black px-4 py-4">
+          <div className="border-r-4 border-black px-4 py-3">
             <Link to="/caseStudies">Work</Link>
           </div>
-          <div className="border-r-4 border-black px-4 py-4">
+          <div className="border-r-4 border-black px-4 py-3">
           <Link to="/about">About</Link>
           </div>
-          <div className="border-black px-4 py-4">
+          <div className="border-black px-4 py-3">
             <Link to="/contact">Contact</Link>
           </div>
         </div>

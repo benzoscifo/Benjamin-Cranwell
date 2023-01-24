@@ -1,6 +1,7 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../../components/Layout"
+import { Link } from "gatsby"
 
 export default function bloodhound() {
   return (
@@ -172,7 +173,7 @@ export default function bloodhound() {
           </div>
         </div>
       </section>
-      <section className="flex flex-wrap mx-auto py-20 px-6 w-full max-w-screen-xl justify-around">
+      <section className="flex flex-wrap mx-auto py-20 px-6 w-full max-w-screen-xl justify-around hidden md:flex">
         <div className="block text-center text-bloodhound hover:text-white border-2 border-bloodhound py-2 px-6 focusring hover:bg-bloodhound rounded text-lg">
           <a
             href="https://www.linkedin.com/in/benjamin-cranwell-5945101a3"
@@ -190,7 +191,23 @@ export default function bloodhound() {
           </a>
         </div>
       </section>
-      <div className="text-center my-6">
+      <footer class="inline md:hidden w-full bg-darkPastelGreen h-24 border-t-2 border-white fixed left-0 bottom-0 flex justify-center items-center text-white text-xl h-screen py-2">
+        <div className="flex justify-evenly">
+          <div className="border-r-4 border-black px-4 py-3">
+            <Link to="/">Home</Link>
+          </div>
+          <div className="border-r-4 border-black px-4 py-3">
+            <Link to="/caseStudies">Work</Link>
+          </div>
+          <div className="border-r-4 border-black px-4 py-3">
+          <Link to="/about">About</Link>
+          </div>
+          <div className="border-black px-4 py-3">
+            <Link to="/contact">Contact</Link>
+          </div>
+        </div>
+      </footer>
+      <div className="text-center my-6 hidden md:flex">
         <a
           href="#topOfPage"
           className="bg-bloodhound text-white border-bloohound hover:bg-white hover:border-bloodhound hover:text-bloodhound rounded-full border p-3"

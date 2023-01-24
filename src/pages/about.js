@@ -5,6 +5,7 @@ import "./about.css"
 import { StaticImage } from "gatsby-plugin-image"
 import { Parallax } from "react-parallax"
 import Shapes from "../images/light.jpg"
+import { Link } from "gatsby"
 
 export default function about() {
   return (
@@ -47,7 +48,7 @@ export default function about() {
           </div>
         </div>
       </Parallax>
-      <div className="flex flex-wrap mx-auto py-6 px-6 w-full max-w-screen-xl justify-around">
+      <div className="flex flex-wrap mx-auto py-6 px-6 w-full max-w-screen-xl justify-around hidden md:flex">
         <div className="block text-center text-white bg-darkPastelGreen hover:text-darkPastelGreen border-2 border-white py-2 px-6 focusring hover:bg-white rounded text-lg">
           <a
             href="https://www.linkedin.com/in/benjamin-cranwell-5945101a3"
@@ -65,6 +66,22 @@ export default function about() {
           </a>
         </div>
       </div>
+      <footer class="inline md:hidden w-full bg-darkPastelGreen h-24 border-t-2 border-white fixed left-0 bottom-0 flex justify-center items-center text-white text-xl h-screen py-2">
+        <div className="flex justify-evenly">
+          <div className="border-r-4 border-black px-4 py-3">
+            <Link to="/">Home</Link>
+          </div>
+          <div className="border-r-4 border-black px-4 py-3">
+            <Link to="/caseStudies">Work</Link>
+          </div>
+          <div className="border-r-4 border-black px-4 py-3">
+          <Link to="/about">About</Link>
+          </div>
+          <div className="border-black px-4 py-3">
+            <Link to="/contact">Contact</Link>
+          </div>
+        </div>
+      </footer>
     </Layout>
   )
 }
