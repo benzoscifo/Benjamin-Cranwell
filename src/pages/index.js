@@ -18,7 +18,7 @@ const Home = () => {
         bgImageAlt="argos logo"
         strength={800}
       >
-        <section className="content text-gray-700 body-font my-20">
+        <section className="content text-gray-700 body-font my-0 md:my-20">
           <div className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl">
             <div className="w-full lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <h1 className=" sm:text-4xl text-3xl mb-32 font-medium text-gray-400">
@@ -47,7 +47,7 @@ const Home = () => {
                 />
               </Link>
             </div>
-            <div className="flex justify-center absolute left-1/2 bottom-40">
+            <div className="flex justify-center absolute left-1/2 bottom-40 md:inline hidden">
               <div className="animate-bounce bg-white dark:bg-slate-800 p-2 w-10 h-10 ring-1 ring-white dark:ring-slate-200/20 shadow-lg rounded-full flex items-center justify-center">
                 <StaticImage
                   src="../images/down-arrow.svg"
@@ -155,7 +155,7 @@ const Home = () => {
           </div>
         </section>
       </Parallax>
-      <section className="flex flex-wrap mx-auto py-20 px-6 w-full max-w-screen-xl justify-around">
+      <section className="flex flex-wrap mx-auto py-20 px-6 w-full max-w-screen-xl justify-around hidden md:flex">
         <div className="block text-center text-pastelGreen hover:text-white border-2 border-pastelGreen py-2 px-6 focusring hover:bg-darkPastelGreen rounded text-lg">
           <a
             href="https://www.linkedin.com/in/benjamin-cranwell-5945101a3"
@@ -173,6 +173,22 @@ const Home = () => {
           </a>
         </div>
       </section>
+       <footer class="inline md:hidden w-full bg-darkPastelGreen h-24 border-t-2 border-white fixed left-0 bottom-0 flex justify-center items-center text-white text-xl h-screen py-2">
+        <div className="flex justify-evenly">
+          <div className="border-r-4 border-black px-4 py-4">
+            <Link to="/home">Home</Link>
+          </div>
+          <div className="border-r-4 border-black px-4 py-4">
+            <Link to="/caseStudies">Work</Link>
+          </div>
+          <div className="border-r-4 border-black px-4 py-4">
+          <Link to="/about">About</Link>
+          </div>
+          <div className="border-black px-4 py-4">
+            <Link to="/contact">Contact</Link>
+          </div>
+        </div>
+      </footer>
     </Layout>
   )
 }

@@ -5,9 +5,9 @@ import { StaticImage } from "gatsby-plugin-image"
 
 export default function Navbar() {
   return (
-    <nav>
-      <header className="text-gray-700 body-font border-b border-gray-200">
-        <div className="h-full w-auto block max-w-screen-xl py-4 px-10 mx-auto">
+    <div className="hidden md:block">
+      <div className="text-gray-700 body-font border-b border-gray-200">
+        <div className="h-full w-auto max-w-screen-xl py-4 px-10 mx-auto">
           <div className="flex flex-col md:flex-row justify-between">
             <div className="flex justify-center text-center md:text-left">
               <Link
@@ -56,7 +56,7 @@ export default function Navbar() {
             </div>
           </div>
         </div>
-      </header>
-    </nav>
+      </div>
+    </div>
   )
 }
