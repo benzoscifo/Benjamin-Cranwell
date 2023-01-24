@@ -330,6 +330,7 @@ export default function () {
             <StaticImage
               alt="mobile images"
               src="../../images/recover-next.png"
+              className="rounded-lg"
             />
           </div>
         </div>
@@ -354,7 +355,7 @@ export default function () {
           </div>
         </div>
       </section>
-      <section className="mt-10">
+      <section className="mt-10 mb-24 md:mb-0">
         <div className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl">
           <div>
             <StaticImage
@@ -365,7 +366,7 @@ export default function () {
           </div>
         </div>
       </section>
-      <section className="flex flex-wrap mx-auto py-20 px-6 w-full max-w-screen-xl justify-around hidden:flex">
+      <section className="flex flex-wrap mx-auto py-20 px-6 w-full max-w-screen-xl justify-around hidden md:flex">
         <div className="block text-center text-pastelGreen hover:text-white border-2 border-pastelGreen py-2 px-6 focusring hover:bg-darkPastelGreen rounded text-lg">
           <a
             href="https://www.linkedin.com/in/benjamin-cranwell-5945101a3"

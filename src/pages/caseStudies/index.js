@@ -78,7 +78,7 @@ export default function Projects({ data }) {
               Mobile App
             </Link>
           </h2>
-          <div className="md:w-1/2">
+          <div className="md:w-1/2 mb-24 md:mb-0">
             <Link to="/caseStudies/bloodhound">
               <StaticImage
                 className="object-cover object-center rounded"

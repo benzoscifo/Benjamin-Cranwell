@@ -254,7 +254,7 @@ export default function () {
           </div>
         </div>
       </section>
-      <section className="mt-10">
+      <section className="mt-10 mb-24 md:mb-0">
         <div className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl">
           <div>
             <StaticImage
@@ -283,7 +283,7 @@ export default function () {
           </a>
         </div>
       </section>
-      <footer class="inline md:hidden w-full bg-darkPastelGreen h-24 border-t-2 border-white fixed left-0 bottom-0 flex justify-center items-center text-white text-xl h-screen py-2">
+      <footer class="inline md:hidden w-full bg-bbcBlue h-24 border-t-2 border-white fixed left-0 bottom-0 flex justify-center items-center text-white text-xl h-screen py-2">
         <div className="flex justify-evenly">
           <div className="border-r-4 border-black px-4 py-3">
             <Link to="/">Home</Link>

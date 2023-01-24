@@ -162,7 +162,7 @@ export default function bloodhound() {
           </div>
         </div>
       </section>
-      <section className="mt-10">
+      <section className="mt-10 mb-24 md:mb-0">
         <div className="flex flex-wrap mx-auto py-0 px-6 w-full max-w-screen-xl">
           <div>
             <StaticImage
