@@ -392,19 +392,19 @@ export default function () {
           <button className="font-bold py-4 px-8">Back to top</button>
         </a>
       </div>
-      <footer class="inline md:hidden w-full bg-darkPastelGreen h-24 border-t-2 border-white fixed left-0 bottom-0 flex justify-center items-center text-white text-xl h-screen py-2">
+      <footer class="inline md:hidden w-full bg-darkPastelGreen h-24 rounded-t-lg fixed left-0 bottom-0 flex justify-center items-center text-white text-xl h-screen py-2">
         <div className="flex justify-evenly">
-          <div className="border-r-4 border-black px-4 py-3">
-            <Link to="/">Home</Link>
-          </div>
-          <div className="border-r-4 border-black px-4 py-3">
+          <div className="border-r-2 border-white px-4 py-3">
             <Link to="/caseStudies">Work</Link>
           </div>
-          <div className="border-r-4 border-black px-4 py-3">
-          <Link to="/about">About</Link>
+          <div className="border-r-2 border-white px-4 py-3">
+            <Link to="/caseStudies/next" className="underline">Next</Link>
           </div>
-          <div className="border-black px-4 py-3">
-            <Link to="/contact">Contact</Link>
+          <div className="border-r-2 border-white px-4 py-3">
+          <Link to="/caseStudies/bbc">BBC</Link>
+          </div>
+          <div className="border-white px-4 py-3">
+          <Link to="/caseStudies/bloodhound">Bloodhound</Link>
           </div>
         </div>
       </footer>
