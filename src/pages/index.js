@@ -176,7 +176,7 @@ const Home = () => {
        <footer class="inline md:hidden w-full bg-darkPastelGreen h-24 rounded-t-lg fixed left-0 bottom-0 flex justify-center items-center text-white text-xl h-screen py-2">
         <div className="flex justify-evenly">
           <div className="border-r-2 border-white px-4 py-3">
-            <Link to="/" className="underline">Home</Link>
+            <Link to="/" className="underline underline-offset-8 decoration-8">Home</Link>
           </div>
           <div className="border-r-2 border-white px-4 py-3">
             <Link to="/caseStudies">Work</Link>
