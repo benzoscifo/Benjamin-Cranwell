@@ -30,7 +30,7 @@ export default function about() {
             Ireland, New Zealand, Australia and the UK.
           </p>
           <p className="text-lg">
-            I now live in North London with my Greek partner and two children
+            I now live in North London with my Greek partner and three children
             all the while trying to understand them when they speak Greek to
             me.
           </p>
@@ -38,14 +38,14 @@ export default function about() {
         <div className="md:w-1/2 px-8">
           <StaticImage
             className="object-cover object-center rounded"
-            alt="family at a waterfall"
-            src="../images/family.jpg"
+            alt="family at a greek port"
+            src="../images/pirate.jpg"
             rotate="90"
           />
         </div>
       </div>
       <div className="flex flex-wrap mx-auto py-6 px-6 w-full max-w-screen-xl justify-around hidden md:flex">
-        <div className="block text-center text-white bg-darkPastelGreen hover:text-darkPastelGreen border-2 border-white py-2 px-6 focusring hover:bg-white rounded text-lg">
+        <div className="block text-center text-white bg-darkPastelGreen hover:text-darkPastelGreen hover:border-darkPastelGreen border-2 border-white py-2 px-6 focusring hover:bg-white rounded text-lg">
           <a
             href="https://www.linkedin.com/in/benjamin-cranwell-5945101a3"
             target="_blank"
@@ -53,7 +53,7 @@ export default function about() {
             LinkedIn
           </a>
         </div>
-        <div className="block text-center text-white bg-darkPastelGreen hover:text-darkPastelGreen border-2 border-white py-2 px-6 focusring hover:bg-white rounded text-lg">
+        <div className="block text-center text-white bg-darkPastelGreen hover:text-darkPastelGreen hover:border-darkPastelGreen border-2 border-white py-2 px-6 focusring hover:bg-white rounded text-lg">
           <a
             href="https://medium.com/@benjamin_51824/developer-to-ux-designer-portfolio-d508cdbfeb6a"
             target="_blank"
