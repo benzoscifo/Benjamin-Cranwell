@@ -3,10 +3,6 @@ import Layout from "../../components/Layout"
 import { graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
-import { Parallax } from "react-parallax"
-import Shapes from "../../images/indexTop.jpg"
-import Squares from "../../images/indexBottom.jpg"
-import Cloud from "../../images/indexMiddle.jpg"
 
 export default function Projects({ data }) {
   return (
@@ -131,9 +127,7 @@ export default function Projects({ data }) {
 //export page query
 export const query = graphql`
   query {
-    caseStudies: allMarkdownRemark(
-      sort: { fields: frontmatter___date, order: DESC }
-    ) {
+    caseStudies: allMarkdownRemark(sort: {frontmatter: {date: DESC}}) {
       nodes {
         frontmatter {
           title
@@ -141,11 +135,7 @@ export const query = graphql`
           slug
           thumb {
             childImageSharp {
-              gatsbyImageData(
-                width: 200
-                placeholder: BLURRED
-                formats: [AUTO, WEBP, AVIF]
-              )
+              gatsbyImageData(width: 200, placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
             }
           }
         }

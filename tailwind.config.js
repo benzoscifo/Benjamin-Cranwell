@@ -1,6 +1,8 @@
 module.exports = {
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
+  content: [
+    './src/**/*.{html,js}',
+    './components/**/*.html.js'
+  ],
   theme: {
     height: {
       hero: "75vh",
@@ -27,6 +29,7 @@ module.exports = {
       paleGreen: "#0B4F6C",
       bbc: "#b90000",
       bbcBlue: "#1338BE",
+      greyWhite: "#f8f8f8",
     }),
     extend: {
       backgroundImage: {

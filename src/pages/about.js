@@ -71,7 +71,7 @@ export default function about() {
             <Link to="/caseStudies">Work</Link>
           </div>
           <div className="border-r-2 border-white px-4 py-3">
-          <Link to="/about" className="underline">About</Link>
+          <Link to="/about" className="underline underline-offset-8">About</Link>
           </div>
           <div className="border-white px-4 py-3">
             <Link to="/contact">Contact</Link>

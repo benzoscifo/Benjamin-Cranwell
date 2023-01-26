@@ -203,7 +203,7 @@ export default function bloodhound() {
           <Link to="/caseStudies/bbc">BBC</Link>
           </div>
           <div className="border-white px-4 py-3">
-          <Link to="/caseStudies/bloodhound" className="underline">Bloodhound</Link>
+          <Link to="/caseStudies/bloodhound" className="underline underline-offset-8">Bloodhound</Link>
           </div>
         </div>
       </footer>

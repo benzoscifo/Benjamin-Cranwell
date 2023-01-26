@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../../components/Layout"
 import { Link } from "gatsby"
 
-export default function () {
+export default function bbc () {
   return (
     <Layout>
       <h1 className="sr-only">Accessibility Review</h1>
@@ -292,7 +292,7 @@ export default function () {
             <Link to="/caseStudies/next">Next</Link>
           </div>
           <div className="border-r-2 border-white px-4 py-3">
-          <Link to="/caseStudies/bbc" className="underline">BBC</Link>
+          <Link to="/caseStudies/bbc" className="underline underline-offset-8">BBC</Link>
           </div>
           <div className="border-white px-4 py-3">
           <Link to="/caseStudies/bloodhound">Bloodhound</Link>

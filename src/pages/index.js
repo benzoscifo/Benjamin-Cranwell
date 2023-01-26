@@ -30,7 +30,7 @@ const Home = () => {
 
               <div className="flex w-full lg:w-1/4 justify-center pb-6">
                 <Link
-                  className="block w-full text-center bg-darkPastelGreen text-white font-bold hover:text-pastelGreen border-2 border-darkPastelGreen py-2 px-6 hover:bg-white rounded text-lg animate-pulse"
+                  className="block w-full text-center bg-darkPastelGreen text-white font-bold hover:text-pastelGreen border-2 border-darkPastelGreen py-2 px-6 hover:bg-white rounded text-lg"
                   to="/caseStudies"
                 >
                   My work
@@ -48,7 +48,7 @@ const Home = () => {
               </Link>
             </div>
             <div className="flex justify-center absolute left-1/2 bottom-40 md:inline hidden">
-              <div className="animate-bounce bg-white dark:bg-slate-800 p-2 w-10 h-10 ring-1 ring-white dark:ring-slate-200/20 shadow-lg rounded-full flex items-center justify-center">
+              <div className="animate-bounce bg-greyWhite dark:bg-slate-800 p-2 w-10 h-10 ring-1 ring-white dark:ring-slate-200/20 shadow-lg rounded-full flex items-center justify-center">
                 <StaticImage
                   src="../images/down-arrow.svg"
                   width={45}
@@ -176,7 +176,7 @@ const Home = () => {
        <footer class="inline md:hidden w-full bg-darkPastelGreen h-24 rounded-t-lg fixed left-0 bottom-0 flex justify-center items-center text-white text-xl h-screen py-2">
         <div className="flex justify-evenly">
           <div className="border-r-2 border-white px-4 py-3">
-            <Link to="/" className="underline underline-offset-8 decoration-8">Home</Link>
+            <Link to="/" className="underline underline-offset-8">Home</Link>
           </div>
           <div className="border-r-2 border-white px-4 py-3">
             <Link to="/caseStudies">Work</Link>

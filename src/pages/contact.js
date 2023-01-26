@@ -168,7 +168,7 @@ export default function Contact() {
           <Link to="/about">About</Link>
           </div>
           <div className="border-white px-4 py-3">
-            <Link to="/contact" className="underline">Contact</Link>
+            <Link to="/contact" className="underline underline-offset-8">Contact</Link>
           </div>
         </div>
       </footer>
