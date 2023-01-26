@@ -38,7 +38,7 @@ export default function about() {
         <div className="md:w-1/2 px-8">
           <StaticImage
             className="object-cover object-center rounded"
-            alt="family at a greek port"
+            alt="family infront of pirate ship"
             src="../images/pirate.jpg"
             rotate="90"
           />
